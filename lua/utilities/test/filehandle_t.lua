@@ -1,4 +1,4 @@
---======== Copyright © 2025-2025, Team HL2SB++, All rights reserved. ========--
+--======== Copyright © 2025-2025, The Aridity Team, All rights reserved. ========--
 --
 -- Purpose: Tests the FileHandle_t implementation.
 --

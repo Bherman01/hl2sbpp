@@ -1,4 +1,4 @@
---========== Copyright © 2012, Team HL2SB++, All rights reserved. ===========--
+--========== Copyright © 2026, The Aridity Team, All rights reserved. ===========--
 --
 -- Purpose: Tests the usage of HFont with surface library functions.
 --

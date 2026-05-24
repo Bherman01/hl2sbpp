@@ -1,4 +1,4 @@
---========== Copyright © 2026, Team HL2SB++, All rights reserved. ===========--
+--========== Copyright © 2026, The Aridity Team, All rights reserved. ===========--
 --
 -- Purpose:
 --
@@ -6,7 +6,7 @@
 
 GM.Name = "Campaign"
 GM.Homepage = ""
-GM.Developer = "Team HL2SB++"
+GM.Developer = "The Aridity Team"
 GM.Manual = nil
 
 function GM:Initialize()

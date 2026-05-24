@@ -65,7 +65,7 @@
         "fieldName"     "LblAddonId"
         "xpos"          "12"
         "ypos"          "116"
-        "wide"          "160"
+        "wide"          "336"
         "tall"          "14"
         "labelText"     "#SBPP_BugReport_AddonId"
         "textAlignment" "west"
@@ -76,28 +76,7 @@
         "fieldName"     "AddonId"
         "xpos"          "12"
         "ypos"          "132"
-        "wide"          "160"
-        "tall"          "20"
-    }
-
-    "LblVersion"
-    {
-        "ControlName"   "Label"
-        "fieldName"     "LblVersion"
-        "xpos"          "188"
-        "ypos"          "116"
-        "wide"          "160"
-        "tall"          "14"
-        "labelText"     "#SBPP_BugReport_Version"
-        "textAlignment" "west"
-    }
-    "Version"
-    {
-        "ControlName"   "TextEntry"
-        "fieldName"     "Version"
-        "xpos"          "188"
-        "ypos"          "132"
-        "wide"          "160"
+        "wide"          "336"
         "tall"          "20"
     }
 

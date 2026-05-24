@@ -1,4 +1,4 @@
---========== Copyright © 2026, Team HL2SB++, All rights reserved. ===========--
+--========== Copyright © 2026, The Aridity Team, All rights reserved. ===========--
 --
 -- Purpose: Dumps a list of globals from Lua to be used as a blacklist.
 --

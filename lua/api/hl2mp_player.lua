@@ -26,6 +26,10 @@ function CHL2MP_Player:CanSprint() end
 ---@param data integer? Optional event data (e.g. weapon hold type)
 function CHL2MP_Player:DoAnimationEvent(event, data) end
 
+---Get the player's special ID
+---@return string
+function CHL2MP_Player:GetSpecialID() end
+
 ---Metamethod: index lookup for CHL2MP_Player (handled by engine bindings).
 ---@param key string
 ---@return any
@@ -44,11 +48,6 @@ function CHL2MP_Player:__eq(other) end
 ---Metamethod: tostring representation for the player.
 ---@return string
 function CHL2MP_Player:__tostring() end
-
----Static helper: cast a generic entity to CHL2MP_Player (returns nil if not a player).
----@param ent CBaseEntity
----@return CHL2MP_Player
-function CHL2MP_Player.ToHL2MPPlayer(ent) end
 
 ---Converts a generic entity (CBaseEntity or derived) to CHL2MP_Player
 ---@param ent CBaseEntity|CBasePlayer

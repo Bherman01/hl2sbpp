@@ -1,4 +1,4 @@
---========== Copyright © 2026, Team HL2SB++, All rights reserved. ===========--
+--========== Copyright © 2026, The Aridity Team, All rights reserved. ===========--
 --
 -- Purpose: Dumps a list of globals in _G in wiki format for Sandpedia.
 --
