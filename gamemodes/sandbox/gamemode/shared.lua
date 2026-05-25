@@ -6,7 +6,7 @@
 
 GM.Name = "Sandbox"
 GM.Homepage = ""
-GM.Developer = "The Aridity Team"
+GM.Developer = "Team HL2SB++"
 GM.Manual = nil
 
 local FCVAR_REPLICATED = _E.FCVAR.REPLICATED

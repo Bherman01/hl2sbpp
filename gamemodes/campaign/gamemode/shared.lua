@@ -6,7 +6,7 @@
 
 GM.Name = "Campaign"
 GM.Homepage = ""
-GM.Developer = "The Aridity Team"
+GM.Developer = "Team HL2SB++"
 GM.Manual = nil
 
 function GM:Initialize()
