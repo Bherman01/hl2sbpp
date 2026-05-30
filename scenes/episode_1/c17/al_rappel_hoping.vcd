@@ -1,0 +1,582 @@
+00
+          4.9590 0.0000
+          5.1840 0.0000
+          5.3152 0.0000
+          6.7159 0.0000
+          7.2312 0.0000
+        }
+        {
+          0.0000 0.4900
+          0.7833 0.5000
+          1.0446 0.5000
+          1.2466 0.4899
+          1.3666 0.4899
+          1.6963 0.5300
+          2.1513 0.8600
+          2.5363 0.8600
+          2.7413 0.8600
+          3.0200 0.5000
+          4.9590 0.5000
+          5.1840 0.5000
+          5.3152 0.5000
+          6.7159 0.5000
+          7.2312 0.5000
+        }
+        "stretcher" combo 
+        {
+          0.0000 0.0200
+          0.7833 0.0000
+          1.0446 0.0000
+          1.2466 0.0000
+          1.3666 0.0000
+          1.5813 0.0000
+          1.9200 0.0000
+          2.2713 0.0000
+          2.5513 0.0000
+          2.7563 0.0000
+          3.0200 0.0000
+          4.9590 0.0000
+          5.1840 0.0000
+          5.3152 0.0000
+          6.7159 0.0000
+          7.2312 0.0000
+        }
+        {
+          0.0000 0.4900
+          0.7833 0.5000
+          1.0446 0.5000
+          1.2466 0.4899
+          1.3666 0.4899
+          1.6963 0.5000
+          2.2713 0.5000
+          2.5513 0.5000
+          2.7563 0.5000
+          3.0200 0.5000
+          4.9590 0.5000
+          5.1840 0.5000
+          5.3152 0.5000
+          6.7159 0.5000
+          7.2312 0.5000
+        }
+        "bite" 
+        {
+          0.0000 0.0200
+          0.7833 0.0000
+          1.0446 0.0000
+          1.2466 0.0000
+          1.3666 0.0000
+          1.6963 0.0000
+          1.9250 0.0000
+          2.2713 0.0000
+          2.5513 0.0000
+          2.7563 0.0000
+          3.0200 0.0000
+          4.9590 0.0000
+          5.1840 0.0000
+          5.3152 0.0000
+          6.7159 0.0000
+          7.2312 0.0000
+        }
+        "presser" 
+        {
+          0.0000 0.0200
+          0.7833 0.0000
+          1.0446 0.0000
+          1.2466 0.0000
+          1.3666 0.0000
+          1.6963 0.0000
+          2.2713 0.0000
+          2.5513 0.0000
+          2.7563 0.0000
+          3.0200 0.0000
+          4.9590 0.0000
+          5.1840 0.0000
+          5.3152 0.0000
+          6.7159 0.0000
+          7.2312 0.0000
+        }
+        "tightener" 
+        {
+          0.0000 0.0200
+          0.7833 0.0000
+          1.0446 0.0000
+          1.2466 0.0000
+          1.3666 0.0000
+          1.6963 0.0000
+          2.2713 0.0000
+          2.5513 0.0000
+          2.7563 0.0000
+          3.0200 0.0000
+          4.9590 0.0000
+          5.1840 0.0000
+          5.3152 0.0000
+          6.7159 0.0000
+          7.2312 0.0000
+        }
+        "jaw_clencher" 
+        {
+          0.0000 0.0965 "curve_default_to_curve_hold"
+          0.7833 0.1065
+          1.0446 0.2300 "curve_default_to_curve_hold"
+          1.2466 0.2199
+          1.3666 0.2136
+          1.6963 0.0004
+          2.2713 0.0848
+          2.5513 0.0000
+          2.7563 0.0000
+          3.0200 0.0000
+          4.9590 0.2300
+          5.1840 1.0000
+          5.3152 1.0000 "curve_default_to_curve_hold"
+          6.7159 1.0000
+          7.2312 0.9991
+        }
+        "mouth_sideways" range -1.0 1.0 
+        {
+          0.0000 0.5037 "curve_default_to_curve_hold"
+          0.7833 0.5137
+          1.0646 0.5300 "curve_default_to_curve_hold"
+          1.2466 0.5195
+          1.3666 0.5187
+          1.6963 0.4947
+          2.2713 0.5092
+          2.5513 0.4946
+          2.7563 0.4946
+          3.0200 0.4946
+          4.9590 0.5300
+          5.1840 0.6000
+          5.3152 0.6000 "curve_default_to_curve_hold"
+          6.7159 0.6000
+          7.2312 0.5999
+        }
+        "jaw_drop" range 0.0 2.0 
+        {
+          1.6963 0.2298
+          2.2300 0.1900
+          2.5613 0.0000
+          2.7663 0.0000
+          3.0200 0.0000
+        }
+        "lower_lip" 
+        {
+          1.6963 0.1099
+          2.2450 0.0900
+          2.5513 0.0000
+          2.7563 0.0000
+          3.0200 0.0000
+        }
+      }
+    }
+  }
+  channel "head flex"
+  {
+    event flexanimation "head"
+    {
+      time 0.226667 8.633333
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_rightleft" range 30.0 -30.0 
+        {
+          0.4715 0.5000 "curve_default_to_curve_hold"
+          0.8933 0.5000
+          2.3090 0.5000
+          2.5850 0.5336
+          2.9000 0.5327
+          3.1100 0.4860
+          3.3350 0.4860
+        }
+        "head_updown" range 15.0 -15.0 
+        {
+          0.4715 0.5000 "curve_default_to_curve_hold"
+          0.8933 0.5000
+          1.4000 0.4869
+          1.6406 0.3922
+          1.8750 0.3333
+          2.1394 0.3399
+          2.3090 0.4001
+          2.5250 0.5654
+          2.9000 0.5850
+          3.1300 0.3464
+          3.3400 0.2778
+          3.7350 0.2549
+          4.5850 0.2582
+          6.1550 0.4248
+        }
+        "head_tilt" range 15.0 -15.0 
+        {
+          0.4715 0.5000 "curve_default_to_curve_hold"
+          0.8933 0.5000 "curve_default_to_curve_hold"
+          2.3090 0.5000
+          2.5800 0.4682
+          2.8800 0.4684
+          3.1150 0.4979
+          3.3550 0.4979
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "50"
+  "ExpressionTool" "40"
+  "RampTool" "44"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_50list01"
+    {
+      time 0.062500 2.143589
+      param "ep_01.al_50list01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_50list02"
+    {
+      time 2.317130 4.151506
+      param "ep_01.al_50list02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_50list03"
+    {
+      time 4.256944 6.207420
+      param "ep_01.al_50list03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_50list04"
+    {
+      time 6.331018 8.031880
+      param "ep_01.al_50list04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_50list05"
+    {
+      time 8.256945 10.433815
+      param "ep_01.al_50list05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_50list05"
+    {
+      time 10.553240 12.259907
+      param "ep_01.al_50list06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "self"
+    {
+      time 0.968889 4.783611
+      param "!self"
+      event_ramp 
+      {
+        0.1211 0.3204
+        0.5838 0.5525
+        2.9824 0.5580
+        3.6202 0.3481
+      }
+    }
+    event lookat "player"
+    {
+      time 0.080000 1.302129
+      param "!player"
+      event_ramp 
+      {
+        0.1211 0.3204
+        0.5838 0.5525
+        0.7773 0.5580
+        1.0276 0.3481
+      }
+    }
+    event lookat "player"
+    {
+      time 9.941112 12.579907
+      param "!player"
+      event_ramp 
+      {
+        0.1211 0.3204
+        0.5838 0.5525
+        1.8065 0.5580
+        2.4443 0.3481
+      }
+    }
+    event lookat "self"
+    {
+      time 6.200371 10.598426
+      param "!self"
+      event_ramp 
+      {
+        0.1211 0.3204
+        0.5838 0.5525
+        3.5657 0.5580
+        4.2035 0.3481
+      }
+    }
+    event lookat "player"
+    {
+      time 4.061481 6.866944
+      param "!player"
+      event_ramp 
+      {
+        0.1211 0.3204
+        0.5838 0.5525
+        1.9731 0.5580
+        2.6109 0.3481
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+    event firetrigger "start beeping (after 3 sec delay)"
+    {
+      time 9.500000 -1.000000
+      param "1"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "72"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_anotherway"
+    {
+      time 0.062500 3.690686
+      param "ep_01.al_anotherway"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_antguard_victory"
+    {
+      time 0.173611 1.069031
+      param "ep_01.al_antguard_victory"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "lookit"
+    {
+      time 0.114722 1.179444
+      param "!player"
+      event_ramp 
+      {
+        0.1857 0.9756
+        0.8653 0.9805
+      }
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time -0.034722 0.048611
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.006945 2.640278
+      param "A_bg_yell"
+      event_ramp 
+      {
+        0.2184 0.5268
+        0.5551 0.5512
+        1.4878 0.0439
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.102564
+        "extreme" 0.269231
+        "loop" 0.487179
+        "end" 0.641026
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.102564
+        "extreme" 0.269231
+        "loop" 0.487179
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event flexanimation "face"
+    {
+      time 0.173611 1.236111
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser" combo 
+        {
+          0.3260 1.0000
+        }
+        {
+          0.3260 0.5000
+        }
+        "outer_raiser" combo 
+        {
+          0.3260 1.0000
+        }
+        {
+          0.3260 0.5000
+        }
+        "cheek_raiser" combo 
+        {
+          0.3260 0.6400
+        }
+        {
+          0.3260 0.5000
+        }
+        "corner_puller" combo 
+        {
+          0.3260 0.4400
+        }
+        {
+          0.3260 0.5000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_antlions_cantgetoutnow"
+    {
+      time 0.062500 1.374518
+      param "ep_01.al_antlions_cantgetoutnow"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_antlions_cominguphere"
+    {
+      time 0.298611 2.600289
+      param "ep_01.al_antlions_cominguphere"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel 

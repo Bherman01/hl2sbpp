@@ -1,0 +1,29 @@
+th
+    }
+  }
+  channel "Look"
+  {
+    event lookat "look at player"
+    {
+      time 0.005833 14.580983
+      param "!player"
+      event_ramp
+      {
+        0.4160 0.8430
+        0.4860 0.9241
+        0.5860 0.9747
+        0.8040 1.0000
+        14.1155 0.9797
+        14.2095 0.9063
+        14.2675 0.8253
+      }
+    }
+    event lookat "look at player"
+    {
+      time 18.616945 19.858759
+      param "!player"
+      event_ramp
+      {
+        0.4160 0.8430
+        0.4860 0.9241
+        0.58

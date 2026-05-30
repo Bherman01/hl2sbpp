@@ -1,0 +1,38 @@
+"apex" 0.072289
+        "accent" 0.192771
+        "loop" 0.777108
+        "end" 0.831325
+      }
+      sequenceduration 5.566667
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "head flex"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "bodygesture"
+  {
+    event gesture "embarr"
+    {
+      time 1.214444 7.701110
+      param "A_bg_embarassed"
+      event_ramp 
+      {
+        0.0038 0.6690
+        0.0615 0.6725
+        2.8962 0.6864
+        6.4431 0.5958
+        6.4738 0.5923
+      }
+    

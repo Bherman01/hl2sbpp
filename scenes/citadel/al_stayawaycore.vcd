@@ -1,0 +1,50 @@
+
+      }
+      sequenceduration 2.633333
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.321429
+      param ""
+    }
+    event gesture "A_gesture13"
+    {
+      time 0.035714 2.735714
+      param "A_gesture13"
+      event_ramp
+      {
+        0.4433 0.3164
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      sequenceduration 2.700000
+    }
+  }
+  faceposermodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\k

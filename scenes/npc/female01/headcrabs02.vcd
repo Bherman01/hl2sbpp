@@ -1,0 +1,28 @@
+   event moveto "console"
+    {
+      time 0.057778 0.868890
+      param "mark_sec_console01"
+      resumecondition
+    }
+  }
+  channel "face to"
+  {
+    event face "console"
+    {
+      time 0.933332 13.855555
+      param "mark_sec_keyboard01"
+      event_ramp
+      {
+        0.5140 0.8188
+        0.6620 0.9303
+        12.0758 0.9930
+        12.9198 0.9895
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "Postures"
+  {
+ 

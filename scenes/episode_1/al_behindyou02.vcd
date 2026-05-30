@@ -1,0 +1,50 @@
+564 0.5000
+          7.6128 0.5000
+        }
+        "eyes_rightleft"         range 30.0 -30.0        
+        {
+          3.8175 0.5000
+          3.9398 0.5000
+          4.1236 0.5700
+          4.3993 0.8400
+          4.6076 0.8700
+          4.8662 0.5400
+          4.9791 0.5000
+          5.1578 0.5000
+          6.3582 0.5000
+          6.4899 0.5000
+          6.6263 0.3300
+          6.7482 0.2300
+          6.8838 0.1700
+          7.0626 0.2600
+          7.2178 0.5000
+          7.3212 0.5900
+          7.5564 0.5000
+          7.6128 0.5000
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\mossman.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "53"
+  "ExpressionTool" "44"
+  "GestureTool" "100"
+  "RampTool" "48"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 19.200001 -1.000000
+  param "noaction"
+}
+actor "

@@ -1,0 +1,26 @@
+_time
+      {
+        "apex" 0.284218
+        "accent" 0.461855
+        "loop" 0.638261
+        "end" 0.804209
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.192771
+        "accent" 0.313253
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.147879 12.393332
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser"         combo      

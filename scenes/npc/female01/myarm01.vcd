@@ -1,0 +1,36 @@
+ime 31.160498 34.127163
+      param "A_gesture07"
+      event_ramp
+      {
+        0.4857 0.8611
+        2.1357 0.9127
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.170455
+        "accent" 0.352273
+        "loop" 0.545455
+        "end" 0.681818
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.202381
+        "accent" 0.357143
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      sequenceduration 2.833333
+    }
+    event gesture "NULL"
+    {
+      time 10.444445 10.944445
+      param ""
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time -0.007018 33.474037
+      param ""
+      flexanimations samples_us

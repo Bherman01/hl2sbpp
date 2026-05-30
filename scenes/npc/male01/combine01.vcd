@@ -1,0 +1,23 @@
+1.5710 0.4900
+        }
+      }
+    }
+  }
+  channel "Head"
+  {
+    event flexanimation "Head"
+    {
+      time -0.000000 3.906667
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_rightleft"         range 30.0 -30.0        
+        {
+          0.3481 0.6200
+          0.3835 0.6200
+          0.6430 0.6200
+          1.6052 0.5600
+          2.1216 0.5300
+          2.4209 0.4500
+          2.5875 0.5500
+      

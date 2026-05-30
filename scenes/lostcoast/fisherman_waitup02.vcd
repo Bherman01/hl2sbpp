@@ -1,0 +1,41 @@
+
+      {
+        "apex" 0.112911
+        "accent" 0.277933
+        "loop" 0.668571
+        "end" 0.796982
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.109890
+        "accent" 0.417582
+        "loop" 0.527473
+        "end" 0.692308
+      }
+      sequenceduration 3.066667
+    }
+    event gesture "NULL"
+    {
+      time 11.222223 16.255556
+      param ""
+    }
+    event gesture "kgesture13"
+    {
+      time 18.244446 22.837383
+      param "kgesture13"
+      event_ramp
+      {
+        0.0071 0.8676
+        0.3095 0.8990
+        0.6619 0.8990
+        1.4907 0.9024
+        1.7963 0.7860
+        1.9669 0.6741
+        2.3444 0.5920
+        3.6037 0.5284
+        4.5333 0.5452
+        4.5889 0.5452
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.2

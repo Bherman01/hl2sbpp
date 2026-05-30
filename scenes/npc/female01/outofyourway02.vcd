@@ -1,0 +1,58 @@
+ 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 12.746667 14.846667
+      param ""
+    }
+    event gesture "A_bg_acc_dwn_rt"
+    {
+      time 14.160001 16.960001
+      param "A_bg_acc_dwn_rt"
+      event_ramp
+      {
+        0.0154 0.7045
+        0.3231 0.7614
+        0.6385 0.7652
+        1.2692 0.7045
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.144578
+        "extreme" 0.247619
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.204819
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "accentdown_ext"
+    {
+      time 12.533334 15.029398
+      param "accentdown_ext"
+      event_ramp
+      {
+        0.0000 0.7197
+        0.1231 0.7045
+        2.3605 0.5038
+        2.4836 0.4962
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.172043
+        "extreme" 0.322581
+        "loop" 0.515989
+        "end" 0.698838
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.66265

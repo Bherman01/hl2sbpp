@@ -1,0 +1,24 @@
+yer"
+      event_ramp 
+      {
+        0.2460 0.7781
+        0.5060 1.0000
+        3.5480 1.0000 "curve_easein_to_curve_easeout"
+        3.8100 0.7715
+      }
+    }
+  }
+  channel "Facial"
+  {
+    event gesture "bg_accentFwd"
+    {
+      time 0.060000 3.486666
+      param "bg_accentFwd"
+      absolutetags playback_time
+      {
+        "apex" 0.098627
+        "extreme" 0.256431
+        "loop" 0.394509
+        "end" 0.712062
+      }
+      absolutetags shifted_tim

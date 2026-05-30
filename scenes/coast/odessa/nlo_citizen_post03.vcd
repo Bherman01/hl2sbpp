@@ -1,0 +1,31 @@
+dels\vortigaunt.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "48"
+  "SceneRampTool" "100"
+  "ExpressionTool" "20"
+  "GestureTool" "100"
+  "RampTool" "52"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "coast.vgossip_03"
+    {
+      time 12.790982 15.637558
+      param "coast.vgossip_03"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "coast.vgossip_01"
+    {
+      time 0.006667 7.603493
+      param "c

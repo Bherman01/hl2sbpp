@@ -1,0 +1,25 @@
+sture "g_fist"
+    {
+      time 21.997883 25.284687
+      param "g_mid_relaxed_fist_accent"
+      event_ramp
+      {
+        0.4321 0.6346
+        0.9892 1.0000
+        2.3286 0.9898
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.123489
+        "accent" 0.174942
+        "loop" 0.308721
+        "end" 0.711860
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.176471
+        "accent" 0.235294
+        "loop" 0.441176
+        "end" 0.588235
+      }
+      se

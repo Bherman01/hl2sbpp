@@ -1,0 +1,22 @@
+sture "NULL"
+    {
+      time 8.750000 9.904842
+      param ""
+    }
+    event gesture "hg_puncuate_down"
+    {
+      time 12.583335 14.216668
+      param "hg_puncuate_down"
+      event_ramp
+      {
+        0.3780 0.5658
+        0.9098 0.0789
+        1.1854 0.2588
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.333333
+        "extreme" 0.541667
+        "loop" 0.562500
+        "end" 0.562500
+  

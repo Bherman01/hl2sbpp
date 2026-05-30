@@ -1,0 +1,33 @@
+     }
+        "lowerer" combo 
+        {
+          0.2204 0.4500
+          0.3313 0.4600
+          0.5906 0.4500
+        }
+        {
+          0.2204 0.5000
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d2_prison\06_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "62"
+  "SceneRampTool" "100"
+  "RampTool" "26"
+  "ExpressionTool" "64"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+a

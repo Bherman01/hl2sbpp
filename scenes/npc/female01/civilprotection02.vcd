@@ -1,0 +1,32 @@
+_combinespy05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "citadel.al_struggle07"
+    {
+      time 20.000002 20.729527
+      param "citadel.al_struggle07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "monitor"
+    {
+      time -0.030302 16.075758
+      param "mark_sec_monitor01"
+    }
+    event lookat "!player"
+    {
+      time 15.696972 18.530304
+      param "!player"
+      event_ramp
+      {
+        0.1885 0.6794
+        0.2596 0.8258
+        0.3308 0.9024
+        0.4904 0.9686
+     

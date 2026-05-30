@@ -1,0 +1,32 @@
+ure "E_bg_hshake"
+    {
+      time 119.797615 122.930946
+      param "E_bg_hshake"
+      absolutetags playback_time
+      {
+        "apex" 0.161290
+        "extreme" 0.397849
+        "loop" 0.591398
+        "end" 0.698925
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.161290
+        "extreme" 0.397849
+        "loop" 0.591398
+        "end" 0.698925
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "E_bg_arcbk_str_pod"
+    {
+      time 26.034723 29.498611
+      param "E_bg_arcbk_str_pod"
+      absolutetags playback_time
+      {
+        "apex" 0.138535
+        "extreme" 0.258414
+        "loop" 0.409581
+        "end" 0.574216
+      }
+      absolutetag

@@ -1,0 +1,41 @@
+me 9.733334 12.553333
+      param "mark_GroundZero1"
+      event_ramp
+      {
+        1.0500 0.9951
+        2.7967 0.9951
+      }
+    }
+    event face "dropship2"
+    {
+      time 2.960000 4.020000
+      param "dropship2"
+      event_ramp
+      {
+        1.0600 1.0000
+      }
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "2 - dog throw apc"
+    {
+      time 7.920002 -1.000000
+      param "2"
+    }
+    event firetrigger "1 - trigger run soldiers"
+    {
+      time 10.986668 -1.000000
+      param "1"
+    }
+  }
+  channel "Sequence"
+  {
+    event sequence "asd"
+    {
+      time 0.240000 2.906666
+      param "excitedup"
+      fixedlength
+    }
+  }
+  chan

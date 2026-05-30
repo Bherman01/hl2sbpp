@@ -1,0 +1,28 @@
+
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 9.866668 -1.000000
+  param "noaction"
+}
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "attic_apologize"
+    {
+      time 0.506669 8.682950
+      param "ravenholm.attic_apologize"
+      param2 "90dB"
+   

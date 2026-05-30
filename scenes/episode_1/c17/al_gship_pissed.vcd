@@ -1,0 +1,27 @@
+0
+      }
+      sequenceduration 1.500000
+    }
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "faceflex"
+    {
+      time 0.025641 3.525275
+      param ""
+      flexanimations samples_use_time
+      {
+        "jaw_drop" 
+        {
+          0.1243 0.0154
+          0.1652 0.4800
+          0.1773 0.7300
+          0.2076 0.5700
+          0.2485 0.3900
+          0.2615 0.9475
+          0.3000 0.8700
+          0.3273 0.5500
+          0.370

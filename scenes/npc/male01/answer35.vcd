@@ -1,0 +1,65 @@
+0.0000
+        }
+        {
+          0.6897 0.5000
+          0.8077 0.5000
+          4.1151 0.5000
+          4.1907 0.5000
+          4.5281 0.5000
+          5.0136 0.5000
+          5.7093 0.5000
+          5.9371 0.5000
+          6.1835 0.5000
+          6.5531 0.5000
+        }
+      }
+    }
+  }
+  channel "trigger"
+  {
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "92"
+  "ExpressionTool" "40"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Vort"
+{
+  channel "Audio"
+  {
+    event speak "vort_extract_wind"
+    {
+      time 0.383586 9.599436
+      param "ep_02.vort_extract_wind"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.039474 10.137257
+      param "!player"
+      event_ramp
+      {
+        0.5880 1.0000
+        9.6476 1.0000
+      }
+    }
+  }
+  channel "moveTo"
+  {
+    event moveto "!player"
+    {
+      t

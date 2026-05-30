@@ -1,0 +1,27 @@
+0.1400 "curve_easein_to_curve_easeout"
+          2.5027 0.5000 "curve_easein_to_curve_easeout"
+          2.6807 0.5000 "curve_easein_to_curve_easeout"
+          3.3586 0.5000
+          3.5823 0.5000
+          3.7675 0.5000
+          3.9053 0.5000
+          4.0840 0.5000
+          4.4197 0.5000
+          4.9342 0.5000
+          5.4316 0.5000
+          6.0400 0.5000
+          6.2433 0.5000
+          7.3718 0.5000
+          7.5885 0.5000
+          7.9551 0.5000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "68"
+  "RampTool" "74"
+  "ExpressionTool"

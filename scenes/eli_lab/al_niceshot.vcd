@@ -1,0 +1,35 @@
+
+      param "accentup_ext_pod"
+      absolutetags playback_time
+      {
+        "apex" 0.044024
+        "extreme" 0.077040
+        "loop" 0.791210
+        "end" 0.920606
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "accentdown_ext_pod"
+    {
+      time 8.773851 11.619937
+      param "accentdown_ext_pod"
+      absolutetags playback_time
+      {
+        "apex" 0.157761
+        "extreme" 0.265108
+        "loop" 0.514023
+        "end" 0.668114
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.6626

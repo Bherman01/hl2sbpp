@@ -1,0 +1,37 @@
+gs shifted_time
+      {
+        "apex" 0.204545
+        "accent" 0.409091
+        "loop" 0.625000
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "2"
+    {
+      time 0.892246 5.152683
+      param "M_g_rthd_upout"
+      event_ramp
+      {
+        0.5952 0.8191
+        0.8667 0.8794
+        1.0905 0.8794
+        2.9242 0.8794
+        3.0814 0.8794
+        3.4242 0.7839
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.118032
+        "accent" 0.252600
+        "loop" 0.313766
+        "end" 0.795023
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.243902
+        "accent" 0.451219
+        "loop" 0.536585
+        "end" 0.658537
+      }
+      sequenceduration

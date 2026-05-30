@@ -1,0 +1,226 @@
+l "Audio"
+  {
+    event speak "accompany"
+    {
+      time 0.006667 1.530545
+      param "npc_vortigaunt.accompany"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Look"
+  {
+    event lookat "player"
+    {
+      time 0.006667 1.540000
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+  }
+  channel "Facial"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "affirmed"
+    {
+      time 0.006667 2.101769
+      param "npc_vortigaunt.affirmed"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Look"
+  {
+    event lookat "player"
+    {
+      time 0.006667 2.120001
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+  }
+  channel "Facial"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "alldear"
+    {
+      time 0.006667 3.306191
+      param "npc_vortigaunt.alldear"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Look"
+  {
+  }
+  channel "Head"
+  {
+  }
+  channel "Facial"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "allfornow"
+    {
+      time 0.006667 1.195034
+      param "npc_vortigaunt.allfornow"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Look"
+  {
+    event lookat "player"
+    {
+      time 0.026666 1.193333
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+  }
+  channel "Facial"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "allinoneinall"
+    {
+      time 0.006667 2.390159
+      param "npc_vortigaunt.allinoneinall"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Look"
+  {
+  }
+  channel "Head"
+  {
+  }
+  channel "Facial"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "allowme"
+    {
+      time 0.006667 0.980794
+      param "npc_vortigaunt.allowme"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Look"
+  {
+    event lookat "player"
+    {
+      time 0.080000 0.946666
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+  }
+  channel "Facial"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+ 

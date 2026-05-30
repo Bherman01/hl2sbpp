@@ -1,0 +1,37 @@
+ {
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+}
+
+mapname "maps\ep1_citadel_00.bsp"
+scalesettings
+{
+  "CChoreoView" "86"
+  "ExpressionTool" "40"
+  "RampTool" "80"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 105.889267 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 54.887447 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_01.al_someth

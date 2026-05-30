@@ -1,0 +1,106 @@
+10.530498
+      param "A_gesture05"
+      event_ramp
+      {
+        0.6000 0.9524
+        1.4173 0.8254
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.218726
+        "accent" 0.391820
+        "loop" 0.627299
+        "end" 0.802326
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.192771
+        "accent" 0.313253
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "head gest"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.882979
+      param ""
+    }
+    event gesture "2"
+    {
+      time 5.234043 9.269664
+      param "A_bg_acc_dwn_left"
+      event_ramp
+      {
+        1.4000 0.9206
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.091952
+        "extreme" 0.167186
+        "loop" 0.376169
+        "end" 0.765939
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.204819
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "3"
+    {
+      time 7.886527 10.686527
+      param "A_bg_chinout"
+      event_ramp
+      {
+        1.0615 0.4365
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.265532 11.006667
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser"         combo        
+        {
+          1.8305 0.0800
+          2.0683 1.0000
+          2.5691 0.5100
+          3.9407 0.5100
+          4.9096 0.0000
+          5.4191 0.0000
+          7.2909 0.0000
+          8.8836 0.0000
+          9.3076 0.0000
+          10.0625 0.0000
+        }
+        {
+          2.0683 0.5000
+          2.5691 0.5000
+          3.9407 0.5000
+ 

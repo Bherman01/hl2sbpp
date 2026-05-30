@@ -1,0 +1,27 @@
+     time 3.214545 4.108808
+      param "novaprospekt.al_sheupto03"
+      param2 "0.680"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "damn her..."
+    {
+      time 54.107281 55.814877
+      param "novaprospekt.al_combinespy03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "now hurry"
+    {
+      time 58.623634 60.661003
+      param "novaprospekt.al_combinespy04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "go on ahead"
+    {
+      time 61.593330 65.016525
+      param "novaprospekt.al

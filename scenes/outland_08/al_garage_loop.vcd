@@ -1,0 +1,113 @@
+   cctoken ""
+    }
+    event speak "gman_mono12"
+    {
+      time 72.447685 77.196167
+      param "ep_02.gman_mono12"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono13"
+    {
+      time 77.473946 79.023880
+      param "ep_02.gman_mono13"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono25"
+    {
+      time 97.310822 101.507828
+      param "ep_02.gman_mono25"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono26"
+    {
+      time 101.507828 105.269463
+      param "ep_02.gman_mono26"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono27"
+    {
+      time 105.269463 107.219940
+      param "ep_02.gman_mono27"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono28"
+    {
+      time 107.636589 109.128471
+      param "ep_02.gman_mono28"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono29"
+    {
+      time 109.461761 110.355728
+      param "ep_02.gman_mono29"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono30"
+    {
+      time 111.064056 112.079933
+      param "ep_02.gman_mono30"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono31"
+    {
+      time 112.079926 114.211807
+      param "ep_02.gman_mono31"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono32"
+    {
+      time 114.211800 119.343407
+      param "ep_02.gman_mono32"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono33"
+    {
+      time 119.551735 122.268471
+      param "ep_02.gman_mono33"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono34"
+    {
+      time 123.310143 128.514313
+      param "ep_02.gman_mono34"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.gman_mono11"
+    {
+      time 66.694443 72.400749
+      param "ep_02.gman_mono11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  faceposermodel "models\gman.mdl"
+}
+
+actor "gman_face"
+{
+  channel 

@@ -1,0 +1,27 @@
+
+        "loop" 0.375526
+        "end" 0.702780
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.176471
+        "accent" 0.250000
+        "loop" 0.441176
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 23.765039 24.265039
+      param ""
+    }
+    event gesture "g_present"
+    {
+      time 26.578768 31.934320
+      param "g_present"
+      event_ramp
+      {
+        0.0071 1.0000
+        3.7143 1.0000
+        4.06

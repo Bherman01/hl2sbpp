@@ -1,0 +1,30 @@
+    }
+      }
+    }
+  }
+  channel "head flex"
+  {
+    event flexanimation "head"
+    {
+      time 0.010555 4.377220
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_rightleft" range 30.0 -30.0 
+        {
+        }
+        "head_updown" range 15.0 -15.0 
+        {
+        }
+        "head_tilt" range 15.0 -15.0 
+        {
+        }
+      }
+    }
+  }
+  channel "BlinkSupress"
+  {
+    event generic "AI_BLINK"
+    {
+      time 0.020833 4.326389
+      param "AI_BLI

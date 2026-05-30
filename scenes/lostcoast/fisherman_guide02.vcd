@@ -1,0 +1,87 @@
+      param "!player"
+      event_ramp
+      {
+        0.5412 0.1168
+        1.5753 0.9391
+        2.3635 0.9543
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_Louie_stand_1"
+    {
+      time 0.100000 3.169525
+      param "mark_Louie_stand_1"
+      param2 "Walk"
+    }
+  }
+  active "0"
+}
+
+mapname "maps\d1_trainstation_05.bsp"
+scalesettings
+{
+  "CChoreoView" "60"
+  "SceneRampTool" "100"
+  "RampTool" "96"
+  "ExpressionTool" "22"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "STOP"
+{
+  time 5.180000 -1.000000
+  param "noaction"
+}
+event section "pauyse"
+{
+  time 6.280000 -1.000000
+  param "noaction"
+}
+actor "Breen"
+{
+  channel "audio"
+  {
+    event speak "whats the meaning"
+    {
+      time 0.133333 1.204172
+      param "k_lab.br_tele_02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "who?"
+    {
+      time 1.700000 2.762902
+      param "k_lab.br_tele_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "how did you?"
+    {
+      time 2.906667 4.398164
+      param "k_lab.br_tele_05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "triggers"
+  {
+    event firetrigger "1 - teleport FX"
+    {
+      time 3.039999 -1.000000
+      param "1"
+    }
+  }
+  channel "lookat"
+  {
+    event lookat "player1"
+    {
+      time 0.013334 5.166668
+      param "!player"
+      event_ra

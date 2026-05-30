@@ -1,0 +1,45 @@
+9968
+      }
+    }
+    event face "mark_look_lightbridge"
+    {
+      time 18.290123 20.209875
+      param "mark_look_lightbridge"
+      event_ramp 
+      {
+        0.8737 1.0000 "curve_default_to_curve_hold"
+      }
+    }
+  }
+  channel "Postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 5.534693
+      param "NULL"
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "1 test jumpdown"
+    {
+      time 4.728396 -1.000000
+      param "1"
+    }
+  }
+  channel "bodyges"
+  {
+    event gesture "accentdown_ext_pod"
+    {
+      time 16.629631 19.429630
+      param "accentdown_ext_pod"
+      event_ramp 
+      {
+        0.1885 0.6429 "curve_default_to_curve_hold"
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end"

@@ -1,0 +1,45 @@
+   event_ramp
+      {
+        0.6425 1.0000
+        0.7739 1.0000
+      }
+    }
+    event lookat "mark_look_monitor_2"
+    {
+      time 123.928680 128.511703
+      param "mark_look_monitor_2"
+      event_ramp
+      {
+        0.5229 1.0000
+        3.8097 1.0000
+      }
+    }
+    event lookat "player"
+    {
+      time 30.027092 31.241714
+      param "!player"
+      event_ramp
+      {
+        0.6820 0.6769
+      }
+    }
+    event lookat "mark_eli"
+    {
+      time 118.083481 121.291069
+      param "mark_eli"
+      event_ramp
+      {
+        0.5586 1.0000
+        2.4343 1.0000
+      }
+    }
+    event lookat "mark_look_monitor_2"
+    {
+      time 120.561256 123.579956
+      param "mark_look_monitor_2"
+      event_ramp
+      {
+        0.6729 1.0000
+        2.3383 1.0000
+      }
+    }

@@ -1,0 +1,53 @@
+   time 10.375002 -1.000000
+      param "4"
+    }
+    event firetrigger "1_pauseMe"
+    {
+      time 4.541667 -1.000000
+      param "1"
+    }
+    event firetrigger "3_BeamOff"
+    {
+      time 5.437500 -1.000000
+      param "3"
+    }
+    event firetrigger "2_beamOn"
+    {
+      time 1.687500 -1.000000
+      param "2"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "32"
+  "RampTool" "26"
+  "GestureTool" "100"
+  "ExpressionTool" "30"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "cit_evac_no02"
+    {
+      time 0.006667 1.374422
+      param "ep1_citizen.cit_evac_defendus07"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+  channel "Facial"

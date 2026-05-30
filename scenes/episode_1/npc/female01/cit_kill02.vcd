@@ -1,0 +1,25 @@
+
+    {
+      time 6.730770 10.787180
+      param "g_present"
+      event_ramp
+      {
+        0.5565 0.5570
+        1.4478 0.6405
+        3.1578 0.7443
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.349242
+        "accent" 0.532343
+        "loop" 0.557311
+        "end" 0.640540
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.192308
+        "accent" 0.474359
+        "loop" 0.512821
+        "end" 0.641026
+      }
+      sequenceduration 2.633333

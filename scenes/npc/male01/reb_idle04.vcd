@@ -1,0 +1,502 @@
+edlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 0.906667
+      param "!player"
+    }
+  }
+}
+
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "npc_citizen.myarm01"
+    {
+      time 0.088890 1.101747
+      param "npc_citizen.myarm01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.088888 1.055555
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "myarm02"
+    {
+      time 0.088890 1.549480
+      param "npc_citizen.myarm02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.088888 1.522222
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "mygut01"
+    {
+      time 0.088890 1.549480
+      param "npc_citizen.mygut01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.088888 1.522222
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "mygut02"
+    {
+      time 0.088890 1.976169
+      param "npc_citizen.mygut02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.088888 1.877777
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "myleg01"
+    {
+      time 0.088890 1.242269
+      param "npc_citizen.myleg01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.088888 1.322222
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "myleg02"
+    {
+      time 0.088890 1.379774
+      param "npc_citizen.myleg02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.088888 1.322222
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "nice"
+    {
+      time 0.088890 0.855829
+      param "npc_citizen.nice"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.088888 0.877778
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "no01"
+    {
+      time 0.000000 1.379342
+      param "npc_citizen.no01"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "no02"
+    {
+      time 0.000000 1.385442
+      param "npc_citizen.no02"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "not1"
+    {
+      time 0.066667 1.644218
+      param "npc_citizen.notthemanithought01"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+    event flexanimation "face"
+    {
+      time 0.020000 1.680000
+      param ""
+      flextimingtags
+      {
+        "apples" 0.451924 1
+      }
+      flexanimations samples_use_time
+      {
+        "inner_raiser"         combo        
+        {
+          0.0710 0.0000
+          0.2482 0.0000
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+        }
+        "outer_raiser"         combo        
+        {
+          0.0710 0.1500
+          0.3119 0.1800
+          0.7658 0.1800
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "lowerer"         combo        
+        {
+          0.1001 0.8600
+          0.6856 0.8000
+          0.7658 0.9400
+          1.1565 0.9800
+          1.4415 0.7700
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0

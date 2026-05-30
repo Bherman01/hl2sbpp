@@ -1,0 +1,129 @@
+600
+          7.6607 0.0100
+          9.0367 0.0366
+          9.0915 0.0366
+          10.2108 0.0366
+          10.4408 0.0366
+          10.5732 0.0366
+          11.0801 0.0366
+          11.2394 0.0366
+          11.9066 0.0366
+          12.2273 0.0366
+          12.3597 0.0366
+          13.6402 0.0366
+        }
+        {
+          6.4591 0.5000
+          9.0367 0.5000
+          9.0915 0.5000
+          10.2108 0.5000
+          10.4408 0.5000
+          10.5732 0.5000
+          11.0801 0.5000
+          11.2394 0.5000
+          11.9066 0.5000
+          12.2273 0.5000
+          12.3597 0.5000
+          13.6402 0.5000
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "EMP_trigger"
+    {
+      time 4.119999 -1.000000
+      param "1"
+    }
+    event generic "holster"
+    {
+      time 0.026666 0.526666
+      param "AI_HOLSTER"
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+actor "Mossman"
+{
+  channel "moveto"
+  {
+    event moveto "console"
+    {
+      time 1.226666 3.353333
+      param "mark_mosssman_controlroom_console"
+    }
+  }
+  channel "lookat"
+  {
+    event lookat "mark_alyx_look_controlroom_monitor_rt2"
+    {
+      time 7.173334 9.406668
+      param "mark_alyx_look_controlroom_monitor_rt2"
+      event_ramp
+      {
+        0.5115 0.9679
+        1.5077 0.9643
+      }
+    }
+    event lookat "mark_alyx_look_controlroom_monitor_rt2"
+    {
+      time 11.333334 13.566668
+      param "mark_alyx_look_controlroom_monitor_rt2"
+      event_ramp
+      {
+        0.5115 0.9679
+        1.5077 0.9643
+      }
+    }
+    event lookat "mark_alyx_look_controlroom_monitor_rt2"
+    {
+      time 15.760000 17.993334
+      param "mark_alyx_look_controlroom_monitor_rt2"
+      event_ramp
+      {
+        0.5115 0.9679
+        1.5077 0.9643
+      }
+    }
+  }
+  channel "face"
+  {
+    event face "mark_mosssman_controlroom_console"
+    {
+      time 2.933333 16.766666
+      param "mark_mossman_look_controlroom_console"
+    }
+  }
+  channel "Posture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.060000
+      param ""
+    }
+    event gesture "M_consoleposture"
+    {
+      time 4.106667 22.353336
+      param "M_consoleposture"
+      absolutetags playback_time
+      {
+        "apex" 0.055312
+        "loop" 0.073750
+        "end" 0.918129
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.277778
+        "loop" 0.370370
+        "end" 0.462963
+      }
+      sequenceduration 3.633333
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      tim

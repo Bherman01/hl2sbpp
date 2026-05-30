@@ -1,0 +1,50 @@
+6024
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.301205
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_bg_acc_dwn_rt"
+    {
+      time 39.933334 42.853333
+      param "A_bg_acc_dwn_rt"
+      absolutetags playback_time
+      {
+        "apex" 0.179732
+        "extreme" 0.251142
+        "loop" 0.526324
+        "end" 0.676514
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.204819
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "Face1"
+    {
+      time 0.429951 42.688305
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser" combo 
+        {
+          14.9506 0.0000
+          15.5829 0.6963
+          15.7517 0.7000
+          15.8640 0.7100
+          16.1849 0.6900
+          16.3035 0.7009
+   

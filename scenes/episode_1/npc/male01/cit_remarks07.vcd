@@ -1,0 +1,25 @@
+82
+        4.1486 0.8842
+      }
+    }
+    event lookat "mark_look_cit_sec2_1"
+    {
+      time 29.418209 32.030170
+      param "mark_look_cit_sec2_1"
+      event_ramp 
+      {
+        0.2167 0.0743
+        0.4200 0.2246
+        0.6233 0.4172
+        0.8533 0.4799
+        1.3771 0.4767
+        1.7947 0.4655
+        1.9780 0.4420
+        2.1474 0.3621
+        2.2831 0.1736
+      }
+    }
+    event lookat "mark_look_cit_sec2_1"
+    {
+      time 32.637955 35.942436
+      param "mark_look_c

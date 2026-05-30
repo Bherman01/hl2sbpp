@@ -1,0 +1,212 @@
+   0.4700 0.8476 "curve_easein_to_curve_easeout"
+        1.1160 0.7318 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.372093
+        "accent" 0.558140
+        "loop" 0.604651
+        "end" 0.744186
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.372093
+        "accent" 0.558140
+        "loop" 0.651163
+        "end" 0.697674
+      }
+      sequenceduration 1.466667
+    }
+    event gesture "g_Lhand_forhead"
+    {
+      time -0.125000 2.216666
+      param "g_Lhand_forhead"
+      event_ramp
+      {
+        0.0960 0.0320
+        0.5280 0.8242
+        0.6880 1.0000
+        1.6680 1.0000
+        1.8320 0.8219
+        2.1500 0.0776
+      }
+      absolutetags playback_time
+      {
+        "in" 0.294844
+        "loop" 0.506811
+        "end" 0.579212
+        "out" 0.724015
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.431034
+        "loop" 0.603448
+        "end" 0.689655
+        "out" 0.862069
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "head"
+  {
+    event gesture "hg_headshake_small"
+    {
+      time 2.427083 4.727083
+      param "hg_headshake_small"
+      absolutetags playback_time
+      {
+        "apex" 0.088235
+        "extreme" 0.220588
+        "loop" 0.661765
+        "end" 0.676471
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.088235
+        "extreme" 0.220588
+        "loop" 0.661765
+        "end" 0.676471
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "loop"
+{
+  time 5.000000 -1.000000
+  param "4.000000"
+  loopcount "-1"
+}
+actor "!target1"
+{
+  channel "audio"
+  {
+    event speak "Freeman, over here!"
+    {
+      time 0.077273 2.285141
+      param "ep_02.mirt_brief_overhere01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.000000 5.060606
+      param "!player"
+      event_ramp
+      {
+        0.7682 1.0000
+        5.0606 1.0000
+      }
+    }
+    active "0"
+  }
+  channel "faceTo"
+  {
+    event face "!player"
+    {
+      time 0.045454 5.090909
+      param "!player"
+      event_ramp
+      {
+        0.9882 1.0000
+        5.0455 1.0000
+      }
+    }
+    active "0"
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+    event gesture "b_OverHere_Left"
+    {
+      time 0.083333 3.500000
+      param "b_OverHere_Left"
+      absolutetags playback_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      sequenceduration 1.800000
+    }
+    active "0"
+  }
+  channel "Gestures"
+  {
+    event gesture "G_lookatthis"
+    {
+      time 0.733333 2.550000
+      param "G_lookatthis"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.5506 0.9773
+        1.0578 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.131820
+        "accent" 0.301304
+        "loop" 0.513761
+        "end" 0.568807
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.184211
+        "accent" 0.421053
+        "loop" 0.473684
+        "end" 0.473684
+      }
+      sequenceduration 1.300000
+    }
+    event gesture "G_lookatthis"
+    {
+      time 1.300000 2.600000
+      param "G_lookatthis"
+      absolutetags playback_time
+      {
+        "apex" 0.184211
+        "accent" 0.421053
+        "loop" 0.463684
+        "end" 0.473684
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.184211
+        "accent" 0.421053
+        "loop" 0.473684
+        "end" 0.473684
+      }
+      sequenceduration 

@@ -1,0 +1,34 @@
+318 56.717430
+      param "ep_01.ba_beforeyougo02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_trynottolose"
+    {
+      time 57.082458 62.637833
+      param "ep_01.ba_trynottolose"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "wave"
+    {
+      time 12.266666 14.820862
+      param "ep_01.ba_pressure"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "wave"
+    {
+      time 15.133333 17.559818
+      param "ep_01.ba_knowevac"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_bestthing03"
+    {
+      time 34.187733 36.739296
+      p

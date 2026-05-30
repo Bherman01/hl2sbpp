@@ -1,0 +1,35 @@
+ 35.0 -30.0        
+        {
+          0.1601 0.5000
+          0.3987 0.4700
+          0.4827 0.4000
+          0.7217 0.3900
+        }
+        "head_forwardback"         range -1.0 1.0        
+        {
+          0.1601 0.5000
+          0.3987 0.5400
+          0.4964 0.5900
+          0.6217 0.5700
+        }
+      }
+    }
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time 0.006666 1.120000
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser"         combo        
+        {
+          0.2331 0.0000
+          0.3970 0.8200
+          0.7196 0.8900
+          1.0289 0.0000
+        }
+        {
+        }
+        "lid

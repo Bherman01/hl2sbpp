@@ -1,0 +1,23 @@
+ 1.532258 15.104301
+      param "A_P_left_leanft"
+      absolutetags playback_time
+      {
+        "apex" 0.074243
+        "loop" 0.148487
+        "end" 0.843106
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.229008
+        "loop" 0.458015
+        "end" 0.648855
+      }
+      sequenceduration 4.400000
+    }
+    event gesture "A_P_rt_leanbk"
+    {
+      time 12.413979 24.192471
+      param "A_P_rt_leanbk"
+      absolutetags playback_time
+      {
+        "apex" 0.170776

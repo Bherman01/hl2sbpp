@@ -1,0 +1,28 @@
+      8.9925 0.9672
+        9.0609 0.8942
+        9.1136 0.8029
+      }
+    }
+  }
+  channel "posture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.849206
+      param ""
+    }
+    event gesture "1"
+    {
+      time 7.142857 17.106348
+      param "p_leanLeft"
+      absolutetags playback_time
+      {
+        "apex" 0.097289
+        "loop" 0.213716
+        "end" 0.867624
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.242424
+        "loop" 0.454545
+        "end" 0.681818

@@ -1,0 +1,32 @@
+"ep_02.al_transmit_grabbed04"
+      param2 "0.36"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "feedingdata02"
+    {
+      time 64.119766 69.133102
+      param "ep_02.al_transmit_feedingdata02"
+      param2 "0.4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "breakingup05"
+    {
+      time 122.368019 123.946701
+      param "ep_02.al_transmit_breakingup05"
+      param2 "0.75"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "breakingup06"
+    {
+      time 124.139816 125.403831
+      param "ep_02.al_transmit_breakingup06"
+      param2 "0.850"
+      fixedlength
+      cctype "cc_master"
+      cc

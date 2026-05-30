@@ -1,0 +1,43 @@
+   "loop" 0.259097
+        "end" 0.903595
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.484375
+        "end" 0.648438
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "2"
+    {
+      time 6.530919 15.103103
+      param "posture01"
+      absolutetags playback_time
+      {
+        "apex" 0.117514
+        "loop" 0.286546
+        "end" 0.907543
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "3"
+    {
+      time 13.567780 19.923868
+      param "posture06"
+      absolutetags playback_time
+      {
+        "apex" 0.127884
+        "loop" 0.259046
+        "end" 0.859016
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.185185
+       

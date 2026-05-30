@@ -1,0 +1,28 @@
+end" 0.600000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.085106
+        "extreme" 0.276596
+        "loop" 0.425532
+        "end" 0.638298
+      }
+      sequenceduration 1.600000
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "trigger"
+  {
+    event flexanimation "face"
+    {
+      time 0.287879 10.303031
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_tightener" combo 
+        {
+          0.1723 0.7393
+          0.4395 0.7400
+     

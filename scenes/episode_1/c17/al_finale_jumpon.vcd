@@ -1,0 +1,33 @@
+ "ba_greeting01"
+    {
+      time 1.413515 2.031746
+      param "ep_01.ba_greeting01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_greeting02"
+    {
+      time 2.352909 3.042252
+      param "ep_01.ba_greeting02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_greeting03"
+    {
+      time 3.216545 4.104708
+      param "ep_01.ba_greeting03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_knowevac"
+    {
+      time 15.438662 18.146688
+      param "ep_01.ba_doingok"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_greeting

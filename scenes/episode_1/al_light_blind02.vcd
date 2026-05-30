@@ -1,0 +1,45 @@
+1.1987 0.5232
+        1.3722 0.0903
+      }
+    }
+    event lookat "mark_al_look_console7"
+    {
+      time 39.532093 40.793140
+      param "mark_al_look_console7"
+      event_ramp 
+      {
+        0.0990 0.1195
+        0.2658 0.4250
+        0.3879 0.5879
+        0.5144 0.6606
+        0.6540 0.6749
+        0.8093 0.6534
+        0.9436 0.5365
+        1.0173 0.3999
+        1.1845 0.0734
+      }
+    }
+    event lookat "mark_al_look_console5"
+    {
+      time 40.430054 41.691101
+      param "mark_al_look_console5"
+      event_ramp 
+      {
+        0.0990 0.1195
+        0.2658 0.4250
+        0.3879 0.5879
+        0.5144 0.6606
+        0.6540 0.6749
+        0.8093 0.6534
+        0.9436 0.5365
+        1.0173 0.3999
+        1.1845 0.0734
+      }
+    }
+    event lookat "mark_al_look_console3"
+    {
+      time 42.668602 43.684753
+      param "mark_al_look_console3"
+      event_ramp 
+      {
+    

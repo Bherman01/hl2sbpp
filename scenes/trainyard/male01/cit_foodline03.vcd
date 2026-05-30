@@ -1,0 +1,125 @@
+ 0.7737 0.9536
+        1.0105 0.9964
+        10.5134 0.9978
+      }
+    }
+  }
+  channel "Postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 3.233333
+      param ""
+    }
+    event gesture "p_Step_Forward"
+    {
+      time 1.220000 8.119999
+      param "p_Step_Forward"
+      absolutetags playback_time
+      {
+        "apex" 0.077600
+        "loop" 0.344983
+        "end" 0.591337
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.126582
+        "loop" 0.411392
+        "end" 0.443038
+      }
+      sequenceduration 5.300000
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "g_High_Chop"
+    {
+      time 1.120000 4.277002
+      param "g_High_Chop"
+      event_ramp
+      {
+        0.4870 0.5651
+        0.5587 0.6608
+        0.6609 0.7406
+        0.7891 0.8071
+        1.8332 0.7965
+        2.3832 0.5161
+        2.4876 0.4363
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.185693
+        "accent" 0.351663
+        "loop" 0.427201
+        "end" 0.790398
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.206897
+        "accent" 0.396552
+        "loop" 0.517241
+        "end" 0.603448
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "g_Fist"
+    {
+      time 3.000000 5.546666
+      param "g_Fist"
+      event_ramp
+      {
+        0.6263 0.7000
+        0.8109 0.8071
+        1.0737 0.8607
+        1.7736 0.7527
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.241605
+        "accent" 0.361437
+        "loop" 0.441325
+        "end" 0.507899
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.258621
+        "accent" 0.413793
+        "loop" 0.517241
+        "end" 0.603448
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "NULL"
+    {
+      time 0.000000 1.873333
+      param ""
+    }
+  }
+  channel "BodyGestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.833333
+      param ""
+    }
+    event gesture "g_Send_Cart"
+    {
+      time 5.326666 7.246665
+      param "g_Send_Cart"
+      event_ramp
+      {
+        0.2426 0.7394
+        0.2936 0.7766
+        0.3638 0.7952
+        1.2289 0.8218
+        1.3348 0.8112
+        1.4007 0.7766
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.239104
+        "accent" 0.327407
+        "loop" 0.592313
+        "end" 0.600694
+      }
+      absolutetags shifted_

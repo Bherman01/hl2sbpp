@@ -1,0 +1,115 @@
+ram "NPC_MetroPolice.Radio.Off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Hey it worked"
+    {
+      time 9.253332 10.832470
+      param "novaprospekt.radiostatic_15"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Hey it worked"
+    {
+      time 8.266666 9.474422
+      param "novaprospekt.radiostatic_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Hey it worked"
+    {
+      time 7.520000 7.891564
+      param "novaprospekt.radiostatic_2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Hey it worked"
+    {
+      time 6.026667 6.862948
+      param "novaprospekt.radiostatic_6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Hey it worked"
+    {
+      time 4.480000 4.851564
+      param "novaprospekt.radiostatic_2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face to"
+  {
+    event face "mark_alyx_lookat_secroom_console_1"
+    {
+      time 7.644444 21.793333
+      param "mark_alyx_lookat_secroom_console_1"
+      event_ramp
+      {
+        0.1880 0.9922
+        14.0960 0.9870
+      }
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "25"
+  "ExpressionTool" "24"
+  "GestureTool" "100"
+  "RampTool" "38"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "loop"
+{
+  time 16.133335 -1.000000
+  param "0.900000"
+  loopcount "-1"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "mark_alyx_lookat_secroom_console_1"
+    {
+      time 1.044446 4.201514
+      param "mark_alyx_lookat_secroom_console_1"
+      event_ramp
+      {
+        0.4120 0.6724
+        0.5520 0.7960
+        0.6800 0.8283
+        1.9142 0.8363
+        2.4622 0.8343
+        2.5951 0.8132
+        2.8091 0.6001
+      }
+    }
+    event lookat "mark_alyx_lookat_secroom_consoleside"
+    {
+      time 9.540405 11.532321
+      param "mark_alyx_lookat_secroom_consoleside"
+      event_ramp
+      {
+        0.6100 0.6427
+        0.6360 0.6724
+        0.8200 0.7285
+        1.2732 0.7314
+        1.3333 0.7202
+      }
+    }
+    ev

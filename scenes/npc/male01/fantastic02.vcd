@@ -1,0 +1,37 @@
+  }
+    }
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time 0.006666 1.120000
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser"         combo        
+        {
+          0.2686 0.0000
+          0.4325 0.8200
+          0.7196 0.8900
+          1.0289 0.0000
+        }
+        {
+        }
+        "lid_tightener"         combo        
+        {
+          0.1051 1.0000
+          0.3866 0.0000
+          0.9689 0.0000
+        }
+        {
+        }
+        "inner_raiser"         combo        
+        {
+          0.3006 0.0000
+          0.4656 1.0000
+          0.9889 0.0000
+        }
+        {
+        }
+        "outer_

@@ -1,0 +1,40 @@
+enceduration 2.633333
+    }
+    active "0"
+  }
+  channel "gesture"
+  {
+    event gesture "point at tracks/peak"
+    {
+      time 0.074439 3.864701
+      param "buggy_point"
+      absolutetags playback_time
+      {
+        "in" 0.076442
+        "loop" 0.212339
+        "end" 0.718723
+        "out" 0.822914
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.169811
+        "loop" 0.471698
+        "end" 0.566038
+        "out" 0.716981
+      }
+      sequenceduration 1.333333
+    }
+    event gesture "A_g_buggy_lh_palmup"
+    {
+      time 5.452381 7.180953
+      param "A_g_buggy_lh_palmup"
+      absolutetags playback_time
+      {
+        "apex" 0.215778
+        "accent" 0.313860
+        "loop" 0.451777
+        "end" 0.477157
+      }
+      absolutetags shifted_time
+      {
+    

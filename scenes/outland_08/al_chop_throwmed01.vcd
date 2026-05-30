@@ -1,0 +1,35 @@
+no04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono09"
+    {
+      time 53.914833 64.143219
+      param "ep_02.gman_mono09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono10"
+    {
+      time 64.143234 66.685822
+      param "ep_02.gman_mono10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono12"
+    {
+      time 72.447685 77.196167
+      param "ep_02.gman_mono12"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono13"
+    {
+      time 77.473946 79.023880
+      param "ep_02.gman_mono13"
+      fixedlength
+      cctype "cc_maste

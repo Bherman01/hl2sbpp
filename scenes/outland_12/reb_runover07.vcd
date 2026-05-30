@@ -1,0 +1,47 @@
+0.4100
+          0.9077 0.4100
+          3.1000 0.4000
+          3.2765 0.4100
+          3.7176 0.5000
+          3.8353 0.5000
+        }
+        "blink" 
+        {
+          1.9923 0.0000
+          2.0769 1.0000
+          2.1308 0.4300
+          2.3077 0.0000
+          5.2000 0.0000
+          5.2538 1.0000
+          5.3154 0.3900
+          5.5077 0.0000
+          8.6000 0.0000
+          8.6538 0.9200
+          8.7231 0.2500
+          8.8154 0.0000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "84"
+  "ExpressionTool" "26"
+  "GestureTool" "100"
+  "RampTool" "36"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "!player"
+{
+  channel "Audio"
+  {
+    event speak "00_01_22"
+    {
+      time 0.000000 61.128799
+      param "outland_07.Advisor_

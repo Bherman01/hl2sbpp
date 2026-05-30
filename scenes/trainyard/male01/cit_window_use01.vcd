@@ -1,0 +1,21 @@
+e 3.850439 7.706663
+      param "g_Presenting"
+      event_ramp
+      {
+        0.4706 0.4879
+        0.9346 0.6811
+        1.1695 0.6972
+        1.9748 0.6918
+        2.4179 0.6543
+        2.7879 0.4638
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.140291
+        "accent" 0.301660
+        "loop" 0.521219
+        "end" 0.674985
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.17142

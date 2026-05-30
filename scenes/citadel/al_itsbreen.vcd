@@ -1,0 +1,41 @@
+am "!player"
+      event_ramp
+      {
+        0.5669 0.9586
+        2.5789 0.9513
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "player"
+    {
+      time 0.615361 2.462891
+      param "!player"
+      event_ramp
+      {
+        0.8400 0.9896
+        1.8476 1.0000
+        1.8476 1.0000
+      }
+    }
+  }
+  channel "Postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.178571
+      param ""
+    }
+    event gesture "accentdown_ext"
+    {
+      time 0.559524 3.635112
+      param "accentdown_ext"
+      event_ramp
+      {
+        0.3833 0.4800
+        1.2700 0.6109
+        1.4300 0.5964
+        1.9133 0.0218
+      }
+      a

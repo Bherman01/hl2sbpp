@@ -1,0 +1,25 @@
+
+        "end" 0.737542
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.176471
+        "accent" 0.250000
+        "loop" 0.441176
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 2.685186 2.806397
+      param ""
+    }
+    event gesture "g_mid_relaxed_fist_accent"
+    {
+      time 2.925452 6.494682
+      param "g_mid_relaxed_fist_accent"
+      event_ramp
+      {
+        0.7261 0.9666
+        0.9478 0.9894

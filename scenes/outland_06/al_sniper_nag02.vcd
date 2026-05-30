@@ -1,0 +1,51 @@
+
+    {
+      time 68.571426 70.871429
+      param "HG_forwardright"
+      event_ramp
+      {
+        0.2625 1.0000
+        1.9750 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "0"
+    {
+      time 66.488098 68.788101
+      param "HG_forwardright"
+      event_ramp
+      {
+        0.5562 0.6449
+        1.5875 0.6268
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    even

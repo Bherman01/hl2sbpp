@@ -1,0 +1,25 @@
+}
+      sequenceduration 2.966667
+    }
+    event gesture "A_bigshrug_g"
+    {
+      time 0.188812 3.538811
+      param "A_bigshrug_g"
+      event_ramp 
+      {
+        0.0000 1.0000
+        1.1652 0.9914
+        1.7842 0.8592
+        2.3474 0.2058
+        2.4842 0.0722
+        2.5105 0.0578
+        2.7105 0.0036
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.164179
+        "accent" 0.407960
+        "loop" 0.617594
+        "end" 0.718227
+      }
+      absolutetags shifted_

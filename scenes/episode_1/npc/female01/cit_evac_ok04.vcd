@@ -1,0 +1,26 @@
+nt gesture "NULL"
+    {
+      time 0.000000 1.690476
+      param ""
+    }
+    event gesture "b_head_forward"
+    {
+      time 4.494962 8.941329
+      param "b_head_forward"
+      event_ramp
+      {
+        0.4434 0.5353
+        3.8692 0.0683
+        4.1369 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.177570
+        "extreme" 0.911256
+        "loop" 0.921256
+        "end" 0.931256
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+      

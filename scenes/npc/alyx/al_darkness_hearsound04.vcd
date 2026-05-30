@@ -1,0 +1,36 @@
+     "end" 0.488946
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.190476
+        "extreme" 0.380952
+        "loop" 0.523810
+        "end" 0.523810
+      }
+      sequenceduration 0.733333
+    }
+    event gesture "accentup_ext"
+    {
+      time 16.055191 17.971857
+      param "accentup_ext"
+      event_ramp 
+      {
+        1.4233 0.6781
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.211210
+        "extreme" 0.369618
+        "loop" 0.739235
+        "end" 0.889855
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "accentup_

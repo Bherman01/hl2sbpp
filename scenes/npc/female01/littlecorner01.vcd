@@ -1,0 +1,20 @@
+   event gesture "NULL"
+    {
+      time 18.675766 19.422680
+      param ""
+    }
+    event gesture "hah"
+    {
+      time 14.395064 17.909353
+      param "A_g_fingptfwd"
+      event_ramp
+      {
+        0.3714 0.7460
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.119939
+        "accent" 0.225768
+        "loop" 0.431971
+        "end" 0.850660
+     

@@ -1,0 +1,44 @@
+low2side_palmsout"
+    {
+      time 1.946666 5.020000
+      param "A_g_low2side_palmsout"
+      absolutetags playback_time
+      {
+        "apex" 0.131779
+        "accent" 0.263557
+        "loop" 0.417299
+        "end" 0.578435
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      sequenceduration 2.700000
+    }
+    event gesture "A_g_rthdflipout"
+    {
+      time 5.149841 7.756507
+      param "A_g_rthdflipout"
+      event_ramp 
+      {
+        0.3674 0.9892
+        1.2744 0.9928
+        1.4326 0.9350
+        1.6028 0.8339
+        1.9977 0.4260
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.168130
+        "accent" 0.426790
+        "loop" 0.620786
+        "end" 0.658163
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147727
+        "accent" 0.375000
+        "l

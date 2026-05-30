@@ -1,0 +1,28 @@
+ace "face_console_R"
+    {
+      time 1.786667 5.620000
+      param "mark_look_tp_console_R"
+      event_ramp
+      {
+        1.1692 0.9766
+        3.8333 0.9922
+      }
+    }
+    event face "face_player"
+    {
+      time 9.333333 12.638378
+      param "!player"
+      event_ramp
+      {
+        0.8692 0.7117
+        2.3296 0.9948
+        3.3050 0.9974
+      }
+    }
+    event face "face_player"
+    {
+      time 13.552432 17.010990
+      param "!player"
+      event_ramp
+      {
+        0.8692 0.71

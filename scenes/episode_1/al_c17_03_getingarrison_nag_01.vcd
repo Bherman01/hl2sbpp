@@ -1,0 +1,55 @@
+
+  channel "faceTo"
+  {
+    event face "!player"
+    {
+      time 1.569892 2.940860
+      param "!player"
+      event_ramp 
+      {
+        0.3318 0.8631
+        0.4795 0.9917
+        0.8841 1.0000
+        1.2114 1.0000
+        1.3710 1.0000
+      }
+    }
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+    event interrupt "int"
+    {
+      time 2.989247 4.155914
+      param ""
+    }
+    event interrupt "int"
+    {
+      time 1.709677 2.231182
+      param ""
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bs

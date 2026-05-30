@@ -1,0 +1,26 @@
+
+      param "novaprospekt.br_overzealous"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\breen.mdl"
+}
+
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "oh my god..."
+    {
+      time 6.420000 7.185329
+      param "novaprospekt.al_ohmygod"
+      param2 "0.560"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "what's she up to?"
+    {
+ 

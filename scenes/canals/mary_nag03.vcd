@@ -1,0 +1,41 @@
+ {
+        "apex" 0.184211
+        "accent" 0.421053
+        "loop" 0.473684
+        "end" 0.473684
+      }
+      sequenceduration 1.300000
+    }
+  }
+  channel "head gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.700000
+      param ""
+    }
+    event gesture "1"
+    {
+      time 1.280257 2.464872
+      param "hg_puncuate_down"
+      event_ramp
+      {
+        0.4300 0.7817
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.346049
+        "extreme" 0.627213
+        "loop" 0.675876
+        "end" 0.735354
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.333333
+        "extreme" 0.541667
+        "loop" 0.562500
+        "end" 0.562500
+      }
+      sequenceduration 1.633333
+    }
+    event gestur

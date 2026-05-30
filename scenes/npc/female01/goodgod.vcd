@@ -1,0 +1,19 @@
+      "end" 0.669173
+        "out" 0.804511
+      }
+      sequenceduration 4.466667
+    }
+    event gesture "A_gesture07"
+    {
+      time 15.909091 21.156925
+      param "A_gesture07"
+      event_ramp
+      {
+        0.8250 0.6094
+        1.0200 0.6494
+        2.1050 0.6056
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.109267
+       

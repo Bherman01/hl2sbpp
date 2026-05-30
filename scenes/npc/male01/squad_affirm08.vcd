@@ -1,0 +1,47 @@
+
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "ow01"
+    {
+      time 0.006667 0.525193
+      param "npc_citizen.ow01"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 0.540001
+      param "!player"
+    }
+  }
+}
+
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "ow02"
+    {
+      time 0.006667 0.680749
+      param "npc_citizen.ow02"
+      param2 "75dB"
+      fixedlength

@@ -1,0 +1,69 @@
+ex" 0.135115
+        "h1" 0.260197
+        "h2" 0.435013
+        "accent" 0.514853
+        "loop" 0.768496
+        "end" 0.802992
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.121951
+        "h1" 0.224169
+        "h2" 0.265755
+        "accent" 0.341463
+        "loop" 0.597561
+        "end" 0.658537
+      }
+      sequenceduration 2.766667
+    }
+    event gesture "A_g_low2side_palmsout"
+    {
+      time 3.166649 5.381879
+      param "A_g_low2side_palmsout"
+      absolutetags playback_time
+      {
+        "apex" 0.220515
+        "accent" 0.448004
+        "loop" 0.658766
+        "end" 0.695566
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      sequenceduration 2.700000
+    }
+    event gesture "A_g_low2side_palmsout"
+    {
+      time 16.923855 18.909569
+      param "A_g_low2side_palmsout"
+      event_ramp 
+      {
+        0.4346 0.4218
+        1.0397 0.6403
+        1.7011 0.0621
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.203957
+        "accent" 0.407914
+        "loop" 0.645863
+        "end" 0.883813
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      sequenceduration 2.700000
+    }
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"

@@ -1,0 +1,52 @@
+316669
+      param "concentrategesture"
+      absolutetags playback_time
+      {
+        "in" 0.373621
+        "loop" 0.451178
+        "end" 0.474747
+        "out" 0.575758
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.286765
+        "loop" 0.360294
+        "end" 0.654412
+        "out" 0.727941
+      }
+      sequenceduration 4.566667
+    }
+    event gesture "console1"
+    {
+      time 14.062821 18.054052
+      param "consoleposture"
+      event_ramp 
+      {
+        0.3211 0.7136
+        0.6310 1.0000
+        3.9912 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.272545
+        "loop" 0.478523
+        "end" 0.647745
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.408163
+        "end" 0.561224
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "A_g_mid_2hdcutdwn"
+    {
+      time 16.000002 19.978573
+      param "A_g_mid_2hdcutdwn"
+      event_ramp 
+      {
+        0.3405 0.3162
+        0.6429 0.8316
+        1.1214 0.9759
+      

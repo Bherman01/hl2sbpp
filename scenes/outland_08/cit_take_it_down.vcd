@@ -1,0 +1,47 @@
+nt_ramp
+      {
+        0.5190 1.0000
+        3.6086 1.0000
+      }
+    }
+    event face "griggs"
+    {
+      time 5.614583 9.833334
+      param "griggs"
+      event_ramp
+      {
+        0.6121 0.5844
+        3.1765 0.5628
+      }
+    }
+    event lookat "lookat player"
+    {
+      time 9.462681 11.875001
+      param "!player"
+      event_ramp
+      {
+        0.5571 1.0000
+        1.8216 1.0000
+      }
+    }
+    event face "face player"
+    {
+      time 9.458334 11.844575
+      param "!player"
+      event_ramp
+      {
+        0.6121 0.5844
+        1.3440 0.5628
+      }
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 5.708333 8.289583
+      param "g_palm_up_high_l"
+      absolutetags playback_time
+      {
+        "apex" 0.191896
+        "accent" 0

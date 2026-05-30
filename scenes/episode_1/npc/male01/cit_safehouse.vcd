@@ -1,0 +1,25 @@
+03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_hastobeawayacross01"
+    {
+      time 16.904764 18.970932
+      param "ep_01.al_hastobeawayacross01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_hastobeawayacross02"
+    {
+      time 19.500000 20.344559
+      param "ep_01.al_hastobeawayacross02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    ev

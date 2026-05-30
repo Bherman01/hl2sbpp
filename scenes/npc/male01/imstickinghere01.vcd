@@ -1,0 +1,27 @@
+m "NULL"
+    }
+  }
+  channel "postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 2.011111
+      param "null1"
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 2.033333
+      param "NULL"
+    }
+  }
+  channel "trigger"
+  {
+    event firetrigger "1_NULL"
+    {
+      time 1.644444 -1.000000
+      param "1"
+    }
+  }

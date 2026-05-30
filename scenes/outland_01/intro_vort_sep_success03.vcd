@@ -1,0 +1,35 @@
+    "apex" 0.352941
+        "accent" 0.441176
+        "loop" 0.661765
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "E_g_chin_rub"
+    {
+      time 85.427353 90.838470
+      param "E_g_chin_rub"
+      absolutetags playback_time
+      {
+        "in" 0.246154
+        "loop" 0.567557
+        "end" 0.577557
+        "out" 0.695795
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.224490
+        "loop" 0.673469
+        "end" 0.673469
+        "out" 0.867347
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "Gesture03"
+    {
+      time 53.579140 56.229141
+      param "Gesture03"
+      absolutetags playback_time
+      {
+        "apex" 0.284925
+   

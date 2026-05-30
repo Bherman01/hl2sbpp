@@ -1,0 +1,22 @@
+110.243607
+      param "SS_eli_death_postI_hands"
+      playoverscript
+    }
+    event sequence "SS_eli_death_pre_hands"
+    {
+      time 68.538460 86.910255
+      param "SS_eli_death_pre_hands"
+      event_ramp
+      {
+        0.0000 1.0000
+        17.4400 0.9846
+      }
+      playoverscript
+    }
+  }
+  channel "head"
+  {
+    event gesture "a_bg_hdaccleft"
+    {
+      time 41.695415 43.995415
+      param "

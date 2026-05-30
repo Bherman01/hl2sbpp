@@ -1,0 +1,56 @@
+ {
+      time 5.555556 6.388889
+      param "!player"
+    }
+    event face "face bunk area"
+    {
+      time 1.500000 2.500000
+      param "ep2_03_al_bunks_faceto"
+    }
+  }
+  channel "triggers"
+  {
+    event firetrigger "alyx stop scripting"
+    {
+      time 9.683951 -1.000000
+      param "2"
+    }
+    event firetrigger "alyx start scripting"
+    {
+      time 0.981482 -1.000000
+      param "1"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "50"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "play sound"
+  {
+    event speak "gordon!"
+    {
+      time 0.014493 0.866376
+      param "ep_01.al_gordon"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face to"
+  {
+  }
+  channel "animation"
+  {
+  }
+  channel "te

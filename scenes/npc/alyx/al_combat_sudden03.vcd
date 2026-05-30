@@ -1,0 +1,25 @@
+   event face "mark_look_cit_venthole"
+    {
+      time 0.015875 1.753969
+      param "mark_look_cit_venthole"
+      event_ramp 
+      {
+        0.1786 0.4236
+        0.4119 0.7484
+        0.9690 1.0000
+        1.7381 0.9936
+      }
+    }
+    event face "alyx"
+    {
+      time 11.000001 14.523812
+      param "alyx"
+      event_ramp 
+      {
+        0.1786 0.4236
+        0.4119 0.7484
+        0.9690 1.0000
+        3.5238 0.9936
+      }
+    }
+    event face "alyx"

@@ -1,0 +1,62 @@
+        }
+        {
+          0.0665 0.5000
+          1.2244 0.5000
+          1.4865 0.5000
+        }
+        "corner_depressor" combo 
+        {
+          0.0665 0.0000
+          1.0600 0.0200
+          1.2244 0.0000
+          1.4865 0.0000
+        }
+        {
+          0.0665 0.5000
+          1.2244 0.5000
+          1.4865 0.5000
+        }
+        "mouth_sideways" range -1.0 1.0 
+        {
+          1.0743 0.4800
+          1.2371 0.5600 "curve_easein_to_curve_easeout"
+          1.3857 0.5300
+          1.4865 0.5000
+          1.6343 0.4100 "curve_easein_to_curve_easeout"
+          3.2821 0.3900 "curve_easein_to_curve_easeout"
+        }
+        "jaw_sideways" range -1.0 1.0 
+        {
+          1.0600 0.5000
+          1.1971 0.3800
+          1.3886 0.3300
+          1.4865 0.3600
+          1.6457 0.5000 "curve_easein_to_curve_easeout"
+          3.2714 0.5000 "curve_easein_to_curve_easeout"
+        }
+      }
+    }
+    event flexanimation "lips_smile"
+    {
+      time 25.929487 38.038460
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "upper_raiser" combo 
+        {
+          0.0665 0.0000
+          4.0528 0.0000
+        }
+        {
+          0.0665 0.5000
+          4.0528 0.5000
+        }
+        "corner_puller" combo 
+        {
+          0.0665 0.0000
+          3.7028 0.0600
+          4.0528 0.3321
+          4.2750 0.1600
+          4.7541 0.0600
+          5.2054 0.1600
+   

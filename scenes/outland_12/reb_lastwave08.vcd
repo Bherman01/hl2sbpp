@@ -1,0 +1,53 @@
+ength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.019380 2.563141
+      param "!player"
+    }
+  }
+  channel "face to"
+  {
+    event face "!player"
+    {
+      time 0.031008 2.561640
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "124"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_cmongord01"
+    {
+      time 0.248000 1.206345
+      param "ep_01.al_elev_letsgetout"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "A_g_buggy_lh_chop"
+    {
+      time -0.306667 1.660000
+      param "A_g_buggy_l

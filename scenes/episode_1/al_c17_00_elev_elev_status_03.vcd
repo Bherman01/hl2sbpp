@@ -1,0 +1,50 @@
+xt"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "46"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause till alyx is by dog"
+{
+  time 0.808642 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_02.al_str_dogthank"
+    {
+      time 0.129630 1.922578
+      param "ep_02.al_str_dogthank"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_str_gunship01"
+    {
+      time 2.308642 3.264674
+      param "ep_02.al_str_gunship01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_str_gunship02"
+    {
+      time 3.370371 4.815836
+      param "ep_02.al_str_gunship02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event spe

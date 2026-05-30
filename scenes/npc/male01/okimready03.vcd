@@ -1,0 +1,38 @@
+      {
+          0.4403 0.0000
+        }
+        {
+        }
+        "jaw_drop"        
+        {
+          0.4403 0.0000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "health03"
+    {
+      time 0.006667 0.741701
+      param "npc_citizen.health03"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "

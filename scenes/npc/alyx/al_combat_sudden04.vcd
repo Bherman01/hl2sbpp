@@ -1,0 +1,26 @@
+    {
+      time 104.058754 107.071449
+      param "alyx"
+      event_ramp 
+      {
+        0.6700 0.6352
+        1.1433 0.8327
+        2.1490 0.9771
+        2.5886 0.9943
+        2.9527 1.0000
+        3.0127 1.0000
+      }
+    }
+  }
+  channel "sequence"
+  {
+    event sequence "NULL"
+    {
+      time 55.088371 67.088371
+      param "E1_dogdoor"
+      fixedlength
+    }
+    event sequence "NULL"
+    {
+      time 45.225670 50.159004
+      param "E1_intro_dog_climb_b

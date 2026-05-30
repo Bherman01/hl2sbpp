@@ -1,0 +1,26 @@
+       0.8970 0.9856
+        1.0111 1.0000
+      }
+      lockbodyfacing
+    }
+    event face "mark_look_cit_venthole"
+    {
+      time 7.404763 9.142858
+      param "mark_look_cit_venthole"
+      event_ramp 
+      {
+        0.1786 0.3029
+        0.4392 0.6478
+        0.9690 0.9195
+        1.4182 1.0000
+        1.7381 0.9936
+      }
+    }
+    event face "Dog"
+    {
+      time 4.927459 7.102786
+      param "Dog"
+      event_ramp 
+      {
+        0.4533 0.4920
+        0.6818 0.7451

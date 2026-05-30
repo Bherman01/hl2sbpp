@@ -1,0 +1,29 @@
+
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "Facial Animation"
+    {
+      time 0.064516 2.596774
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "inner_raiser" combo 
+        {
+          0.4176 0.1800
+          0.5063 0.1900
+          2.0063 0.2200
+          2.1094 0.2100
+        }
+        {
+   

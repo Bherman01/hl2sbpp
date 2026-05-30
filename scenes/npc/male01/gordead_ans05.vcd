@@ -1,0 +1,33 @@
+     "cheek_raiser"         combo        
+        {
+          0.1476 0.7600
+          0.3535 0.9600
+          0.6529 0.8500
+          0.8379 0.1600
+        }
+        {
+        }
+        "part"         combo        
+        {
+          0.4403 0.0000
+          0.7306 0.4400
+        }
+        {
+        }
+        "jaw_drop"        
+        {
+          0.4403 0.0000
+          0.7306 0.4400
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "Sc

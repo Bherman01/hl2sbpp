@@ -1,0 +1,49 @@
+t lookat "look at map"
+    {
+      time 24.963764 30.408207
+      param "sawmill_briefing_lookat_map"
+      event_ramp
+      {
+        0.3929 0.9856
+        5.0540 0.9928
+      }
+    }
+    event lookat "look at sawmill_citizen_start_2"
+    {
+      time 32.842735 34.402252
+      param "sawmill_citizen_start_2"
+      event_ramp
+      {
+        0.3929 0.9856
+        1.1691 0.9928
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "face sawmill_citizen_start_briefer"
+    {
+      time 1.536905 25.750002
+      param "sawmill_citizen_start_briefer"
+      event_ramp
+      {
+        1.3500 0.9856
+        23.5583 0.9892
+      }
+      lockbodyfacing
+    }
+    event face "face briefer"
+    {
+      time 29.818926 34.402260
+      param "sawmill_citizen_start_briefer"
+      event_ramp
+      {
+        0.5143 0.9819
+        4.0786 0.9856
+      }
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "bg_accentUp"
+    {

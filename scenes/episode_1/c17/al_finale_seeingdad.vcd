@@ -1,0 +1,39 @@
+50606
+      param "!player"
+      event_ramp 
+      {
+        0.3104 0.6594
+        1.2474 0.6641
+      }
+    }
+    event lookat "player"
+    {
+      time 9.606687 11.758608
+      param "!player"
+      event_ramp 
+      {
+        0.5636 0.5879
+        0.8606 0.7487
+        1.3379 0.7638
+        1.6788 0.6030
+      }
+    }
+    event lookat "alyx"
+    {
+      time 11.377040 18.259766
+      param "alyx"
+      event_ramp 
+      {
+        0.6170 0.5226
+        0.9791 0.6935
+        1.3138 0.7035
+        5.9167 0.6985
+        6.2381 0.7035
+        6.5406 0.6834
+        6.6975 0.5327
+      }
+    }
+    event lookat "scanner"
+    {
+      time 18.027617 22.918961
+      param "sca

@@ -1,0 +1,36 @@
+nt_ramp
+      {
+        0.0040 0.9735
+        1.2040 0.9924
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 25.652380 28.102381
+      param ""
+    }
+    event gesture "A_bg_hroll"
+    {
+      time 26.869047 29.902380
+      param "A_bg_hroll"
+      event_ramp
+      {
+        0.0160 0.9924
+        1.1720 0.9886
+        1.7360 0.0189
+    

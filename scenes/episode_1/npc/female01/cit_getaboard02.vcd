@@ -1,0 +1,26 @@
+enceduration 1.800000
+    }
+    event gesture "NULL"
+    {
+      time 18.541668 19.041668
+      param ""
+    }
+    event gesture "b_head_back"
+    {
+      time 19.907055 23.681412
+      param "b_head_back"
+      event_ramp
+      {
+        0.2877 0.8430
+        0.3544 0.9386
+        0.5103 1.0000
+        1.7263 0.7850
+        2.2368 0.0410
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.103568
+        "extreme" 0.931043
+        "loop" 0.941043
+        "end" 0.954649
+     

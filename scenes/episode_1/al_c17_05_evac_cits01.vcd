@@ -1,0 +1,108 @@
+0 -1.000000
+  param "noaction"
+}
+event section "glass"
+{
+  time 20.283333 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_01.al_zombine_wth"
+    {
+      time 2.195680 3.692755
+      param "ep_01.al_zombine_wth"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_zombine_joke01"
+    {
+      time 4.582079 5.176954
+      param "ep_01.al_zombine_joke01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_zombine_joke02"
+    {
+      time 5.743695 6.996620
+      param "ep_01.al_zombine_joke02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_zombine_joke04"
+    {
+      time 8.123970 14.102088
+      param "ep_01.al_zombine_joke04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_zombine_getit02"
+    {
+      time 17.448383 18.621557
+      param "ep_01.al_zombine_getit02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_zombine_getit01"
+    {
+      time 14.618696 16.299059
+      param "ep_01.al_zombine_getit01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "mark_al_zombine02"
+    {
+      time 0.429979 5.887197
+      param "mark_al_zombine02"
+      event_ramp 
+      {
+        0.0000 1.0000
+        4.6845 0.9954
+        5.0604 0.6512
+        5.4572 0.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 11.243736 17.731462
+      param "!player"
+      event_ramp 
+      {
+        0.0100 0.0000
+        0.3577 0.6279
+        0.7308 1.0000
+        5.8266 1.0000
+        6.1423 0.6140
+        6.4876 0.0000
+      }
+    }
+    event lookat "self"
+    {
+      time 17.266436 21.139862
+      param "!self"
+      event_ramp 
+      {
+        0.4192 0.6326
+        0.8522 1.0000
+        3.8734 1.0000
+      }
+    }
+    event lookat "self"
+    {
+      time 5.393750 12.083332
+      param "!self"
+      event_ramp 
+      {
+        0.2647 0.6244
+        0.

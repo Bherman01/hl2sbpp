@@ -1,0 +1,32 @@
+   sequenceduration 1.966667
+    }
+    event gesture "2"
+    {
+      time 2.949743 5.416410
+      param "urgenthandsweep"
+      event_ramp
+      {
+        0.6037 0.5317
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.191781
+        "accent" 0.301370
+        "loop" 0.547945
+        "end" 0.616438
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.191781
+        "accent" 0.301370
+        "loop" 0.547945
+        "end" 0.616438
+      }
+      sequenceduration 2.466667
+    }
+  }
+  channel "body"
+  {
+    event gesture "NULL"
+    {
+      time 

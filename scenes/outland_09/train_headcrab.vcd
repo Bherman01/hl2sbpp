@@ -1,0 +1,62 @@
+{
+    event speak "vort_junc_go"
+    {
+      time 0.173334 0.794672
+      param "ep_02.vort_junc_go"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "alyx"
+    {
+      time 0.051283 1.621026
+      param "alyx"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "posture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.000000
+      param ""
+    }
+  }
+  channel "seq"
+  {
+  }
+  channel "bodygesture"
+  {
+  }
+  channel "headgesture"
+  {
+  }
+  channel "gesture"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "face"
+  {
+  }
+  channel "AI"
+  {
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+mapname "maps\ep1_citadel_00.bsp"
+scalesettings
+{
+  "CChoreoView" "50"
+  "ExpressionTool" "38"
+ 

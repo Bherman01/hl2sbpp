@@ -1,0 +1,73 @@
+0.4400
+          3.3094 0.5000
+          3.5808 0.4700
+          6.5929 0.5200
+          7.1099 0.5700
+          7.4073 0.4700
+          7.8209 0.5200
+          8.1312 0.5200
+          13.1728 0.5100
+          13.4701 0.5200
+          13.7674 0.7000
+          14.1423 0.4600
+          14.5560 0.4600
+          14.8663 0.5000
+        }
+      }
+    }
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 9.351376
+      param "!player"
+      event_ramp
+      {
+        0.3417 0.6746
+        0.8667 0.9921
+        8.1917 0.9841
+        8.9023 0.6944
+      }
+    }
+    event lookat "Lookatplayer"
+    {
+      time 13.506862 17.057257
+      param "!player"
+      event_ramp
+      {
+        0.3118 0.6706
+        0.8020 0.9960
+        3.1382 0.9881
+        3.4216 0.6190
+      }
+    }
+    event lookat "!target2"
+    {
+      time 8.313725 14.351373
+      param "!target2"
+      event_ramp
+      {
+        0.3882 0.5754
+        1.0245 0.9762
+        5.2123 0.9841
+        5.6676 0.6786
+      }
+    }
+  }
+  channel "posture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.715686
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.137255 8.447060
+      param "p_leanRight"
+      absolutetags playback_time
+      {
+        "apex" 0.130024
+        "loop" 0.475177
+       

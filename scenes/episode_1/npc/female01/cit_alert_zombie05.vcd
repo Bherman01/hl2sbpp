@@ -1,0 +1,32 @@
+000
+      param "1"
+    }
+    event firetrigger "Pause"
+    {
+      time 17.845982 -1.000000
+      param "2"
+    }
+  }
+  channel "Face"
+  {
+    event face "!player"
+    {
+      time 0.009614 14.474359
+      param "!player"
+      event_ramp
+      {
+        0.5940 0.7722
+        0.6760 0.8734
+        0.7820 0.9494
+        0.8900 0.9848
+        1.2020 1.0000
+        14.4648 1.0000
+      }
+    }
+    active "0"
+  }
+  channel "postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.7

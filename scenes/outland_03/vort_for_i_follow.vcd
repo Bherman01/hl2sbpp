@@ -1,0 +1,38 @@
+  0.9308 0.9833
+        4.6052 0.9866
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+    event face "alyx"
+    {
+      time 0.000114 5.022585
+      param "alyx"
+      event_ramp
+      {
+        0.5846 0.8258
+        0.7577 0.9545
+        1.0692 0.9962
+        5.0166 0.9962
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 4.993828
+      param ""
+    }
+    event gesture "M_p_submiss"
+    {
+      time 5.358025 18.296635
+      param "M_p_submiss"
+      absolutetags playback_time
+      {
+        "apex" 0.070269
+        "loo

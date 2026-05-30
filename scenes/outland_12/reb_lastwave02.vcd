@@ -1,0 +1,44 @@
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "Audio"
+  {
+    event speak "likeincitadel02"
+    {
+      time 3.629420 5.624091
+      param "ep_02.al_barn_likeincitadel02"
+      param2 ".6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "podslaunched01"
+    {
+      time 0.060314 0.877684
+      param "ep_02.al_barn_podslaunched01"
+      param2 ".6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "podslaunched02"
+    {
+      time 1.105029 3.152966
+      param "ep_02.al_barn_podslaunched02"
+      param2 ".6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 2.271318 5.615808
+      p

@@ -1,0 +1,1217 @@
+"
+  {
+    event gesture "E_bg_hshake"
+    {
+      time 26.711109 30.555555
+      param "E_bg_hshake"
+      event_ramp 
+      {
+        0.4955 0.5742
+        1.5227 0.6180
+        3.2339 0.5742
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.183479
+        "extreme" 0.376283
+        "loop" 0.534030
+        "end" 0.621667
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.161290
+        "extreme" 0.397849
+        "loop" 0.591398
+        "end" 0.698925
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "E_bg_arcbk_str_pod"
+    {
+      time 25.311111 27.677778
+      param "E_bg_arcbk_str_pod"
+      event_ramp 
+      {
+        0.0136 0.3895
+        0.8864 0.4807
+        2.3667 0.2421
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.128571
+        "extreme" 0.228571
+        "loop" 0.428571
+        "end" 0.571429
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.128571
+        "extreme" 0.228571
+        "loop" 0.428571
+        "end" 0.571429
+      }
+      sequenceduration 2.366667
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "facial"
+    {
+      time 4.911111 39.855556
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_tightener" combo 
+        {
+          19.6000 0.6100
+          20.0667 0.2400
+          20.6175 0.3600
+          20.9625 0.1577
+          21.6250 0.0000
+          22.6171 0.0000
+          22.8250 0.4300
+          23.6375 0.2800
+          24.4139 0.1900
+          24.9514 0.1900
+          25.8917 0.1900
+          26.3278 0.9100
+          26.7625 0.9366
+        }
+        {
+          19.6000 0.5000
+          20.0667 0.5000
+          20.6175 0.5000
+          21.3000 0.5000
+          21.6250 0.5000
+          22.6171 0.5000
+          22.7875 0.5000
+          22.8250 0.5000
+          23.6375 0.5000
+          24.4139 0.5000
+          24.9514 0.5000
+          25.8917 0.5000
+          26.3278 0.5000
+          26.7625 0.5000
+        }
+        "lid_closer" combo 
+        {
+          20.1750 0.0400
+          20.4550 1.0000
+          20.9250 0.2000
+          21.3000 0.0000
+          21.6250 0.0200
+          22.6171 0.0000
+          22.7875 1.0000
+          23.1250 0.0500
+          24.4139 1.0000
+          24.9514 0.1800
+          25.8917 0.1800
+          26.3278 0.6000
+          26.7625 0.6154
+        }
+        {
+          20.6175 0.5000
+          21.3000 0.5000
+          21.6250 0.5000
+          22.6171 0.5000
+          22.7875 0.5000
+          24.4139 0.5000
+          24.9514 0.5000
+          25.8917 0.5000
+          26.3278 0.5000
+          26.7625 0.5000
+        }
+        "inner_raiser" combo 
+        {
+          19.6000 0.5300
+          20.0667 0.7500
+          20.8050 0.7000
+          21.3000 0.8529
+          21.6250 0.8500
+          22.6171 0.7900
+          22.8250 0.7884
+          23.6375 0.7884
+          24.4139 0.6000
+          24.9514 0.9984
+          25.8917 0.9400
+          26.3278 0.7500
+          26.7625 0.7544
+        }
+        {
+          19.6000 0.5000
+          20.0667 0.5000
+          20.6175 0.5000
+          21.3000 0.5000
+          21.6250 0.5000
+          22.6171 0.5000
+          22.7875 0.5000
+          22.8250 0.5000
+          23.6375 0.5000
+          24.4139 0.5000
+          24.9514 0.5000
+          25.8917 0.5000
+          26.3278 0.5000
+          26.7625 0.5000
+        }
+        "outer_raiser" combo 
+        {
+          24.4139 0.2100
+          24.9514 0.3800
+          25.8917 0.3800
+          26.3278 0.0000
+          26.7625 0.0000
+        }
+        {
+          24.4139 0.5000
+          24.9514 0.5000
+          25.8917 0.5000
+          26.3278 0.5000
+          26.7625 0.5000
+        }
+        "lowerer" combo 
+        {
+          19.6000 0.6900
+          20.0667 0.4400
+          20.6175 0.6500
+          21.3000 0.2104
+          21.6250 0.2500
+          22.6171 0.1727
+          22.8250 0.7000
+          23.6375 0.4300
+          24.4139 0.0000
+          24.9514 0.0000
+          25.8917 0.0000
+          26.3278 0.3400
+          26.7625 0.3527
+        }
+        {
+          19.6000 0.5000
+          20.0667 0.5000
+          20.6175 0.5000
+          21.3000 0.5000
+          21.6250 0.5000
+          22.6171 0.5000
+          22.7875 0.5000
+          22.8250 0.5000
+          23.6375 0.5000
+          24.4139 0.5000
+          24.9514 0.5000
+          25.8917 0.5000
+          26.3278 0.5000
+          26.7625 0.5000
+        }
+        "cheek_raiser" combo 
+        {
+          19.6000 0.3900
+          20.0667 0.2300
+          20.6175 0.5400
+          21.3000 0.0000
+          21.6250 0.0000
+          22.6171 0.0129
+          22.8250 0.2500
+          23.6375 0.1800
+          24.4139 0.0800
+          24.9514 0.0800
+          25.8917 0.1900
+          26.3278 0.6600
+          26.7625 0.4592
+        }
+        {
+          19.6000 0.5000
+          20.0667 0.5000
+          20.6175 0.5000
+          21.3000 0.5000
+          21.6250 0.5000
+          22.6171 0.5000
+          22.7875 0.5000
+          22.8250 0.5000
+          23.6375 0.5000
+          24.4139 0.5000
+          24.9514 0.5000
+          25.8917 0.5000
+          26.3278 0.5000
+          26.7625 0.5000
+        }
+        "corner_puller" combo 
+        {
+          19.6000 0.0000
+          20.0667 0.0000
+          20.6175 0.0000
+          21.3000 0.0000
+          21.6250 0.0000
+          22.6171 0.0000
+          22.7875 0.0000
+          22.8250 0.0000
+          23.6375 0.0000
+          24.4139 0.0000
+          24.9514 0.0000
+          25.8917 0.0000
+          26.3278 0.0000
+          26.7625 0.0000
+        }
+        {
+          19.6000 0.5000
+          20.0667 0.5000
+          20.6175 0.5000
+          21.3000 0.5000
+          21.6250 0.5000
+          22.6171 0.5000
+          22.7875 0.5000
+          22.8250 0.5000
+          23.6375 0.5000
+          24.4139 0.5000
+          24.9514 0.5000
+          25.8917 0.5000
+          26.3278 0.5000
+          26.7625 0.5000
+        }
+        "corner_depressor" combo 
+        {
+          19.6000 0.4500
+          20.0667 0.3900
+          20.6175 0.3492
+          21.3000 0.3167
+          21.6250 0.5100
+          22.6171 0.7396
+          22.8250 0.7538
+          23.6375 0.7300
+          24.4139 0.5400
+          24.9514 0.7300
+          25.8917 0.5400
+          26.3278 0.8100
+          26.7625 0.8190
+        }
+        {
+          19.6000 0.5000
+          20.0667 0.5000
+          20.6175 0.5000
+          21.3000 0.5000
+          21.6250 0.5000
+          22.6171 0.5000
+          22.7875 0.5000
+          22.8250 0.5000
+          23.6375 0.5000
+          24.4139 0.5000
+          24.9514 0.5000
+          25.8917 0.5000
+          26.3278 0.5000
+          26.7625 0.5000
+        }
+        "chin_raiser" 
+        {
+          19.6000 0.2500
+          20.0667 0.3100
+          20.6175 0.0000
+          21.3000 0.0000
+          21.6250 0.0000
+          22.6171 0.0000
+          22.8250 0.4500
+          23.6375 0.2300
+          24.4139 0.2500
+          24.9514 0.0000
+          25.8917 0.0000
+          26.3278 0.2400
+          26.7625 0.2490
+        }
+        "jaw_drop" range 0.0 2.0 
+        {
+          19.6000 0.0000
+          20.0667 0.4300
+          20.6175 0.0000
+          21.3000 0.0000
+          21.6250 0.2400
+          22.6171 0.3029
+          22.8250 0.0000
+          23.6375 0.0000
+          24.4139 0.0400
+          24.9514 0.0000
+          25.8917 0.0000
+          26.3278 0.0400
+          26.7625 0.0399
+        }
+        "mouth_drop" combo 
+        {
+          19.6000 0.0000
+          20.0667 0.2200
+          20.6175 0.0000
+          21.3000 0.0000
+          21.6250 0.1400
+          22.6171 0.1067
+          22.8250 0.0000
+          23.6375 0.0000
+          24.4139 0.0000
+          24.9514 0.0000
+          25.8917 0.0000
+          26.3278 0.0000
+          26.7625 0.0000
+        }
+        {
+          19.6000 0.5000
+          20.0667 0.5000
+          20.6175 0.5000
+          21.3000 0.5000
+          21.6250 0.5000
+          22.6171 0.5000
+          22.7875 0.5000
+          22.8250 0.5000
+          23.6375 0.5000
+          24.4139 0.5000
+          24.9514 0.5000
+          25.8917 0.5000
+          26.3278 0.5000
+          26.7625 0.5000
+        }
+        "eyes_updown" range 30.0 -30.0 
+        {
+          22.5375 0.5000
+          22.6000 0.5000
+          22.7875 0.0000
+          24.0014 0.0000
+          24.0639 0.0000
+          24.2264 0.5000
+          24.2639 0.5000
+          25.7000 0.5000
+          25.8005 0.5000
+          25.9347 0.2900
+          26.0375 0.2700
+          26.7625 0.2800
+        }
+        "eyes_rightleft" range 30.0 -30.0 
+        {
+          22.5375 0.5000
+          22.6000 0.5000
+          22.7875 0.5500
+          22.9250 0.5600
+          24.0014 0.5917
+          24.0639 0.5917
+          24.2264 0.5000
+          24.2639 0.5000
+          25.6625 0.5100
+          25.8005 0.5000
+          25.9347 0.3700
+          26.0750 0.3700
+          26.7625 0.3800
+        }
+      }
+    }
+  }
+  channel "trigger"
+  {
+    event firetrigger "SS"
+    {
+      time 26.488890 -1.000000
+      param "4"
+    }
+  }
+  faceposermodel "models\eli.mdl"
+}
+
+actor "Kleiner"
+{
+  channel "look at"
+  {
+    event lookat "mark_look_mossmanmonitor_1"
+    {
+      time 4.322217 26.930555
+      param "mark_look_mossmanmonitor_1"
+      event_ramp 
+      {
+        0.9882 0.5328
+        13.4932 0.5815
+        21.6765 0.5401
+      }
+    }
+    event lookat "eli"
+    {
+      time 26.111111 38.122219
+      param "eli"
+      event_ramp 
+      {
+        0.5318 0.7348
+        6.7081 0.7981
+        9.5945 0.6691
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_k_watch_mossman_1"
+    {
+      time 0.177777 2.455555
+      param "mark_k_watch_mossman_1"
+      resumecondition
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "facial"
+    {
+      time 4.844445 39.788891
+      param ""
+    }
+  }
+  faceposermodel "U:\hl2\hl2\models\Eli.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "16"
+  "GestureTool" "100"
+  "RampTool" "44"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Kleiner"
+{
+  channel "audio"
+  {
+    event speak "kl_thatsinteresting01"
+    {
+      time 0.111111 1.402812
+      param "ep_02.leipzig.kl_thatsinteresting01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_thatsinteresting02"
+    {
+      time 1.548611 3.316502
+      param "ep_02.leipzig.kl_thatsinteresting02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  faceposermodel "models\kleiner.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Fisherman"
+{
+  channel "Audio"
+  {
+    event speak "fish_chanty01"
+    {
+      time 0.125000 5.851508
+      param "lostcoast.fish_chanty01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "body gesture"
+  {
+  }
+  channel "Head flex"
+  {
+  }
+  channel "Flex Facial"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "U:\dev\hl2\models\Barney.mdl"
+}
+
+mapname "maps\d2_lostcoast.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "SceneRampTool" "100"
+  "RampTool" "40"
+  "ExpressionTool" "8"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Fisherman"
+{
+  channel "Audio"
+  {
+    event speak "fish_chanty02"
+    {
+      time 0.125000 6.636587
+      param "lostcoast.fish_chanty02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "body gesture"
+  {
+  }
+  channel "Head flex"
+  {
+  }
+  channel "Flex Facial"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "U:\dev\hl2\models\Barney.mdl"
+}
+
+mapname "maps\d2_lostcoast.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "SceneRampTool" "100"
+  "RampTool" "40"
+  "ExpressionTool" "8"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Fisherman"
+{
+  channel "Audio"
+  {
+    event speak "fish_chanty03"
+    {
+      time 0.125000 5.251122
+      param "lostcoast.fish_chanty03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "body gesture"
+  {
+  }
+  channel "Head flex"
+  {
+  }
+  channel "Flex Facial"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "U:\dev\hl2\models\Barney.mdl"
+}
+
+mapname "maps\d2_lostcoast.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "SceneRampTool" "100"
+  "RampTool" "40"
+  "ExpressionTool" "8"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Fisherman"
+{
+  channel "Audio"
+  {
+    event speak "fish_cliffclimb01"
+    {
+      time 0.270833 2.698543
+      param "lostcoast.fish_cliffclimb01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look at"
+  {
+    event lookat "lookat player"
+    {
+      time 0.118333 2.812500
+      param "!player"
+      event_ramp
+      {
+        0.3100 0.6122
+        2.2717 0.6786
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "body gesture"
+  {
+  }
+  channel "Head flex"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.791667
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.291667 2.341666
+      param "HG_tiltback"
+      event_ramp
+      {
+        0.2350 0.8673
+        1.5550 0.7653
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.116192
+        "extreme" 0.215786
+        "loop" 0.431572
+        "end" 0.707071
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.145833
+        "extreme" 0.270833
+        "loop" 0.541667
+        "end" 0.770833
+      }
+      sequenceduration 1.633333
+    }
+  }
+  channel "Flex Facial"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "U:\dev\hl2\models\Barney.mdl"
+}
+
+mapname "maps\d2_lostcoast.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "SceneRampTool" "100"
+  "RampTool" "40"
+  "ExpressionTool" "8"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Fisherman"
+{
+  channel "Audio"
+  {
+    event speak "fish_cliffclimb02"
+    {
+      time 0.270833 2.187432
+      param "lostcoast.fish_cliffclimb02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look at"
+  {
+    event lookat "lookat player"
+    {
+      time 0.055833 2.500000
+      param "!player"
+      event_ramp
+      {
+        0.2850 0.6429
+        2.0400 0.7347
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "body gesture"
+  {
+  }
+  channel "Head flex"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.833333
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.312500 1.945833
+      param "HG_tiltback"
+      absolutetags playback_time
+      {
+        "apex" 0.145833
+        "extreme" 0.270833
+        "loop" 0.541667
+        "end" 0.770833
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.145833
+        "extreme" 0.270833
+        "loop" 0.541667
+        "end" 0.770833
+      }
+      sequenceduration 1.633333
+    }
+  }
+  channel "Flex Facial"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "U:\dev\hl2\models\Barney.mdl"
+}
+
+mapname "maps\d2_lostcoast.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "SceneRampTool" "100"
+  "RampTool" "40"
+  "ExpressionTool" "8"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Fisherman"
+{
+  channel "Audio"
+  {
+    event speak "fish_cliffclimb03"
+    {
+      time 0.270833 2.570765
+      param "lostcoast.fish_cliffclimb03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look at"
+  {
+    event lookat "lookat player"
+    {
+      time 0.055833 2.812500
+      param "!player"
+      event_ramp
+      {
+        0.3550 0.8520
+        2.2800 0.8673
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "body gesture"
+  {
+  }
+  channel "Head flex"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.750000
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.229167 2.258333
+      param "HG_tiltright"
+      event_ramp
+      {
+        0.2750 0.9949
+        1.5200 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.117385
+        "extreme" 0.218001
+        "loop" 0.436003
+        "end" 0.804124
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.145833
+        "extreme" 0.270833
+        "loop" 0.541667
+        "end" 0.791667
+      }
+      sequenceduration 1.633333
+    }
+  }
+  channel "Flex Facial"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "U:\dev\hl2\models\Barney.mdl"
+}
+
+mapname "maps\d2_lostcoast.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "SceneRampTool" "100"
+  "RampTool" "40"
+  "ExpressionTool" "8"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Fisherman"
+{
+  channel "Audio"
+  {
+    event speak "fish_watchitupthere"
+    {
+      time 0.270833 1.615005
+      param "lostcoast.fish_watchitupthere"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look at"
+  {
+    event lookat "lookat player"
+    {
+      time 0.097500 2.166666
+      param "!player"
+      event_ramp
+      {
+        0.2500 0.8316
+        1.6800 0.8980
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "body gesture"
+  {
+  }
+  channel "Head flex"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.687500
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.291667 1.925000
+      param "HG_tiltback"
+      event_ramp
+      {
+        0.2450 0.8673
+        1.1750 0.8571
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.145833
+        "extreme" 0.270833
+        "loop" 0.541667
+        "end" 0.770833
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.145833
+        "extreme" 0.270833
+        "loop" 0.541667
+        "end" 0.770833
+      }
+      sequenceduration 1.633333
+    }
+  }
+  channel "Flex Facial"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "U:\dev\hl2\models\Barney.mdl"
+}
+
+mapname "maps\d2_lostcoast.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "SceneRampTool" "100"
+  "RampTool" "40"
+  "ExpressionTool" "8"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Fisherman"
+{
+  channel "Audio"
+  {
+    event speak "fish_tooclose"
+    {
+      time 0.270833 3.275414
+      param "lostcoast.fish_tooclose"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look at"
+  {
+    event lookat "lookat player"
+    {
+      time 0.055833 3.520833
+      param "!player"
+      event_ramp
+      {
+        0.3300 0.8622
+        2.9400 0.8776
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "body gesture"
+  {
+  }
+  channel "Head flex"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.729167
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.229167 2.538889
+      param "HG_shake"
+      event_ramp
+      {
+        0.5100 0.5663
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.044197
+        "extreme" 0.073662
+        "loop" 0.589297
+        "end" 0.896873
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.062500
+        "extreme" 0.104167
+        "loop" 0.833333
+        "end" 0.854167
+      }
+      sequenceduration 1.633333
+    }
+    event gesture "2"
+    {
+      time 2.062500 3.695833
+      param "HG_tiltback"
+      event_ramp
+      {
+        0.2600 0.8776
+        1.2750 0.8622
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.145833
+        "extreme" 0.270833
+        "loop" 0.541667
+        "end" 0.770833
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.145833
+        "extreme" 0.270833
+        "loop" 0.541667
+        "end" 0.770833
+      }
+      sequenceduration 1.633333
+    }
+  }
+  channel "Flex Facial"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "U:\dev\hl2\models\Barney.mdl"
+}
+
+mapname "maps\d2_lostcoast.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "SceneRampTool" "100"
+  "RampTool" "40"
+  "ExpressionTool" "8"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Fisherman"
+{
+  channel "Audio"
+  {
+    event speak "fish_cough01"
+    {
+      time 0.125000 2.572619
+      param "lostcoast.fish_cough01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "body gesture"
+  {
+  }
+  channel "Head flex"
+  {
+  }
+  channel "Flex Facial"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "U:\dev\hl2\models\Barney.mdl"
+}
+
+mapnam

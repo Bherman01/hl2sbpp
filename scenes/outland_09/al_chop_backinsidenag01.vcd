@@ -1,0 +1,30 @@
+ime
+      {
+        "apex" 0.202703
+        "extreme" 0.401142
+        "loop" 0.507698
+        "end" 0.659921
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.085106
+        "extreme" 0.276596
+        "loop" 0.425532
+        "end" 0.638298
+      }
+      sequenceduration 1.600000
+    }
+    event gesture "2"
+    {
+      time 5.484848 7.978787
+      param "bg_up_r"
+      event_ramp
+      {
+        0.7389 0.3333
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.121118
+        "extreme" 0.292883
+        "loop" 0.388434
+        "

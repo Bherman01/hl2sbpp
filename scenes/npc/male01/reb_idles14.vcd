@@ -1,0 +1,57 @@
+
+        }
+      }
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.006667 0.633336
+      param "!player"
+      event_ramp
+      {
+        0.0271 0.2064
+        0.0593 0.5317
+        0.1070 0.9166
+        0.1314 0.9921
+        0.3259 1.0000
+        0.5045 1.0000
+        0.5465 0.7897
+        0.5756 0.5198
+        0.6053 0.2024
+      }
+    }
+  }
+  channel "head"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "212"
+  "RampTool" "172"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "ok02"
+    {
+      time 0.006667 0.651474
+      param "npc_citizen.ok02"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"

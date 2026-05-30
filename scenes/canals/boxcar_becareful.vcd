@@ -1,0 +1,318 @@
+oView" "34"
+  "ExpressionTool" "38"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "arlene post loop"
+{
+  time 3.666667 -1.000000
+  param "2.000000"
+  loopcount "-1"
+}
+actor "!Target1"
+{
+  channel "postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.500000
+      param ""
+    }
+    event gesture "arlene postidle"
+    {
+      time 0.104167 5.279167
+      param "p_arlene_postidle"
+      absolutetags playback_time
+      {
+        "apex" 0.130719
+        "loop" 0.325411
+        "end" 0.735845
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.294118
+        "loop" 0.588235
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+  }
+  faceposermodel "U:\HL2\release\dev\hl2\models\Humans\Group01\Female_01.mdl"
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "ExpressionTool" "36"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.500000
+      param ""
+    }
+    event gesture "arlene headup"
+    {
+      time 0.145833 2.945833
+      param "g_arlene_postidle_headup"
+      event_ramp
+      {
+        0.9567 1.0000
+        1.9333 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.344286
+        "accent" 0.430000
+        "loop" 0.521429
+        "end" 0.690000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.344828
+        "accent" 0.431034
+        "loop" 0.517241
+        "end" 0.689655
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.479167 2.395834
+      param "!player"
+      event_ramp
+      {
+        0.2400 0.2857
+        0.4700 0.6090
+        0.5767 0.6767
+        1.2633 0.7068
+        1.3667 0.6617
+        1.5800 0.3534
+      }
+    }
+  }
+  faceposermodel "U:\HL2\release\dev\hl2\models\Humans\Group01\Female_01.mdl"
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "ExpressionTool" "36"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Arrest_cit_female"
+{
+  channel "audio"
+  {
+    event speak "Stop it"
+    {
+      time 0.521075 1.744998
+      param "canals.arrest_getgoing"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time -0.006288 2.276620
+      param "!player"
+      event_ramp
+      {
+        0.4687 0.8826
+        0.6231 0.9921
+        1.5974 1.0000
+        1.7564 0.8983
+      }
+    }
+  }
+  channel "move to"
+  {
+    event sequence "NULL"
+    {
+      time 0.031447 3.273585
+      param "checkmalepost"
+    }
+  }
+  channel "faceTo"
+  {
+    event face "face player"
+    {
+      time 0.012578 2.059748
+      param "!player"
+      event_ramp
+      {
+        0.3359 0.2386
+        0.7513 0.2944
+        1.5717 0.2589
+      }
+    }
+  }
+  channel "seq."
+  {
+  }
+  channel "Postures"
+  {
+    event gesture "p_arrest_Upright"
+    {
+      time 0.000000 2.840881
+      param "p_arrest_Upright"
+      absolutetags playback_time
+      {
+        "apex" 0.197484
+        "loop" 0.337276
+        "end" 0.554611
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.204082
+        "loop" 0.408163
+        "end" 0.510204
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "NULL"
+    {
+      time 1.893082 2.393082
+      param ""
+    }
+  }
+  channel "bodygesture"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.813725
+      param ""
+    }
+    event gesture "urgenthandsweep"
+    {
+      time 0.452830 2.227674
+      param "urgenthandsweep"
+      event_ramp
+      {
+        0.0256 0.9442
+        1.0607 0.9594
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.266536
+        "accent" 0.390115
+        "loop" 0.507150
+        "end" 0.578080
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.191781
+        "accent" 0.301370
+        "loop" 0.547945
+        "end" 0.616438
+      }
+      sequenceduration 2.466667
+    }
+    event gesture "NULL"
+    {
+      time 1.974843 2.474843
+      param ""
+    }
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.373288 1.922864
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser"         combo        
+        {
+          0.0567 0.0000
+        }
+        {
+          0.0567 0.5000
+        }
+        "lid_tightener"         combo        
+        {
+          0.0567 0.2000
+          0.3870 0.3200
+        }
+        {
+          0.0567 0.5000
+        }
+        "lid_droop"         combo        
+        {
+          0.0567 0.0000
+        }
+        {
+          0.0567 0.5000
+        }
+        "inner_raiser"         combo        
+        {
+          0.0567 1.0000
+        }
+        {
+          0.0567 0.5000
+        }
+        "outer_raiser"         combo        
+        {
+          0.0567 0.0000
+        }
+        {
+          0.0567 0.5000
+        }
+        "lowerer"         combo        
+        {
+          0.1468 0.0900
+          0.4804 0.2800
+        }
+        {
+          0.0567 0.5000
+        }
+        "wrinkler"        
+        {
+          0.0567 0.3200
+          0.2936 0.6200
+          1.1142 0.6600
+        }
+        "dilator"        
+        {
+          0.0567 0.2000
+          0.5371 0.4700
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "U:\hl2\hl2\models

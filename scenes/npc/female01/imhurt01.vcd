@@ -1,0 +1,209 @@
+0.5000
+        }
+        "puckerer"         combo        
+        {
+          8.2716 0.0300
+          8.6487 0.1800
+          9.1953 0.1800
+          9.6445 0.0000
+          11.6699 0.0000
+          12.1402 0.1800
+          13.0874 0.2800
+          14.0798 0.2700
+          14.6985 0.0400
+        }
+        {
+          8.6487 0.5000
+          9.1953 0.5000
+          9.6445 0.5000
+          11.6699 0.5000
+          12.1402 0.5000
+        }
+        "presser"        
+        {
+          12.0281 0.1300
+          12.3856 0.7900
+          13.1849 0.0700
+        }
+        "jaw_drop"        
+        {
+          13.0657 0.0000
+          13.6717 0.5000
+          13.9979 0.5000
+          14.4174 0.0000
+        }
+        "mouth_drop"         combo        
+        {
+          13.0657 0.0000
+          13.6717 0.3600
+          13.9979 0.0000
+          14.4174 0.0000
+        }
+        {
+          13.0657 0.5000
+          13.6717 0.5000
+          13.9979 0.5000
+          14.4174 0.5000
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "Trigger_SS_jumpdown"
+    {
+      time 1.240522 -1.000000
+      param "1"
+    }
+    event firetrigger "trigger_EMP_sec_door_1"
+    {
+      time 16.580585 -1.000000
+      param "2"
+    }
+    event generic "holster"
+    {
+      time 0.041274 0.541274
+      param "AI_HOLSTER"
+    }
+  }
+  channel "faceTo"
+  {
+    active "0"
+  }
+  faceposermodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d2_prison\int_room_working_jtn.bsp"
+scalesettings
+{
+  "CChoreoView" "47"
+  "SceneRampTool" "100"
+  "RampTool" "66"
+  "ExpressionTool" "48"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause elevator"
+{
+  time 2.293333 -1.000000
+  param "noaction"
+}
+event stoppoint "stop"
+{
+  time 18.426668 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "get ready"
+    {
+      time 16.400003 17.448574
+      param "novaprospekt.al_elevator03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "so much for surprise"
+    {
+      time 3.386668 14.831679
+      param "novaprospekt.al_flyingblind"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look_elevator_door"
+    {
+      time 17.439999 20.393337
+      param "mark_alyx_look_elevator_1"
+      event_ramp
+      {
+        0.2280 0.6041
+        0.3740 0.8258
+        0.4860 0.9394
+        0.5980 0.9848
+        2.9533 1.0000
+      }
+    }
+    event lookat "look_player"
+    {
+      time 6.346669 15.860003
+      param "!player"
+      event_ramp
+      {
+        0.2880 0.5341
+        0.4600 0.7851
+        0.6280 0.9280
+        0.7780 0.9811
+        9.1520 0.9886
+        9.2654 0.9026
+        9.3420 0.6970
+      }
+    }
+    event lookat "!player"
+    {
+      time 16.240002 18.233337
+      param "!player"
+      event_ramp
+      {
+        0.3640 0.8788
+        0.5120 0.9785
+        0.8600 0.9659
+        1.8700 0.9167
+        1.9933 0.9056
+      }
+    }
+    event lookat "look_elevator_door"
+    {
+      time 5.200000 6.953336
+      param "mark_alyx_look_elevator_1"
+      event_ramp
+      {
+        0.1920 0.7348
+        0.2480 0.8712
+        0.2940 0.9406
+        0.3860 0.9886
+        1.7533 1.0000
+      }
+    }
+    event lookat "look_player"
+    {
+      time 0.053337 1.593336
+      param "!player"
+      event_ramp
+      {
+        0.1780 0.7813
+        0.3040 0.9318
+        1.5400 0.9026
+      }
+    }
+    event lookat "look_elevator_door"
+    {
+      time 15.146667 16.900003
+      param "mark_alyx_look_elevator_1"
+      event_ramp
+      {
+        0.1920 0.7348
+        0.2480 0.8712
+        0.2940 0.9406
+        0.3860 0.9886
+        1.7533 1.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 2.213334 5.513336
+      param "!player"
+      event_ramp
+      {
+        0.3640 0.8788
+        0.5120 0.9785
+        0.8600 0.9659
+        3.1767 0.9167
+        3.3000

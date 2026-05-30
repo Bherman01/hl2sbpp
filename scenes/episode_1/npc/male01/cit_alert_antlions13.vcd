@@ -1,0 +1,26 @@
+p" 0.508777
+        "end" 0.625000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_G_throwhdsdown"
+    {
+      time 18.637529 22.178787
+      param "A_G_throwhdsdown"
+      event_ramp 
+      {
+        0.0000 0.3811
+        3.5412 0.1261
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.175966
+        "accent" 0.389587
+  

@@ -1,0 +1,33 @@
+  {
+          0.0000 0.1100 "curve_linear_interp_to_curve_linear_interp"
+          2.9896 0.1100
+        }
+        "jaw_drop" 
+        {
+          0.0000 0.2200 "curve_linear_interp_to_curve_linear_interp"
+          2.9896 0.2200 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "mouth_drop" combo 
+        {
+          0.0000 0.6500 "curve_linear_interp_to_curve_linear_interp"
+          2.9896 0.6500 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+          2.9896 0.5000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "smile" 
+        {
+          0.0000 0.0000
+          2.9896 0.0000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "RampTool" "100"
+  "ExpressionTool" "26"

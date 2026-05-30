@@ -1,0 +1,90 @@
+heckley"
+    {
+      time 11.618193 14.162082
+      param "!target2"
+      event_ramp
+      {
+        0.1211 0.3204
+        0.4649 0.5853
+        2.0505 0.6273
+        2.3493 0.3481
+      }
+    }
+    event lookat "player"
+    {
+      time 3.024444 5.891250
+      param "!player"
+      event_ramp
+      {
+        0.1211 0.3204
+        0.4649 0.5853
+        2.3735 0.6273
+        2.6723 0.3481
+      }
+    }
+    event lookat "self"
+    {
+      time 9.420278 11.245416
+      param "!self"
+      event_ramp
+      {
+        0.1211 0.3204
+        0.4649 0.5853
+        1.3318 0.6273
+        1.6306 0.3481
+      }
+    }
+    event lookat "player"
+    {
+      time 18.851828 20.604048
+      param "!player"
+      event_ramp
+      {
+        0.1211 0.3204
+        0.4649 0.5853
+        1.2589 0.6273
+        1.5577 0.3481
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+    event firetrigger "they're coming!"
+    {
+      time 9.333333 -1.000000
+      param "4"
+    }
+  }
+}
+
+actor "!target2"
+{
+  channel "audio"
+  {
+    event speak "sheckley_dontcount01"
+    {
+      time 12.819444 13.710442
+      param "ep_02.sheckley_dontcount01"
+      param2 "0.750"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "vort"
+    {
+      time 1.3

@@ -1,0 +1,21 @@
+2399 24.559065
+      param "A_g_hdclasp"
+      absolutetags playback_time
+      {
+        "in" 0.138363
+        "loop" 0.305430
+        "end" 0.842541
+        "out" 0.892265
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.150538
+        "loop" 0.580645
+        "end" 0.709677
+        "out" 0.806452
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "A_g_midhigh_arcout"
+    {
+    

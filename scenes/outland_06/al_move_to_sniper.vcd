@@ -1,0 +1,82 @@
+80
+      param "ep_02.gman_mono13_null"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.gman_mono11"
+    {
+      time 66.694443 72.400749
+      param "ep_02.gman_mono11_null"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "postures"
+  {
+    event gesture "0"
+    {
+      time 62.317467 73.561913
+      param "posture_leanright"
+      event_ramp
+      {
+        0.4625 0.6087
+        0.8249 0.6703
+        1.1187 0.6703
+        9.9028 0.6703
+        10.2090 0.6703
+        10.6215 0.6014
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.069136
+        "loop" 0.106173
+        "end" 0.920575
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.185185
+        "loop" 0.462963
+        "end" 0.787037
+      }
+      sequenceduration 3.633333
+    }
+    event gesture "2"
+    {
+      time 72.702385 76.669052
+      param "posture_leanback"
+      absolutetags playback_time
+      {
+        "apex" 0.169623
+        "loop" 0.424058
+        "end" 0.747721
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.185185
+        "loop" 0.462963
+        "end" 0.787037
+      }
+      sequenceduration 3.633333
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 64.348740 80.970879
+      param "g_fingers_together"
+      absolutetags playback_time
+      {
+        "apex" 0.010112
+        "accent" 0.060671
+        "loop" 0.091006
+        "end" 0.956304
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.042373
+        "accent" 0.254237
+        "loop" 0.381356
+        "end" 0.593220

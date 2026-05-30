@@ -1,0 +1,165 @@
+reunion"
+      fixedlength
+    }
+  }
+  channel "posture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 4.322222
+      param ""
+    }
+    event gesture "posture02"
+    {
+      time 7.577778 11.977778
+      param "posture02"
+      absolutetags playback_time
+      {
+        "apex" 0.229008
+        "loop" 0.419847
+        "end" 0.648855
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.229008
+        "loop" 0.419847
+        "end" 0.648855
+      }
+      sequenceduration 4.400000
+    }
+    event gesture "NULL"
+    {
+      time 80.688889 81.188889
+      param ""
+    }
+    event gesture "dog_call"
+    {
+      time 81.755547 85.511101
+      param "dog_call"
+      absolutetags playback_time
+      {
+        "apex" 0.268858
+        "loop" 0.528753
+        "end" 0.600448
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.291262
+        "loop" 0.572816
+        "end" 0.650485
+      }
+      sequenceduration 3.466667
+    }
+    event gesture "NULL"
+    {
+      time 11.866667 14.988889
+      param ""
+    }
+    event gesture "posture04"
+    {
+      time 12.955556 21.300001
+      param "posture04"
+      absolutetags playback_time
+      {
+        "apex" 0.120721
+        "loop" 0.221323
+        "end" 0.829333
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.220588
+        "loop" 0.404412
+        "end" 0.625000
+      }
+      sequenceduration 4.566667
+    }
+    event gesture "NULL"
+    {
+      time 20.244446 22.722223
+      param ""
+    }
+    event gesture "posture05"
+    {
+      time 21.911114 27.744446
+      param "posture05"
+      absolutetags playback_time
+      {
+        "apex" 0.172768
+        "loop" 0.299464
+        "end" 0.847258
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "NULL"
+    {
+      time 28.296299 30.574076
+      param ""
+    }
+    event gesture "posture05"
+    {
+      time 31.666666 40.281479
+      param "posture05"
+      absolutetags playback_time
+      {
+        "apex" 0.116933
+        "loop" 0.214377
+        "end" 0.810762
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "NULL"
+    {
+      time 38.851852 41.500000
+      param ""
+    }
+    event gesture "posture03"
+    {
+      time 41.222221 55.333332
+      param "posture03"
+      event_ramp
+      {
+        0.0111 0.6667
+        0.0556 0.6705
+        0.3556 0.6667
+        1.9611 0.6402
+        12.8500 0.6288
+        13.4611 0.6212
+        14.0389 0.6174
+        14.0834 0.6136
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.071391
+        "loop" 0.130884
+        "end" 0.846698
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.222222
+        "loop" 0.407407
+        "end" 0.629630
+      }
+      sequenceduration 4.533333
+    }
+    event gesture "NULL"
+    {
+      time 55.370373 61.166672
+      param ""
+    }
+    event gesture "posture05"
+    {
+      time 56.962963 66.600807
+      param "posture05"
+      absoluteta

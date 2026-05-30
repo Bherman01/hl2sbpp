@@ -1,0 +1,38 @@
+01b"
+      param2 "Walk"
+    }
+    event moveto "mark_kleiner_01c"
+    {
+      time 26.701336 28.173252
+      param "mark_kleiner_01c"
+      param2 "Walk"
+    }
+    event moveto "mark_kleiner_keyboard_1b"
+    {
+      time 58.863907 63.839470
+      param "mark_kleiner_keyboard_1b"
+      param2 "Walk"
+      resumecondition
+    }
+  }
+  channel "Posture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.772727
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 12.395560 14.940406
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 45.177776 50.611111
+      param ""
+    }
+    event gesture "typingposture"
+    {
+      time 50.888889 57.755554
+      param "typingpost

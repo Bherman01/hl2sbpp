@@ -1,0 +1,35 @@
+     11.8914 0.5000
+          12.0409 0.5000
+          12.1731 0.1200
+          12.2507 0.1100
+          12.3647 0.0900
+          12.4251 0.1200
+          12.5027 0.4900
+          12.5630 0.5100
+          12.6665 0.5000
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "1 - trigger_open_door"
+    {
+      time 10.482964 -1.000000
+      param "1"
+    }
+    event firetrigger "2_cit walks"
+    {
+      time 3.125925 -1.000000
+      param "2"
+    }
+    event firetrigger "3 - pause mossy"
+    {
+      time 2.118519 -1.000000
+      param "3"
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\mossman.mdl"
+}
+
+scalese

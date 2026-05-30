@@ -1,0 +1,35 @@
+
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.181818
+        "accent" 0.397727
+        "loop" 0.568182
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "A_g_leftsweepoutbig"
+    {
+      time 52.904758 55.960312
+      param "A_g_leftsweepoutbig"
+      absolutetags playback_time
+      {
+        "apex" 0.186529
+        "accent" 0.398964
+        "loop" 0.602597
+        "end" 0.735065
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.119048
+        "accent" 0.452381
+        "loop" 0.571429
+        "end" 0.714286
+      }
+      sequenceduration 2.833333
+    }
+    event gesture "A_g_mid_palmpushout"
+    {
+      time 56.777779 59.411114
+      param "A_g_m

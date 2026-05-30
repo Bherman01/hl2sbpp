@@ -1,0 +1,182 @@
+5000
+          4.0063 0.5000
+          4.2743 0.5000
+          5.1674 0.5000
+          6.2073 0.5000
+          6.9070 0.5000
+          7.1445 0.5000
+          7.4275 0.5000
+          8.2363 0.5000
+          9.1084 0.5000
+          9.4195 0.5000
+          10.0640 0.5000
+          10.8551 0.5000
+          11.1818 0.5000
+          11.7274 0.5000
+          12.3290 0.5000
+          12.8865 0.5000
+          13.0524 0.5000
+          13.5191 0.5000
+          15.1857 0.5000
+          15.3635 0.5000
+          15.8968 0.5000
+          16.4237 0.5000
+          17.8706 0.5000
+          18.3415 0.5000
+          18.6005 0.5000
+          19.0895 0.5100
+          19.3830 0.5100
+          20.0379 0.5100
+          20.2379 0.5000
+          20.7935 0.5000
+        }
+        "lid_tightener" combo 
+        {
+          3.5244 0.0400
+          3.9365 0.3900
+          4.1766 0.3900
+          6.2597 0.3900
+          6.4651 0.3900
+          7.3743 0.0000
+          10.7506 0.0000
+          11.0198 0.0000
+          11.2588 0.4700
+          11.4517 0.6600
+          11.9961 0.7000
+          12.6431 0.6500
+          12.8823 0.5100
+          13.1069 0.0300
+        }
+        {
+          3.9365 0.5000
+        }
+      }
+    }
+  }
+  channel "trigger"
+  {
+    event firetrigger "3 - attack"
+    {
+      time 19.073656 -1.000000
+      param "3"
+    }
+  }
+  faceposermodel "models\mossman.mdl"
+}
+
+actor "Alyx"
+{
+  channel "Audio"
+  {
+    event speak "ep_01.al_postcore_whereisshe"
+    {
+      time 25.620342 26.905853
+      param "ep_01.al_postcore_whereisshe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "LookAt"
+  {
+    event lookat "mark_look_big_datascreen_1"
+    {
+      time 0.111111 33.668056
+      param "mark_look_big_datascreen_1"
+      event_ramp 
+      {
+        0.3318 0.6244
+        0.6611 0.9956
+        32.6612 1.0000
+        33.2029 0.5317
+      }
+    }
+  }
+  channel "faceto"
+  {
+    event face "mark_look_big_datascreen_1"
+    {
+      time 0.083334 33.705555
+      param "mark_look_big_datascreen_1"
+      event_ramp 
+      {
+        0.9273 0.9951
+        32.6763 0.9902
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.500000
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.229167 25.925001
+      param "A_P_left_lean_rtfootout"
+      absolutetags playback_time
+      {
+        "apex" 0.039221
+        "loop" 0.067983
+        "end" 0.957861
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "1"
+    {
+      time 24.854168 29.154169
+      param "A_P_rt_leanbk"
+      absolutetags playback_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      sequenceduration 4.300000
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time -0.041667 0.458333
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.625000 25.829168
+      param "A_g_armscrossed"
+      absolutetags playback_time
+      {
+        "in" 0.032253
+        "loop" 0.062024
+        "end" 0.960265
+        "out" 0.977483
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.155556
+        "loop" 0.444444
+        "end" 0.566667
+        "out" 0.722222
+      }
+      sequenceduration 3.033333
+    }
+    event gesture "3"
+    {
+      time 25.104168 28.070835
+      pa

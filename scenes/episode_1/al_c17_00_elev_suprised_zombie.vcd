@@ -1,0 +1,34 @@
+   param "ep_02.al_shaft_soundsgood01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_shaft_soundsgood02"
+    {
+      time 192.004318 193.246262
+      param "ep_02.al_shaft_soundsgood02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_shaft_eyes"
+    {
+      time 197.581573 199.193634
+      param "ep_02.al_shaft_eyes"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_shaft_gordonokay"
+    {
+      time 202.576080 205.652222
+      param "ep_02.al_shaft_gordonokay"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_shaft_sigh"
+    {
+      time 205.823700 207.152161
+      param "ep_02.al_shaft_sigh"
+      fixed

@@ -1,0 +1,50 @@
+     0.5111 0.2600
+          0.9556 0.1500
+          1.4960 0.1217
+          1.8404 0.0600
+          2.1212 0.0577
+          3.8485 0.0577
+          3.9818 0.0577
+          4.2222 0.0577
+          4.7333 0.0577
+          5.8444 0.0000
+          6.5333 0.0000
+        }
+      }
+    }
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "176"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "52"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_01.al_stalk_okletsgetoutofhere"
+    {
+      time 0.424241 2.025828
+      param "ep_01.al_tunnel_surface"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lo

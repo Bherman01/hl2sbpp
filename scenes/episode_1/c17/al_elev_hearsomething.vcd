@@ -1,0 +1,44 @@
+"gman_look_02"
+    }
+    event lookat "gman_look_01"
+    {
+      time 4.032256 6.451613
+      param "gman_look_01"
+    }
+    event lookat "alyx_01"
+    {
+      time 2.215054 4.080645
+      param "alyx_01"
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "HG_headback"
+    {
+      time 0.000000 6.440859
+      param "HG_headback"
+      absolutetags playback_time
+      {
+        "apex" 0.118936
+        "extreme" 0.165187
+        "loop" 0.198227
+        "end" 0.383980
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.

@@ -1,0 +1,20 @@
+"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "dadimnot02"
+    {
+      time 81.690773 82.540634
+      param "ep_02.al_launch_dadimnot02"
+      param2 "0.350"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "lookout01"
+    {
+      time 83.522453 84.850456
+      param "ep_02.al_launch_lookout01"
+      param2 "0.350"
+      fixedlengt

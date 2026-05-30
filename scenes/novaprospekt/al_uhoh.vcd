@@ -1,0 +1,130 @@
+param "A_bigshrug_g"
+      event_ramp
+      {
+        0.0143 0.5610
+        0.0571 0.5819
+        0.9859 0.5993
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.202161
+        "accent" 0.435055
+        "loop" 0.640244
+        "end" 0.651957
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.181818
+        "accent" 0.397727
+        "loop" 0.568182
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "A_g_rthd_selfpoint"
+    {
+      time 39.755558 43.226475
+      param "A_g_rthd_selfpoint"
+      event_ramp
+      {
+        0.4905 0.1115
+        0.9905 0.9059
+        1.1222 0.9900
+        1.2333 0.9799
+        1.3963 0.9064
+        1.7963 0.8395
+        1.9815 0.8227
+        2.2635 0.7503
+        2.7492 0.6167
+        3.2040 0.5923
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.154235
+        "accent" 0.282765
+        "hold" 0.544872
+        "loop" 0.660256
+        "end" 0.769231
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.159091
+        "accent" 0.363636
+        "hold" 0.505429
+        "loop" 0.545455
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "A_g_rthdflipout"
+    {
+      time 41.222225 43.988892
+      param "A_g_rthdflipout"
+      event_ramp
+      {
+        0.0048 0.0000
+        0.3048 0.0627
+        0.4690 0.1568
+        0.6190 0.2753
+        0.7500 0.3868
+        0.8905 0.5749
+        1.1286 0.9547
+        1.3310 0.8920
+        1.4167 0.8188
+        1.4619 0.7770
+        1.7429 0.5505
+        1.9952 0.4007
+        2.3238 0.2683
+        2.7476 0.1115
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.225806
+        "accent" 0.402930
+        "loop" 0.536966
+        "end" 0.658817
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147727
+        "accent" 0.375000
+        "loop" 0.545455
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "NULL"
+    {
+      time 40.955555 44.855556
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 62.392597 65.544449
+      param ""
+    }
+    event gesture "A_gesture11"
+    {
+      time 72.000000 74.804596
+      param "A_gesture11"
+      absolutetags playback_time
+      {
+        "apex" 0.216677
+        "accent" 0.361129
+        "hd1" 0.413607
+        "loop" 0.481505
+        "end" 0.659182
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.230769
+        "accent" 0.384615
+        "hd1" 0.404811
+        "loop" 0.512821
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "A_g_cutoutpdwn"
+    {
+      time 73.074074 75.840744

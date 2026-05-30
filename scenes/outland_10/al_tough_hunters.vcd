@@ -1,0 +1,38 @@
+940 0.9692
+        2.5260 0.0667
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.084826
+        "extreme" 0.169653
+        "loop" 0.797367
+        "end" 0.933089
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.060241
+        "extreme" 0.120482
+        "loop" 0.566265
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  faceposermodel "P:\dev\ValveGames\main\game\ep2\models\alyx.mdl"
+}
+
+actor "citizen_1"
+{
+  channel "audio"
+  {
+  }
+}
+
+mapname "P:\dev\ValveGames\main\game\ep2\maps\ep2_outland_10a.bsp"
+scalesettings
+{
+  "CChoreoView" "158"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "Scen

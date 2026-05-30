@@ -1,0 +1,39 @@
+04008
+        "HD1" 0.306306
+        "accent" 0.423423
+        "loop" 0.531532
+        "end" 0.794556
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.113636
+        "HD1" 0.132497
+        "accent" 0.352273
+        "loop" 0.534091
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "kgesture11"
+    {
+      time 21.155556 25.356615
+      param "kgesture11"
+      absolutetags playback_time
+      {
+        "apex" 0.175726
+        "accent" 0.280391
+        "loop" 0.320647
+        "end" 0.767947
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "accent" 0.338235
+        "loop" 0.411765
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "kgesture09"
+    {
+      

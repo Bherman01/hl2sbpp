@@ -1,0 +1,51 @@
+}
+      }
+    }
+  }
+  faceposermodel "models\alyx.mdl"
+}
+
+actor "Dog"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.152543 14.341809
+      param "!player"
+      event_ramp 
+      {
+        0.7400 0.9627
+        13.2794 0.9478
+      }
+    }
+  }
+  channel "move to "
+  {
+    event moveto "mark_dog_run_ledge_1"
+    {
+      time 0.606025 3.274767
+      param "mark_dog_run_ledge_1"
+      param2 "Run"
+    }
+  }
+  channel "face to"
+  {
+    event face "!player"
+    {
+      time 2.983050 13.573446
+      param "!player"
+      event_ramp 
+      {
+        0.9900 0.9739
+        10.4432 0.9888
+      }
+    }
+  }
+  channel "sequence"
+  {
+    event sequence "excitedpound"
+    

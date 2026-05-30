@@ -1,0 +1,47 @@
+
+    {
+      time 20.472559 30.857805
+      param "mark_eli"
+      event_ramp
+      {
+        0.6715 1.0000
+        9.6119 1.0000
+      }
+    }
+    event lookat "mark_kleiner"
+    {
+      time 30.660854 39.562840
+      param "mark_kleiner"
+      event_ramp
+      {
+        0.6859 1.0000
+        8.1286 1.0000
+      }
+    }
+    event lookat "mark_eli"
+    {
+      time 38.819588 43.608871
+      param "mark_eli"
+      event_ramp
+      {
+        0.6786 1.0000
+        4.0159 1.0000
+      }
+    }
+    event lookat "mark_kleiner"
+    {
+      time 43.051701 48.740982
+      param "mark_kleiner"
+      event_ramp
+      {
+        0.6649 1.0000
+        4.9158 1.0000
+      }
+    }
+    event lookat "mark_eli"
+    {
+      time 48.104996 56.293793
+      param "mark_eli"
+      event_ramp
+      {
+        0.6760 

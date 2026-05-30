@@ -1,0 +1,24 @@
+    0.7366 0.7100
+        }
+        {
+        }
+      }
+    }
+    event flexanimation "eyes"
+    {
+      time 8.826838 10.374457
+      param ""
+      flexanimations samples_use_time
+      {
+        "eyes_rightleft"         range 30.0 -30.0        
+        {
+          0.1248 0.3500
+          0.1782 0.3600
+          0.8822 0.3600
+          0.9654 0.3700
+          1.0486 0.4900
+          1.1139 0.4900
+        }
+        "eyes_updown"         range 30.0 -30.0        
+        {
+        

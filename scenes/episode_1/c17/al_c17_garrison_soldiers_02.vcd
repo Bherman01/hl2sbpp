@@ -1,0 +1,1157 @@
+
+          14.9936 0.1900
+          15.1218 0.1900
+          15.1817 0.1900
+          15.2157 0.5000
+          15.2500 0.5000
+          18.7570 0.5000
+          18.8083 0.5000
+          18.9015 0.6700
+          19.0692 0.6800
+          19.1730 0.5000
+          19.2243 0.5000
+        }
+        "body_rightleft" range 30.0 -30.0 
+        {
+          15.9744 0.5000
+          16.0920 0.5000
+          16.3377 0.3800
+          16.5538 0.1700
+          16.8963 0.0200
+          17.2799 0.0000
+          17.4972 0.1500
+          17.7880 0.4300
+          17.8735 0.4700
+          18.0575 0.4900
+          18.4253 0.5000
+          18.5194 0.5000
+        }
+        "chest_rightleft" range 30.0 -30.0 
+        {
+          15.8494 0.5000
+          15.8836 0.5000
+          16.0750 0.4300
+          16.3788 0.1600
+          16.6496 0.0200
+          17.1966 0.0000
+          17.4867 0.3200
+          17.7713 0.4600
+          17.8568 0.4700
+          18.4253 0.5000
+          18.5194 0.5000
+        }
+        "head_forwardback" range 0.2 -0.2 
+        {
+          16.1494 0.5000
+          16.1836 0.5000
+          16.6204 0.5000
+          17.1216 0.5000
+          17.6963 0.5000
+          17.7818 0.5000
+          18.4253 0.5000
+          18.5194 0.5000
+        }
+      }
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\breen.mdl"
+}
+
+mapname "maps\breencamera.bsp"
+scalesettings
+{
+  "CChoreoView" "58"
+  "ExpressionTool" "24"
+  "RampTool" "80"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!target1"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 7.770657 10.704696
+      param "!player"
+      event_ramp 
+      {
+        0.4905 0.4475 "curve_bspline_to_curve_bspline"
+        2.4830 0.5856 "curve_bspline_to_curve_bspline"
+      }
+    }
+    event lookat "player"
+    {
+      time 0.064848 5.400403
+      param "!player"
+      event_ramp 
+      {
+        0.5048 0.8397
+        4.8763 0.8785
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "48"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!target1"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.064848 3.010720
+      param "!player"
+      event_ramp 
+      {
+        0.2469 0.5953
+        0.4885 1.0000
+        2.5397 1.0000
+        2.7605 0.5814
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event flexanimation "gff"
+    {
+      time 0.416666 2.914285
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_tightener" combo 
+        {
+          0.4337 0.6400
+        }
+        {
+          0.4363 0.0000
+        }
+        "blink" 
+        {
+          1.1960 0.0400
+          1.3164 0.9900
+          1.5786 0.0500
+        }
+        "inner_raiser" combo 
+        {
+          0.4489 0.6400
+          0.9938 0.4400
+          1.5299 0.4000
+          1.8455 0.0500
+        }
+        {
+          0.4363 0.1400
+          1.0031 0.2700
+        }
+        "corner_puller" combo 
+        {
+          0.3468 0.2900
+          1.1129 0.3400
+          1.5813 0.3100
+        }
+        {
+        }
+        "lip_bite" 
+        {
+        }
+        "cheek_raiser" combo 
+        {
+          0.4156 0.7900
+          1.1625 0.2500
+        }
+        {
+        }
+      }
+    }
+  }
+  channel "face"
+  {
+    event face "!player"
+    {
+      time 0.032937 2.971429
+      param "!player"
+      event_ramp 
+      {
+        0.1265 0.1395
+        0.3204 0.3080
+        0.4939 0.3163
+        2.3755 0.3442
+        2.4859 0.3302
+        2.6878 0.2186
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "70"
+  "ExpressionTool" "64"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!target1"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.064848 3.010720
+      param "!player"
+      event_ramp 
+      {
+        0.2469 0.3814
+        0.4722 0.5023
+        0.6429 0.5023
+        2.2102 0.5023
+        2.4581 0.5023
+        2.7034 0.3488
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event flexanimation "gff"
+    {
+      time 0.416666 2.914285
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_tightener" combo 
+        {
+          0.4337 0.6400
+        }
+        {
+          0.4363 0.0000
+        }
+        "blink" 
+        {
+          1.1960 0.0400
+          1.3164 0.9900
+          1.5786 0.0500
+        }
+        "inner_raiser" combo 
+        {
+          0.4489 0.6400
+          0.9938 0.4400
+          1.5299 0.4000
+          1.8455 0.0500
+        }
+        {
+          0.4363 0.1400
+          1.0031 0.2700
+        }
+        "corner_puller" combo 
+        {
+          0.3468 0.2900
+          1.1129 0.3400
+          1.5813 0.3100
+        }
+        {
+        }
+        "lip_bite" 
+        {
+        }
+        "cheek_raiser" combo 
+        {
+          0.4156 0.7900
+          1.1625 0.2500
+        }
+        {
+        }
+      }
+    }
+  }
+  channel "face"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "48"
+  "ExpressionTool" "64"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event generic "You go on ahead, Dr. Freeman!"
+    {
+      time 0.309441 3.379880
+      param "debugtext You go on ahead, Dr. Freeman!"
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "36"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "52"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!target1"
+{
+  channel "audio"
+  {
+    event generic "We've got to stay behind in case more citizens come through."
+    {
+      time 0.179811 5.602101
+      param "debugtext We've got to stay behind in case more citizens come through."
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "36"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "52"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event generic "Don't worry, Freeman!  I'll take care of this gunship!"
+    {
+      time 0.235367 3.305806
+      param "debugtext Don't worry, Freeman!  I'll take care of this gunship!"
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "36"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "52"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause"
+{
+  time 0.773333 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 1.653334 -1.000000
+  param "noaction"
+}
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "npc_citizen.overhere01"
+    {
+      time 2.728888 3.502085
+      param "npc_citizen.overhere01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 2.133333 4.380000
+      param "!player"
+      event_ramp 
+      {
+        0.3444 0.4711
+        0.8467 1.0000 "curve_easein_to_curve_easeout"
+        2.2467 1.0000 "curve_easein_to_curve_easeout"
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "!target2"
+    {
+      time 0.022222 1.451111
+      param "!target2"
+      param2 "Run"
+      resumecondition
+    }
+    event moveto "!target3"
+    {
+      time 1.515555 2.922222
+      param "!target3"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "faceTo"
+  {
+    event face "!player"
+    {
+      time 2.146667 3.708889
+      param "!player"
+      event_ramp 
+      {
+        0.7267 0.9336
+        0.8215 1.0000
+        1.3112 1.0000
+        1.5623 1.0000
+      }
+    }
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+    event firetrigger "1_openDoor"
+    {
+      time 0.817778 -1.000000
+      param "1"
+    }
+  }
+  channel "bodyges"
+  {
+    event gesture "b_OverHere_Right"
+    {
+      time 2.520000 4.320000
+      param "b_OverHere_Right"
+      absolutetags playback_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.655556
+      param ""
+    }
+    event gesture "g_wave"
+    {
+      time 2.111111 4.411111
+      param "g_wave"
+      absolutetags playback_time
+      {
+        "in" 0.352941
+        "loop" 0.779412
+        "end" 0.794118
+        "out" 0.808824
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.352941
+        "loop" 0.779412
+        "end" 0.794118
+        "out" 0.808824
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "brows"
+    {
+      time 1.671111 4.393333
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser" combo 
+        {
+          1.0622 0.0000
+          1.5200 1.0000
+        }
+        {
+          1.0622 0.5000
+          1.5200 0.5000
+        }
+        "outer_raiser" combo 
+        {
+          1.0622 0.0000
+          1.5200 0.2500
+        }
+        {
+          1.0622 0.5000
+          1.5200 0.5000
+        }
+        "lowerer" combo 
+        {
+          1.0622 0.0000
+          1.5200 0.0000
+        }
+        {
+          1.0622 0.5000
+          1.5200 0.5000
+        }
+        "cheek_raiser" combo 
+        {
+          1.0622 0.0000
+          1.5200 0.0000
+        }
+        {
+          1.0622 0.5000
+          1.5200 0.5000
+        }
+      }
+    }
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "models\humans\group03\male_02.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "150"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "90"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event generic "We'll hold off the antlions, just get those holes covered up!"
+    {
+      time 0.309441 3.379880
+      param "debugtext We'll hold off the antlions, just get those holes covered up!"
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "36"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "52"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event generic "Dr. Freeman!  Is it ever good to see you!"
+    {
+      time 0.309441 3.379880
+      param "debugtext Dr. Freeman!  Is it ever good to see you!"
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "36"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "52"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event generic "Hold on, we'll get this door open for you.  "
+    {
+      time 0.309441 3.379880
+      param "debugtext Hold on, we'll get this door open for you.  "
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "36"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "52"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event generic "There's a rebellion holdout near here, we'll take you there."
+    {
+      time 0.309441 3.379880
+      param "debugtext There's a rebellion holdout near here, we'll take you there."
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "36"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "52"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event generic "Hey, get the door open!  "
+    {
+      time 0.235367 3.305806
+      param "debugtext Hey, get the door open!  "
+    }
+    event generic "Don't you know that's Gordon Free--  Oh shit, Gunship!"
+    {
+      time 3.735367 6.805806
+      param "debugtext Don't you know that's Gordon Free--  Oh shit, Gunship!"
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "36"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "52"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "asd"
+{
+  time 0.681053 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 7.533333 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "Audio"
+  {
+    event speak "ep_01.al_evac_nexttrack"
+    {
+      time 2.310493 4.333146
+      param "ep_01.al_byebarney"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "MoveTo"
+  {
+    event firetrigger "start train"
+    {
+      time 3.335256 -1.000000
+      param "2"
+    }
+    event firetrigger "start train"
+    {
+      time 3.335256 -1.000000
+      param "2"
+    }
+    event firetrigger "start train"
+    {
+      time 3.335256 -1.000000
+      param "2"
+    }
+    event firetrigger "start train"
+    {
+      time 3.335256 -1.000000
+      param "2"
+    }
+    event firetrigger "start train"
+    {
+      time 3.335256 -1.000000
+      param "2"
+    }
+    event firetrigger "start train"
+    {
+      time 3.335256 -1.000000
+      param "2"
+    }
+    event firetrigger "start train"
+    {
+      time 3.335256 -1.000000
+      param "2"
+    }
+    event firetrigger "start train"
+    {
+      time 3.335256 -1.000000
+      param "2"
+    }
+  }
+  channel "FaceTo"
+  {
+    event face "mark_barney_board"
+    {
+      time 0.594866 7.068271
+      param "mark_barney_board"
+      event_ramp 
+      {
+        0.4827 0.8069
+        0.9696 1.0000
+        4.7930 1.0000
+        6.0278 1.0000
+        6.4735 1.0000
+      }
+    }
+    event face "alyx_on_fence"
+    {
+      time 0.094387 0.714386
+      param "alyx_on_fence"
+      event_ramp 
+      {
+        0.3792 0.4974
+        0.3933 0.4656
+        0.6200 0.0106
+      }
+    }
+  }
+  channel "LookAt"
+  {
+    event lookat "Barney"
+    {
+      time 0.588168 7.084676
+      param "Barney"
+      event_ramp 
+      {
+        0.5000 1.0000
+        4.5037 1.0000
+        5.3081 1.0000
+        5.7733 0.9317
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "alyx_on_fence"
+    {
+      time 0.019369 0.946265
+      param "alyx_on_fence"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "postures"
+  {
+    event gesture "A_p_lft_fwd"
+    {
+      time 1.753851 7.208590
+      param "A_p_lft_fwd"
+      event_ramp 
+      {
+        0.7130 0.6424
+        1.2087 0.9272
+        2.6043 0.8861
+        4.0739 0.8544
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.128620
+        "loop" 0.223475
+        "end" 0.728889
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.459184
+        "end" 0.561224
+      }
+      sequenceduration 3.300000
+    }
+  }
+  channel "bodyges"
+  {
+  }
+  channel "ges"
+  {
+    event gesture "A_g_wave_LHand"
+    {
+      time 1.857361 3.490695
+      param "A_g_wave_LHand"
+      event_ramp 
+      {
+        0.2217 0.3450
+        0.4913 0.8101
+    

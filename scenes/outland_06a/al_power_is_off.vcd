@@ -1,0 +1,28 @@
+"look at"
+  {
+    event lookat "player"
+    {
+      time -0.001461 2.060477
+      param "!player"
+      event_ramp
+      {
+        0.5002 0.9586
+        1.5422 0.9543
+      }
+    }
+  }
+  channel "face to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Body_gestures"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.722222
+      param "NULL"

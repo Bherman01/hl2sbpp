@@ -1,0 +1,27 @@
+ures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 2.240000
+      param ""
+    }
+    event gesture "p_pushbutton_rifle"
+    {
+      time 2.960000 5.480000
+      param "p_ConsoleType_Rifle"
+      absolutetags playback_time
+      {
+        "apex" 0.133813
+        "loop" 0.628922
+        "end" 0.802879
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.116279
+        "loop" 0.546512
+        "end" 0.697674
+      }
+      sequenceduration 2.900000
+    }
+  }
+  

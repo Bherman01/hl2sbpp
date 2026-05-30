@@ -1,0 +1,41 @@
+ 0.5650 0.8968
+        3.2150 0.9484
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.234375
+        "loop" 0.484375
+        "end" 0.648438
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.484375
+        "end" 0.648438
+      }
+    }
+  }
+  channel "head gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.691919
+      param ""
+    }
+    event gesture "1"
+    {
+      time 1.090909 4.816294
+      param "M_bg_htiltleft"
+      event_ramp
+      {
+        0.5750 0.6032
+        2.3150 0.6548
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.164925
+        "extreme" 0.316331
+        "loop" 0.513699
+        "end" 0.748482
+      }
+      absolutetags shi

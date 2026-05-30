@@ -1,0 +1,37 @@
+van_dogturn"
+      absolutetags playback_time
+      {
+        "apex" 0.022051
+        "loop" 0.110253
+        "end" 0.798315
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.072289
+        "loop" 0.361446
+        "end" 0.457831
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_p_invan_brace_hands"
+    {
+      time 8.978143 11.984153
+      param "A_p_invan_brace_hands"
+      absolutetags playback_time
+      {
+        "apex" 0.169091
+        "loop" 0.570163
+        "end" 0.810897
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.083333
+        "loop" 0.466667
+        "end" 0.633333
+      }
+      sequenceduration 2.033333
+    }
+  }
+  channel "gestures"
+  {
+    event ges

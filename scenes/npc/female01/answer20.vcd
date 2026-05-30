@@ -1,0 +1,112 @@
+ake"
+    {
+      time 0.757576 4.769697
+      param "M_bg_hshake"
+      absolutetags playback_time
+      {
+        "apex" 0.100770
+        "extreme" 0.583333
+        "loop" 0.681818
+        "end" 0.757576
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.129032
+        "extreme" 0.569892
+        "loop" 0.645161
+        "end" 0.698925
+      }
+      sequenceduration 3.133333
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 22.496971
+      param ""
+    }
+    event gesture "g16"
+    {
+      time 42.583340 46.508995
+      param "A_gesture16"
+      event_ramp
+      {
+        0.0200 0.7491
+        0.3950 0.8089
+        0.8900 0.8116
+        1.5700 0.7424
+        2.7950 0.4321
+        3.6300 0.3601
+        3.6850 0.3546
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.276916
+        "accent" 0.329466
+        "loop" 0.425043
+        "end" 0.758992
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.164384
+        "accent" 0.301370
+        "loop" 0.520548
+        "end" 0.616438
+      }
+      sequenceduration 2.466667
+    }
+    event gesture "NULL"
+    {
+      time 51.783333 51.783333
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 39.233337 43.900005
+      param ""
+    }
+    event gesture "headdroop"
+    {
+      time 26.639395 32.557564
+      param "M_headdroop"
+      absolutetags playback_time
+      {
+        "apex" 0.068116
+        "accent2" 0.135177
+        "extreme" 0.247824
+        "loop" 0.560371
+        "end" 0.841062
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.093750
+        "accent2" 0.130698
+        "extreme" 0.328125
+        "loop" 0.773438
+        "end" 0.781250
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "NULL"
+    {
+      time 24.060608 29.378790
+      param ""
+    }
+    event gesture "hands up"
+    {
+      time 1.000000 5.675089
+      param "M_handsup_g"
+      event_ramp
+      {
+        0.0058 0.2718
+        0.2288 0.7038
+        0.4827 0.8328
+        0.7173 0.8432
+        1.0230 0.7770
+        1.3519 0.5331
+        1.4615 0.5505
+        1.5173 0.5645
+        1.5904 0.5714
+        1.7212 0.5505
+   

@@ -1,0 +1,27 @@
+.628205
+      param ""
+    }
+    event gesture "shiftleft"
+    {
+      time 1.679487 10.179868
+      param "shiftleft"
+      absolutetags playback_time
+      {
+        "apex" 0.123452
+        "loop" 0.270065
+        "end" 0.877907
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.241379
+        "loop" 0.379310
+        "end" 0.689655
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "body_gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.5

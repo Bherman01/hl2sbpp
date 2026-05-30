@@ -1,0 +1,31 @@
+{
+        0.4415 0.3204
+        2.2826 0.3481
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event flexanimation "facial"
+    {
+      time 0.048612 2.729167
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser" combo 
+        {
+          0.3878 0.1400
+          1.1760 0.1500
+          1.7000 0.2500
+          2.2660 0.1800
+        }
+        {
+          0.3878 0.5000
+        }
+  

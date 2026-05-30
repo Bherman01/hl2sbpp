@@ -1,0 +1,35 @@
+   }
+      sequenceduration 1.600000
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "sheckley"
+{
+  channel "audio"
+  {
+    event speak "ep_02.al_chop_nagdoor01"
+    {
+      time 0.055556 1.207574
+      param "ep2_rebel.reb_reload07"
+      fixedlength
+      cctype "cc_master"
+      ccto

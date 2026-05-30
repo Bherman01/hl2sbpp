@@ -1,0 +1,40 @@
+_time
+      {
+        "in" 0.096133
+        "loop" 0.274665
+        "end" 0.730932
+        "out" 0.824153
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.155556
+        "loop" 0.444444
+        "end" 0.566667
+        "out" 0.722222
+      }
+      sequenceduration 3.033333
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "flex"
+    {
+      time -0.782051 -0.282051
+      param ""
+    }
+    event flexanimation "eyes"
+    {
+      time 0.852287 20.489544
+      param ""
+      flexanimations samples_use_time
+      {
+        "eyes_updown" range 30.0 -30.0 
+        {
+          0.7599 0.5000
+          0.9063 0.4697 "curve_linear_interp_to_curve_linear_interp"
+          0.9718 0.3485 "curve_linear_interp_to_curve_linear_interp"
+          1.4438 0.3182 "curve_linear_interp_to_curve_linear_interp"
+          1.5810 0.4481
+          1.7810 0.4481
+          5.1751 0.5002
+          5.6482 0.5000 "curve_easein

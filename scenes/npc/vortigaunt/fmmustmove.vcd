@@ -1,0 +1,35 @@
+   event generic "unholster"
+    {
+      time 8.213332 8.713332
+      param "AI_UNHOLSTER"
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+actor "Kleiner"
+{
+  channel "audio"
+  {
+    event speak "I await with anticipation"
+    {
+      time 6.026670 9.389890
+      param "novaprospekt.kl_await"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "postures"
+  {
+  }
+  chan

@@ -1,0 +1,36 @@
+ark_mo_look_elevator"
+    {
+      time 0.253082 3.179245
+      param "mark_mo_look_elevator"
+      event_ramp
+      {
+        0.5886 0.1118
+        0.9792 0.4172
+        1.2375 0.7824
+        1.7477 0.9681
+        2.5037 1.0000
+        2.9262 1.0000
+      }
+    }
+    event face "mark_mo_look_elevator"
+    {
+      time 3.385158 6.311321
+      param "mark_mo_look_elevator"
+      event_ramp
+      {
+        0.5886 0.1118
+        0.9792 0.4172
+        1.2375 0.7824
+        1.7477 0.9681
+        2.5037 1.0000
+        2.9262 1.0000
+      }
+    }
+    event face "player"
+    {
+      time 6.545407 9.018742
+      param "!player"
+      event_ramp
+      {
+        0.6600 0.1743
+        0.8800 0.509

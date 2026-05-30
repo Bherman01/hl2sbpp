@@ -1,0 +1,24 @@
+hannel "audio"
+  {
+    event speak "<WHOOSH>"
+    {
+      time 41.659000 43.172562
+      param "NPC_dog.Throw_Car"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_dog.Playful_5"
+    {
+      time 4.285714 4.881043
+      param "NPC_dog.Playful_5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_dog.Playful_5"
+    {
+      time 8.500001 9.095329
+      param "NPC_dog.Playful_5"
+      fixedlength
+      cctype 

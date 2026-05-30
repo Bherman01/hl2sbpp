@@ -1,0 +1,28 @@
+.9906
+        7.7220 0.9560
+        7.7600 0.9151
+      }
+      fixedlength
+    }
+  }
+  channel "Faceto"
+  {
+    event face "player"
+    {
+      time 0.006667 9.073336
+      param "!player"
+      event_ramp
+      {
+        0.0580 0.0472
+        0.4980 0.9906
+        8.3314 0.9717
+        8.9354 0.0723
+      }
+    }
+  }
+  channel "Postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 2.946667
+      p

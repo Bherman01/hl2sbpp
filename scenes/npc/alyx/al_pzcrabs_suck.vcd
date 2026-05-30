@@ -1,0 +1,29 @@
+        {
+          0.4264 0.5000
+        }
+        "part" combo 
+        {
+          0.4264 0.2100
+          1.3260 0.2000
+          1.4600 0.1800
+        }
+        {
+          0.4264 0.5000
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d2_prison\06_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "62"
+  "SceneRampTool" "100"
+  "RampTool" "26"
+  "ExpressionTool" "100"
+  "GestureTool" "

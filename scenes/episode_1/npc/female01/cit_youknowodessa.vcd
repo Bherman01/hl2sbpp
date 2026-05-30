@@ -1,0 +1,25 @@
+channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.240000
+      param ""
+    }
+    event gesture "g_pushbutton_rifle"
+    {
+      time 3.813335 5.813334
+      param "g_buttonpush_rifle"
+      absolutetags playback_time
+      {
+        "apex" 0.169540
+        "accent" 0.237356
+        "loop" 0.610345
+        "end" 0.678161
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.172414
+        "accent" 0.241379
+        "loop" 0.620690
+        "end" 0.689655
+     

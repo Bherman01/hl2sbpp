@@ -1,0 +1,32 @@
+333 16.864103
+      param "hg_acc_down"
+      event_ramp
+      {
+        0.5180 0.4156
+        1.8867 0.4156
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.168373
+        "extreme" 0.313817
+        "loop" 0.604703
+        "end" 0.615891
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.155172
+        "extreme" 0.379310
+        "loop" 0.827586
+        "end" 0.844828
+      }
+      sequenceduration 1.966667
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "52"
+  "RampTool" "90"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100

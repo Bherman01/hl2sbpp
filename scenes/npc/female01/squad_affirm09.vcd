@@ -1,0 +1,39 @@
+    {
+        "apex" 0.233755
+        "loop" 0.350633
+        "end" 0.762024
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.459184
+        "end" 0.561224
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "NULL"
+    {
+      time 32.502380 35.402382
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 46.202381 48.319050
+      param ""
+    }
+  }
+  channel "body"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 19.819050
+      param ""
+    }
+    event gesture "A_bg_bighshake"
+    {
+      time 22.352379 25.985710
+      param "A_bg_bighshake"
+      event_ramp
+      {
+        0.7800 0.9848
+        

@@ -1,0 +1,52 @@
+  2.9947 0.9213
+        3.4362 0.4696
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "face pod"
+    {
+      time 2.190650 6.722759
+      param "!target1"
+      event_ramp 
+      {
+        0.3660 0.5590
+        0.5440 0.7336
+        0.7880 0.8079
+        3.7355 0.8166
+        4.4335 0.7686
+        4.5322 0.7642
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+    event firetrigger "EMP Call"
+    {
+      time 0.436032 -1.000000
+      param "1"
+    }
+    event firetrigger "Advisor Wake"
+    {
+      time 2.165917 -1.000000
+      param "2"
+    }
+  }
+  channel "Debug text"
+  {
+  }
+  faceposermodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d2_prison\06_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "116"
+  "SceneRamp

@@ -1,0 +1,157 @@
+   1.4330 1.0000
+      }
+      resumecondition
+    }
+    event moveto "mark_barney_2"
+    {
+      time 10.793103 20.281609
+      param "mark_barney_2"
+      param2 "Walk"
+    }
+    event moveto "mark_barney_1"
+    {
+      time 2.560337 9.001814
+      param "mark_barney_1"
+      param2 "Walk"
+      distancetotarget 16.00
+    }
+  }
+  channel "face to"
+  {
+    event face "player"
+    {
+      time 0.822740 6.073124
+      param "!player"
+      event_ramp 
+      {
+        0.6778 0.2869
+        4.1098 0.2869
+      }
+    }
+    event face "mark_barney_backcorner"
+    {
+      time 19.622225 20.813795
+      param "mark_barney_backcorner"
+      event_ramp 
+      {
+        0.7225 0.6032
+        1.1916 0.0000
+      }
+    }
+    event face "mark_barney_looksinside"
+    {
+      time 20.254408 21.664370
+      param "mark_barney_looksinside"
+      event_ramp 
+      {
+        1.4100 1.0000
+      }
+    }
+    event face "mark_barney_2"
+    {
+      time 10.811614 20.211113
+      param "mark_barney_2"
+      event_ramp 
+      {
+        1.3278 0.3907
+        8.2496 0.3907
+      }
+    }
+    event face "alyx"
+    {
+      time 4.694252 13.820309
+      param "alyx"
+      event_ramp 
+      {
+        1.3278 0.3907
+        7.9761 0.3907
+      }
+    }
+    event face "alyx"
+    {
+      time 16.108046 18.142147
+      param "alyx"
+      event_ramp 
+      {
+        1.0175 0.3907
+        1.0364 0.3907
+      }
+    }
+    event face "!player"
+    {
+      time 12.947126 16.946745
+      param "!player"
+      event_ramp 
+      {
+        1.3278 0.5648
+        2.8497 0.5648
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "trigger"
+  {
+    event gesture "E_bg_arcfwd_nod_pod"
+    {
+      time 3.122223 5.600000
+      param "E_bg_arcfwd_nod_pod"
+      event_ramp 
+      {
+        0.4722 0.5000
+        1.8333 0.5238
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.208256
+        "extreme" 0.385716
+        "loop" 0.590477
+        "end" 0.713334
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.338235
+        "loop" 0.558824
+        "end" 0.691176
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "E_bg_arcfwd_nod_pod"
+    {
+      time 9.355556 11.655557
+      param "E_bg_arcfwd_nod_pod"
+      absolutetags playback_time
+      {
+        "apex" 0.147059
+        "extreme" 0.338235
+        "loop" 0.558824
+        "end" 0.691176
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.338235
+        "loop" 0.558824
+        "end" 0.691176
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "bodyges"
+  {
+    event gesture "bg_accentUp_Rifle"
+    {
+      time 0.472797 2.895019
+      param "bg_accentUp_Rifle"
+      absolutetags playback_time
+      {
+        "apex" 0.097991
+        "extreme" 0.279975
+        "loop" 0.587947
+        "end" 0.699937
+      }
+      absolutetags shifted_time
+      {
+  

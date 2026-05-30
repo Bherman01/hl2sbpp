@@ -1,0 +1,28 @@
+}
+      sequenceduration 3.300000
+    }
+    event gesture "Gesture_leanIn_H"
+    {
+      time 41.349976 43.962479
+      param "Gesture_leanIn_H"
+      absolutetags playback_time
+      {
+        "apex" 0.179293
+        "extreme" 0.330225
+        "loop" 0.459452
+        "end" 0.701236
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.128205
+        "extreme" 0.256410
+        "loop" 0.384615
+        "end" 0.846154
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "Gesture_leanIn_H"
+    {
+      time 53.724972 56.337475
+      param "Gesture_leanIn_H"
+      absolutetags pl

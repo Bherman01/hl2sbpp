@@ -1,0 +1,45 @@
+
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look at"
+  {
+    event lookat "lookat_room"
+    {
+      time 7.521768 8.821770
+      param "ss_matt_ohshit2"
+      event_ramp
+      {
+        0.0760 0.3636
+        0.2280 0.8618
+        0.4400 0.9582
+        0.5440 0.9618
+        0.8147 0.9636
+        0.9187 0.9455
+        1.0907 0.8545
+        1.2067 0.4836
+      }
+    }
+    event lookat "lookat_manhacks"
+    {
+      time 8.555102 9.608436
+      param "mark_look_manhacks"
+      event_ramp
+      {
+        0.1360 0.4182
+        0.3800 0.8218
+        0.6160 0.9273
+        0.6573 0.9782
+        0.7840 0.9818
+        1.0533 0.9418
+      }
+    }
+    event lookat "lookat_player"
+    {
+      time 2.719593 4.291972
+      param "!player"
+      event_ramp
+      {
+        0.1560 0.2584
+        0.4600 

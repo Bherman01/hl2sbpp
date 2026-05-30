@@ -1,0 +1,279 @@
+6 0.9158
+        2.8385 0.6982
+        3.0042 0.3544
+      }
+    }
+    event lookat "!player"
+    {
+      time 52.292019 54.601154
+      param "!player"
+      event_ramp 
+      {
+        0.3614 0.5215
+        0.5900 0.8105
+        0.8500 0.9579
+        1.0788 0.9895
+        1.4500 0.9860
+        1.6639 0.9158
+        1.8688 0.6982
+        2.0345 0.3544
+      }
+    }
+    active "0"
+  }
+  channel "move to"
+  {
+    event moveto "mark_dataconsole_1"
+    {
+      time 14.728543 26.211987
+      param "mark_dataconsole_1"
+      param2 "Walk"
+      resumecondition
+    }
+    event moveto "!player"
+    {
+      time 6.850475 8.430978
+      param "!player"
+      param2 "Run"
+      resumecondition
+      distancetotarget 60.00
+    }
+    active "0"
+  }
+  channel "faceTo"
+  {
+    event face "!player"
+    {
+      time 4.152735 17.335449
+      param "!player"
+      event_ramp 
+      {
+        0.2600 0.6351
+        0.5538 0.8355
+        1.2200 0.9754
+        1.6600 0.9930
+        13.1827 1.0000
+      }
+    }
+    event face "target_core"
+    {
+      time 0.355503 4.592324
+      param "target_core"
+      event_ramp 
+      {
+        0.5115 0.9899
+        3.7573 1.0000
+      }
+    }
+    event face "!player"
+    {
+      time 24.263201 28.254528
+      param "!player"
+      event_ramp 
+      {
+        0.8900 0.6537
+        1.3400 0.9158
+        1.8024 0.9899
+        2.2200 1.0000
+        3.9913 0.9899
+      }
+    }
+    event face "console"
+    {
+      time 48.986889 53.799465
+      param "mark_look_dataconsole_1"
+      event_ramp 
+      {
+        0.3467 0.5678
+        0.7867 0.9899
+        4.0527 0.9899
+        4.4393 0.6382
+      }
+    }
+    event face "!player"
+    {
+      time 33.040977 37.032307
+      param "!player"
+      event_ramp 
+      {
+        0.8900 0.6537
+        1.3400 0.9158
+        1.8024 0.9899
+        2.2200 1.0000
+        3.9913 0.9899
+      }
+    }
+    event face "!player"
+    {
+      time 37.679867 41.671196
+      param "!player"
+      event_ramp 
+      {
+        0.8900 0.6537
+        1.3400 0.9158
+        1.8024 0.9899
+        2.2200 1.0000
+        3.9913 0.9899
+      }
+    }
+    event face "console"
+    {
+      time 42.125778 44.521687
+      param "mark_look_dataconsole_1"
+      event_ramp 
+      {
+        0.3467 0.5678
+        0.7867 0.8881
+        1.2227 0.9899
+        2.3959 1.0000
+      }
+    }
+    event face "!player"
+    {
+      time 44.596535 48.587864
+      param "!player"
+      event_ramp 
+      {
+        0.8900 0.6537
+        1.3400 0.9158
+        1.8024 0.9899
+        2.2200 1.0000
+        3.9913 0.9899
+      }
+    }
+    active "0"
+  }
+  channel "Postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.491719
+      param ""
+    }
+    event gesture "glasswallposture"
+    {
+      time 1.248572 4.790418
+      param "glasswallposture"
+      event_ramp 
+      {
+        0.2250 1.0000
+        2.9666 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.097592
+        "loop" 0.235426
+        "end" 0.692642
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.120370
+        "loop" 0.481481
+        "end" 0.555556
+      }
+      sequenceduration 3.633333
+    }
+    event gesture "console1"
+    {
+      time 50.132816 53.819584
+      param "consoleposture"
+      event_ramp 
+      {
+        0.6310 1.0000
+        3.1280 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.215465
+        "loop" 0.282480
+        "end" 0.804005
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.408163
+        "end" 0.561224
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "1"
+    {
+      time 9.564102 14.428205
+      param "A_P_left_lean_rtfootout"
+      absolutetags playback_time
+      {
+        "apex" 0.207194
+        "loop" 0.359136
+        "end" 0.742105
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "1"
+    {
+      time 13.102564 17.530769
+      param "A_P_rt_leanbk"
+      absolutetags playback_time
+      {
+        "apex" 0.297074
+        "loop" 0.463973
+        "end" 0.749881
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "1"
+    {
+      time 33.148148 39.966667
+      param "A_P_rt_leanbk"
+      absolutetags playback_time
+      {
+        "apex" 0.147805
+        "loop" 0.256196
+        "end" 0.756757
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "2"
+    {
+      time 38.481483 49.596294
+      param "A_P_left_lean_rtfootout"
+      absolutetags playback_time
+      {
+        "apex" 0.130659
+        "loop" 0.197153
+        "end" 0.896667
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      sequenceduration 4.300000
+    }
+  }
+  channel "bodyges"
+  {
+    event gesture "NULL"
+    {
+      time -0.014492 0.485508
+      param ""
+    }
+    even

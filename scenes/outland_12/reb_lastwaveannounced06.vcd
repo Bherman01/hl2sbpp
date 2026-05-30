@@ -1,0 +1,18 @@
+00
+          2.5247 0.5900
+          2.6071 0.5900
+          5.0458 0.6000
+        }
+        "eyes_rightleft" range 30.0 -30.0 
+        {
+          0.3542 0.6800 "curve_linear_interp_to_curve_linear_interp"
+          0.5917 0.7000 "curve_linear_interp_to_curve_linear_interp"
+          0.7125 0.4500 "curve_linear_interp_to_curve_linear_interp"
+          1.1458 0.4500 "curve_linear_interp_to_curve_linear_interp"
+          1.3000 0.9300 "curve_linear_interp_to_curve_linear_interp"
+          1.9042 0.9100 "curve_linear_interp_to_curve_linear_interp"
+          2.0583 0.1100 "curve_linear_interp_to_curve_linear_interp"
+          2.3375 0.5700 "curve_linear_interp_to_curve_linear_interp"
+          2.7375 0.5500 "curve_linear_interp_to_curve_linear_interp"
+          2.8708 0.1100 "curve_linear_interp_to_curve_linear_interp"
+          3.

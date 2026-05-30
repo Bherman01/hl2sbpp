@@ -1,0 +1,40 @@
+       3.1786 0.9706
+        4.0633 0.9853
+      }
+    }
+    event lookat "dropship2"
+    {
+      time 0.480000 2.633332
+      param "dropship2"
+      event_ramp
+      {
+        1.2053 0.9706
+        2.0900 0.9853
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_dog_throwapc1"
+    {
+      time 5.280001 7.699998
+      param "mark_dog_throwapc1"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "face to"
+  {
+    event face "mark_dog_look_throwapc1"
+    {
+      time 6.719999 10.500000
+      param "mark_dog_look_throwapc1"
+      event_ramp
+      {
+        1.4900 0.9853
+        3.3834 0.9902
+      }
+    }
+    event face "mark_GroundZero1"
+    {
+      ti

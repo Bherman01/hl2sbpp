@@ -1,0 +1,34 @@
+
+  {
+  }
+  channel "Body_gestures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "head flex"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  faceposermodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "72"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "Gestu

@@ -1,0 +1,26 @@
+
+        0.5059 0.1263
+        0.5721 0.2253
+        0.8897 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.333333
+        "extreme" 0.541667
+        "loop" 0.552500
+        "end" 0.562500
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.333333
+        "extreme" 0.541667
+        "loop" 0.562500
+        "end" 0.562500
+      }
+      sequenceduration 1.633333
+    }
+    event gesture "b_head_back"
+    {
+      time 0.201879 2.466717
+      param "b_head_back"
+      absolutetags

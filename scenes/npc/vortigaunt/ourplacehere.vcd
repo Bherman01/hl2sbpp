@@ -1,0 +1,33 @@
+Tool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Barney"
+{
+  channel "audio"
+  {
+    event speak "nexus.ba_followme03"
+    {
+      time 0.064516 1.295468
+      param "nexus.ba_followme03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "trigger"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.021506 1.295699
+      param "!player"
+      event_ramp
+      {
+        0.1400 0.8553
+       

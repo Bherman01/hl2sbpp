@@ -1,0 +1,64 @@
+98
+      }
+    }
+    event face "Faceto_player"
+    {
+      time 5.917648 11.430149
+      param "!player"
+      event_ramp
+      {
+        0.1367 0.2390
+        0.3100 0.5833
+        0.5700 0.6651
+        0.6667 0.6667
+        3.7647 0.6761
+        5.4514 0.6714
+        5.5125 0.6698
+      }
+    }
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.794117
+      param ""
+    }
+    event gesture "shift left"
+    {
+      time 0.666667 9.819835
+      param "p_shiftleft"
+      event_ramp
+      {
+        1.1448 1.0000
+        2.4172 0.6767
+        3.6414 1.0000
+        4.2517 0.9925
+        5.2828 0.8872
+        5.9931 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.149019
+        "loop" 0.267011
+        "end" 0.681388
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264151
+        "loop" 0.377358
+        "end" 0.660377
+      }
+      sequenceduration 1.800000
+    }
+    event gesture "shift right"
+    {
+      time 5.843137 12.096570
+      param "P_shiftright"
+      event_ramp
+      {
+        1.0533 1.0000
+        2.2600 0.89

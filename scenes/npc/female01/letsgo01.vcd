@@ -1,0 +1,250 @@
+   time 0.026667 2.380000
+      param "podPose"
+    }
+  }
+}
+
+actor "!Target4"
+{
+  channel "Look"
+  {
+    event lookat "look_ahead"
+    {
+      time 0.026666 1.560000
+      param "pod_people_look"
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "PodFlex"
+    {
+      time 0.153333 1.886666
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_closer"         combo        
+        {
+          0.0459 0.9200
+          0.0703 0.9500
+          0.2421 0.9600
+          0.8048 0.9700
+          1.4131 0.9500
+          1.6117 0.9600
+          1.6386 0.9600
+        }
+        {
+        }
+      }
+    }
+    event sequence "podpose"
+    {
+      time 0.013334 2.366667
+      param "podPose"
+    }
+  }
+}
+
+actor "!Target5"
+{
+  channel "Look"
+  {
+    event lookat "look_ahead"
+    {
+      time 0.013333 1.533333
+      param "pod_people_look"
+    }
+    event sequence "podpose"
+    {
+      time 0.026667 2.380000
+      param "podPose"
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "PodFlex"
+    {
+      time 0.153333 1.886666
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_closer"         combo        
+        {
+          0.0459 0.9200
+          0.0703 0.9500
+          0.2421 0.9600
+          0.8048 0.9700
+          1.4131 0.9500
+          1.6117 0.9600
+          1.6386 0.9600
+        }
+        {
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause_station"
+{
+  time 2.106666 -1.000000
+  param "noaction"
+}
+event section "pause_blastdoors"
+{
+  time 24.880001 -1.000000
+  param "noaction"
+}
+event section "p3"
+{
+  time 31.946669 -1.000000
+  param "noaction"
+}
+event stoppoint "stop"
+{
+  time 33.013336 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "Great another security station"
+    {
+      time 0.346666 2.401859
+      param "novaprospekt.al_whereareyou01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Mossman where are you"
+    {
+      time 3.146666 6.100997
+      param "novaprospekt.al_whereareyou02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Found her!"
+    {
+      time 8.266666 11.398209
+      param "novaprospekt.al_whereareyou03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Got you"
+    {
+      time 14.213333 15.947392
+      param "novaprospekt.al_gotyounow01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "c'mon Gordon"
+    {
+      time 19.786669 22.289730
+      param "novaprospekt.al_gotyounow02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "uh oh"
+    {
+      time 18.506668 19.204243
+      param "novaprospekt.al_uhoh_np"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "c'mon Gordon"
+    {
+      time 32.160004 33.024471
+      param "eli_lab.al_cmongord01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look_controls"
+    {
+      time 1.856509 4.366666
+      param "mark_alyx_trap_controls_look_1"
+      event_ramp
+      {
+        0.4192 0.4321
+        0.5538 0.5749
+        0.6808 0.6620
+        0.7966 0.7086
+        0.8310 0.7086
+        0.9345 0.3413
+        0.9586 0.2675
+        0.9966 0.2615
+        1.2034 0.2635
+        1.3379 0.2834
+        1.4138 0.7006
+        1.7707 0.7213
+        2.4322 0.6829
+        2.5014 0.6725
+      }
+    }
+    event lookat "lookat_outside_controls"
+    {
+      time 25.493332 27.406668
+      param "mark_alyx_look_blastdoor_controls_out_1"
+      event_ramp
+      {
+        0.5462 0.5923
+        1.3821 0.7003
+        1.5667 0.7491
+        1.8436 0.7596
+        1.9167 0.7422
+      }
+    }
+    event lookat "player2\"
+    {
+      time 0.053334 2.793333
+      param "!player"
+      event_ramp
+      {
+        0.4192 0.3973
+        0.5538 0.5644
+        0.6808 0.6759
+        0.8923 0.7631
+        2.0005 0.8223
+        2.6621 0.7839
+        2.7313 0.7735
+      }
+    }
+    event lookat "player1"
+    {
+      time 8.666668 11.406667
+      param "!player"
+      event_ramp
+      {
+        0.4192 0.3973
+        0.5538 0.5644
+        0.6808 0.6759
+        0.8923 0.7631
+        2.0005 0.8223
+        2.6621 0.7839
+        2.7313 0.7735
+      }
+    }
+    event lookat "look_controls"
+    {
+      time 12.160003 14.339999
+      param "mark_alyx_trap_controls_look_1"
+     

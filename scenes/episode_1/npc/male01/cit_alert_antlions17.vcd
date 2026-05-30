@@ -1,0 +1,26 @@
+
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.204545
+        "accent" 0.397727
+        "loop" 0.954545
+        "end" 0.988636
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "A_bg_lookUp"
+    {
+      time 21.299534 29.022610
+      param "A_bg_lookUp"
+      absolutetags playback_time
+      {
+        "in" 0.052554
+        "loop" 0.131386
+        "end" 0.231764
+        "out" 0.870647
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.176471
+        "loop

@@ -1,0 +1,58 @@
+  event lookat "look player"
+    {
+      time 0.013333 6.940001
+      param "!player"
+      event_ramp
+      {
+        0.6040 0.9086
+        6.5493 0.9459
+      }
+    }
+  }
+  channel "faceto"
+  {
+    event face "face player"
+    {
+      time -0.013331 4.140008
+      param "!player"
+      event_ramp
+      {
+        0.5083 0.9848
+        4.1533 1.0000
+      }
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.886667
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.186667 4.100963
+      param "broadsweepdown"
+      event_ramp
+      {
+        0.4259 0.8333
+        2.8556 0.7302
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.155927
+        "accent" 0.251216
+        "loop" 0.294529
+        "end" 0.826748
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.310345
+        "accent" 0.500000
+        "loop" 0.586207
+        "end" 0.655172
+      }
+   

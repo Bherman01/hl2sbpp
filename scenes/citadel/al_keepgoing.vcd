@@ -1,0 +1,39 @@
+bsolutetags playback_time
+      {
+        "apex" 0.131623
+        "extreme" 0.230341
+        "loop" 0.460682
+        "end" 0.692879
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_bg_acc_dwn_rt"
+    {
+      time 2.083333 5.085714
+      param "A_bg_acc_dwn_rt"
+      event_ramp
+      {
+        0.6042 0.5018
+        0.9208 0.5345
+        1.8458 0.5527
+        2.0833 0.5309
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.202240
+        "extreme" 0.272755
+        "loop" 0.577091
+        "end" 0.685390
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.204819
+      

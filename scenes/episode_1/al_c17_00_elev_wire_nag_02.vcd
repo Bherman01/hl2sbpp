@@ -1,0 +1,53 @@
+  4.0437 0.9924
+      }
+    }
+    event lookat "look at player"
+    {
+      time 11.616987 17.824253
+      param "!player"
+      event_ramp
+      {
+        0.8760 1.0000
+        5.2619 1.0000
+      }
+    }
+    event lookat "look at player"
+    {
+      time 23.061436 26.740917
+      param "!player"
+      event_ramp
+      {
+        0.8760 1.0000
+        2.7342 1.0000
+      }
+    }
+    event lookat "Vort"
+    {
+      time 16.993055 23.881945
+      param "Vort"
+      event_ramp
+      {
+        0.9000 0.9924
+        6.0667 0.9975
+      }
+    }
+    event lookat "Vort"
+    {
+      time 26.048611 213.687485
+      param "Vort"
+      event_ramp
+      {
+        0.9000 0.9924
+        186.8167 0.9975
+      }
+    }
+  }
+  channel "posture"
+  {
+    event gesture "A_P_tired"
+    {
+      time -3.166667 -0.866667
+      param "A_P_tired"
+      absolutetags playback_time
+      {
+        "apex" 0.294118

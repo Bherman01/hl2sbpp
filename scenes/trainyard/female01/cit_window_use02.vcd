@@ -1,0 +1,26 @@
+   fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.033335 6.266666
+      param "!player"
+      event_ramp
+      {
+        0.0780 0.0597
+        0.4960 0.9748
+        5.5154 0.9748
+        6.1274 0.0440
+      }
+    }
+    event lookat "player"
+    {
+      time 7.406667 9.186664
+      param "!player"
+      event_ramp
+      {
+      

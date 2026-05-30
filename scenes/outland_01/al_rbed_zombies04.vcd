@@ -1,0 +1,43 @@
+94
+        "end" 0.677724
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.204819
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_HG_rt_turntilt"
+    {
+      time 19.785715 22.466667
+      param "A_HG_rt_turntilt"
+      event_ramp 
+      {
+        0.0000 0.2440
+        1.1952 0.3676
+        2.6810 0.2234
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.274336
+        "extreme" 0.496641
+        "loop" 0.748304
+        "end" 0.786482
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.120482
+        "extreme" 0.301205
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_bg_h_jerkrt"
+    {
+      time 26.833334 29.609524
+      param "A_bg_h_jerkrt"
+      abs

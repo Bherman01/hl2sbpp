@@ -1,0 +1,26 @@
+
+        "end" 0.505077
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.100000
+        "loop" 0.371429
+        "end" 0.485714
+      }
+      sequenceduration 2.366667
+    }
+    event gesture "A_p_lft_fwd"
+    {
+      time 6.466200 9.053238
+      param "A_p_lft_fwd"
+      absolutetags playback_time
+      {
+        "apex" 0.390487
+        "loop" 0.585730
+        "end" 0.659498
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.459184
+        "end"

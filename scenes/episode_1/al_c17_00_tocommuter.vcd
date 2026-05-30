@@ -1,0 +1,62 @@
+0.0000 0.4900
+          12.3125 0.4900
+          12.4875 0.4900
+        }
+        "lower_lip" 
+        {
+          0.0000 0.5000 "curve_easein_to_curve_easeout"
+          12.3125 0.5000
+          12.4875 0.5000
+        }
+      }
+    }
+  }
+  channel "Look"
+  {
+    event lookat "!self"
+    {
+      time -0.373333 12.986666
+      param "!self"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "16"
+  "RampTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "close"
+{
+  time 2.743590 -1.000000
+  param "0.980000"
+  loopcount "-1"
+}
+actor "Alyx"
+{
+  channel "Audio"
+  {
+  }
+  channel "lookAt"
+  {
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "body"
+ 

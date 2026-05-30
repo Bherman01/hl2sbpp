@@ -1,0 +1,34 @@
+ sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 34.619049 36.169048
+      param ""
+    }
+    event gesture "A_bg_acctdwn_chinout"
+    {
+      time 35.702381 38.351421
+      param "A_bg_acctdwn_chinout"
+      event_ramp
+      {
+        0.7040 0.5265
+        0.8960 0.5947
+        1.3480 0.5985
+        2.2480 0.5909
+        2.2960 0.5720
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.127682
+        "extreme" 0.255364
+        "loop" 0.446888
+        "end" 0.642490
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.294118
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      seque

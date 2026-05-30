@@ -1,0 +1,75 @@
+
+      {
+        "apex" 0.125000
+        "extreme" 0.305556
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.305556
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      sequenceduration 2.433333
+    }
+    event gesture "b_OverHere_Left"
+    {
+      time 29.031340 30.831337
+      param "b_OverHere_Left"
+      absolutetags playback_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      sequenceduration 1.800000
+    }
+    event gesture "b_OverHere_Right"
+    {
+      time 32.632347 34.432346
+      param "b_OverHere_Right"
+      event_ramp
+      {
+        0.0000 0.6420
+        1.8000 0.6307
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.325581
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      sequenceduration 1.800000
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "gesture to trunk of car"
+    {
+      time 3.509556 5.476223
+      param "G_lefthandmotion"
+      event_ramp
+      {
+        0.4440 1.0000
+        1.0400 1.0000
+        1.4200 0.8636
+      }
+      a

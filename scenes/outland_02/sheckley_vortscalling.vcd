@@ -1,0 +1,65 @@
+mbroom_cit1"
+      event_ramp
+      {
+        0.2542 0.9747
+        0.4173 0.9856
+      }
+    }
+    event lookat "look at Magnusson"
+    {
+      time 0.198413 1.801588
+      param "magnusson"
+      event_ramp
+      {
+        0.2542 0.9747
+        1.3083 0.9856
+      }
+    }
+    event lookat "look at stickybombroom_cit2"
+    {
+      time 2.649415 5.281919
+      param "stickybombroom_cit2"
+      event_ramp
+      {
+        0.2542 0.9747
+        2.3375 0.9856
+      }
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "audio"
+  {
+    event speak "npc_citizen.finally"
+    {
+      time 2.717391 4.579568
+      param "npc_citizen.answer10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+mapname "maps\ep2_outland_06.bsp"
+scalesettings
+{
+  "CChoreoView" "92"
+  "ExpressionTool" "94"
+  "GestureTool" "100"
+  "RampTool" "166"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "griggs"
+{
+  channel "audio"
+  {
+    event speak "ep_02.griggs_grubs"
+    {
+      time 21.647617 26.811087
+      param "ep_02.griggs_grubs"
+      fixedlength

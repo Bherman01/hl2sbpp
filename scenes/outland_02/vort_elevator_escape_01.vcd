@@ -1,0 +1,91 @@
+aceposermodel "models\vortigaunt.mdl"
+}
+
+actor "vort_calvary_1"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+  channel "NULL"
+  {
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+actor "vort_calvary_2"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+mapname "maps\ep1_citadel_00.bsp"
+scalesettings
+{
+  "CChoreoView" "26"
+  "ExpressionTool" "38"
+  "RampTool" "76"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Gman"
+{
+  channel "audio"
+  {
+    event speak "gman_mono01"
+    {
+      time 0.618056 4.411616
+      param "ep_02.gman_mono01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono02"
+    {
+      time 4.869949 12.280018
+      param "ep_02.gman_mono02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono03"
+    {
+      time 12.280017 19.919382
+      param "ep_02.gman_mono03"
+      fixedlength
+      cctype "cc_master"
+ 

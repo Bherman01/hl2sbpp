@@ -1,0 +1,28 @@
+inout"
+      absolutetags playback_time
+      {
+        "apex" 0.148967
+        "extreme" 0.297935
+        "loop" 0.521384
+        "end" 0.733333
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.294118
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "headgesture"
+  {
+    event gesture "NULL"
+    {
+      time 13.297503 13.797503
+      param ""
+    }
+    event gesture "a_bg_hdaccleft"
+    {
+     

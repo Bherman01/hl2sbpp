@@ -1,0 +1,31 @@
+237 0.9949
+        6.2237 0.9519
+        6.2877 0.8911
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "!player"
+    {
+      time 0.420290 6.789855
+      param "!player"
+    }
+  }
+  channel "triggers"
+  {
+  }
+  channel "body gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.398551
+      param ""
+    }
+    event gesture "b_OverHere_Left"
+    {
+      time 1.014493 3.496192
+      param "b_OverHere_Left"
+      absolutetags playback_time
+      {
+        "apex

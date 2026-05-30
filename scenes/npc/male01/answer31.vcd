@@ -1,0 +1,98 @@
+   param "G_hold_nectar"
+      absolutetags playback_time
+      {
+        "apex" 0.168067
+        "accent" 0.302250
+        "loop" 0.391705
+        "end" 0.879747
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.051020
+        "accent" 0.204082
+        "loop" 0.306122
+        "end" 0.714286
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "g_present"
+    {
+      time 4.969697 8.424242
+      param "g_present"
+      absolutetags playback_time
+      {
+        "apex" 0.175752
+        "accent" 0.322212
+        "loop" 0.449144
+        "end" 0.754386
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.214286
+        "accent" 0.392857
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      sequenceduration 2.833333
+    }
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+    event firetrigger "2 - extract"
+    {
+      time 12.523485 -1.000000
+      param "2"
+    }
+    event firetrigger "1 - chant"
+    {
+      time 4.575000 -1.000000
+      param "1"
+    }
+    event firetrigger "4 - elevator"
+    {
+      time 28.102453 -1.000000
+      param "4"
+    }
+    event firetrigger "3 - glow off"
+    {
+      time 18.590548 -1.000000
+      param "3"
+    }
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "24"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "64"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "Vort"
+{
+  channel "Audio"
+  {
+    event speak "hardwork01"
+    {
+      time 0.366667 4.121338
+      param "ep_02.vort_extract_hardwork01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "hardwork02"
+    {
+      time 4.266667 8.042676
+      param "ep_02.vort_extract_hardwor

@@ -1,0 +1,52 @@
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 0.673334
+      param "!player"
+    }
+  }
+}
+
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "pardonme01"
+    {
+      time 0.044445 0.869207
+      param "npc_citizen.pardonme01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "lookatplayer"
+    {
+      time 0.111111 0.944444
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channe

@@ -1,0 +1,24 @@
+ngth
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event gesture "p_ConsoleType_Rifle"
+    {
+      time 0.013333 3.606667
+      param "p_ConsoleType_Rifle"
+      absolutetags playback_time
+      {
+        "apex" 0.093843
+        "loop" 0.441062
+        "end" 0.680441
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.116279
+        "loop" 0.546512
+        "end" 0.697674
+      }
+      sequenceduration 2.900000

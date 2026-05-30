@@ -1,0 +1,146 @@
+00 0.2398
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.290274
+        "extreme" 0.371071
+        "loop" 0.477306
+        "end" 0.740649
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.155172
+        "extreme" 0.413793
+        "loop" 0.689655
+        "end" 0.741379
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "acct"
+    {
+      time 82.390808 83.748283
+      param "B_bg_leanfwd_chinout"
+      event_ramp
+      {
+        0.0514 0.0407
+        0.3800 0.3171
+        1.0171 0.2602
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.088907
+        "extreme" 0.259102
+        "loop" 0.594410
+        "end" 0.751903
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.155172
+        "extreme" 0.413793
+        "loop" 0.689655
+        "end" 0.741379
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "NULL"
+    {
+      time 83.781616 84.235641
+      param "null"
+    }
+    event gesture "acct"
+    {
+      time 84.275864 89.245911
+      param "b_bg_dwnheadtiltrt"
+      event_ramp
+      {
+        0.1229 0.1341
+        0.9429 0.3089
+        2.1907 0.2114
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.061249
+        "extreme" 0.108888
+        "loop" 0.238192
+        "end" 0.735441
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.132353
+        "extreme" 0.235294
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "acct"
+    {
+      time 87.310349 90.110352
+      param "B_gesture01"
+      event_ramp
+      {
+        0.0114 0.2276
+        0.7743 0.4797
+        2.1400 0.2480
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.221675
+        "accent" 0.337438
+        "loop" 0.602410
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.227273
+        "accent" 0.386364
+        "loop" 0.568182
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\breen.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "8"
+  "SceneRampTool" "100"
+  "ExpressionTool" "34"
+  "GestureTool" "58"
+  "RampTool" "70"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 89.760002 -1.000000
+  param "noaction"
+}
+actor "Breen"
+{
+  channel "audio"
+  {
+    event speak "collaboration01"
+    {
+      time 0.193334 8.503719
+      param "breencast.br_collaboration01_pl"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "collaboration02"
+    {
+      time 8.453342 13.249397
+      param "breencast.br_collaboration02_pl"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "collaboration03"
+    {
+      time 13.100014 21.946045
+      param "breencast.br_collaboration03_pl"
+  

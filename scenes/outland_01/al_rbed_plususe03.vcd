@@ -1,0 +1,41 @@
+
+        "apex" 0.135802
+        "accent" 0.259259
+        "loop" 0.296296
+        "end" 0.654321
+      }
+      sequenceduration 2.733333
+    }
+    event gesture "A_g_low2side_palmsout"
+    {
+      time 22.964285 25.664286
+      param "A_g_low2side_palmsout"
+      absolutetags playback_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      sequenceduration 2.700000
+    }
+    event firetrigger "1 - elevator go down"
+    {
+      time 39.857025 -1.000000
+      param "8"
+    }
+    event gesture "A_HG_rt_turntilt"
+    {
+      time 31.464287 34.264286
+      param "A_HG_rt_turntilt"
+      event_ramp 
+      {
+        0.0000 0.8351
+        1.2762 0

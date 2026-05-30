@@ -1,0 +1,59 @@
+ime 1.193548 3.493548
+      param "a_bg_hdaccleft"
+      absolutetags playback_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.161291 3.489248
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser" combo 
+        {
+          1.3223 0.1600
+          1.5487 0.8000
+        }
+        {
+          1.5487 0.5000
+        }
+        "inner_raiser" combo 
+        {
+          1.2870 0.0500
+          1.5487 0.2900
+          2.1215 0.0400
+          2.2372 0.0300
+          2.4150 0.5000
+          2.8276 0.0500
+        }
+        {
+          1.5487 0.5000
+        }
+        "outer_raiser" combo 
+        {
+          1.2678 0.0900
+          1.5487 0.6100
+          2.1151 0.0400
+ 

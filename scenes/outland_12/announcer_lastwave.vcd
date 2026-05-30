@@ -1,0 +1,31 @@
+   time 0.111112 0.615420
+      param "npc_citizen.excuseme01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.066666 0.655555
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "tri

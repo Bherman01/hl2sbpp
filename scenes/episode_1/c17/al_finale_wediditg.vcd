@@ -1,0 +1,46 @@
+nner_spotter_target"
+      event_ramp 
+      {
+        0.1958 0.7123
+        0.3911 0.9052
+        0.7151 0.9705
+        1.4741 0.8392
+        3.1288 0.7940
+        3.6703 0.7644
+        4.0798 0.6429
+      }
+    }
+  }
+  channel "move to "
+  {
+    event moveto "move beside door"
+    {
+      time 4.287981 9.613563
+      param "mark_barney_besideDoor"
+      param2 "Walk"
+      resumecondition
+    }
+    event moveto "mark_barney_openDoor"
+    {
+      time 1.034727 1.132666
+      param "mark_barney_openDoor"
+      param2 "Walk"
+      resumecondition
+    }
+  }
+  channel "face to"
+  {
+    event face "face door"
+    {
+      time 0.316918 4.181840
+      param "mark_al_lookAt_barneyDoor"
+      event_ramp 
+      {
+        0.2550 0.6431
+        0.3780 0.8959
+        3.8650 1.0000
+      }
+    }
+    event face "mark_barney_openDoor"
+    {
+      time 4

@@ -1,0 +1,32 @@
+    0.1400 0.8553
+        0.2367 0.9868
+        1.5339 0.9868
+        1.6039 0.8640
+      }
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+}
+
+mapname "maps\d1_town_05.bsp"
+scalesettings
+{
+  "CChoreoView" "62"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "Scen

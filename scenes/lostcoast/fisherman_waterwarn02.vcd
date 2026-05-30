@@ -1,0 +1,56 @@
+2.1714 0.9582
+        2.4286 1.0000
+        3.2310 1.0000
+        3.2707 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.128204
+        "accent" 0.229418
+        "loop" 0.350875
+        "end" 0.710728
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.123288
+        "accent" 0.315068
+        "loop" 0.424658
+        "end" 0.616438
+      }
+      sequenceduration 2.466667
+    }
+    event gesture "NULL"
+    {
+      time 67.222229 70.233337
+      param ""
+    }
+    event gesture "kgesture10"
+    {
+      time 73.400002 79.419449
+      param "kgesture10"
+      event_ramp
+      {
+        0.0024 0.9930
+        1.3118 0.9895
+        2.0235 0.9791
+        2.3810 0.9721
+        2.5706 0.9338
+        3.0397 0.5331
+        3.3409 0.3972
+        4.0632 0.5505
+        5.0012 0.4669
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.072632
+        "accent" 0.178786
+        "loop" 0.396681
+        "end" 0.629010
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.116071
+        "accent" 0.285714
+        "loop" 0.633929
+        "end" 0.750000
+ 

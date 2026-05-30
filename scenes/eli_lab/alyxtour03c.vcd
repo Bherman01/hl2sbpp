@@ -1,0 +1,171 @@
+7718
+          39.0909 0.7600
+          39.1939 0.7500
+          39.2455 0.6900
+          39.3685 0.0000
+          40.3610 0.0000
+          40.4610 0.0400
+          40.5888 0.4422
+          40.6845 0.4600
+          41.1315 0.4600
+          41.7845 0.4600
+          42.0786 0.4600
+          42.2106 0.4361
+          42.4709 0.0000
+          44.1931 0.0000
+          45.7324 0.0000
+          46.0194 0.3400
+          46.3455 0.4200
+          46.8455 0.4100
+          47.6012 0.3400
+        }
+        {
+          3.8167 0.5000
+          6.7480 0.5000
+          7.8975 0.5000
+          8.1500 0.5000
+          9.1500 0.5000
+          10.4733 0.5000
+          12.1475 0.5000
+          12.1790 0.5000
+          12.4121 0.5000
+          12.8006 0.5000
+          26.2914 0.5000
+          26.4461 0.5000
+          26.9271 0.5000
+          32.2238 0.5000
+          32.5315 0.5000
+          32.8315 0.5000
+          33.0084 0.5000
+          33.1392 0.5000
+          33.4058 0.5000
+          34.7668 0.5000
+          35.4817 0.5000
+          35.7356 0.5000
+          37.1356 0.5000
+          38.0227 0.5000
+          38.5394 0.5000
+          38.7005 0.5000
+          38.8111 0.5000
+          39.3685 0.5000
+          40.5888 0.5000
+          40.6845 0.5000
+          41.1315 0.5000
+          42.2106 0.5000
+          42.4709 0.5000
+          44.1931 0.5000
+          45.7324 0.5000
+          46.0194 0.5000
+          47.6012 0.5000
+        }
+      }
+    }
+  }
+  faceposermodel "models\kleiner.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "4"
+  "ExpressionTool" "36"
+  "RampTool" "38"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+event section "pause"
+{
+  time 2.033333 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 136.090912 -1.000000
+  param "noaction"
+}
+actor "Magnusson"
+{
+  channel "audio"
+  {
+    event speak "linchpin"
+    {
+      time 79.181297 84.469643
+      param "ep_02.mag_transmit_linchpin"
+      param2 "0.5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sequence01"
+    {
+      time 85.745407 91.457474
+      param "ep_02.mag_transmit_sequence01"
+      param2 "0.4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "nodoubt01"
+    {
+      time 97.442635 104.315674
+      param "ep_02.mag_transmit_nodoubt01"
+      param2 "0.63"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "nowaste01"
+    {
+      time 107.827667 109.374580
+      param "ep_02.mag_transmit_nowaste01"
+      param2 "0.75"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "yes yes, I'm not deaf.."
+    {
+      time 72.872986 75.856956
+      param "ep_02.mag_transmit_whatnow"
+      param2 "0.530"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "What you have there young lady, is the specific contact code for the Combine overworld!"
+    {
+      time 91.745407 96.888603
+      param "ep_02.mag_transmit_sequence02"
+      param2 "0.6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "nodoubt02"
+    {
+      time 104.650970 106.261810
+      param "ep_02.mag_transmit_nodoubt02"
+      param2 "0.63"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "nowaste02"
+    {
+      time 109.744331 111.450790
+      param "ep_02.mag_transmit_nowaste02"
+      param2 "0.5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "nowaste03"
+    {
+      time 111.785995 117.114952
+      param "ep_02.mag_transmit_nowaste03"
+      param2 "0.7"
+      fixedlength
+      cctype "cc_master"

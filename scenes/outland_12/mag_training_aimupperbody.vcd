@@ -1,0 +1,391 @@
+   0.0611 0.5317
+        0.1141 0.9166
+        0.1493 0.9921
+        0.7970 1.0000
+        0.9348 1.0000
+        1.0179 0.7897
+        1.0684 0.5198
+        1.1052 0.2024
+      }
+    }
+  }
+  channel "head"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "168"
+  "RampTool" "112"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "whoops01"
+    {
+      time 0.066667 0.475896
+      param "npc_citizen.whoops01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066666 0.522222
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "yeah02"
+    {
+      time 0.006667 0.731565
+      param "npc_citizen.yeah02"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "player"
+    {
+      time 0.020000 0.733333
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "youdbetterreload01"
+    {
+      time 0.006667 1.082018
+      param "npc_citizen.youdbetterreload01"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 1.093334
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "yougotit02"
+    {
+      time 0.006667 0.532018
+      param "npc_citizen.yougotit02"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 0.540000
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "zombies01"
+    {
+      time 0.006667 1.229093
+      param "npc_citizen.zombies01"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "zombies02"
+    {
+      time 0.006667 0.829048
+      param "npc_citizen.zombies02"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "zap_loop"
+{
+  time 19.460258 -1.000000
+  param "10.000000"
+  loopcount "0"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_02.al_barn_handy"
+    {
+      time 12.991489 15.872079
+      param "ep_02.al_barn_handy"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_barn_oneofthose01"
+    {
+      time 31.661396 32.424728
+      param "ep_02.al_barn_oneofthose01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_barn_oneofthose02"
+    {
+      time 32.881252 34.126854
+      param "ep_02.al_barn_oneofthose02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_barn_advis"
+    {
+      time 34.987637 36.242443
+      param "ep_02.al_barn_advis"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_barn_aghno"
+    {
+      time 37.730183 39.236099
+      param "ep_02.al_barn_aghno"
+      param2 "1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_barn_wwcd"
+    {
+      time 3.404558 6.270794
+      param "ep_02.al_barn_wwcd"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_barn_backattower01"
+    {
+      time 21.800402 23.791491
+      param "ep_02.al_barn_backattower01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_barn_backattower02"
+    {
+      time 24.192558 26.510925
+      param "ep_02.al_barn_backattower02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "mark_look_console"
+    {
+      time 12.700767 15.994618
+      param "mark_look_console"
+      event_ramp
+      {
+        0.4154 0.9598
+        2.6877 0.9705
+      }
+    }
+    event lookat "mark_look_al_screen"
+    {
+      time 19.930668 22.957417
+      param "mark_look_al_screen"
+      event_ramp
+      {
+        0.3780 0.7205
+        0.5040 0.8384
+        2.4551 0.8865
+        2.5484 0.8723
+        2.6508 0.8543
+      }
+    }
+    event lookat "mark_al_look_EMP"
+    {
+      time 15.494256 20.314478
+      param "mark_al_look_EMP"
+      event_ramp
+      {
+        0.7178 0.9907 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        4.3585 0.9950 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        4.5000 0.9642 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        4.6119 0.8558 "curve_linear_interp_to_curve_linear_interp"
+      }
+    }
+    event lookat "mark_look_al_screen"
+    {
+      time 8.069267 12.540681
+      param "mark_look_al_screen"
+      event_ramp
+      {
+        0.4923 0.9732
+        3.8897 0.9625
+      }
+    }
+    event lookat "mark_look_advisor"
+    {
+      time 28.523197 34.002728
+      param "mark_look_advisor"
+      event_ramp
+      {
+        0.3780 0.6955
+        0.5625 0.9200
+        0.7478 0.9834 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        4.5891 1.0000
+        4.7188 0.9825 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        4.8813 

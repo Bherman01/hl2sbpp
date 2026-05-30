@@ -1,0 +1,26 @@
+d" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.204819
+        "accent" 0.397590
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "head"
+  {
+    event flexanimation "head"
+    {
+      time 0.952381 52.952381
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_rightleft"         range 30.0 -30.0        
+        {
+          8.0427 0.5000
+          8.1757 0.5000
+          8.5895 0.5000
+          8.9442 0.5000

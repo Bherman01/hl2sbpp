@@ -1,0 +1,37 @@
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+  channel "Facial"
+  {
+  }
+  channel "Head"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "56"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_affirm01"
+    {
+      time 0.608641 1.566373
+      param "ep_01.al_affirm01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""

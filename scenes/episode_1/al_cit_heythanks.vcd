@@ -1,0 +1,58 @@
+.4881 0.9951
+        1.3772 0.9951
+      }
+    }
+    event lookat "!player"
+    {
+      time 4.925907 6.282314
+      param "!player"
+      event_ramp 
+      {
+        0.4452 0.9739
+        0.9463 1.0000
+      }
+    }
+    event lookat "mark_al_look_soldiers_1"
+    {
+      time 6.142306 7.779857
+      param "mark_al_look_soldiers_1"
+      event_ramp 
+      {
+        0.3762 0.9902
+        1.2976 1.0000
+      }
+    }
+    event lookat "rollermine"
+    {
+      time 7.571429 9.420022
+      param "rollermine"
+      event_ramp 
+      {
+        0.3190 1.0000
+        1.5697 1.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 9.231292 10.425170
+      param "!player"
+      event_ramp 
+      {
+        0.2643 1.0000
+        0.9792 1.0000
+      }
+    }
+    event lookat "mark_al_look_soldiers_1"
+    {
+      time 10.142858 11.780408
+      param "mark_al_look_soldiers_1"
+      event_ramp 
+      {
+        0.3310 0.9902
+        1.3024 1.0000
+      }
+    }
+    event lookat "mark_look_console_up_1"
+    {
+      time 0.407065 3.627040
+      param "mark_look_console_up_1"

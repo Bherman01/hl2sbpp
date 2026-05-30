@@ -1,0 +1,85 @@
+5200 1.0000
+        7.4971 1.0000
+      }
+    }
+  }
+  channel "moveTo"
+  {
+    event moveto "!player"
+    {
+      time 8.079366 19.779366
+      param "!player"
+      param2 "Walk"
+      distancetotarget 120.00
+    }
+    event moveto "mark_find_elevator"
+    {
+      time 0.201588 7.468254
+      param "mark_find_elevator"
+      param2 "Walk"
+      distancetotarget 80.00
+    }
+  }
+  channel "faceTo"
+  {
+    event face "mark_find_elevator"
+    {
+      time 0.111111 8.049999
+      param "mark_find_elevator"
+      event_ramp
+      {
+        0.5289 0.2944
+        0.7100 0.3463
+        0.8760 0.3463
+        7.2210 0.3463
+        7.3246 0.3463
+        7.5249 0.2987
+      }
+    }
+    event face "!player"
+    {
+      time 7.622222 21.861111
+      param "!player"
+      event_ramp
+      {
+        0.5289 0.2944
+        0.7100 0.3463
+        0.8760 0.3463
+        13.5210 0.3463
+        13.6246 0.3463
+        13.8249 0.2987
+      }
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 0.300000 3.700000
+      param "g_Accent_Right"
+      absolutetags playback_time
+      {
+        "apex" 0.129085
+        "accent" 0.255763
+        "loop" 0.669935
+        "end" 0.836601
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.166667
+        "accent" 0.282051
+        "loop" 0.576923
+        "end" 0.769231
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "1"
+    {
+      time 3.223810 5.746032
+      param "g_cross_palmout_right"
+      event_ramp
+      {
+        0.6900 0.5541
+      }
+      absolutetags playback_time
+  

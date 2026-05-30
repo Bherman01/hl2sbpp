@@ -1,0 +1,25 @@
+oreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "firetrap_vigil"
+    {
+      time 0.466667 4.628957
+      param "ravenholm.firetrap_vigil"
+      param2 "90dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time -0.006666 4.906666
+      param "!player"
+      event_ramp
+      {
+        0.0780 0.0597
+        

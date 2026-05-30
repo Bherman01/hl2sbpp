@@ -1,0 +1,156 @@
+0132 0.9783
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.305222
+        "accent" 0.537996
+        "loop" 0.638432
+        "end" 0.669153
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.119048
+        "accent" 0.452381
+        "loop" 0.571429
+        "end" 0.714286
+      }
+      sequenceduration 2.833333
+    }
+    event gesture "A_g_cutdwnoutbig"
+    {
+      time 24.351852 27.434423
+      param "A_g_cutdwnoutbig"
+      event_ramp 
+      {
+        0.5960 0.9892
+        2.9975 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.114562
+        "accent" 0.264418
+        "loop" 0.468354
+        "end" 0.531646
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.121951
+        "accent" 0.341463
+        "loop" 0.597561
+        "end" 0.658537
+      }
+      sequenceduration 2.766667
+    }
+    event gesture "A_g_rubface"
+    {
+      time 28.058825 32.096081
+      param "A_g_rubface"
+      event_ramp 
+      {
+        1.0680 0.9856
+        2.8920 0.9964
+        3.4000 0.1191
+      }
+      absolutetags playback_time
+      {
+        "in" 0.194175
+        "h2" 0.339806
+        "h3" 0.378641
+        "h1" 0.529103
+        "out" 0.712195
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.104651
+        "h2" 0.215650
+        "h3" 0.225545
+        "h1" 0.366207
+        "out" 0.767442
+      }
+      sequenceduration 2.900000
+    }
+    event gesture "A_g_rthdflipout"
+    {
+      time 41.215683 44.633331
+      param "A_g_rthdflipout"
+      absolutetags playback_time
+      {
+        "apex" 0.260190
+        "accent" 0.457473
+        "loop" 0.605435
+        "end" 0.723804
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147727
+        "accent" 0.375000
+        "loop" 0.545455
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "necklacegrab"
+    {
+      time 62.529415 67.760780
+      param "necklacegrab"
+      event_ramp 
+      {
+        0.7120 0.3899
+        1.2240 0.9856
+        5.2314 1.0000
+      }
+      absolutetags playback_time
+      {
+        "in" 0.233749
+        "loop" 0.406951
+        "end" 0.565784
+        "out" 0.685259
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.155405
+        "loop" 0.337838
+        "end" 0.635135
+        "out" 0.790541
+      }
+      sequenceduration 4.966667
+    }
+    event gesture "A_g_low2side_palmsout"
+    {
+      time 50.921574 54.601967
+      param "A_g_low2side_palmsout"
+      absolutetags playback_time
+      {
+        "apex" 0.352941
+        "accent" 0.486468
+        "loop" 0.614851
+        "end" 0.743234
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      sequenceduration 2.700000
+    }
+    event gesture "A_g_low2side_palmsout"
+    {
+      time 56.549019 59.249016
+      param "A_g_low2side_palmsout"
+      absolutetags playback_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.601449
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      

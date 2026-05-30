@@ -1,0 +1,75 @@
+     flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lowerer" combo 
+        {
+          0.6308 0.2000
+          0.7028 0.2000
+          3.2153 0.2000
+          3.4560 0.2000
+        }
+        {
+          0.6308 0.5000
+          0.7028 0.5000
+          3.2153 0.5000
+          3.4560 0.5000
+        }
+        "wrinkler" 
+        {
+          0.6308 0.1600
+          0.7028 0.1600
+          3.2153 0.1600
+          3.4560 0.1600
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "72"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "!target2"
+{
+  channel "audio"
+  {
+    event speak "sheckley_omgdead"
+    {
+      time 0.138888 1.744874
+      param "ep_02.sheckley_omgdead"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "G

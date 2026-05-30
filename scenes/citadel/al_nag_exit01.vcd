@@ -1,0 +1,41 @@
+  "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.119048
+      param ""
+    }
+    event gesture "A_g_hflipout"
+    {
+      time 0.547619 3.144099
+      param "A_g_hflipout"
+      absolutetags playback_time
+      {
+        "apex" 0.155805
+        "accent" 0.376529
+        "loop" 0.623221
+        "end" 0.636455
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.136364
+        "accent" 0.329545
+        "loop" 0.545455
+        "end" 0.681818
+      }
+     

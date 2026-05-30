@@ -1,0 +1,193 @@
+event firetrigger "3 - get up"
+    {
+      time 69.141289 -1.000000
+      param "3"
+    }
+    event firetrigger "2 - turn green"
+    {
+      time 16.574602 -1.000000
+      param "2"
+    }
+    event firetrigger "1 - glow off"
+    {
+      time 4.831747 -1.000000
+      param "1"
+    }
+    event firetrigger "4 - grabhead"
+    {
+      time 13.666667 -1.000000
+      param "4"
+    }
+    event firetrigger "5 - elevator tired"
+    {
+      time 83.712105 -1.000000
+      param "5"
+    }
+  }
+  faceposermodel "D:\DEV\main\game\ep2\models\alyx.mdl"
+}
+
+actor "vort"
+{
+  channel "audio"
+  {
+    event speak "stabilizing02"
+    {
+      time 8.382144 11.537382
+      param "ep_02.vort_junc_stabilizing02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "liestill"
+    {
+      time 15.616270 17.806995
+      param "ep_02.vort_junc_liestill"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "momentlonger"
+    {
+      time 54.328178 56.907066
+      param "ep_02.vort_junc_momentlonger"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "knit"
+    {
+      time 32.328571 37.970249
+      param "ep_02.vort_junc_knit"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "rightroad"
+    {
+      time 62.560364 66.645988
+      param "ep_02.vort_junc_rightroad"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "rise"
+    {
+      time 66.603195 70.431946
+      param "ep_02.vort_junc_rise"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pathtowf"
+    {
+      time 78.442299 83.119598
+      param "ep_02.vort_junc_pathtowf"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "matterhours"
+    {
+      time 48.312698 50.716736
+      param "ep_02.vort_junc_matterhours"
+      param2 "0.450"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "alyx"
+    {
+      time 4.841668 70.511108
+      param "alyx"
+      event_ramp
+      {
+        0.7250 1.0000
+        65.3039 1.0000
+      }
+    }
+    event lookat "alyx"
+    {
+      time 70.067673 88.757614
+      param "alyx"
+      event_ramp
+      {
+        0.8000 0.2543
+        1.1481 0.2716
+        1.5111 0.2716
+        17.0538 0.2716
+        17.4288 0.2716
+        17.8327 0.2543
+      }
+    }
+  }
+  channel "move to "
+  {
+    event moveto "mark_vort_elevator05"
+    {
+      time 83.053383 84.497833
+      param "mark_vort_elevator05"
+      param2 "Walk"
+      resumecondition
+    }
+    event moveto "mark_vort_post_alyx"
+    {
+      time 13.291666 19.208334
+      param "mark_vort_post_alyx"
+      param2 "Walk"
+    }
+  }
+  channel "face to"
+  {
+    event face "alyx"
+    {
+      time 4.793056 70.588882
+      param "alyx"
+      event_ramp
+      {
+        1.1259 1.0000
+        64.9366 1.0000
+      }
+    }
+  }
+  channel "posture"
+  {
+  }
+  channel "blink"
+  {
+    event generic "no blink"
+    {
+      time -0.033333 5.566667
+      param "AI_BLINK"
+      param2 "vort"
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "1"
+    {
+      time 7.933334 10.766668
+      param "g_present"
+      absolutetags playback_time
+      {
+        "apex" 0.214286
+        "accent" 0.392857
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.214286
+        "accent" 0.392857
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      sequenceduration 2.833333
+    }
+    event gesture "2"
+    {
+      time 15.230770 18.371796
+      param "g_palm_mi

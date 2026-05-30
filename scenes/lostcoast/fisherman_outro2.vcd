@@ -1,0 +1,78 @@
+     fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Barney has been leading..."
+    {
+      time 74.519142 78.073425
+      param "k_lab2.kl_dontgiveuphope02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "it's as if he knew you were expected"
+    {
+      time 78.723587 81.876579
+      param "k_lab2.kl_dontgiveuphope03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "see - it's not all hopeless..."
+    {
+      time 87.998497 89.495026
+      param "k_lab2.kl_notallhopeless"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "fascinating - a slow teleport"
+    {
+      time 44.701683 48.339211
+      param "k_lab2.kl_slowteleport01_b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "that's most troubling - he's at the citadel"
+    {
+      time 68.617241 72.249619
+      param "k_lab2.kl_atthecitadel01_b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "see - it's not all hopeless..."
+    {
+      time 89.560715 91.044456
+      param "k_lab2.kl_notallhopeless_b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at alyx"
+    {
+      time 14.253155 16.235258
+      param "alyx"
+      event_ramp
+      {
+        0.5752 0.4896
+        0.7705 0.5623
+        1.2605 0.5707
+        1.4674 0.5143
+      }
+    }
+    event lookat "look at alyx"
+    {
+      time 30.283903 34.723911
+      param "alyx"
+      event_ramp
+      {
+        0.9480 0.9265
+        3.8600 0.9265
+      }
+    }
+    event lookat 

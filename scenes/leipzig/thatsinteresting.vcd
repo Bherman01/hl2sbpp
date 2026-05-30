@@ -1,0 +1,42 @@
+
+        "loop" 0.512703
+        "end" 0.649424
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.151515
+        "accent" 0.287879
+        "loop" 0.454545
+        "end" 0.575758
+      }
+      sequenceduration 2.233333
+    }
+  }
+  faceposermodel "U:\hl2\hl2\models\Barney.mdl"
+}
+
+mapname "maps\d1_trainstation\d1_trainstation_05.bsp"
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "RampTool" "66"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Eli"
+{
+  channel "audio"
+  {
+    event speak "stayput"
+    {
+      time 4.520000 6.838458
+      param "k_lab.eli_stayput"
+      fixedlength
+      tags
+      {
+        "gordon" 0.021566
+   

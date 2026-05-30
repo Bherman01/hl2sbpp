@@ -1,0 +1,19 @@
+         0.3567 0.5900
+          0.4684 0.5700
+          0.6037 0.5700
+          0.8077 0.4900
+        }
+      }
+    }
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time 0.006666 1.120000
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser"         combo        
+        {
+          0.1116 1.000

@@ -1,0 +1,20 @@
+
+      param2 "0.350"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "struggle05"
+    {
+      time 55.989525 57.525875
+      param "ep_02.al_launch_struggle05"
+      param2 "1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "dadimnot01"
+    {
+      time 66.111076 66.673660
+      param "ep_02.al_launch_dadimnot01"
+      param2 "0.350

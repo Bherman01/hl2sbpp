@@ -1,0 +1,39 @@
+ 2.766667
+    }
+    event gesture "3"
+    {
+      time 13.427397 17.983805
+      param "M_g_shrug"
+      event_ramp
+      {
+        0.5429 0.9146
+        3.8516 0.8794
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.133179
+        "accent" 0.239024
+        "loop" 0.406936
+        "end" 0.830508
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.204545
+        "accent" 0.409091
+        "loop" 0.625000
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "5"
+    {
+      time 17.348230 20.787504
+      param "M_g_rthd_palmout"
+      event_ramp
+      {
+        0.4524 0.9045
+        1.9037 1.0000
+        2.2057 0.9899
+      }
+      absolutetags playback_time
+  

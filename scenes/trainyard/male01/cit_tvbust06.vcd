@@ -1,0 +1,92 @@
+get1"
+{
+  channel "audio"
+  {
+    event speak "firetrap_welldone"
+    {
+      time 0.266667 1.835012
+      param "ravenholm.firetrap_welldone"
+      param2 "90dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "firetrap_freeuse"
+    {
+      time 2.313333 7.615623
+      param "ravenholm.firetrap_freeuse"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.013333 7.800000
+      param "!player"
+      event_ramp
+      {
+        0.0780 0.0597
+        0.4960 0.9748
+        7.0686 0.9748
+        7.6806 0.0440
+      }
+    }
+  }
+  channel "triggers"
+  {
+    event firetrigger "spawn headcrab"
+    {
+      time 8.426667 -1.000000
+      param "1"
+    }
+  }
+  channel "Sequence"
+  {
+    active "0"
+  }
+  channel "Faceto"
+  {
+    event face "!player"
+    {
+      time 0.000000 8.361632
+      param "!player"
+    }
+  }
+  channel "posture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.606918
+      param ""
+    }
+    event gesture "p_Step_Forward"
+    {
+      time 0.012579 5.312579
+      param "p_Step_Forward"
+      absolutetags playback_time
+      {
+        "apex" 0.111639
+        "loop" 0.344418
+        "end" 0.374109
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.126582
+        "loop" 0.411392
+        "end" 0.443038
+      }
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.946667
+      param ""
+    }
+    event gesture "Well_Done"
+    {
+      time 0.01333

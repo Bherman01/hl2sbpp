@@ -1,0 +1,38 @@
+    "apex" 0.189655
+        "accent" 0.275862
+        "loop" 0.344828
+        "end" 0.775862
+      }
+      sequenceduration 1.966667
+    }
+    active "0"
+  }
+  channel "generic ai"
+  {
+    event generic "point"
+    {
+      time 0.048912 3.643194
+      param "AI_AIM"
+      param2 "mark_look_tracks"
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "facial"
+    {
+      time 0.066667 9.018860
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "inner_raiser" combo 
+        {
+          0.2996 0.2400
+          0.4692 0.4600
+          0.6692 0.4800
+          2.0538 0.3500
+          2.7896 0.0000
+          4.7615 0.0000
+          5.0556 0.4200
+          5.3086 0.5300
+          5.4154 0.5400
+          6.65

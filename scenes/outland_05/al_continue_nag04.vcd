@@ -1,0 +1,160 @@
+re01"
+    {
+      time 0.908364 1.774759
+      param "ep_01.ba_thereyouare01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_thereyouare02"
+    {
+      time 2.709193 4.660032
+      param "ep_01.ba_thereyouare02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_deceiving02"
+    {
+      time 8.773841 10.526879
+      param "ep_01.ba_deceiving02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_deceiving03"
+    {
+      time 10.711832 17.327728
+      param "ep_01.ba_deceiving03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_herewego"
+    {
+      time 20.462008 21.197495
+      param "ep_01.ba_herewego"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event firetrigger "trigger2"
+    {
+      time 1.839080 -1.000000
+      param "2"
+    }
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.219537 2.821893
+      param "!player"
+      event_ramp 
+      {
+        0.3559 1.0000
+        2.1095 1.0000
+      }
+    }
+    event lookat "alyx"
+    {
+      time 8.394643 10.913117
+      param "alyx"
+      event_ramp 
+      {
+        0.4056 0.6484
+        0.9389 1.0000
+        1.9273 1.0000
+      }
+    }
+    event lookat "alyx"
+    {
+      time 2.533334 7.166668
+      param "alyx"
+      event_ramp 
+      {
+        0.5111 1.0000
+        4.1722 1.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 10.419538 11.977448
+      param "!player"
+      event_ramp 
+      {
+        0.7559 0.6000
+        1.2428 0.6000
+      }
+    }
+    event lookat "!player"
+    {
+      time 13.508426 16.233004
+      param "!player"
+      event_ramp 
+      {
+        0.3167 0.6613
+        0.7392 1.0000
+        2.1983 1.0000
+        2.4722 0.6161
+      }
+    }
+    event lookat "alyx"
+    {
+      time 15.939089 18.045683
+      param "alyx"
+      event_ramp 
+      {
+        0.3944 0.6710
+        0.8833 1.0000
+        1.5265 1.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 6.763982 8.710781
+      param "!player"
+      event_ramp 
+      {
+        0.5837 0.6000
+        1.6317 0.6935
+      }
+    }
+    event lookat "alyx"
+    {
+      time 11.761309 13.902006
+      param "alyx"
+      event_ramp 
+      {
+        0.4333 0.7065
+        0.8445 1.0000
+        1.5495 1.0000
+        1.7833 0.7258
+      }
+    }
+    event lookat "!self"
+    {
+      time 18.988506 21.038506
+      param "!self"
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_barney_1"
+    {
+      time 0.479877 2.576527
+      param "mark_barney_1"
+      param2 "Walk"
+      resumecondition
+      distancetotarget 16.00
+    }
+    event moveto "mark_barney_backcorner"
+    {
+      time 19.880104 21.313160
+      param "mark_barney_backcorner"
+      param2 "Run"
+      event_ramp 
+      {
+        0.4444 0.7677
+        0.8875 1.0000
+     

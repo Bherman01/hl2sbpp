@@ -1,0 +1,35 @@
+ve_easeout"
+          13.8764 0.5000 "curve_easein_to_curve_easeout"
+          14.0586 0.5000 "curve_easein_to_curve_easeout"
+        }
+        "lid_raiser" combo 
+        {
+          2.3810 0.2900
+          2.8897 0.0700
+          5.0864 0.0000
+          5.6095 0.8000
+          6.1848 0.4900
+          6.5248 0.0000
+          15.3887 0.0000
+        }
+        {
+          2.3810 0.5000 "curve_linear_interp_to_curve_linear_interp"
+          5.1780 0.4800 "curve_linear_interp_to_curve_linear_interp"
+          5.5049 1.0000
+          6.2371 1.0000
+          6.4594 0.4700 "curve_linear_interp_to_curve_linear_interp"
+          6.7296 0.4700
+          15.3887 0.5000
+          19.5612 0.5000
+        }
+        "blink" 
+        {
+          2.0264 0.0000
+          2.1784 0.0000
+          2.3039 0.0000
+          4.7046 0.0000
+          4.8249 0.8800
+          5.0704 0.0000
+          7.1846 0.0500
+          7.2795 0.9100
+          

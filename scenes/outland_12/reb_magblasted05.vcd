@@ -1,0 +1,47 @@
+4.8173 0.7686
+        4.9160 0.7642
+      }
+    }
+    event face "face advisor"
+    {
+      time 9.461023 16.866302
+      param "Advisor"
+      event_ramp
+      {
+        0.3660 0.5590
+        0.5440 0.7336
+        0.7880 0.8079
+        6.6086 0.8166
+        7.3066 0.7686
+        7.4053 0.7642
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "doorcontrol"
+    {
+      time 1.224842 4.410246
+      param "!target2"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "Postures"
+  {
+    event gesture "emp"
+    {
+      time 5.131345 9.042094
+      param "A_EMPbig_g"
+      event_ramp
+      {
+        1.0190 0.9820
+        2.8190 0.9920
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.219130
+        "loop" 0.564621
+        "end" 0.640977
+      }
+      

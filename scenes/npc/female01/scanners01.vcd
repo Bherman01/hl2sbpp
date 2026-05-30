@@ -1,0 +1,22 @@
+   time 25.152384 27.199049
+      param "mark_alyx_look_controlroom_console"
+      event_ramp
+      {
+        0.2400 0.2927
+        0.4200 0.5645
+        0.6360 0.7352
+        1.1690 0.8083
+        1.8903 0.7735
+        2.0383 0.7700
+      }
+    }
+    event lookat "look_mossman"
+    {
+      time 28.069048 31.238728
+      param "mossman"
+      event_ramp
+      {
+        0.1320 0.3067
+        0.2360 0.5182
+        0.3760 0.6854
+      

@@ -1,0 +1,5320 @@
+   "end" 0.825953
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.220588
+        "loop" 0.404412
+        "end" 0.625000
+      }
+      sequenceduration 4.566667
+    }
+    event gesture "NULL"
+    {
+      time 59.484848 67.378792
+      param ""
+    }
+  }
+  channel "bodygestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 2.857143
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 22.897436 27.294872
+      param ""
+    }
+    event gesture "A_bg_h_jerkrt"
+    {
+      time 8.102564 10.735897
+      param "A_bg_h_jerkrt"
+      absolutetags playback_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "NULL"
+    {
+      time 11.179488 13.628206
+      param ""
+    }
+    event gesture "A_bg_chinout"
+    {
+      time 20.805555 23.605555
+      param "A_bg_chinout"
+      absolutetags playback_time
+      {
+        "apex" 0.156627
+        "extreme" 0.287129
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_bg_acctdwn_chinout"
+    {
+      time 28.583334 33.135483
+      param "A_bg_acctdwn_chinout"
+      absolutetags playback_time
+      {
+        "apex" 0.074302
+        "extreme" 0.148605
+        "loop" 0.260058
+        "end" 0.766264
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.294118
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 30.919193 34.984848
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 54.515152 66.378792
+      param ""
+    }
+    event gesture "accentup_ext"
+    {
+      time 44.818188 52.912159
+      param "accentup_ext"
+      absolutetags playback_time
+      {
+        "apex" 0.101437
+        "extreme" 0.173636
+        "loop" 0.390364
+        "end" 0.879888
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_HG_lt_tiltdroop"
+    {
+      time 51.940990 56.983414
+      param "A_HG_lt_tiltdroop"
+      event_ramp 
+      {
+        0.0000 0.7953
+        0.1231 0.7987
+        0.3577 0.7987
+        0.8269 0.7986
+        2.3192 0.7886
+        4.9895 0.4832
+        5.0319 0.4765
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.156365
+        "hd1" 0.305389
+        "extreme" 0.473054
+        "loop" 0.778443
+        "end" 0.850552
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.108434
+        "hd1" 0.228419
+        "extreme" 0.421687
+        "loop" 0.602410
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_headdroop"
+    {
+      time 71.151520 80.936363
+      param "A_headdroop"
+      event_ramp 
+      {
+        0.0000 0.4664
+        0.0423 0.4631
+        9.7387 0.2047
+        9.7848 0.1913
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.102484
+        "hd1" 0.183230
+        "extreme" 0.226708
+        "loop" 0.820450
+        "end" 0.842120
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.093750
+        "hd1" 0.272855
+        "extreme" 0.328125
+        "loop" 0.773438
+        "end" 0.781250
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "NULL"
+    {
+      time 91.484856 94.348495
+      param ""
+    }
+    event gesture "A_bg_acctdwn_chinout"
+    {
+      time 94.242424 96.542427
+      param "A_bg_acctdwn_chinout"
+      absolutetags playback_time
+      {
+        "apex" 0.147059
+        "extreme" 0.294118
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.294118
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 81.121223 81.621223
+      param ""
+    }
+    event gesture "A_bg_chinout"
+    {
+      time 88.393944 91.652435
+      param "A_bg_chinout"
+      absolutetags playback_time
+      {
+        "apex" 0.134588
+        "extreme" 0.300236
+        "loop" 0.460745
+        "end" 0.710117
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "accentup_ext"
+    {
+      time 90.303040 93.103043
+      param "accentup_ext"
+      event_ramp 
+      {
+        0.0000 0.6409
+        0.0577 0.6544
+        0.7538 0.6946
+        2.7769 0.3289
+        2.8000 0.3188
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 98.939400 99.439400
+      param ""
+    }
+    event gesture "A_bg_acctdwn_chinout"
+    {
+      time 102.878792 105.996979
+      param "A_bg_acctdwn_chinout"
+      event_ramp 
+      {
+        0.0038 0.3691
+        0.7846 0.6745
+        3.1105 0.2819
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.108472
+        "extreme" 0.216944
+        "loop" 0.379652
+        "end" 0.509804
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.294118
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 106.696976 107.196976
+      param ""
+    }
+    event gesture "A_bg_upchindwn_pod"
+    {
+      time 108.757584 116.048149
+      param "A_bg_upchindwn_pod"
+      absolutetags playback_time
+      {
+        "apex" 0.104280
+        "extreme" 0.179830
+        "loop" 0.316814
+        "end" 0.833256
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.132530
+        "extreme" 0.240964
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_bg_chinout"
+    {
+      time 114.393936 117.193939
+      param "A_bg_chinout"
+      event_ramp 
+      {
+        0.0000 0.9966
+        1.5692 0.9866
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 116.787872 119.045456
+      param ""
+    }
+    event gesture "accentup_ext"
+    {
+      time 120.818176 123.261925
+      param "accentup_ext"
+      absolutetags playback_time
+      {
+        "apex" 0.165655
+        "extreme" 0.289897
+        "loop" 0.552973
+        "end" 0.613471
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_bg_chinout"
+    {
+      time 121.878784 126.189186
+      param "A_bg_chinout"
+      event_ramp 
+      {
+        0.0000 0.9832
+        1.0154 0.9966
+        1.5231 0.9664
+        1.6192 0.9396
+        1.8538 0.8423
+        2.2423 0.6376
+        3.6769 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.101744
+        "extreme" 0.226966
+        "loop" 0.352188
+        "end" 0.780860
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_headdroop"
+    {
+      time 38.939400 46.760719
+      param "A_headdroop"
+      event_ramp 
+      {
+        0.9346 0.3120
+        1.9423 0.5033
+        3.4846 0.5134
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.124031
+        "extreme" 0.333360
+        "loopstart" 0.492300
+        "loopend" 0.767437
+        "loop" 0.872091
+        "end" 0.961229
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.093750
+        "extreme" 0.328125
+        "loopstart" 0.395558
+        "loopend" 0.524536
+        "loop" 0.773438
+        "end" 0.781250
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "NULL"
+    {
+      time 43.242428 47.984852
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 6.636364 9.287879
+      param ""
+    }
+    event gesture "A_bg_chinout"
+    {
+      time 1.878788 4.678788
+      param "A_bg_chinout"
+      event_ramp 
+      {
+        0.3731 0.1644
+        0.6538 0.3893
+        0.9077 0.7852
+        1.0385 0.9161
+        1.0885 0.9262
+        2.7692 0.5201
+        2.7962 0.5201
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 19.727272 21.227272
+      param ""
+    }
+    event gesture "accentup_ext_pod"
+    {
+      time 15.939394 18.739393
+      param "accentup_ext_pod"
+      event_ramp 
+      {
+        0.0000 0.8188
+        0.0231 0.8188
+        1.0692 0.8188
+        1.2769 0.7315
+        1.4769 0.5604
+        1.7385 0.2886
+        2.0692 0.0738
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "accentup_ext"
+    {
+      time 37.181820 40.854061
+      param "accentup_ext"
+      event_ramp 
+      {
+        0.0000 0.7215
+        0.0654 0.7282
+        1.8038 0.6711
+        2.1769 0.5604
+        2.7885 0.2282
+        3.2231 0.0872
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.165885
+        "extreme" 0.282752
+        "loop" 0.512414
+        "end" 0.742779
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "accentdown_ext"
+    {
+      time 34.515156 38.735569
+      param "accentdown_ext"
+      event_ramp 
+      {
+        0.0000 0.4530
+        0.0462 0.4463
+        2.8828 0.1007
+        2.9366 0.0738
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.124640
+        "extreme" 0.230478
+        "loop" 0.364438
+        "end" 0.776188
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_bg_lookUp"
+    {
+      time 127.847214 130.147217
+      param "A_bg_lookUp"
+      absolutetags playback_time
+      {
+        "in" 0.176470
+        "loop" 0.441176
+        "end" 0.626506
+        "out" 0.813659
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.176471
+        "loop" 0.441176
+        "end" 0.529412
+        "out" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "accentup_ext_pod"
+    {
+      time 132.069443 134.869446
+      param "accentup_ext_pod"
+      event_ramp 
+      {
+        0.0000 0.4733
+        0.9553 0.5267
+        1.6605 0.2133
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "headges"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 89.156570
+      param ""
+    }
+    event gesture "A_HG_rt_turntilt"
+    {
+      time 124.818184 128.315155
+      param "A_HG_rt_turntilt"
+      event_ramp 
+      {
+        0.0000 0.5933
+        3.4970 0.2900
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.235117
+        "extreme" 0.379821
+        "loop" 0.572758
+        "end" 0.750208
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.120482
+        "extreme" 0.301205
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_bg_acc_dwn_left"
+    {
+      time 90.222229 93.022232
+      param "A_bg_acc_dwn_left"
+      event_ramp 
+      {
+        0.0000 0.5467
+        2.8000 0.2867
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.144578
+        "extreme" 0.301205
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.301205
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "accentup_ext_pod"
+    {
+      time 129.569458 132.369461
+      param "accentup_ext_pod"
+      event_ramp 
+      {
+        0.0000 0.4233
+        1.0500 0.3233
+        1.6184 0.0100
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.368257
+      param "NULL"
+    }
+    event gesture "NULL"
+    {
+      time 2.860655 5.200161
+      param ""
+    }
+    event gesture "A_g_monitorbuttonpush"
+    {
+      time 0.016931 2.819954
+      param "A_g_monitorbuttonpush"
+      absolutetags playback_time
+      {
+        "in" 0.192649
+        "loop" 0.313054
+        "end" 0.484255
+        "out" 0.699480
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.181818
+        "loop" 0.295455
+        "end" 0.522727
+        "out" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "NULL"
+    {
+      time 7.399823 10.381304
+      param ""
+    }
+    event gesture "A_g_monsidebuttonpush"
+    {
+      time 5.818454 8.221149
+      param "A_g_monsidebuttonpush"
+      absolutetags playback_time
+      {
+        "apex" 0.190049
+        "accent" 0.341915
+        "loop" 0.486018
+        "end" 0.825260
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.120690
+        "accent" 0.241379
+        "loop" 0.362069
+        "end" 0.775862
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "A_g_monsidebuttonpush"
+    {
+      time 9.313163 11.892062
+      param "A_g_monsidebuttonpush"
+      absolutetags playback_time
+      {
+        "apex" 0.197938
+        "accent" 0.290124
+        "loop" 0.382308
+        "end" 0.698371
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.120690
+        "accent" 0.241379
+        "loop" 0.362069
+        "end" 0.775862
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "NULL"
+    {
+      time 10.857143 14.847971
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 15.577657 19.668255
+      param ""
+    }
+    event gesture "concentrategesture"
+    {
+      time 12.086773 17.597883
+      param "concentrategesture"
+      event_ramp 
+      {
+        0.0077 0.5671
+        0.0577 0.5671
+        0.8038 0.6946
+        1.0500 0.7953
+        1.2885 0.8792
+        1.4500 0.9187
+        1.8955 0.9499
+        2.5538 1.0000
+        3.0000 0.9966
+        5.4955 0.9901
+      }
+      absolutetags playback_time
+      {
+        "hd1" 0.164983
+        "hd2" 0.259839
+        "in" 0.381395
+        "loop" 0.469921
+        "end" 0.713636
+        "out" 0.774564
+      }
+      absolutetags shifted_time
+      {
+        "hd1" 0.142778
+        "hd2" 0.154083
+        "in" 0.286765
+        "loop" 0.360294
+        "end" 0.654412
+        "out" 0.727941
+      }
+      sequenceduration 4.566667
+    }
+    event gesture "NULL"
+    {
+      time 23.157141 25.190475
+      param ""
+    }
+    event gesture "A_g_hdclasp"
+    {
+      time 25.190475 29.579704
+      param "A_g_hdclasp"
+      absolutetags playback_time
+      {
+        "in" 0.304917
+        "loop" 0.611957
+        "end" 0.704070
+        "out" 0.861832
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.150538
+        "loop" 0.580645
+        "end" 0.709677
+        "out" 0.806452
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "A_g_low2side_palmsout"
+    {
+      time 28.160845 31.268255
+      param "A_g_low2side_palmsout"
+      absolutetags playback_time
+      {
+        "apex" 0.261442
+        "accent" 0.391776
+        "loop" 0.543832
+        "end" 0.695888
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      sequenceduration 2.700000
+    }
+    event gesture "A_g_monitorbuttonpush"
+    {
+      time 16.717951 19.658045
+      param "A_g_monitorbuttonpush"
+      event_ramp 
+      {
+        0.0154 0.9899
+        1.7461 0.9899
+        1.9885 0.9732
+        2.1057 0.9430
+        2.2383 0.8792
+      }
+      absolutetags playback_time
+      {
+        "in" 0.350515
+        "loop" 0.536082
+        "end" 0.597938
+        "out" 0.804124
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.181818
+        "loop" 0.295455
+        "end" 0.522727
+        "out" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "NULL"
+    {
+      time 18.972221 21.000000
+      param ""
+    }
+    event gesture "A_g_mid_2fistdwn"
+    {
+      time 20.222221 23.449999
+      param "A_g_mid_2fistdwn"
+      event_ramp 
+      {
+        0.0000 0.3792
+        3.2244 0.1711
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.206897
+        "accent" 0.379252
+        "loop" 0.560843
+        "end" 0.707229
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.192771
+        "accent" 0.313253
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 30.555557 33.444447
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 41.090908 48.893940
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 67.939392 79.136360
+      param ""
+    }
+    event gesture "A_bigshrug_g"
+    {
+      time 65.090912 69.754547
+      param "A_bigshrug_g"
+      event_ramp 
+      {
+        0.0000 0.5403
+        0.0346 0.5436
+        3.0483 0.6443
+        4.6175 0.4195
+        4.6636 0.4128
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.163797
+        "accent" 0.314490
+        "loop" 0.432911
+        "end" 0.647059
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.181818
+        "accent" 0.397727
+        "loop" 0.568182
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "necklacegrab"
+    {
+      time 72.454544 82.631409
+      param "necklacegrab"
+      absolutetags playback_time
+      {
+        "in" 0.107124
+        "loop" 0.175578
+        "end" 0.688816
+        "out" 0.907503
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.155405
+        "loop" 0.337838
+        "end" 0.635135
+        "out" 0.790541
+      }
+      sequenceduration 4.966667
+    }
+    event gesture "A_g_low2side_palmsout"
+    {
+      time 80.878784 84.093933
+      param "A_g_low2side_palmsout"
+      absolutetags playback_time
+      {
+        "apex" 0.252336
+        "accent" 0.412159
+        "loop" 0.559119
+        "end" 0.706079
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      sequenceduration 2.700000
+    }
+    event gesture "NULL"
+    {
+      time 85.484856 90.621216
+      param ""
+    }
+    event gesture "A_g_rthdflipout"
+    {
+      time 88.212128 91.396080
+      param "A_g_rthdflipout"
+      absolutetags playback_time
+      {
+        "apex" 0.137646
+        "accent" 0.349409
+        "loop" 0.508231
+        "end" 0.779672
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147727
+        "accent" 0.375000
+        "loop" 0.545455
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "A_g_mid_2hdcutdwn"
+    {
+      time 90.000008 93.364281
+      param "A_g_mid_2hdcutdwn"
+      absolutetags playback_time
+      {
+        "apex" 0.206452
+        "accent" 0.367321
+        "loop" 0.582338
+        "end" 0.677473
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.109589
+        "accent" 0.287671
+        "loop" 0.534247
+        "end" 0.616438
+      }
+      sequenceduration 2.466667
+    }
+    event gesture "A_g_midhigh_arcout"
+    {
+      time 91.606071 95.072739
+      param "A_g_midhigh_arcout"
+      event_ramp 
+      {
+        1.3308 0.9899
+        3.4654 0.5503
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.194175
+        "accent" 0.385965
+        "loop" 0.631068
+        "end" 0.728155
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.194175
+        "accent" 0.436893
+        "loop" 0.631068
+        "end" 0.728155
+      }
+      sequenceduration 3.466667
+    }
+    event gesture "NULL"
+    {
+      time 96.242432 96.742432
+      param ""
+    }
+    event gesture "A_g_hdclasp"
+    {
+      time 102.121216 107.890915
+      param "A_g_hdclasp"
+      absolutetags playback_time
+      {
+        "in" 0.081752
+        "loop" 0.315329
+        "end" 0.673684
+        "out" 0.778947
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.150538
+        "loop" 0.580645
+        "end" 0.709677
+        "out" 0.806452
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "NULL"
+    {
+      time 110.272728 110.772728
+      param ""
+    }
+    event gesture "A_g_hdclasp"
+    {
+      time 113.303032 116.951515
+      param "A_g_hdclasp"
+      event_ramp 
+      {
+        0.0000 0.9933
+        2.3923 0.9933
+      }
+      absolutetags playback_time
+      {
+        "in" 0.272727
+        "loop" 0.619980
+        "end" 0.743976
+        "out" 0.834907
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.150538
+        "loop" 0.580645
+        "end" 0.709677
+        "out" 0.806452
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "handhidegesture"
+    {
+      time 124.416672 129.983337
+      param "handhidegesture"
+      absolutetags playback_time
+      {
+        "in" 0.204819
+        "loop" 0.295181
+        "end" 0.536145
+        "out" 0.650602
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.204819
+        "loop" 0.295181
+        "end" 0.536145
+        "out" 0.650602
+      }
+      sequenceduration 5.566667
+    }
+    event gesture "A_g_rubface"
+    {
+      time 129.708344 133.122223
+      param "A_g_rubface"
+      absolutetags playback_time
+      {
+        "in" 0.239426
+        "out" 0.802448
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.104651
+        "out" 0.767442
+      }
+      sequenceduration 2.900000
+    }
+  }
+  channel "face"
+  {
+    event flexanimation "face"
+    {
+      time -0.030303 134.816925
+      param ""
+      flextimingtags
+      {
+        "hd3" 0.986381 1
+      }
+      flexanimations samples_use_time
+      {
+        "lid_raiser" combo 
+        {
+          2.6326 0.2100
+          3.1478 0.0000
+          4.3902 0.0000
+          5.0872 0.0000
+          6.6572 0.0000
+          6.9300 0.0000
+          7.6325 0.0000
+          8.2992 0.0000
+          8.5719 0.0000
+          9.6022 0.0000
+          10.0032 0.0000
+          12.2653 0.0000
+          12.9926 0.0000
+          13.8108 0.0000
+          14.2350 0.0000
+          16.0835 0.0000
+          16.3562 0.0000
+          16.6290 0.0000
+          16.9017 0.0000
+          17.6896 0.0000
+          17.9320 0.0000
+          18.6593 0.0000
+          18.9017 0.3300
+          19.1138 0.3300
+          19.2350 0.3300
+          19.3318 0.3300
+          19.5440 0.3300
+          19.8123 0.3300
+          19.9941 0.3300
+          20.6304 0.3300
+          21.3460 0.3300
+          21.4975 0.1100
+          21.9218 0.1100
+          22.7400 0.1100
+          25.4369 0.1100
+          25.9073 0.1100
+          26.1843 0.1100
+          27.6388 0.1100
+          28.1277 0.1100
+          28.4231 0.5700
+          28.9079 0.2300
+          29.2110 0.6100
+          29.9988 0.4500
+          30.9382 0.6100
+          33.9685 0.6100
+          34.8776 0.3600
+          35.6049 0.3600
+          38.8473 0.3532
+          41.0546 0.3532
+          44.7598 0.3532
+          45.6689 0.3532
+          47.1143 0.3600
+          51.2264 0.3600
+          51.6608 0.3600
+          52.7517 0.0000
+          53.3636 0.0000
+          55.0303 0.0000
+          55.9091 0.5100
+          56.6970 0.5100
+          56.9704 0.6100
+          57.3340 0.6100
+          57.5461 0.3300
+          58.6067 0.3000
+          60.2431 0.3000
+          64.6370 0.3000
+          65.0613 0.0000
+          65.3643 0.0000
+          66.4822 0.0000
+          66.6034 0.0000
+          66.9367 0.0000
+          69.3462 0.0000
+          70.3159 0.1900
+          72.1644 0.1900
+          72.9220 0.4400
+          73.4371 0.0000
+          74.1644 0.0000
+          77.2553 0.0000
+          78.2241 0.0000
+          79.7092 0.0000
+          80.7587 0.3600
+          81.2163 0.1600
+          82.0606 0.1554
+          82.3692 0.1600
+          83.1212 0.1900
+          87.6075 0.2000
+          87.7868 0.1914
+          88.3019 0.0000
+          89.1201 0.0000
+          89.2716 0.3300
+          89.9568 0.3300
+          90.2186 0.3600
+          90.7943 0.1600
+          90.9105 0.0000
+          91.2135 0.0000
+          92.5964 0.0000
+          92.8499 0.5202
+          93.5173 0.6178
+          93.7597 0.6332
+          94.4418 0.6382
+          94.5513 0.6386
+          94.7029 0.6386
+          94.8844 0.6386
+          95.0574 0.3300
+          97.1271 0.1500
+          97.8394 0.3300
+          98.7182 0.3300
+          100.0515 0.4800
+          102.8361 0.4900
+          103.0138 0.4800
+          103.3439 0.2300
+          103.9133 0.2200
+          103.9923 0.2300
+          104.1438 0.4000
+          104.8303 0.4000
+          106.1636 0.4000
+          106.6485 0.2500
+          107.4363 0.3900
+          109.0816 0.3900
+          109.5097 0.0000
+          114.6006 0.0000
+          115.0551 0.0000
+          115.2909 0.2000
+          116.2303 0.1000
+          116.7152 0.1000
+          116.9273 0.1000
+          117.4042 0.0988
+          118.1921 0.0988
+          120.6769 0.0988
+          120.9799 0.3300
+          121.1618 0.3300
+          121.3739 0.3300
+          122.1618 0.3300
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          129.9451 0.0400
+          130.1775 0.7300
+          130.3836 0.7600
+          130.4922 0.0000
+          130.7603 0.0000
+          130.7833 0.0000
+          131.0242 0.0000
+          131.4071 0.0000
+          131.9328 0.0000
+          132.2303 0.0000
+          133.1640 0.0000
+        }
+        {
+          2.6326 0.5000
+          3.1478 0.5000
+          4.3902 0.5000
+          5.0872 0.5000
+          6.6572 0.5000
+          6.9300 0.5000
+          7.6325 0.5000
+          8.2992 0.5000
+          8.5719 0.5000
+          9.6022 0.5000
+          10.0032 0.5000
+          12.2653 0.5000
+          12.9926 0.5000
+          13.8108 0.5000
+          14.2350 0.5000
+          16.0835 0.5000
+          16.3562 0.5000
+          16.6290 0.5000
+          16.9017 0.5000
+          17.6896 0.5000
+          17.9320 0.5000
+          18.6593 0.5000
+          18.9017 0.5000
+          19.1138 0.5000
+          19.2350 0.5000
+          19.3318 0.5000
+          19.5440 0.5000
+          19.8123 0.5000
+          19.9941 0.5000
+          20.6304 0.5000
+          21.3460 0.5000
+          21.4975 0.5000
+          21.9218 0.5000
+          22.7400 0.5000
+          25.4369 0.5000
+          25.9073 0.5000
+          26.1843 0.5000
+          27.6388 0.5000
+          28.1277 0.5000
+          28.4231 0.5000
+          28.9079 0.5000
+          29.2110 0.5000
+          29.9988 0.5000
+          30.9382 0.5000
+          33.9685 0.5000
+          34.8776 0.5000
+          35.6049 0.5000
+          38.8473 0.5000
+          41.0546 0.5000
+          44.7598 0.5000
+          45.6689 0.5000
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.6034 0.5000
+          66.9367 0.5000
+          69.3462 0.5000
+          70.3159 0.5000
+          72.1644 0.5000
+          72.9220 0.5000
+          73.4371 0.5000
+          74.1644 0.5000
+          77.2553 0.5000
+          78.2241 0.5000
+          79.7092 0.5000
+          80.7587 0.5000
+          81.2163 0.5000
+          82.0606 0.5000
+          82.3692 0.5000
+          83.1212 0.5000
+          87.7868 0.5000
+          88.3019 0.5000
+          89.1201 0.5000
+          89.2716 0.5000
+          89.9568 0.5000
+          90.2186 0.5000
+          90.7943 0.5000
+          90.9105 0.5000
+          91.2135 0.5000
+          92.5964 0.5000
+          92.8499 0.5000
+          93.5173 0.5000
+          93.7597 0.5000
+          94.4418 0.5000
+          94.5513 0.5000
+          94.7029 0.5000
+          94.8844 0.5000
+          95.0574 0.5000
+          97.1271 0.5000
+          97.8394 0.5000
+          98.7182 0.5000
+          100.0515 0.5000
+          103.0138 0.5000
+          103.3439 0.5000
+          103.9923 0.5000
+          104.1438 0.5000
+          104.8303 0.5000
+          106.1636 0.5000
+          106.6485 0.5000
+          107.4363 0.5000
+          109.0816 0.5000
+          109.5097 0.5000
+          114.6006 0.5000
+          115.0551 0.5000
+          115.2909 0.5000
+          116.2303 0.5000
+          116.7152 0.5000
+          116.9273 0.5000
+          117.4042 0.5000
+          118.1921 0.5000
+          120.6769 0.5000
+          120.9799 0.5000
+          121.1618 0.5000
+          121.3739 0.5000
+          122.1618 0.5000
+          122.2830 0.5000
+          122.7375 0.5000
+          122.9193 0.5000
+          123.7375 0.5000
+          124.8890 0.5000
+          125.4042 0.5000
+          125.8284 0.5000
+          126.4951 0.5000
+          128.2829 0.5000
+          130.2425 0.5000
+          130.4922 0.5000
+          130.7603 0.5000
+          130.7833 0.5000
+          131.0242 0.5000
+          131.4071 0.5000
+          131.9328 0.5000
+          132.2303 0.5000
+          133.1640 0.5000
+        }
+        "lid_tightener" combo 
+        {
+          1.4069 0.4400
+          2.2690 0.4400
+          2.5114 0.4400
+          2.6326 0.0000
+          3.1478 0.0000
+          4.3902 0.0000
+          5.0872 0.1500
+          6.6572 0.1500
+          6.9300 0.1500
+          7.6325 0.1500
+          8.2992 0.1500
+          8.5719 0.0000
+          9.6022 0.0000
+          10.0032 0.2300
+          12.2653 0.2300
+          12.9926 0.0600
+          13.8108 0.0600
+          14.2350 0.4300
+          16.0835 0.4300
+          16.3562 0.4300
+          16.6290 0.0000
+          16.9017 0.0000
+          17.6896 0.0000
+          17.9320 0.4400
+          18.6593 0.4400
+          18.9017 0.0000
+          19.1138 0.0000
+          19.2350 0.0000
+          19.3318 0.0000
+          19.5440 0.0000
+          19.8123 0.0000
+          19.9941 0.4800
+          20.6304 0.4800
+          21.3460 0.4800
+          21.4975 0.3100
+          21.9218 0.3100
+          22.7400 0.2300
+          25.4369 0.2300
+          25.9073 0.2300
+          26.1843 0.4900
+          27.6388 0.4900
+          28.1277 0.4900
+          28.4231 0.0000
+          28.9079 0.0000
+          29.2110 0.0000
+          29.9988 0.0000
+          30.9382 0.6100
+          33.9685 0.6100
+          34.8776 0.3300
+          35.6049 0.3300
+          38.8473 0.3238
+          41.0546 0.3238
+          44.7598 0.3238
+          45.6689 0.2600
+          47.1143 0.0000
+          51.2264 0.0000
+          51.6608 0.0000
+          52.7517 0.3000
+          53.3636 0.3000
+          55.0303 0.3000
+          55.9091 0.2800
+          56.6970 0.2800
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.2900
+          58.6067 0.1800
+          60.2431 0.1800
+          64.6370 0.1800
+          65.0613 0.3600
+          65.3643 0.1400
+          66.3222 0.1100
+          66.4822 0.1400
+          66.6034 0.6200
+          66.9367 0.2000
+          69.3462 0.1883
+          70.3159 0.0100
+          72.1644 0.0100
+          72.9220 0.0100
+          73.4371 0.4400
+          74.1644 0.3000
+          77.2553 0.3000
+          78.2241 0.3900
+          79.7092 0.3900
+          80.7587 0.0000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.7300
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.3900
+          89.1201 0.5235
+          89.2716 0.3600
+          89.9568 0.3600
+          90.2186 0.4100
+          90.7943 0.2400
+          90.9105 0.3900
+          91.2135 0.3900
+          92.5964 0.3900
+          92.8499 0.2522
+          93.5173 0.2258
+          93.7597 0.3500
+          94.4418 0.4060
+          94.5513 0.4042
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.0000
+          97.1271 0.0000
+          97.8394 0.0000
+          98.7182 0.0000
+          100.0515 0.0000
+          103.0138 0.0000
+          103.3439 0.2900
+          103.8979 0.3000
+          103.9923 0.2900
+          104.1438 0.0600
+          104.8303 0.0600
+          106.1636 0.0600
+          106.6485 0.1500
+          107.4363 0.1500
+          109.0816 0.1500
+          109.5097 0.2000
+          114.6006 0.2000
+          115.0551 0.4000
+          115.2909 0.2100
+          116.2303 0.1800
+          116.7152 0.1800
+          116.9273 0.4000
+          117.4042 0.5414
+          118.1921 0.3800
+          120.6769 0.3800
+          120.9799 0.1800
+          121.1618 0.1800
+          121.3739 0.3100
+          122.1618 0.3100
+          122.2830 0.4500
+          122.7375 0.4500
+          122.9193 0.2800
+          123.7375 0.3900
+          124.8890 0.2900
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          130.4922 0.0831
+          130.7603 0.0000
+          131.0242 0.4100
+          131.9328 0.2000
+          132.2303 0.1528
+          133.1640 0.0727
+        }
+        {
+          1.4069 0.5000
+          2.2690 0.5000
+          2.5114 0.5000
+          2.6326 0.5000
+          3.1478 0.5000
+          4.3902 0.5000
+          5.0872 0.5000
+          6.6572 0.5000
+          6.9300 0.5000
+          7.6325 0.5000
+          8.2992 0.5000
+          8.5719 0.5000
+          9.6022 0.5000
+          10.0032 0.5000
+          12.2653 0.5000
+          12.9926 0.5000
+          13.8108 0.5000
+          14.2350 0.5000
+          16.0835 0.5000
+          16.3562 0.5000
+          16.6290 0.5000
+          16.9017 0.5000
+          17.6896 0.5000
+          17.9320 0.5000
+          18.6593 0.5000
+          18.9017 0.5000
+          19.1138 0.5000
+          19.2350 0.5000
+          19.3318 0.5000
+          19.5440 0.5000
+          19.8123 0.5000
+          19.9941 0.5000
+          20.6304 0.5000
+          21.3460 0.5000
+          21.4975 0.5000
+          21.9218 0.5000
+          22.7400 0.5000
+          25.4369 0.5000
+          25.9073 0.5000
+          26.1843 0.5000
+          27.6388 0.5000
+          28.1277 0.5000
+          28.4231 0.5000
+          28.9079 0.5000
+          29.2110 0.5000
+          29.9988 0.5000
+          30.9382 0.5000
+          33.9685 0.5000
+          34.8776 0.5000
+          35.6049 0.5000
+          38.8473 0.5000
+          41.0546 0.5000
+          44.7598 0.5000
+          45.6689 0.5000
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.6034 0.5000
+          66.9367 0.5000
+          69.3462 0.5000
+          70.3159 0.5000
+          72.1644 0.5000
+          72.9220 0.5000
+          73.4371 0.5000
+          74.1644 0.5000
+          77.2553 0.5000
+          78.2241 0.5000
+          79.7092 0.5000
+          80.7587 0.5000
+          81.2163 0.5000
+          82.0606 0.5000
+          82.3692 0.5000
+          83.1212 0.5000
+          87.7868 0.5000
+          88.3019 0.5000
+          89.1201 0.5000
+          89.2716 0.5000
+          89.9568 0.5000
+          90.2186 0.5000
+          90.7943 0.5000
+          90.9105 0.5000
+          91.2135 0.5000
+          92.5964 0.5000
+          92.8499 0.5000
+          93.5173 0.5000
+          93.7597 0.5000
+          94.4418 0.5000
+          94.5513 0.5000
+          94.7029 0.5000
+          94.8844 0.5000
+          95.0574 0.5000
+          97.1271 0.5000
+          97.8394 0.5000
+          98.7182 0.5000
+          100.0515 0.5000
+          103.0138 0.5000
+          103.3439 0.5000
+          103.9923 0.5000
+          104.1438 0.5000
+          104.8303 0.5000
+          106.1636 0.5000
+          106.6485 0.5000
+          107.4363 0.5000
+          109.0816 0.5000
+          109.5097 0.5000
+          114.6006 0.5000
+          115.0551 0.5000
+          115.2909 0.5000
+          116.2303 0.5000
+          116.7152 0.5000
+          116.9273 0.5000
+          117.4042 0.5000
+          118.1921 0.5000
+          120.6769 0.5000
+          120.9799 0.5000
+          121.1618 0.5000
+          121.3739 0.5000
+          122.1618 0.5000
+          122.2830 0.5000
+          122.7375 0.5000
+          122.9193 0.5000
+          123.7375 0.5000
+          124.8890 0.5000
+          125.4042 0.5000
+          125.8284 0.5000
+          126.4951 0.5000
+          128.2829 0.5000
+          130.4922 0.5000
+          130.7603 0.5000
+          131.0242 0.5000
+          131.9328 0.5000
+          132.2303 0.5000
+          133.1640 0.5000
+        }
+        "lid_closer" combo 
+        {
+          40.9189 0.0400
+          41.0546 1.0000
+          44.7598 1.0000
+          44.9092 0.0500
+          45.6689 0.0000
+          47.1143 0.0000
+          51.2264 0.0000
+          51.6608 0.0000
+          52.4968 0.0500
+          52.7517 1.0000
+          53.3636 0.2400
+          55.0303 0.2400
+          55.9091 0.0000
+          56.6970 0.0000
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.0000
+          58.6067 0.0000
+          60.2431 0.0000
+          64.6370 0.0000
+          65.0613 0.0000
+          65.3643 0.0000
+          66.4822 0.0000
+          66.6034 0.0000
+          66.9367 0.0000
+          69.3462 0.0000
+          70.3159 0.0000
+          72.1644 0.0000
+          72.9220 0.0000
+          73.4371 1.0000
+          74.1644 0.4000
+          77.2553 0.1800
+          78.2241 0.0000
+          79.7092 0.0000
+          80.7587 0.0000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.0000
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.0000
+          89.1201 0.0000
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.0000
+          90.4737 0.0400
+          90.5632 0.9800
+          90.6632 0.0400
+          90.7943 0.0000
+          90.9105 0.0000
+          91.2135 0.0000
+          92.4911 0.0000
+          92.5210 0.9800
+          92.6474 0.1300
+          92.8499 0.0000
+          93.5173 0.0000
+          93.7597 0.0000
+          94.4418 0.0000
+          94.5513 0.0000
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.0000
+          97.1271 0.0000
+          97.8394 0.0000
+          98.7182 0.0000
+          100.0515 0.0000
+          103.0138 0.0000
+          103.3439 0.0000
+          103.9923 0.0000
+          104.1438 0.0000
+          104.8303 0.0000
+          106.1636 0.0000
+          106.6485 0.0000
+          107.4363 0.0000
+          109.0816 0.0000
+          109.5097 0.0000
+          114.6006 0.0000
+          115.0551 0.0000
+          115.2909 0.0000
+          116.2303 0.0000
+          116.7152 0.0000
+          116.9273 0.0000
+          117.4042 0.0000
+          118.1921 0.0000
+          120.6769 0.0000
+          120.9799 0.0000
+          121.1618 0.0000
+          121.3739 0.0000
+          122.1618 0.0000
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.0000
+          125.8284 1.0000
+          126.4951 0.2800
+          128.2829 0.0000
+          129.4487 0.0100
+          129.5775 0.8800
+          129.8244 0.0200
+          130.3672 0.0000
+          130.3794 0.0000
+          130.5454 0.5500
+          130.7503 0.7800
+          130.9336 0.0400
+          131.1199 0.0000
+          131.9328 1.0000
+          132.2303 0.1400
+          133.1640 0.0000
+        }
+        {
+          41.0546 0.5000
+          44.7598 0.5000
+          45.6689 0.5000
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.6034 0.5000
+          66.9367 0.5000
+          69.3462 0.5000
+          70.3159 0.5000
+          72.1644 0.5000
+          72.9220 0.5000
+          73.4371 0.5000
+          74.1644 0.5000
+          77.2553 0.5000
+          78.2241 0.5000
+          79.7092 0.5000
+          80.7587 0.5000
+          81.2163 0.5000
+          82.0606 0.5000
+          82.3692 0.5000
+          83.1212 0.5000
+          87.7868 0.5000
+          88.3019 0.5000
+          89.1201 0.5000
+          89.2716 0.5000
+          89.9568 0.5000
+          90.2186 0.5000
+          90.7943 0.5000
+          90.9105 0.5000
+          91.2135 0.5000
+          92.5964 0.5000
+          92.8499 0.5000
+          93.5173 0.5000
+          93.7597 0.5000
+          94.4418 0.5000
+          94.5513 0.5000
+          94.7029 0.5000
+          94.8844 0.5000
+          95.0574 0.5000
+          97.1271 0.5000
+          97.8394 0.5000
+          98.7182 0.5000
+          100.0515 0.5000
+          103.0138 0.5000
+          103.3439 0.5000
+          103.9923 0.5000
+          104.1438 0.5000
+          104.8303 0.5000
+          106.1636 0.5000
+          106.6485 0.5000
+          107.4363 0.5000
+          109.0816 0.5000
+          109.5097 0.5000
+          114.6006 0.5000
+          115.0551 0.5000
+          115.2909 0.5000
+          116.2303 0.5000
+          116.7152 0.5000
+          116.9273 0.5000
+          117.4042 0.5000
+          118.1921 0.5000
+          120.6769 0.5000
+          120.9799 0.5000
+          121.1618 0.5000
+          121.3739 0.5000
+          122.1618 0.5000
+          122.2830 0.5000
+          122.7375 0.5000
+          122.9193 0.5000
+          123.7375 0.5000
+          124.8890 0.5000
+          125.4042 0.5000
+          125.8284 0.5000
+          126.4951 0.5000
+          128.2829 0.5000
+          129.6137 0.5000
+          130.4922 0.5000
+          130.5044 0.5000
+          130.5454 0.5000
+          130.7603 0.5000
+          130.7836 0.5000
+          131.0242 0.5000
+          131.1199 0.5000
+          131.9328 0.5000
+          132.2303 0.5000
+          133.1640 0.5000
+        }
+        "inner_raiser" combo rightedge curve_default_to_curve_default 0.300 
+        {
+          1.4069 0.1600
+          2.2690 0.1600
+          2.5114 0.1600
+          2.6326 0.4500
+          3.1478 0.2400
+          4.3902 0.2400
+          5.0872 0.3800
+          6.6572 0.3800
+          6.9300 0.3800
+          7.6325 0.3800
+          8.2992 0.3800
+          8.5719 0.3800
+          9.6022 0.3800
+          10.0032 0.0000
+          12.2653 0.0000
+          12.9926 0.0000
+          13.8108 0.0000
+          14.2350 0.0000
+          16.0835 0.0000
+          16.3562 0.0000
+          16.6290 0.4000
+          16.9017 0.4000
+          17.6896 0.4000
+          17.9320 0.4000
+          18.6593 0.4000
+          18.9017 0.6100
+          19.1138 0.6100
+          19.2350 0.6100
+          19.3318 0.6100
+          19.5440 0.2400
+          19.8123 0.2400
+          19.9941 0.4000
+          20.6304 0.4000
+          21.3460 0.4000
+          21.4975 0.6900
+          21.9218 0.6900
+          22.7400 0.3100
+          25.4369 0.3100
+          25.9073 0.3100
+          26.1843 0.6000
+          27.6388 0.6000
+          28.1277 0.7100
+          28.4231 0.7600
+          28.9079 0.4900
+          29.2110 0.8300
+          29.9988 0.4800
+          30.9382 0.4800
+          33.9685 0.4800
+          34.8776 0.4300
+          35.6049 0.4300
+          38.8473 0.4219
+          41.0546 0.4219
+          44.7598 0.4219
+          45.6689 0.4219
+          47.1143 0.4500
+          51.2264 0.2900
+          51.6608 0.5600
+          52.7517 0.5600
+          53.3636 0.5600
+          55.0303 0.5600
+          55.9091 0.8000
+          56.6970 0.8000
+          56.9704 0.6600
+          57.3340 0.6600
+          57.5461 0.8500
+          58.6067 0.8500
+          60.2431 0.6500
+          64.6370 0.6500
+          65.0613 0.8900
+          65.3643 0.8900
+          66.4822 0.8900
+          66.6034 0.8900
+          66.9367 0.8000
+          69.3462 0.7974
+          70.3159 0.7974
+          72.1644 0.7974
+          72.9220 0.8600
+          73.4371 0.8600
+          74.1644 0.7400
+          77.2553 0.7400
+          78.2241 1.0000
+          79.7092 0.5600
+          80.7587 0.4400
+          81.2163 0.8800
+          82.0606 0.9103
+          82.3692 0.8796
+          83.1212 0.5100
+          83.2988 0.4900
+          87.5551 0.5000
+          87.7868 0.4902
+          88.3019 0.7800
+          89.1201 0.8770
+          89.2716 0.8770
+          89.9568 0.8770
+          90.2186 0.8100
+          90.7943 0.6500
+          90.9105 0.6330
+          91.2135 0.6330
+          92.5964 0.6330
+          92.8499 0.6314
+          93.5173 0.6303
+          93.7597 0.5000
+          94.4418 0.4385
+          94.5513 0.4413
+          94.7029 0.6000
+          94.8844 0.6000
+          95.0574 0.6000
+          97.1271 0.6000
+          97.8394 0.6000
+          98.7182 0.6000
+          100.0515 0.6000
+          102.8720 0.5400
+          103.0138 0.6000
+          103.3439 0.8300
+          103.9923 0.8300
+          104.1438 0.8300
+          104.8303 0.6100
+          106.1636 0.5600
+          106.6485 0.9800
+          107.4363 0.9800
+          109.0816 0.9800
+          109.5097 0.7300
+          114.6006 0.7300
+          115.0551 0.7300
+          115.2909 0.8900
+          116.2303 0.8900
+          116.7152 0.6000
+          116.9273 0.7900
+          117.4042 0.9067
+          118.1921 0.8300
+          120.6769 0.5300
+          120.9799 0.3300
+          121.1618 0.3300
+          121.3739 0.6600
+          122.1618 0.6600
+          122.2830 0.3500
+          122.7375 0.3500
+          122.9193 0.6800
+          123.7375 0.4300
+          124.8890 0.3000
+          125.4042 0.8100
+          125.8284 0.8100
+          126.4951 0.6900
+          128.2829 0.6600
+          129.2233 0.5600
+          129.5990 0.2100
+          129.8298 0.3100
+          130.0375 0.7000
+          130.3887 0.6200
+          130.5622 0.1400
+          130.6583 0.1700
+          130.7603 0.4000
+          130.8378 0.5100
+          131.0242 0.5900
+          131.1302 0.5400
+          131.5772 0.4000
+          131.9328 0.6683
+          132.1703 0.5000
+          132.4901 0.4000
+          132.8840 0.1300 "curve_bspline_to_curve_bspline"
+          134.8472 0.0700 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          1.4069 1.0000
+          2.2690 1.0000
+          2.5114 1.0000
+          2.6326 0.5100
+          3.1478 0.5100
+          4.3902 0.5100
+          5.0872 0.5100
+          6.6572 0.5100
+          6.9300 0.5100
+          7.6325 0.5100
+          8.2992 0.5100
+          8.5719 0.5100
+          9.6022 0.5100
+          10.0032 0.5100
+          12.2653 0.5100
+          12.9926 0.5100
+          13.8108 0.5100
+          14.2350 0.5100
+          16.0835 0.5100
+          16.3562 0.5100
+          16.6290 0.5100
+          16.9017 0.5100
+          17.6896 0.5100
+          17.9320 0.1300
+          18.6593 0.1300
+          18.9017 0.4500
+          19.1138 0.4500
+          19.2350 0.4500
+          19.3318 0.4500
+          19.5440 0.4500
+          19.8123 0.4500
+          19.9941 0.4500
+          20.6304 0.4500
+          21.3460 0.4500
+          21.4975 0.4500
+          21.9218 0.4500
+          22.7400 0.4500
+          25.4369 0.4500
+          25.9073 0.4500
+          26.1843 0.4500
+          27.6388 0.4500
+          28.1277 0.4500
+          28.4231 0.4500
+          28.9079 0.4500
+          29.2110 0.4500
+          29.9988 0.4500
+          30.9382 0.4500
+          33.9685 0.4500
+          34.8776 0.4500
+          35.6049 0.4500
+          38.8473 0.4509
+          41.0546 0.4509
+          44.7598 0.4509
+          45.6689 0.4509
+          47.1143 0.4513
+          51.2264 0.4513
+          51.6608 0.4513
+          52.7517 0.4513
+          53.3636 0.4513
+          55.0303 0.4513
+          55.9091 0.4513
+          56.6970 0.4513
+          56.9704 0.4513
+          57.3340 0.4513
+          57.5461 0.4513
+          58.6067 0.4513
+          60.2431 0.4513
+          64.6370 0.4513
+          65.0613 0.4513
+          65.3643 0.4513
+          66.4822 0.4513
+          66.6034 0.4513
+          66.9367 0.4513
+          69.3462 0.4513
+          70.3159 0.4513
+          72.1644 0.4513
+          72.9220 0.4513
+          73.4371 0.4513
+          74.1644 0.4513
+          77.2553 0.4513
+          78.2241 0.4513
+          79.7092 0.4513
+          80.7587 0.4513
+          81.2163 0.4513
+          82.0606 0.4513
+          82.3692 0.4513
+          83.1212 0.4513
+          87.7868 0.4514
+          88.3019 0.4514
+          89.1201 0.4516
+          89.2716 0.4516
+          89.9568 0.4516
+          90.2186 0.4516
+          90.7943 0.4516
+          90.9105 0.4517
+          91.2135 0.4517
+          92.5964 0.4517
+          92.8499 0.4518
+          93.5173 0.4519
+          93.7597 0.4521
+          94.4418 0.4523
+          94.5513 0.4522
+          94.7029 0.4522
+          94.8844 0.4522
+          95.0574 0.4522
+          97.1271 0.4522
+          97.8394 0.4522
+          98.7182 0.4522
+          100.0515 0.4522
+          103.0138 0.4522
+          103.3439 0.4522
+          103.9923 0.4522
+          104.1438 0.4522
+          104.8303 0.4522
+          106.1636 0.4522
+          106.6485 0.4522
+          107.4363 0.4522
+          109.0816 0.4522
+          109.5097 0.4522
+          114.6006 0.4522
+          115.0551 0.4522
+          115.2909 0.4522
+          116.2303 0.4522
+          116.7152 0.4522
+          116.9273 0.4522
+          117.4042 0.4528
+          118.1921 0.4528
+          120.6769 0.4528
+          120.9799 0.4528
+          121.1618 0.4528
+          121.3739 0.4528
+          122.1618 0.4528
+          122.2830 0.4528
+          122.7375 0.4528
+          122.9193 0.4528
+          123.7375 0.4528
+          124.8890 0.4528
+          125.4042 0.4528
+          125.8284 0.4528
+          126.4951 0.4528
+          128.2829 0.4528
+          130.2425 0.5000
+          130.4922 0.4874
+          130.7603 0.4707
+          130.7833 0.5000
+          131.0242 0.4727
+          131.4071 0.5000
+          131.9328 0.4786
+          132.2303 0.4810
+          133.1640 0.4887
+        }
+        "outer_raiser" combo 
+        {
+          1.4069 0.2400
+          2.2690 0.2400
+          2.5114 0.2400
+          2.6326 0.5500
+          3.1478 0.3600
+          4.3902 0.0600
+          5.0872 0.0600
+          6.6572 0.0600
+          6.9300 0.0600
+          7.6325 0.0600
+          8.2992 0.0600
+          8.5719 0.2100
+          9.6022 0.2100
+          10.0032 0.0000
+          12.2653 0.0000
+          12.9926 0.0000
+          13.8108 0.0000
+          14.2350 0.0000
+          16.0835 0.0000
+          16.3562 0.0000
+          16.6290 0.1300
+          16.9017 0.1300
+          17.6896 0.1300
+          17.9320 0.4100
+          18.6593 0.4100
+          18.9017 0.5100
+          19.1138 0.5100
+          19.2350 0.0900
+          19.3318 0.0900
+          19.5440 0.1800
+          19.8123 0.1800
+          19.9941 0.1800
+          20.6304 0.1800
+          21.3460 0.1800
+          21.4975 0.3800
+          21.9218 0.3800
+          22.7400 0.1800
+          25.4369 0.1800
+          25.9073 0.1800
+          26.1843 0.0000
+          27.6388 0.0000
+          28.1277 0.0000
+          28.4231 0.3000
+          28.9079 0.2400
+          29.2110 0.5100
+          29.9988 0.2800
+          30.9382 0.3400
+          33.9685 0.3400
+          34.8776 0.1400
+          35.6049 0.0000
+          38.8473 0.0000
+          41.0546 0.0000
+          44.7598 0.0000
+          45.6689 0.0000
+          47.1143 0.0000
+          51.2264 0.0000
+          51.6608 0.0900
+          52.7517 0.0900
+          53.3636 0.0900
+          55.0303 0.0900
+          55.9091 0.0900
+          56.6970 0.0900
+          56.9704 0.0900
+          57.3340 0.0900
+          57.5461 0.0900
+          58.6067 0.0900
+          60.2431 0.0900
+          64.6370 0.0900
+          65.0613 0.0900
+          65.3643 0.0900
+          66.4822 0.0900
+          66.6034 0.0900
+          66.9367 0.0600
+          69.3462 0.0592
+          70.3159 0.0592
+          72.1644 0.0592
+          72.9220 0.3000
+          73.4371 0.0000
+          74.1644 0.0000
+          77.2553 0.0000
+          78.2241 0.0000
+          79.7092 0.0000
+          80.7587 0.2000
+          81.2163 0.2000
+          82.0606 0.2132
+          82.3692 0.1998
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.0000
+          89.1201 0.0000
+          89.2716 0.2600
+          89.9568 0.2600
+          90.2186 0.0000
+          90.7943 0.0000
+          90.9105 0.0000
+          91.2135 0.0000
+          92.5964 0.0000
+          92.8499 0.0000
+          93.5173 0.0000
+          93.7597 0.0000
+          94.4418 0.0000
+          94.5513 0.0000
+          94.7029 0.2400
+          94.8844 0.2400
+          95.0574 0.0000
+          97.1271 0.0000
+          97.8394 0.0000
+          98.7182 0.0000
+          100.0515 0.0000
+          103.0138 0.0000
+          103.3439 0.0000
+          103.9923 0.0000
+          104.1438 0.0000
+          104.8303 0.0000
+          106.1636 0.0000
+          106.6485 0.0000
+          107.4363 0.0000
+          109.0816 0.0000
+          109.5097 0.0000
+          114.6006 0.0000
+          115.0551 0.0000
+          115.2909 0.0000
+          116.2303 0.0000
+          116.7152 0.0000
+          116.9273 0.2400
+          117.4042 0.3966
+          118.1921 0.2800
+          120.6769 0.1400
+          120.9799 0.1400
+          121.1618 0.1400
+          121.3739 0.2800
+          122.1618 0.2800
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.3400
+          123.7375 0.2300
+          124.8890 0.1800
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          129.3116 0.0700
+          129.6349 0.1100
+          129.8298 0.1800
+          130.0375 0.5700
+          130.3682 0.5000
+          130.5622 0.0000
+          130.6583 0.0000
+          130.7603 0.0000
+          131.0242 0.0000
+          131.1584 0.1600
+          131.5772 0.0800
+          131.9328 0.0000
+          132.2134 0.3900
+          132.5953 0.0000
+          133.1640 0.0000
+        }
+        {
+          1.4069 0.0000
+          2.2690 0.0000
+          2.5114 0.0000
+          2.6326 0.5300
+          3.1478 0.5300
+          4.3902 0.5300
+          5.0872 0.5300
+          6.6572 0.5300
+          6.9300 0.5300
+          7.6325 0.5300
+          8.2992 0.5300
+          8.5719 0.5300
+          9.6022 0.5300
+          10.0032 0.5300
+          12.2653 0.5300
+          12.9926 0.5300
+          13.8108 0.5300
+          14.2350 0.5300
+          16.0835 0.5300
+          16.3562 0.5300
+          16.6290 0.5300
+          16.9017 0.5300
+          17.6896 0.5300
+          17.9320 0.1600
+          18.6593 0.1600
+          18.9017 0.4600
+          19.1138 0.4600
+          19.2350 0.4600
+          19.3318 0.4600
+          19.5440 0.4600
+          19.8123 0.4600
+          19.9941 0.4600
+          20.6304 0.4600
+          21.3460 0.4600
+          21.4975 0.4600
+          21.9218 0.4600
+          22.7400 0.4600
+          25.4369 0.4600
+          25.9073 0.4600
+          26.1843 0.4600
+          27.6388 0.4600
+          28.1277 0.4600
+          28.4231 0.4600
+          28.9079 0.4600
+          29.2110 0.4600
+          29.9988 0.4600
+          30.9382 0.4600
+          33.9685 0.4600
+          34.8776 0.4600
+          35.6049 0.4600
+          38.8473 0.4600
+          41.0546 0.4600
+          44.7598 0.4600
+          45.6689 0.4600
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.6034 0.5000
+          66.9367 0.5000
+          69.3462 0.5000
+          70.3159 0.5000
+          72.1644 0.5000
+          72.9220 0.5000
+          73.4371 0.5000
+          74.1644 0.5000
+          77.2553 0.5000
+          78.2241 0.5000
+          79.7092 0.5000
+          80.7587 0.5000
+          81.2163 0.5000
+          82.0606 0.5000
+          82.3692 0.5000
+          83.1212 0.5000
+          87.7868 0.5000
+          88.3019 0.5000
+          89.1201 0.5000
+          89.2716 0.5000
+          89.9568 0.5000
+          90.2186 0.5000
+          90.7943 0.5000
+          90.9105 0.5000
+          91.2135 0.5000
+          92.5964 0.5000
+          92.8499 0.5000
+          93.5173 0.5000
+          93.7597 0.5000
+          94.4418 0.5000
+          94.5513 0.5000
+          94.7029 0.5000
+          94.8844 0.5000
+          95.0574 0.5000
+          97.1271 0.5000
+          97.8394 0.5000
+          98.7182 0.5000
+          100.0515 0.5000
+          103.0138 0.5000
+          103.3439 0.5000
+          103.9923 0.5000
+          104.1438 0.5000
+          104.8303 0.5000
+          106.1636 0.5000
+          106.6485 0.5000
+          107.4363 0.5000
+          109.0816 0.5000
+          109.5097 0.5000
+          114.6006 0.5000
+          115.0551 0.5000
+          115.2909 0.5000
+          116.2303 0.5000
+          116.7152 0.5000
+          116.9273 0.5000
+          117.4042 0.5000
+          118.1921 0.5000
+          120.6769 0.5000
+          120.9799 0.5000
+          121.1618 0.5000
+          121.3739 0.5000
+          122.1618 0.5000
+          122.2830 0.5000
+          122.7375 0.5000
+          122.9193 0.5000
+          123.7375 0.5000
+          124.8890 0.5000
+          125.4042 0.5000
+          125.8284 0.5000
+          126.4951 0.5000
+          128.2829 0.5000
+          130.2425 0.5000
+          130.4922 0.5000
+          130.7603 0.5000
+          130.7833 0.5000
+          131.0242 0.5000
+          131.4071 0.5000
+          131.9328 0.5000
+          132.2303 0.5000
+          133.1640 0.5000
+        }
+        "lowerer" combo 
+        {
+          1.4069 0.2000
+          2.2690 0.2000
+          2.5114 0.2000
+          2.6326 0.2000
+          3.1478 0.0000
+          4.3902 0.0000
+          5.0872 0.2000
+          6.6572 0.2000
+          6.9300 0.5100
+          7.6325 0.5100
+          8.2992 0.5100
+          8.5719 0.0000
+          9.6022 0.0000
+          10.0032 0.1100
+          12.2653 0.1100
+          12.9926 0.0000
+          13.8108 0.0000
+          14.2350 0.4000
+          16.0835 0.4000
+          16.3562 0.4000
+          16.6290 0.4000
+          16.9017 0.4000
+          17.6896 0.4000
+          17.9320 0.4000
+          18.6593 0.4000
+          18.9017 0.0000
+          19.1138 0.0000
+          19.2350 0.4300
+          19.3318 0.4300
+          19.5440 0.0000
+          19.8123 0.0000
+          19.9941 0.0000
+          20.6304 0.0000
+          21.3460 0.0000
+          21.4975 0.0000
+          21.9218 0.0000
+          22.7400 0.0000
+          25.4369 0.0000
+          25.9073 0.0000
+          26.1843 0.2100
+          27.6388 0.2100
+          28.1277 0.3800
+          28.4231 0.0000
+          28.9079 0.0000
+          29.2110 0.0000
+          29.9988 0.0000
+          30.9382 0.0000
+          33.9685 0.0000
+          34.8776 0.0000
+          35.6049 0.0000
+          38.8473 0.0000
+          41.0546 0.0000
+          44.7598 0.0000
+          45.6689 0.0000
+          47.1143 0.0000
+          51.2264 0.1700
+          51.6608 0.0000
+          52.7517 0.4800
+          53.3636 0.4800
+          55.0303 0.4800
+          55.9091 0.8400
+          56.6970 0.8400
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.3500
+          58.6067 0.3500
+          60.2431 0.2800
+          64.6370 0.2800
+          65.0613 0.5600
+          65.3643 0.5600
+          66.3017 0.6200
+          66.4822 0.5600
+          66.6034 0.0000
+          66.9367 0.2400
+          69.3462 0.2466
+          70.3159 0.1400
+          72.1644 0.1400
+          72.9220 0.0000
+          73.4371 0.4600
+          74.1644 0.3100
+          77.2553 0.3100
+          78.2241 0.6000
+          79.7092 0.3500
+          80.7587 0.2800
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.0000
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.4000
+          88.9965 0.5600
+          89.1201 0.5369
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.3400
+          90.7943 0.2300
+          90.9105 0.6400
+          91.2135 0.6400
+          92.5964 0.6400
+          92.8499 0.2414
+          93.5173 0.1659
+          93.7597 0.3100
+          94.4418 0.3752
+          94.5513 0.3731
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.6900
+          95.3777 0.4600
+          95.6875 0.3700
+          97.1271 0.3400
+          97.8394 0.5600
+          98.7182 0.5600
+          100.0515 0.1600
+          102.8977 0.1400
+          103.0138 0.1600
+          103.3439 0.5700
+          103.8774 0.6100
+          103.9923 0.5700
+          104.1438 0.1100
+          104.8303 0.1100
+          106.1636 0.1100
+          106.6485 0.5600
+          107.4363 0.3000
+          109.0816 0.3000
+          109.5097 0.5500
+          109.8155 0.5200
+          114.3360 0.5300
+          114.6006 0.5500
+          115.0551 0.8000
+          115.2909 0.5000
+          116.2303 0.2500
+          116.7152 0.0900
+          116.9273 0.0900
+          117.4042 0.0889
+          118.1921 0.0889
+          120.6769 0.0889
+          120.9799 0.2400
+          121.1618 0.2400
+          121.3739 0.0000
+          122.1618 0.0000
+          122.2830 0.2300
+          122.7375 0.2300
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.5400
+          125.8284 0.5400
+          126.4951 0.4100
+          128.2829 0.0000
+          130.2425 0.0000
+          130.4922 0.2500
+          130.6429 0.3600
+          131.0242 0.4000
+          131.9328 0.7500
+          132.1553 0.0000
+          133.1640 0.0000
+        }
+        {
+          1.4069 1.0000
+          2.2690 1.0000
+          2.5114 1.0000
+          2.6326 0.5100
+          3.1478 0.5100
+          4.3902 0.5100
+          5.0872 0.5100
+          6.6572 0.5100
+          6.9300 0.5100
+          7.6325 0.5100
+          8.2992 0.5100
+          8.5719 0.5100
+          9.6022 0.5100
+          10.0032 0.5100
+          12.2653 0.5100
+          12.9926 0.5100
+          13.8108 0.5100
+          14.2350 0.5100
+          16.0835 0.5100
+          16.3562 0.5100
+          16.6290 1.0000
+          16.9017 1.0000
+          17.6896 1.0000
+          17.9320 1.0000
+          18.6593 1.0000
+          18.9017 0.4800
+          19.1138 0.4800
+          19.2350 0.4800
+          19.3318 0.4800
+          19.5440 0.4800
+          19.8123 0.4800
+          19.9941 0.4800
+          20.6304 0.4800
+          21.3460 0.4800
+          21.4975 0.4800
+          21.9218 0.4800
+          22.7400 0.4800
+          25.4369 0.4800
+          25.9073 0.4800
+          26.1843 0.4800
+          27.6388 0.4800
+          28.1277 0.4800
+          28.4231 0.4800
+          28.9079 0.4800
+          29.2110 0.4800
+          29.9988 0.4800
+          30.9382 0.4800
+          33.9685 0.4800
+          34.8776 0.4800
+          35.6049 0.4800
+          38.8473 0.4800
+          41.0546 0.4800
+          44.7598 0.4800
+          45.6689 0.4800
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.6034 0.5000
+          66.9367 0.5000
+          69.3462 0.5000
+          70.3159 0.5000
+          72.1644 0.5000
+          72.9220 0.5000
+          73.4371 0.5000
+          74.1644 0.5000
+          77.2553 0.5000
+          78.2241 0.5000
+          79.7092 0.5000
+          80.7587 0.5000
+          81.2163 0.5000
+          82.0606 0.5000
+          82.3692 0.5000
+          83.1212 0.5000
+          87.7868 0.5000
+          88.3019 0.5000
+          89.1201 0.5000
+          89.2716 0.5000
+          89.9568 0.5000
+          90.2186 0.5000
+          90.7943 0.5000
+          90.9105 0.5000
+          91.2135 0.5000
+          92.5964 0.5000
+          92.8499 0.5000
+          93.5173 0.5000
+          93.7597 0.5000
+          94.4418 0.5000
+          94.5513 0.5000
+          94.7029 0.5000
+          94.8844 0.5000
+          95.0574 0.5000
+          97.1271 0.5000
+          97.8394 0.5000
+          98.7182 0.5000
+          100.0515 0.5000
+          103.0138 0.5000
+          103.3439 0.5000
+          103.9923 0.5000
+          104.1438 0.5000
+          104.8303 0.5000
+          106.1636 0.5000
+          106.6485 0.5000
+          107.4363 0.5000
+          109.0816 0.5000
+          109.5097 0.5000
+          114.6006 0.5000
+          115.0551 0.5000
+          115.2909 0.5000
+          116.2303 0.5000
+          116.7152 0.5000
+          116.9273 0.5000
+          117.4042 0.5000
+          118.1921 0.5000
+          120.6769 0.5000
+          120.9799 0.5000
+          121.1618 0.5000
+          121.3739 0.5000
+          122.1618 0.5000
+          122.2830 0.5000
+          122.7375 0.5000
+          122.9193 0.5000
+          123.7375 0.5000
+          124.8890 0.5000
+          125.4042 0.5000
+          125.8284 0.5000
+          126.4951 0.5000
+          128.2829 0.5000
+          130.2425 0.5000
+          130.4922 0.5000
+          130.7603 0.5000
+          131.0242 0.5000
+          131.9328 0.5000
+          132.2303 0.5000
+          133.1640 0.5000
+        }
+        "cheek_raiser" combo 
+        {
+          19.9941 0.2400
+          20.6304 0.2400
+          21.3460 0.2400
+          21.4975 0.1300
+          21.9218 0.1300
+          22.7400 0.1300
+          25.4369 0.1300
+          25.9073 0.1300
+          26.1843 0.3600
+          27.6388 0.3600
+          28.1277 0.3600
+          28.4231 0.0000
+          28.9079 0.0000
+          29.2110 0.0000
+          29.9988 0.0000
+          30.9382 0.3400
+          33.9685 0.3400
+          34.8776 0.2900
+          35.6049 0.2900
+          38.8473 0.2845
+          41.0546 0.2845
+          44.7598 0.2845
+          45.6689 0.2845
+          47.1143 0.0000
+          51.2264 0.0000
+          51.6608 0.0000
+          52.7517 0.3400
+          53.3636 0.3400
+          55.0303 0.3400
+          55.9091 0.3400
+          56.6970 0.3400
+          56.9704 0.2400
+          57.3340 0.2400
+          57.5461 0.3400
+          58.6067 0.2600
+          60.2431 0.2600
+          64.6370 0.2600
+          65.0613 0.3600
+          65.3643 0.2500
+          66.4043 0.1000
+          66.4822 0.1700
+          66.6034 0.5300
+          66.9367 0.3800
+          69.3462 0.3758
+          70.3159 0.1800
+          72.1644 0.1800
+          72.9220 0.1800
+          73.4371 0.4600
+          74.1644 0.2600
+          77.2553 0.2600
+          78.2241 0.2600
+          79.7092 0.2600
+          80.7587 0.0000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.3600
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.4900
+          88.9759 0.6500
+          89.1201 0.6577
+          89.2716 0.3400
+          89.9568 0.3400
+          90.2186 0.4300
+          90.7943 0.2400
+          90.9105 0.4600
+          91.2135 0.4600
+          92.5964 0.4600
+          92.8499 0.1029
+          93.5173 0.0354
+          93.7597 0.3600
+          94.4418 0.5080
+          94.5513 0.5028
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.2600
+          97.1271 0.2600
+          97.8394 0.2600
+          98.7182 0.2600
+          100.0515 0.1100
+          102.8156 0.1000
+          103.0138 0.1100
+          103.3439 0.3100
+          103.9923 0.3100
+          104.1438 0.1800
+          104.8303 0.1800
+          106.1636 0.1800
+          106.6485 0.1800
+          107.4363 0.1800
+          109.0816 0.1800
+          109.5097 0.3500
+          109.8001 0.3800
+          114.3924 0.3200
+          114.6006 0.3500
+          115.0551 0.5700
+          115.2909 0.3300
+          116.2303 0.1800
+          116.7152 0.0500
+          116.9273 0.2900
+          117.4042 0.4460
+          118.1921 0.4460
+          120.6769 0.3000
+          120.9799 0.3000
+          121.1618 0.3000
+          121.3739 0.4600
+          122.1618 0.4600
+          122.2830 0.5700
+          122.7375 0.5700
+          122.9193 0.2800
+          123.7375 0.4600
+          124.8890 0.3900
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          130.4922 0.0134
+          130.7603 0.0000
+          131.0242 0.6800
+          131.9328 0.1900
+          132.2303 0.0980
+          133.1640 0.0065
+        }
+        {
+          19.9941 0.5000
+          20.6304 0.5000
+          21.3460 0.5000
+          21.4975 0.5000
+          21.9218 0.5000
+          22.7400 0.5000
+          25.4369 0.5000
+          25.9073 0.5000
+          26.1843 0.5000
+          27.6388 0.5000
+          28.1277 0.5000
+          28.4231 0.5000
+          28.9079 0.5000
+          29.2110 0.5000
+          29.9988 0.5000
+          30.9382 0.5000
+          33.9685 0.5000
+          34.8776 0.5000
+          35.6049 0.5000
+          38.8473 0.5000
+          41.0546 0.5000
+          44.7598 0.5000
+          45.6689 0.5000
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.6034 0.5000
+          66.9367 0.5000
+          69.3462 0.5000
+          70.3159 0.5000
+          72.1644 0.5000
+          72.9220 0.5000
+          73.4371 0.5000
+          74.1644 0.5000
+          77.2553 0.5000
+          78.2241 0.5000
+          79.7092 0.5000
+          80.7587 0.5000
+          81.2163 0.5000
+          82.0606 0.5000
+          82.3692 0.5000
+          83.1212 0.5000
+          87.7868 0.5000
+          88.3019 0.5000
+          89.1201 0.5000
+          89.2716 0.5000
+          89.9568 0.5000
+          90.2186 0.5000
+          90.7943 0.5000
+          90.9105 0.5000
+          91.2135 0.5000
+          92.5964 0.5000
+          92.8499 0.5000
+          93.5173 0.5000
+          93.7597 0.5000
+          94.4418 0.5000
+          94.5513 0.5000
+          94.7029 0.5000
+          94.8844 0.5000
+          95.0574 0.5000
+          97.1271 0.5000
+          97.8394 0.5000
+          98.7182 0.5000
+          100.0515 0.5000
+          103.0138 0.5000
+          103.3439 0.5000
+          103.9923 0.5000
+          104.1438 0.5000
+          104.8303 0.5000
+          106.1636 0.5000
+          106.6485 0.5000
+          107.4363 0.5000
+          109.0816 0.5000
+          109.5097 0.5000
+          114.6006 0.5000
+          115.0551 0.5000
+          115.2909 0.5000
+          116.2303 0.5000
+          116.7152 0.5000
+          116.9273 0.5000
+          117.4042 0.5000
+          118.1921 0.5000
+          120.6769 0.5000
+          120.9799 0.5000
+          121.1618 0.5000
+          121.3739 0.5000
+          122.1618 0.5000
+          122.2830 0.5000
+          122.7375 0.5000
+          122.9193 0.5000
+          123.7375 0.5000
+          124.8890 0.5000
+          125.4042 0.5000
+          125.8284 0.5000
+          126.4951 0.5000
+          128.2829 0.5000
+          130.4922 0.5000
+          130.7603 0.5000
+          131.0242 0.5000
+          131.9328 0.5000
+          132.2303 0.5000
+          133.1640 0.5000
+        }
+        "wrinkler" 
+        {
+          14.2350 0.2900
+          16.0835 0.2900
+          16.3562 0.2900
+          16.6290 0.0000
+          16.9017 0.0000
+          17.6896 0.0000
+          17.9320 0.5000
+          18.6593 0.5000
+          18.9017 0.0000
+          19.1138 0.0000
+          19.2350 0.0000
+          19.3318 0.0000
+          19.5440 0.0000
+          19.8123 0.0000
+          19.9941 0.2300
+          20.6304 0.2300
+          21.3460 0.2300
+          21.4975 0.1300
+          21.9218 0.1300
+          22.7400 0.1300
+          25.4369 0.1300
+          25.9073 0.1300
+          26.1843 0.1300
+          27.6388 0.1300
+          28.1277 0.1300
+          28.4231 0.1000
+          28.9079 0.1000
+          29.2110 0.1000
+          29.9988 0.1000
+          30.9382 0.4400
+          33.9685 0.4400
+          34.8776 0.2900
+          35.6049 0.2900
+          38.8473 0.2845
+          41.0546 0.2845
+          44.7598 0.2845
+          45.6689 0.2845
+          47.1143 0.0000
+          51.2264 0.0000
+          51.6608 0.0000
+          52.7517 0.3400
+          53.3636 0.3400
+          55.0303 0.3400
+          55.9091 0.3400
+          56.6970 0.3400
+          56.9704 0.0600
+          57.3340 0.0600
+          57.5461 0.2600
+          58.6067 0.1900
+          60.2431 0.1900
+          64.6370 0.1900
+          65.0613 0.3100
+          65.3643 0.1500
+          66.4822 0.1500
+          66.6034 0.3300
+          66.9367 0.2400
+          69.3462 0.2375
+          70.3159 0.1100
+          72.1644 0.1100
+          72.9220 0.1100
+          73.4371 0.3400
+          74.1644 0.1900
+          77.2553 0.1900
+          78.2241 0.1900
+          79.7092 0.1900
+          80.7587 0.0000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.4500
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.2500
+          88.9452 0.3700
+          89.1201 0.3356
+          89.2716 0.2000
+          89.9568 0.2000
+          90.2186 0.3000
+          90.7943 0.1400
+          90.9105 0.2100
+          91.2135 0.2100
+          92.5964 0.2100
+          92.8499 0.1684
+          93.5173 0.1603
+          93.7597 0.4500
+          94.4418 0.5816
+          94.5513 0.5772
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.0000
+          97.1271 0.0000
+          97.8394 0.0000
+          98.7182 0.0000
+          100.0515 0.0000
+          103.0138 0.0000
+          103.3439 0.1900
+          103.9923 0.1900
+          104.1438 0.1100
+          104.8303 0.1100
+          106.1636 0.1100
+          106.6485 0.1100
+          107.4363 0.1100
+          109.0816 0.1100
+          109.5097 0.2100
+          114.6006 0.2100
+          115.0551 0.2100
+          115.2909 0.2100
+          116.2303 0.0800
+          116.7152 0.0800
+          116.9273 0.1300
+          117.4042 0.1617
+          118.1921 0.1617
+          120.6769 0.1617
+          120.9799 0.1617
+          121.1618 0.1617
+          121.3739 0.1617
+          122.1618 0.1617
+          122.2830 0.1617
+          122.7375 0.1617
+          122.9193 0.0000
+          123.7375 0.2600
+          124.8890 0.2600
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          130.4922 0.0000
+          130.7603 0.0000
+          131.0242 0.0000
+          131.9328 0.0000
+          132.2303 0.0000
+          133.1640 0.0000
+        }
+        "upper_raiser" combo 
+        {
+          1.4069 0.0600
+          2.2690 0.0600
+          2.5114 0.0600
+          2.6326 0.0000
+          3.1478 0.0000
+          4.3902 0.0000
+          5.0872 0.0000
+          6.6572 0.0000
+          6.9300 0.2800
+          7.6325 0.2800
+          8.2992 0.2800
+          8.5719 0.0000
+          9.6022 0.0000
+          10.0032 0.0900
+          12.2653 0.0900
+          12.9926 0.0900
+          13.8108 0.0900
+          14.2350 0.3600
+          16.0835 0.3600
+          16.3562 0.3600
+          16.6290 0.0000
+          16.9017 0.0000
+          17.6896 0.0000
+          17.9320 0.0000
+          18.6593 0.0000
+          18.9017 0.0000
+          19.1138 0.0000
+          19.2350 0.0000
+          19.3318 0.0000
+          19.5440 0.0000
+          19.8123 0.0000
+          19.9941 0.0000
+          20.6304 0.0000
+          21.3460 0.0000
+          21.4975 0.0000
+          21.9218 0.0000
+          22.7400 0.0000
+          25.4369 0.0000
+          25.9073 0.0000
+          26.1843 0.0000
+          27.6388 0.0000
+          28.1277 0.0000
+          28.4231 0.0000
+          28.9079 0.0000
+          29.2110 0.0000
+          29.9988 0.0000
+          30.9382 0.2100
+          33.9685 0.2100
+          34.8776 0.0000
+          35.6049 0.0000
+          38.8473 0.0000
+          41.0546 0.3100
+          44.7598 0.3100
+          45.6689 0.3100
+          47.1143 0.0000
+          51.2264 0.0000
+          51.6608 0.0000
+          52.7517 0.4000
+          53.3636 0.4000
+          55.0303 0.4000
+          55.9091 0.0000
+          56.6970 0.0000
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.2500
+          58.6067 0.1900
+          60.2431 0.1900
+          64.6370 0.1900
+          65.0613 0.4800
+          65.3643 0.1400
+          66.4822 0.1400
+          66.6034 0.9500
+          66.9367 0.2000
+          69.3462 0.1792
+          70.3159 0.0000
+          72.1644 0.0000
+          72.9220 0.4000
+          73.4371 0.4000
+          74.1644 0.2300
+          77.2553 0.2300
+          78.2241 0.0000
+          79.7092 0.0000
+          80.7587 0.0000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.4100
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.0000
+          89.1201 0.0000
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.0000
+          90.7943 0.0000
+          90.9105 0.1600
+          91.2135 0.1600
+          92.5964 0.1600
+          92.8499 0.0000
+          93.5173 0.0000
+          93.7597 0.0000
+          94.4418 0.0000
+          94.5513 0.0000
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.2100
+          97.1271 0.2100
+          97.8394 0.2100
+          98.7182 0.2100
+          100.0515 0.0000
+          103.0138 0.0000
+          103.3439 0.0000
+          103.9923 0.0000
+          104.1438 0.0000
+          104.8303 0.0000
+          106.1636 0.0000
+          106.6485 0.0000
+          107.4363 0.0000
+          109.0816 0.0000
+          109.5097 0.0000
+          114.6006 0.0000
+          115.0551 0.0000
+          115.2909 0.0000
+          116.2303 0.0000
+          116.7152 0.0000
+          116.9273 0.0000
+          117.4042 0.0000
+          118.1921 0.0000
+          120.6769 0.0000
+          120.9799 0.0000
+          121.1618 0.0000
+          121.3739 0.0000
+          122.1618 0.0000
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          130.4172 0.0000
+          130.4759 0.0000
+          130.5865 0.3700
+          130.7169 0.9200
+          130.9147 0.7400
+          131.0242 0.3100
+          131.1033 0.0600
+          131.9328 0.5384
+          132.2303 0.0000
+          133.1640 0.0000
+        }
+        {
+          1.4069 0.5000
+          2.2690 0.5000
+          2.5114 0.5000
+          2.6326 0.5000
+          3.1478 0.5000
+          4.3902 0.5000
+          5.0872 0.5000
+          6.6572 0.5000
+          6.9300 0.5000
+          7.6325 0.5000
+          8.2992 0.5000
+          8.5719 0.5000
+          9.6022 0.5000
+          10.0032 0.5000
+          12.2653 0.5000
+          12.9926 0.5000
+          13.8108 0.5000
+          14.2350 0.5000
+          16.0835 0.5000
+          16.3562 0.5000
+          16.6290 0.5000
+          16.9017 0.5000
+          17.6896 0.5000
+          17.9320 0.5000
+          18.6593 0.5000
+          18.9017 0.5000
+          19.1138 0.5000
+          19.2350 0.5000
+          19.3318 0.5000
+          19.5440 0.5000
+          19.8123 0.5000
+          19.9941 0.5000
+          20.6304 0.5000
+          21.3460 0.5000
+          21.4975 0.5000
+          21.9218 0.5000
+          22.7400 0.5000
+          25.4369 0.5000
+          25.9073 0.5000
+          26.1843 0.5000
+          27.6388 0.5000
+          28.1277 0.5000
+          28.4231 0.5000
+          28.9079 0.5000
+          29.2110 0.5000
+          29.9988 0.5000
+          30.9382 0.5000
+          33.9685 0.5000
+          34.8776 0.5000
+          35.6049 0.5000
+          38.8473 0.5000
+          41.0546 0.5000
+          44.7598 0.5000
+          45.6689 0.5000
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.6034 0.5000
+          66.9367 0.5000
+          69.3462 0.5000
+          70.3159 0.5000
+          72.1644 0.5000
+          72.9220 0.5000
+          73.4371 0.5000
+          74.1644 0.5000
+          77.2553 0.5000
+          78.2241 0.5000
+          79.7092 0.5000
+          80.7587 0.5000
+          81.2163 0.5000
+          82.0606 0.5000
+          82.3692 0.5000
+          83.1212 0.5000
+          87.7868 0.5000
+          88.3019 0.5000
+          89.1201 0.5000
+          89.2716 0.5000
+          89.9568 0.5000
+          90.2186 0.5000
+          90.7943 0.5000
+          90.9105 0.5000
+          91.2135 0.5000
+          92.5964 0.5000
+          92.8499 0.5000
+          93.5173 0.5000
+          93.7597 0.5000
+          94.4418 0.5000
+          94.5513 0.5000
+          94.7029 0.5000
+          94.8844 0.5000
+          95.0574 0.5000
+          97.1271 0.5000
+          97.8394 0.5000
+          98.7182 0.5000
+          100.0515 0.5000
+          103.0138 0.5000
+          103.3439 0.5000
+          103.9923 0.5000
+          104.1438 0.5000
+          104.8303 0.5000
+          106.1636 0.5000
+          106.6485 0.5000
+          107.4363 0.5000
+          109.0816 0.5000
+          109.5097 0.5000
+          114.6006 0.5000
+          115.0551 0.5000
+          115.2909 0.5000
+          116.2303 0.5000
+          116.7152 0.5000
+          116.9273 0.5000
+          117.4042 0.5000
+          118.1921 0.5000
+          120.6769 0.5000
+          120.9799 0.5000
+          121.1618 0.5000
+          121.3739 0.5000
+          122.1618 0.5000
+          122.2830 0.5000
+          122.7375 0.5000
+          122.9193 0.5000
+          123.7375 0.5000
+          124.8890 0.5000
+          125.4042 0.5000
+          125.8284 0.5000
+          126.4951 0.5000
+          128.2829 0.5000
+          130.4922 0.5000
+          130.7603 0.5000
+          131.0242 0.5000
+          131.9328 0.5000
+          132.2303 0.5000
+          133.1640 0.5000
+        }
+        "corner_puller" combo 
+        {
+          19.5679 0.0200
+          19.9941 0.5800
+          20.6304 0.6600
+          21.3460 0.5900
+          21.4975 0.3400
+          21.9218 0.3400
+          22.7400 0.3500
+          25.4369 0.3500
+          25.9073 0.3500
+          26.1843 0.0000
+          27.6388 0.0000
+          28.1277 0.0000
+          28.4231 0.2100
+          28.9079 0.2100
+          29.2110 0.2100
+          29.9988 0.4900
+          30.9382 1.0000
+          33.9685 1.0000
+          34.8776 0.4800
+          35.6049 0.1800
+          38.8473 0.0000
+          41.0546 0.0000
+          44.7598 0.0000
+          45.6689 0.0000
+          47.1143 0.0000
+          51.2264 0.0000
+          51.6608 0.0000
+          52.7517 0.0000
+          53.3636 0.0000
+          55.0303 0.0000
+          55.9091 0.0000
+          56.6970 0.0000
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.0000
+          58.6067 0.0000
+          60.2431 0.0000
+          64.6370 0.0000
+          65.0613 0.0000
+          65.3643 0.0000
+          66.4822 0.0000
+          66.6034 0.0000
+          66.9367 0.0000
+          69.3462 0.0000
+          70.3159 0.0000
+          72.1644 0.0000
+          72.9220 0.0000
+          73.4371 0.0000
+          74.1644 0.0000
+          77.2553 0.0000
+          78.2241 0.0000
+          79.7092 0.0000
+          80.7587 0.0000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.0000
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.0000
+          89.1201 0.0000
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.0000
+          90.7943 0.0000
+          90.9105 0.0000
+          91.2135 0.0000
+          92.5964 0.0000
+          92.8499 0.0000
+          93.5173 0.0000
+          93.7597 0.0000
+          94.4418 0.0000
+          94.5513 0.0000
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.0000
+          97.1271 0.0000
+          97.8394 0.0000
+          98.7182 0.0000
+          100.0515 0.0000
+          103.0138 0.0000
+          103.3439 0.0000
+          103.9923 0.0000
+          104.1438 0.0000
+          104.8303 0.0000
+          106.1636 0.0000
+          106.6485 0.0000
+          107.4363 0.0000
+          109.0816 0.0000
+          109.5097 0.0000
+          114.6006 0.0000
+          115.0551 0.0000
+          115.2909 0.0000
+          116.2303 0.0000
+          116.7152 0.0000
+          116.9273 0.3800
+          117.4042 0.6279
+          118.1921 0.5700
+          120.6769 0.4300
+          120.9799 0.0000
+          121.1618 0.0000
+          121.3739 0.3400
+          122.1618 0.3400
+          122.2830 0.1500
+          122.7375 0.1500
+          122.9193 0.1500
+          123.7375 0.5500
+          124.8890 0.3900
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          130.4922 0.0000
+          130.7603 0.0000
+          131.0242 0.0000
+          131.9328 0.0000
+          132.2303 0.0000
+          133.1640 0.0000
+        }
+        {
+          19.9941 0.5000
+          20.6304 0.5000
+          21.3460 0.5000
+          21.4975 0.5000
+          21.9218 0.5000
+          22.7400 0.5000
+          25.4369 0.5000
+          25.9073 0.5000
+          26.1843 0.5000
+          27.6388 0.5000
+          28.1277 0.5000
+          28.4231 0.5000
+          28.9079 0.5000
+          29.2110 0.5000
+          29.9988 0.5000
+          30.9382 0.5500
+          33.9685 0.5500
+          34.8776 0.5500
+          35.6049 0.5500
+          38.8473 0.5000
+          41.0546 0.5000
+          44.7598 0.5000
+          45.6689 0.5000
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.6034 0.5000
+          66.9367 0.5000
+          69.3462 0.5000
+          70.3159 0.5000
+          72.1644 0.5000
+          72.9220 0.5000
+          73.4371 0.5000
+          74.1644 0.5000
+          77.2553 0.5000
+          78.2241 0.5000
+          79.7092 0.5000
+          80.7587 0.5000
+          81.2163 0.5000
+          82.0606 0.5000
+          82.3692 0.5000
+          83.1212 0.5000
+          87.7868 0.5000
+          88.3019 0.5000
+          89.1201 0.5000
+          89.2716 0.5000
+          89.9568 0.5000
+          90.2186 0.5000
+          90.7943 0.5000
+          90.9105 0.5000
+          91.2135 0.5000
+          92.5964 0.5000
+          92.8499 0.5000
+          93.5173 0.5000
+          93.7597 0.5000
+          94.4418 0.5000
+          94.5513 0.5000
+          94.7029 0.5000
+          94.8844 0.5000
+          95.0574 0.5000
+          97.1271 0.5000
+          97.8394 0.5000
+          98.7182 0.5000
+          100.0515 0.5000
+          103.0138 0.5000
+          103.3439 0.5000
+          103.9923 0.5000
+          104.1438 0.5000
+          104.8303 0.5000
+          106.1636 0.5000
+          106.6485 0.5000
+          107.4363 0.5000
+          109.0816 0.5000
+          109.5097 0.5000
+          114.6006 0.5000
+          115.0551 0.5000
+          115.2909 0.5000
+          116.2303 0.5000
+          116.7152 0.5000
+          116.9273 0.5000
+          117.4042 0.5000
+          118.1921 0.5000
+          120.6769 0.5000
+          120.9799 0.5000
+          121.1618 0.5000
+          121.3739 0.5000
+          122.1618 0.5000
+          122.2830 0.5000
+          122.7375 0.5000
+          122.9193 0.5000
+          123.7375 0.5000
+          124.8890 0.5000
+          125.4042 0.5000
+          125.8284 0.5000
+          126.4951 0.5000
+          128.2829 0.5000
+          130.4922 0.5000
+          130.7603 0.5000
+          131.0242 0.5000
+          131.9328 0.5000
+          132.2303 0.5000
+          133.1640 0.5000
+        }
+        "corner_depressor" combo 
+        {
+          5.0872 0.2400
+          6.6572 0.2400
+          6.9300 0.2400
+          7.6325 0.2400
+          8.2992 0.2400
+          8.5719 0.0000
+          9.6022 0.0000
+          10.0032 0.0000
+          12.2653 0.0000
+          12.9926 0.4500
+          13.8108 0.4500
+          14.2350 0.5600
+          16.0835 0.5600
+          16.3562 0.5600
+          16.6290 0.0300
+          16.9017 0.0300
+          17.6896 0.0300
+          17.9320 0.0300
+          18.6593 0.0300
+          18.9017 0.0300
+          19.1138 0.0300
+          19.2350 0.0300
+          19.3318 0.0300
+          19.5440 0.0300
+          19.8123 0.0300
+          19.9941 0.0300
+          20.6304 0.0300
+          21.3460 0.0300
+          21.4975 0.0300
+          21.9218 0.0300
+          22.7400 0.0300
+          25.4369 0.0300
+          25.9073 0.0300
+          26.1843 0.3800
+          27.6388 0.3800
+          28.1277 0.3800
+          28.4231 0.0000
+          28.9079 0.0000
+          29.2110 0.0000
+          29.9988 0.0000
+          30.9382 0.0000
+          33.9685 0.0000
+          34.8776 0.0000
+          35.6049 0.4100
+          38.8473 1.0000
+          41.0546 1.0000
+          44.7598 1.0000
+          45.6689 0.5000
+          47.1143 0.3900
+          51.2264 0.3900
+          51.6608 0.5900
+          52.7517 0.5900
+          53.3636 0.5900
+          55.0303 0.5900
+          55.9091 0.5900
+          56.6970 0.5900
+          56.9704 0.3800
+          57.3340 0.3800
+          57.5461 0.5500
+          58.6067 0.5500
+          60.2431 0.5500
+          64.6370 0.5500
+          65.0613 0.5500
+          65.3643 0.5500
+          66.4822 0.5500
+          66.6034 0.5500
+          66.9367 0.5500
+          69.3462 0.5499
+          70.3159 0.5499
+          72.1644 0.5499
+          72.9220 0.7100
+          73.4371 0.7100
+          74.1644 0.6100
+          77.2553 0.6100
+          78.2241 0.5600
+          79.7092 0.5600
+          80.7587 0.5600
+          81.2163 0.5600
+          82.0606 0.5547
+          82.3692 0.5601
+          83.1212 0.6400
+          87.6218 0.6300
+          87.7868 0.6436
+          88.3019 0.3000
+          89.1201 0.1795
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.0000
+          90.7943 0.2000
+          90.9105 0.2198
+          91.2135 0.2198
+          92.5964 0.2198
+          92.8499 0.2192
+          93.5173 0.2188
+          93.7597 0.5600
+          94.4418 0.7150
+          94.5513 0.7097
+          94.7029 0.4400
+          94.8844 0.4400
+          95.0574 0.6400
+          97.1271 0.6400
+          97.8394 0.6400
+          98.7182 0.6400
+          100.0515 0.4400
+          103.0138 0.4400
+          103.3439 0.5100
+          103.9923 0.5100
+          104.1438 0.4000
+          104.8303 0.4000
+          106.1636 0.4000
+          106.6485 0.6500
+          107.4363 0.5600
+          109.0816 0.5600
+          109.5097 0.5600
+          114.6006 0.5600
+          115.0551 0.5600
+          115.2909 0.5600
+          116.2303 0.4300
+          116.7152 0.4300
+          116.9273 0.0000
+          117.4042 0.0000
+          118.1921 0.0000
+          120.6769 0.0000
+          120.9799 0.0000
+          121.1618 0.0000
+          121.3739 0.0000
+          122.1618 0.0000
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.5900
+          128.2829 0.5000
+          130.7603 0.2863
+          131.0242 0.2655
+          131.9328 0.2061
+          132.2303 0.1829
+          132.8022 0.1210
+          133.1640 0.2400
+        }
+        {
+          5.0872 0.5000
+          6.6572 0.5000
+          6.9300 0.5000
+          7.6325 0.5000
+          8.2992 0.5000
+          8.5719 0.5000
+          9.6022 0.5000
+          10.0032 0.5000
+          12.2653 0.5000
+          12.9926 0.5000
+          13.8108 0.5000
+          14.2350 0.5000
+          16.0835 0.5000
+          16.3562 0.5000
+          16.6290 0.5000
+          16.9017 0.5000
+          17.6896 0.5000
+          17.9320 0.5000
+          18.6593 0.5000
+          18.9017 0.5000
+          19.1138 0.5000
+          19.2350 0.5000
+          19.3318 0.5000
+          19.5440 0.5000
+          19.8123 0.5000
+          19.9941 0.5000
+          20.6304 0.5000
+          21.3460 0.5000
+          21.4975 0.5000
+          21.9218 0.5000
+          22.7400 0.5000
+          25.4369 0.5000
+          25.9073 0.5000
+          26.1843 0.5000
+          27.6388 0.5000
+          28.1277 0.5000
+          28.4231 0.5000
+          28.9079 0.5000
+          29.2110 0.5000
+          29.9988 0.5000
+          30.9382 0.5000
+          33.9685 0.5000
+          34.8776 0.5000
+          35.6049 0.5000
+          38.8473 0.5000
+          41.0546 0.5000
+          44.7598 0.5000
+          45.6689 0.5000
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.6034 0.5000
+          66.9367 0.5000
+          69.3462 0.5000
+          70.3159 0.5000
+          72.1644 0.5000
+          72.9220 0.5000
+          73.4371 0.5000
+          74.1644 0.5000
+          77.2553 0.5000
+          78.2241 0.5000
+          79.7092 0.5000
+          80.7587 0.5000
+          81.2163 0.5000
+          82.0606 0.5000
+          82.3692 0.5000
+          83.1212 0.5000
+          87.7868 0.5000
+          88.3019 0.5000
+          89.1201 0.5000
+          89.2716 0.5000
+          89.9568 0.5000
+          90.2186 0.5000
+          90.7943 0.5000
+          90.9105 0.5000
+          91.2135 0.5000
+          92.5964 0.5000
+          92.8499 0.5000
+          93.5173 0.5000
+          93.7597 0.5000
+          94.4418 0.5000
+          94.5513 0.5000
+          94.7029 0.5000
+          94.8844 0.5000
+          95.0574 0.5000
+          97.1271 0.5000
+          97.8394 0.5000
+          98.7182 0.5000
+          100.0515 0.5000
+          103.0138 0.5000
+          103.3439 0.5000
+          103.9923 0.5000
+          104.1438 0.5000
+          104.8303 0.5000
+          106.1636 0.5000
+          106.6485 0.5000
+          107.4363 0.5000
+          109.0816 0.5000
+          109.5097 0.5000
+          114.6006 0.5000
+          115.0551 0.5000
+          115.2909 0.5000
+          116.2303 0.5000
+          116.7152 0.5000
+          116.9273 0.5000
+          117.4042 0.5000
+          118.1921 0.5000
+          120.6769 0.5000
+          120.9799 0.5000
+          121.1618 0.5000
+          121.3739 0.5000
+          122.1618 0.5000
+          122.2830 0.5000
+          122.7375 0.5000
+          122.9193 0.5000
+          123.7375 0.5000
+          124.8890 0.5000
+          125.4042 0.5000
+          125.8284 0.5000
+          126.4951 0.5000
+          128.2829 0.5000
+          130.4922 0.5000
+          130.7603 0.5000
+          131.0242 0.5000
+          131.9328 0.5000
+          132.2303 0.5000
+          133.1640 0.5000
+        }
+        "chin_raiser" 
+        {
+          1.4069 0.2600
+          2.2690 0.2600
+          2.5114 0.2600
+          2.6326 0.0000
+          3.1478 0.0000
+          4.3902 0.0000
+          5.0872 0.1600
+          6.6572 0.1600
+          6.9300 0.3600
+          7.6325 0.3600
+          8.2992 0.3600
+          8.5719 0.0000
+          9.6022 0.0000
+          10.0032 0.0000
+          12.2653 0.0000
+          12.9926 0.0000
+          13.8108 0.0000
+          14.2350 0.3800
+          16.0835 0.3800
+          16.3562 0.3800
+          16.6290 0.0000
+          16.9017 0.0000
+          17.6896 0.0000
+          17.9320 0.0000
+          18.6593 0.0000
+          18.9017 0.0000
+          19.1138 0.0000
+          19.2350 0.2500
+          19.3318 0.2500
+          19.5440 0.2500
+          19.8123 0.2500
+          19.9941 0.0000
+          20.6304 0.0000
+          21.3460 0.0000
+          21.4975 0.0000
+          21.9218 0.0000
+          22.7400 0.0000
+          25.4369 0.0000
+          25.9073 0.0000
+          26.1843 0.0000
+          27.6388 0.0000
+          28.1277 0.0000
+          28.4231 0.0000
+          28.9079 0.0000
+          29.2110 0.0000
+          29.9988 0.0000
+          30.9382 0.0000
+          33.9685 0.0000
+          34.8776 0.0000
+          35.6049 0.0000
+          38.8473 0.0000
+          41.0546 0.0000
+          44.7598 0.0000
+          45.6689 0.0000
+          47.1143 0.0000
+          51.2264 0.0000
+          51.6608 0.0000
+          52.7517 0.1900
+          53.3636 0.1900
+          55.0303 0.1900
+          55.9091 0.0000
+          56.6970 0.0000
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.1900
+          58.6067 0.1500
+          60.2431 0.1500
+          64.6370 0.1500
+          65.0613 0.1500
+          65.3643 0.0400
+          66.4822 0.0400
+          66.6034 0.0000
+          66.9367 0.0000
+          69.3462 0.0000
+          70.3159 0.0000
+          72.1644 0.0000
+          72.9220 0.2400
+          73.4371 0.3100
+          74.1644 0.1600
+          77.2553 0.1600
+          78.2241 0.0000
+          79.7092 0.0000
+          80.7587 0.0000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.0000
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.1400
+          89.1201 0.1879
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.0000
+          90.7943 0.0000
+          90.9105 0.0000
+          91.2135 0.0000
+          92.5964 0.0000
+          92.8499 0.0000
+          93.5173 0.0000
+          93.7597 0.0000
+          94.4418 0.0000
+          94.5513 0.0000
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.0000
+          97.1271 0.0000
+          97.8394 0.0000
+          98.7182 0.0000
+          100.0515 0.0000
+          103.0138 0.0000
+          103.3439 0.0000
+          103.9923 0.0000
+          104.1438 0.0000
+          104.8303 0.0000
+          106.1636 0.0000
+          106.6485 0.0000
+          107.4363 0.0000
+          109.0816 0.0000
+          109.5097 0.0000
+          114.6006 0.0000
+          115.0551 0.0000
+          115.2909 0.0000
+          116.2303 0.0000
+          116.7152 0.0000
+          116.9273 0.0000
+          117.4042 0.0000
+          118.1921 0.0000
+          120.6769 0.0000
+          120.9799 0.0000
+          121.1618 0.0000
+          121.3739 0.0000
+          122.1618 0.0000
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          130.7603 0.0000
+          131.0242 0.2900
+          131.9328 0.5036
+          132.2303 0.0000
+          132.8022 0.0000
+          133.1640 0.2000
+        }
+        "part" combo 
+        {
+          19.9941 0.0000
+          20.6304 0.0000
+          21.3460 0.0000
+          21.4975 0.0000
+          21.9218 0.0000
+          22.7400 0.0000
+          25.4369 0.0000
+          25.9073 0.0000
+          26.1843 0.0000
+          27.6388 0.0000
+          28.1277 0.0000
+          28.4231 0.0000
+          28.9079 0.0000
+          29.2110 0.0000
+          29.9988 0.0000
+          30.9382 0.6400
+          33.9685 0.6400
+          34.8776 0.5100
+          35.6049 0.1800
+          38.8473 0.0000
+          41.0546 0.0000
+          44.7598 0.0000
+          45.6689 0.0000
+          47.1143 0.1900
+          51.2264 0.1900
+          51.6608 0.1900
+          52.7517 0.0000
+          53.3636 0.0000
+          55.0303 0.0000
+          55.9091 0.0000
+          56.6970 0.0000
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.0000
+          58.6067 0.0000
+          60.2431 0.0000
+          64.6370 0.0000
+          65.0613 0.0000
+          65.3643 0.0000
+          66.4822 0.0000
+          66.6034 0.3500
+          66.9367 0.0000
+          69.3462 0.0000
+          70.3159 0.0000
+          72.1644 0.0000
+          72.9220 0.0000
+          73.4371 0.0000
+          74.1644 0.0000
+          77.2553 0.0000
+          78.2241 0.0000
+          79.7092 0.0000
+          80.7587 0.0000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.0000
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.0000
+          89.1201 0.0000
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.0000
+          90.7943 0.0000
+          90.9105 0.0000
+          91.2135 0.0000
+          92.5964 0.0000
+          92.8499 0.0000
+          93.5173 0.0000
+          93.7597 0.0000
+          94.4418 0.0000
+          94.5513 0.0000
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.0000
+          97.1271 0.0000
+          97.8394 0.0000
+          98.7182 0.0000
+          100.0515 0.0000
+          103.0138 0.0000
+          103.3439 0.0000
+          103.9923 0.0000
+          104.1438 0.0000
+          104.8303 0.0000
+          106.1636 0.0000
+          106.6485 0.0000
+          107.4363 0.0000
+          109.0816 0.0000
+          109.5097 0.0000
+          114.6006 0.0000
+          115.0551 0.0000
+          115.2909 0.0000
+          116.2303 0.0000
+          116.7152 0.0000
+          116.9273 0.0000
+          117.4042 0.0000
+          118.1921 0.0000
+          120.6769 0.0000
+          120.9799 0.0000
+          121.1618 0.0000
+          121.3739 0.0000
+          122.1618 0.0000
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          130.1296 0.0000
+          130.3296 0.0000
+          130.7603 0.0000
+          131.0242 0.0000
+          131.9328 0.0000
+          132.2303 0.3500
+          132.4429 0.6000
+          132.6519 0.5900
+          132.8022 0.0000
+          133.1640 0.0000
+        }
+        {
+          19.9941 0.5000
+          20.6304 0.5000
+          21.3460 0.5000
+          21.4975 0.5000
+          21.9218 0.5000
+          22.7400 0.5000
+          25.4369 0.5000
+          25.9073 0.5000
+          26.1843 0.5000
+          27.6388 0.5000
+          28.1277 0.5000
+          28.4231 0.5000
+          28.9079 0.5000
+          29.2110 0.5000
+          29.9988 0.5000
+          30.9382 0.5000
+          33.9685 0.5000
+          34.8776 0.5000
+          35.6049 0.5000
+          38.8473 0.5000
+          41.0546 0.5000
+          44.7598 0.5000
+          45.6689 0.5000
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.6034 0.5000
+          66.9367 0.5000
+          69.3462 0.5000
+          70.3159 0.5000
+          72.1644 0.5000
+          72.9220 0.5000
+          73.4371 0.5000
+          74.1644 0.5000
+          77.2553 0.5000
+          78.2241 0.5000
+          79.7092 0.5000
+          80.7587 0.5000
+          81.2163 0.5000
+          82.0606 0.5000
+          82.3692 0.5000
+          83.1212 0.5000
+          87.7868 0.5000
+          88.3019 0.5000
+          89.1201 0.5000
+          89.2716 0.5000
+          89.9568 0.5000
+          90.2186 0.5000
+          90.7943 0.5000
+          90.9105 0.5000
+          91.2135 0.5000
+          92.5964 0.5000
+          92.8499 0.5000
+          93.5173 0.5000
+          93.7597 0.5000
+          94.4418 0.5000
+          94.5513 0.5000
+          94.7029 0.5000
+          94.8844 0.5000
+          95.0574 0.5000
+          97.1271 0.5000
+          97.8394 0.5000
+          98.7182 0.5000
+          100.0515 0.5000
+          103.0138 0.5000
+          103.3439 0.5000
+          103.9923 0.5000
+          104.1438 0.5000
+          104.8303 0.5000
+          106.1636 0.5000
+          106.6485 0.5000
+          107.4363 0.5000
+          109.0816 0.5000
+          109.5097 0.5000
+          114.6006 0.5000
+          115.0551 0.5000
+          115.2909 0.5000
+          116.2303 0.5000
+          116.7152 0.5000
+          116.9273 0.5000
+          117.4042 0.5000
+          118.1921 0.5000
+          120.6769 0.5000
+          120.9799 0.5000
+          121.1618 0.5000
+          121.3739 0.5000
+          122.1618 0.5000
+          122.2830 0.5000
+          122.7375 0.5000
+          122.9193 0.5000
+          123.7375 0.5000
+          124.8890 0.5000
+          125.4042 0.5000
+          125.8284 0.5000
+          126.4951 0.5000
+          128.2829 0.5000
+          130.1296 0.5000
+          130.3296 0.5000
+          130.4219 0.5000
+          130.4922 0.5000
+          130.7603 0.5000
+          131.0242 0.5000
+          131.9328 0.5000
+          132.2303 0.5000
+          132.6519 0.5000
+          133.1640 0.5000
+        }
+        "stretcher" combo 
+        {
+          14.2350 0.3500
+          16.0835 0.3500
+          16.3562 0.3500
+          16.6290 0.0000
+          16.9017 0.0000
+          17.6896 0.0000
+          17.9320 0.0000
+          18.6593 0.0000
+          18.9017 0.0000
+          19.1138 0.0000
+          19.2350 0.0000
+          19.3318 0.0000
+          19.5440 0.0000
+          19.8123 0.0000
+          19.9941 0.0000
+          20.6304 0.0000
+          21.3460 0.0000
+          21.4975 0.0000
+          21.9218 0.0000
+          22.7400 0.0000
+          25.4369 0.0000
+          25.9073 0.0000
+          26.1843 0.0000
+          27.6388 0.0000
+          28.1277 0.0000
+          28.4231 0.0000
+          28.9079 0.0000
+          29.2110 0.0000
+          29.9988 0.0000
+          30.9382 0.0000
+          33.9685 0.0000
+          34.8776 0.0000
+          35.6049 0.0000
+          38.8473 0.0000
+          41.0546 0.0000
+          44.7598 0.0000
+          45.6689 0.0000
+          47.1143 0.0000
+          51.2264 0.0000
+          51.6608 0.0000
+          52.7517 0.0000
+          53.3636 0.0000
+          55.0303 0.0000
+          55.9091 0.0000
+          56.6970 0.0000
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.0000
+          58.6067 0.0000
+          60.2431 0.0000
+          64.6370 0.0000
+          65.0613 0.0000
+          65.3643 0.0000
+          66.4822 0.0000
+          66.6034 0.0000
+          66.9367 0.0000
+          69.3462 0.0000
+          70.3159 0.0000
+          72.1644 0.0000
+          72.9220 0.0000
+          73.4371 0.0000
+          74.1644 0.0000
+          77.2553 0.0000
+          78.2241 0.0000
+          79.7092 0.0000
+          80.7587 0.0000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.0000
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.0000
+          89.1201 0.0000
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.0000
+          90.7943 0.0000
+          90.9105 0.0000
+          91.2135 0.0000
+          92.5964 0.0000
+          92.8499 0.0000
+          93.5173 0.0000
+          93.7597 0.0000
+          94.4418 0.0000
+          94.5513 0.0000
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.0000
+          97.1271 0.0000
+          97.8394 0.0000
+          98.7182 0.0000
+          100.0515 0.0000
+          103.0138 0.0000
+          103.3439 0.0000
+          103.9923 0.0000
+          104.1438 0.0000
+          104.8303 0.0000
+          106.1636 0.0000
+          106.6485 0.0000
+          107.4363 0.0000
+          109.0816 0.0000
+          109.5097 0.0000
+          114.6006 0.0000
+          115.0551 0.0000
+          115.2909 0.0000
+          116.2303 0.0000
+          116.7152 0.0000
+          116.9273 0.0000
+          117.4042 0.0000
+          118.1921 0.0000
+          120.6769 0.0000
+          120.9799 0.0000
+          121.1618 0.0000
+          121.3739 0.0000
+          122.1618 0.0000
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          130.4922 0.0000
+          130.7603 0.0000
+          131.0242 0.0000
+          131.9328 0.0000
+          132.2303 0.0000
+          133.1640 0.0000
+        }
+        {
+          14.2350 0.5000
+          16.0835 0.5000
+          16.3562 0.5000
+          16.6290 0.5000
+          16.9017 0.5000
+          17.6896 0.5000
+          17.9320 0.5000
+          18.6593 0.5000
+          18.9017 0.5000
+          19.1138 0.5000
+          19.2350 0.5000
+          19.3318 0.5000
+          19.5440 0.5000
+          19.8123 0.5000
+          19.9941 0.5000
+          20.6304 0.5000
+          21.3460 0.5000
+          21.4975 0.5000
+          21.9218 0.5000
+          22.7400 0.5000
+          25.4369 0.5000
+          25.9073 0.5000
+          26.1843 0.5000
+          27.6388 0.5000
+          28.1277 0.5000
+          28.4231 0.5000
+          28.9079 0.5000
+          29.2110 0.5000
+          29.9988 0.5000
+          30.9382 0.5000
+          33.9685 0.5000
+          34.8776 0.5000
+          35.6049 0.5000
+          38.8473 0.5000
+          41.0546 0.5000
+          44.7598 0.5000
+          45.6689 0.5000
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.6034 0.5000
+          66.9367 0.5000
+          69.3462 0.5000
+          70.3159 0.5000
+          72.1644 0.5000
+          72.9220 0.5000
+          73.4371 0.5000
+          74.1644 0.5000
+          77.2553 0.5000
+          78.2241 0.5000
+          79.7092 0.5000
+          80.7587 0.5000
+          81.2163 0.5000
+          82.0606 0.5000
+          82.3692 0.5000
+          83.1212 0.5000
+          87.7868 0.5000
+          88.3019 0.5000
+          89.1201 0.5000
+          89.2716 0.5000
+          89.9568 0.5000
+          90.2186 0.5000
+          90.7943 0.5000
+          90.9105 0.5000
+          91.2135 0.5000
+          92.5964 0.5000
+          92.8499 0.5000
+          93.5173 0.5000
+          93.7597 0.5000
+          94.4418 0.5000
+          94.5513 0.5000
+          94.7029 0.5000
+          94.8844 0.5000
+          95.0574 0.5000
+          97.1271 0.5000
+          97.8394 0.5000
+          98.7182 0.5000
+          100.0515 0.5000
+          103.0138 0.5000
+          103.3439 0.5000
+          103.9923 0.5000
+          104.1438 0.5000
+          104.8303 0.5000
+          106.1636 0.5000
+          106.6485 0.5000
+          107.4363 0.5000
+          109.0816 0.5000
+          109.5097 0.5000
+          114.6006 0.5000
+          115.0551 0.5000
+          115.2909 0.5000
+          116.2303 0.5000
+          116.7152 0.5000
+          116.9273 0.5000
+          117.4042 0.5000
+          118.1921 0.5000
+          120.6769 0.5000
+          120.9799 0.5000
+          121.1618 0.5000
+          121.3739 0.5000
+          122.1618 0.5000
+          122.2830 0.5000
+          122.7375 0.5000
+          122.9193 0.5000
+          123.7375 0.5000
+          124.8890 0.5000
+          125.4042 0.5000
+          125.8284 0.5000
+          126.4951 0.5000
+          128.2829 0.5000
+          130.4922 0.5000
+          130.7603 0.5000
+          131.0242 0.5000
+          131.9328 0.5000
+          132.2303 0.5000
+          133.1640 0.5000
+        }
+        "presser" 
+        {
+          1.4069 0.3000
+          2.2690 0.3000
+          2.5114 0.3000
+          2.6326 0.0000
+          3.1478 0.0000
+          4.3902 0.0000
+          5.0872 0.0000
+          6.6572 0.0000
+          6.9300 0.0000
+          7.6325 0.1100
+          8.2992 0.1100
+          8.5719 0.0000
+          9.6022 0.0000
+          10.0032 0.0800
+          12.2653 0.0800
+          12.9926 0.0800
+          13.8108 0.0800
+          14.2350 0.3300
+          16.0835 0.3300
+          16.3562 0.3300
+          16.6290 0.0000
+          16.9017 0.0000
+          17.6896 0.0000
+          17.9320 0.0000
+          18.6593 0.0000
+          18.9017 0.0000
+          19.1138 0.0000
+          19.2350 0.0000
+          19.3318 0.0000
+          19.5440 0.0000
+          19.8123 0.0000
+          19.9941 0.0000
+          20.6304 0.0000
+          21.3460 0.0000
+          21.4975 0.0000
+          21.9218 0.0000
+          22.7400 0.0000
+          25.4369 0.0000
+          25.9073 0.0000
+          26.1843 0.0000
+          27.6388 0.0000
+          28.1277 0.0000
+          28.4231 0.0000
+          28.9079 0.0000
+          29.2110 0.0000
+          29.9988 0.0000
+          30.9382 0.0000
+          33.9685 0.0000
+          34.8776 0.0000
+          35.6049 0.0000
+          38.8473 0.0000
+          41.0546 0.0000
+          44.7598 0.0000
+          45.6689 0.0000
+          47.1143 0.0000
+          51.2264 0.0000
+          51.6608 0.0000
+          52.7517 0.0000
+          53.3636 0.0000
+          55.0303 0.0000
+          55.9091 0.0000
+          56.6970 0.0000
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.0000
+          58.6067 0.0000
+          60.2431 0.0000
+          64.6370 0.0000
+          65.0613 0.0000
+          65.3643 0.0000
+          66.4822 0.0000
+          66.6034 0.0000
+          66.9367 0.0000
+          69.3462 0.0000
+          70.3159 0.0000
+          72.1644 0.0000
+          72.9220 0.0000
+          73.4371 0.0000
+          74.1644 0.0000
+          77.2553 0.0000
+          78.2241 0.0000
+          79.7092 0.0000
+          80.7587 0.0000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.0000
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.0000
+          89.1201 0.0000
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.0000
+          90.7943 0.0000
+          90.9105 0.0000
+          91.2135 0.0000
+          92.5964 0.0000
+          92.8499 0.0000
+          93.5173 0.0000
+          93.7597 0.0000
+          94.4418 0.0000
+          94.5513 0.0000
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.0000
+          97.1271 0.0000
+          97.8394 0.0000
+          98.7182 0.0000
+          100.0515 0.0000
+          103.0138 0.0000
+          103.3439 0.0000
+          103.9923 0.0000
+          104.1438 0.0000
+          104.8303 0.0000
+          106.1636 0.0000
+          106.6485 0.0000
+          107.4363 0.0000
+          109.0816 0.0000
+          109.5097 0.0000
+          114.6006 0.0000
+          115.0551 0.0000
+          115.2909 0.0000
+          116.2303 0.0000
+          116.7152 0.0000
+          116.9273 0.0000
+          117.4042 0.0000
+          118.1921 0.0000
+          120.6769 0.0000
+          120.9799 0.0000
+          121.1618 0.0000
+          121.3739 0.0000
+          122.1618 0.0000
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          130.4574 0.0800
+          130.4922 0.7600
+          130.5481 0.9900
+          130.6715 1.0000
+          130.7603 0.0000
+          131.0242 0.0000
+          131.9328 0.0000
+          132.2303 0.0000
+          133.1640 0.0000
+        }
+        "jaw_clencher" 
+        {
+          29.9648 0.0200
+          30.9382 0.8400
+          33.9685 0.8400
+          34.8776 0.0000
+          35.6049 0.0000
+          38.8473 0.0000
+          41.0546 0.0000
+          44.7598 0.0000
+          45.6689 0.0000
+          47.1143 0.0000
+          51.2264 0.0000
+          51.6608 0.0000
+          52.7517 0.0000
+          53.3636 0.0000
+          55.0303 0.0000
+          55.9091 0.0000
+          56.6970 0.0000
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.0000
+          58.6067 0.0000
+          60.2431 0.0000
+          64.6370 0.0000
+          65.0613 0.0000
+          65.3643 0.0000
+          66.4822 0.0000
+          66.6034 0.0000
+          66.9367 0.0000
+          69.3462 0.0000
+          70.3159 0.0000
+          72.1644 0.0000
+          72.9220 0.0000
+          73.4371 0.0000
+          74.1644 0.0000
+          77.2553 0.0000
+          78.2241 0.0000
+          79.7092 0.0000
+          80.7587 0.0000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.0000
+          83.1212 0.0000
+          87.7868 0.0000
+          88.3019 0.0000
+          89.1201 0.0000
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.0000
+          90.7943 0.0000
+          90.9105 0.0000
+          91.2135 0.0000
+          92.5964 0.0000
+          92.8499 0.0000
+          93.5173 0.0000
+          93.7597 0.0000
+          94.4418 0.0000
+          94.5513 0.0000
+          94.7029 0.0000
+          94.8844 0.0000
+          95.0574 0.0000
+          97.1271 0.0000
+          97.8394 0.0000
+          98.7182 0.0000
+          100.0515 0.0000
+          103.0138 0.0000
+          103.3439 0.0000
+          103.9923 0.0000
+          104.1438 0.0000
+          104.8303 0.0000
+          106.1636 0.0000
+          106.6485 0.0000
+          107.4363 0.0000
+          109.0816 0.0000
+          109.5097 0.0000
+          114.6006 0.0000
+          115.0551 0.0000
+          115.2909 0.0000
+          116.2303 0.0000
+          116.7152 0.0000
+          116.9273 0.0000
+          117.4042 0.0000
+          118.1921 0.0000
+          120.6769 0.0000
+          120.9799 0.0000
+          121.1618 0.0000
+          121.3739 0.0000
+          122.1618 0.0000
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          130.4922 0.0000
+          130.7603 0.0000
+          131.0242 0.0000
+          131.1599 1.0000
+          131.8182 0.0500
+          131.9328 0.0000
+          132.2303 0.0000
+          133.1640 0.5300
+        }
+        "jaw_drop" range 0.0 2.0 
+        {
+          29.9956 0.0350
+          30.9382 0.2050
+          33.9685 0.2050
+          34.8776 0.2000
+          35.6049 0.2650
+          38.8473 0.3951
+          41.0546 0.1500
+          44.7598 0.1500
+          45.6689 0.1500
+          47.1143 0.2500
+          51.2264 0.2500
+          51.6608 0.3200
+          52.7517 0.0000
+          53.3636 0.0000
+          55.0303 0.0000
+          55.9091 0.3000
+          56.6970 0.1450
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.0000
+          58.6067 0.1300
+          60.2431 0.1550
+          63.8909 0.2050
+          64.1730 0.1950
+          64.6370 0.0350
+          65.0613 0.0000
+          65.3643 0.0000
+          66.4822 0.0000
+          66.6034 0.0000
+          66.9367 0.0000
+          69.3462 0.0000
+          70.3159 0.1700
+          72.1644 0.1700
+          72.9220 0.0000
+          73.4371 0.0000
+          74.1644 0.0000
+          77.2553 0.0000
+          78.2241 0.2100
+          79.7092 0.0000
+          80.7587 0.2000
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.0002
+          83.1212 0.1950
+          83.3296 0.2100
+          87.6321 0.2000
+          87.7868 0.2050
+          88.3019 0.0000
+          89.1201 0.0000
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.0000
+          90.7943 0.0000
+          90.9105 0.0000
+          91.2135 0.0000
+          92.5964 0.0000
+          92.8499 0.0000
+          93.5173 0.0000
+          94.2247 0.0250
+          94.4418 0.0849
+          94.5513 0.0674
+          94.7029 0.0674
+          94.8844 0.0674
+          95.0574 0.0674
+          97.1271 0.0674
+          97.8394 0.0674
+          98.7182 0.0674
+          100.0515 0.2050
+          102.7233 0.2100
+          103.0138 0.2050
+          103.3439 0.1150
+          103.8671 0.0950
+          103.9923 0.1150
+          104.1438 0.2400
+          104.8303 0.2400
+          106.1636 0.2400
+          106.6485 0.0000
+          107.4363 0.1150
+          109.0816 0.1150
+          109.5097 0.2000
+          114.4283 0.2050
+          114.6006 0.2000
+          115.0551 0.0000
+          115.2909 0.0000
+          116.2303 0.0000
+          116.7152 0.0000
+          116.9273 0.0000
+          117.4042 0.0000
+          118.1921 0.0000
+          120.6769 0.0000
+          120.9799 0.0000
+          121.1618 0.0000
+          121.3739 0.0000
+          122.1618 0.0000
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          129.5045 0.0000
+          129.9196 0.4150
+          130.4366 0.4150
+          130.6213 0.0450
+          130.7603 0.0000
+          131.0242 0.0000
+          131.9328 0.4250
+          132.2303 0.4661
+          132.4429 0.4900
+          132.4919 0.5000
+          132.6472 0.0700
+          133.1640 0.0000
+        }
+        "mouth_drop" combo 
+        {
+          29.9546 0.0300
+          30.9382 0.5000
+          33.9685 0.5000
+          34.8776 0.2800
+          35.6049 0.3300
+          38.8473 0.4277
+          41.0546 0.0000
+          44.7598 0.0000
+          45.6689 0.2500
+          47.1143 0.4400
+          51.2264 0.4400
+          51.6608 0.5300
+          52.7517 0.0000
+          53.3636 0.0000
+          55.0303 0.0000
+          55.9091 0.5400
+          56.6970 0.3800
+          56.9704 0.0000
+          57.3340 0.0000
+          57.5461 0.0000
+          58.6067 0.4400
+          60.2431 0.5100
+          63.8550 0.5800
+          64.1935 0.5200
+          64.6370 0.2400
+          65.0613 0.0000
+          65.3643 0.0000
+          66.4822 0.0000
+          66.6034 0.0000
+          66.9367 0.0000
+          69.3462 0.0000
+          70.3159 0.7100
+          72.1644 0.7100
+          72.9220 0.0000
+          73.4371 0.0000
+          74.1644 0.3600
+          77.2553 0.3600
+          78.2241 0.4300
+          79.7092 0.4300
+          80.7587 0.4300
+          81.2163 0.0000
+          82.0606 0.0000
+          82.3692 0.0004
+          83.1212 0.4400
+          83.3347 0.4400
+          87.5910 0.4700
+          87.7868 0.4627
+          88.3019 0.0000
+          89.1201 0.0000
+          89.2716 0.0000
+          89.9568 0.0000
+          90.2186 0.0000
+          90.7943 0.0000
+          90.9105 0.0000
+          91.2135 0.0000
+          92.5964 0.0000
+          92.8499 0.0000
+          93.5173 0.0000
+          94.1797 0.2500
+          94.4418 0.3300
+          94.5513 0.3144
+          94.7029 0.3144
+          94.8844 0.3144
+          95.0574 0.3144
+          97.1271 0.3144
+          97.8394 0.3144
+          98.7182 0.3144
+          100.0515 0.3144
+          102.6617 0.3700
+          103.0138 0.3144
+          103.3439 0.1500
+          103.7697 0.1200
+          103.9923 0.1500
+          104.1438 0.2800
+          104.8303 0.2800
+          106.1636 0.2800
+          106.6485 0.0000
+          107.4363 0.3000
+          109.0816 0.3000
+          109.5097 0.4100
+          114.4283 0.4100
+          114.6006 0.4100
+          115.0551 0.0000
+          115.2909 0.0000
+          116.2303 0.0000
+          116.7152 0.0000
+          116.9273 0.0000
+          117.4042 0.0000
+          118.1921 0.0000
+          120.6769 0.0000
+          120.9799 0.0000
+          121.1618 0.0000
+          121.3739 0.0000
+          122.1618 0.0000
+          122.2830 0.0000
+          122.7375 0.0000
+          122.9193 0.0000
+          123.7375 0.0000
+          124.8890 0.0000
+          125.4042 0.0000
+          125.8284 0.0000
+          126.4951 0.0000
+          128.2829 0.0000
+          129.8896 0.0000
+          130.0046 0.3300
+          130.0969 0.4700
+          130.4288 0.4300
+          130.5854 0.1200
+          130.7603 0.0000
+          131.0242 0.0000
+          131.9328 0.0000
+          132.2303 0.2500
+          132.3967 0.5000
+          132.4919 0.4500
+          132.6472 0.0000
+          133.1640 0.0000
+        }
+        {
+          30.9382 0.5000
+          33.9685 0.5000
+          34.8776 0.5000
+          35.6049 0.5000
+          38.8473 0.5000
+          41.0546 0.5000
+          44.7598 0.5000
+          45.6689 0.5000
+          47.1143 0.5000
+          51.2264 0.5000
+          51.6608 0.5000
+          52.7517 0.5000
+          53.3636 0.5000
+          55.0303 0.5000
+          55.9091 0.5000
+          56.6970 0.5000
+          56.9704 0.5000
+          57.3340 0.5000
+          57.5461 0.5000
+          58.6067 0.5000
+          60.2431 0.5000
+          64.6370 0.5000
+          65.0613 0.5000
+          65.3643 0.5000
+          66.4822 0.5000
+          66.

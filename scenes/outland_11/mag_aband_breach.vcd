@@ -1,0 +1,36 @@
+  param "alyx"
+    }
+  }
+  channel "blink"
+  {
+    event generic "no blink"
+    {
+      time -0.100000 5.300000
+      param "AI_BLINK"
+      param2 "vort_calvary_1"
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 10.217950 15.017950
+      param "g_hold_hands"
+      absolutetags playback_time
+      {
+        "in" 0.259122
+        "loop" 0.476224
+        "end" 0.553260
+        "out" 0.705882
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.313559
+        "loop" 0.576271
+        "end" 0.669492
+        "out" 0.788136
+      }
+      sequencedurat

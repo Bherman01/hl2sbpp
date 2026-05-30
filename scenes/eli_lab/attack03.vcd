@@ -1,0 +1,103 @@
+ead_updown"         range 15.0 -15.0        
+        {
+          0.2135 0.3800
+          0.2942 0.3700
+          0.6434 0.4000
+        }
+      }
+    }
+    event flexanimation "head emphasis"
+    {
+      time 20.230768 21.448717
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 15.0 -15.0        
+        {
+          0.2135 0.4200
+          0.3325 0.4000
+          0.6434 0.4300
+        }
+        "head_tilt"         range 15.0 -15.0        
+        {
+          0.2135 0.4200
+          0.3325 0.4000
+          0.6434 0.4300
+        }
+      }
+    }
+    event flexanimation "head emphasis"
+    {
+      time 16.564100 17.782049
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 15.0 -15.0        
+        {
+          0.2135 0.3200
+          0.3325 0.3000
+          0.6434 0.3300
+        }
+      }
+    }
+    event flexanimation "head emphasis"
+    {
+      time 25.307690 26.525639
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 15.0 -15.0        
+        {
+          0.2135 0.6200
+          0.3325 0.6500
+          0.6434 0.6300
+        }
+      }
+    }
+    event flexanimation "head emphasis"
+    {
+      time 32.589741 33.807690
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 15.0 -15.0        
+        {
+          0.2135 0.3200
+          0.3325 0.3000
+          0.6434 0.3300
+        }
+      }
+    }
+    event flexanimation "head emphasis"
+    {
+      time 37.076920 38.294868
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 15.0 -15.0        
+        {
+          0.2135 0.4000
+          0.3325 0.3800
+          0.6434 0.4100
+        }
+      }
+    }
+    event flexanimation "head emphasis"
+    {
+      time 38.820507 40.038456
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 15.0 -15.0        
+        {
+          0.2135 0.5700
+          0.3325 0.5900
+          0.6434 0.5800
+        }
+      }
+    }
+    event flexanimation "head emphasis"
+    {
+      time 40.615383 41.833332
+      param ""
+      fl

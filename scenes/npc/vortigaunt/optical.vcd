@@ -1,0 +1,36 @@
+l "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+}
+
+mapname "maps\d1_town_05.bsp"
+scalesettings
+{
+  "CChoreoView" "62"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Barney"
+{
+  channel "audio"
+  {
+    event speak "nexus.ba_followme02"
+    {
+      time 0.064516 1.035060
+      param "nexus.ba_followme02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "trigger"
+  {
+  

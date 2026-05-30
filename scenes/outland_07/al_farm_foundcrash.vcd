@@ -1,0 +1,211 @@
+          7.6091 0.3600
+          8.2755 0.0000
+          8.9018 0.0000
+          9.4435 0.0000
+          10.4030 0.0000
+          15.0050 0.0000
+          16.8102 0.0000
+          17.2635 0.0000
+          19.7179 0.0000
+          22.7761 0.0000
+          23.3364 0.0000
+          25.4047 0.0000
+          26.8847 0.0000
+          27.3992 0.0000
+          28.1675 0.0000
+          30.2654 0.0000
+        }
+        {
+          0.8232 0.5000
+          3.8777 0.5000
+          4.3660 0.5000
+          5.4373 0.5000
+          6.5117 0.5000
+          7.6091 0.5000
+          8.2755 0.5000
+          8.9018 0.5000
+          9.4435 0.5000
+          10.4030 0.5000
+          15.0050 0.5000
+          16.8102 0.5000
+          17.2635 0.5000
+          19.7179 0.5000
+          22.7761 0.5000
+          23.3364 0.5000
+          25.4047 0.5000
+          26.8847 0.5000
+          27.3992 0.5000
+          28.1675 0.5000
+          30.2654 0.5000
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "head gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 2.166667
+      param ""
+    }
+    event gesture "oh my god"
+    {
+      time 7.969697 12.595259
+      param "A_bg_upchindwn"
+      event_ramp
+      {
+        0.1615 0.6071
+        0.4846 0.9603
+        4.0077 0.9683
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.080225
+        "extreme" 0.145863
+        "loop" 0.328192
+        "end" 0.795791
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.132530
+        "extreme" 0.240964
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "how long"
+    {
+      time 11.212122 14.012122
+      param "A_bg_chinout"
+      event_ramp
+      {
+        0.1227 0.6508
+        0.3682 0.9921
+        2.4955 0.9484
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 15.606061 16.106060
+      param ""
+    }
+    event gesture "ill bet"
+    {
+      time 16.848486 19.481819
+      param "A_bg_h_jerkrt"
+      event_ramp
+      {
+        0.4909 0.8810
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "NULL"
+    {
+      time 19.595238 20.095238
+      param ""
+    }
+    event gesture "it looks"
+    {
+      time 20.023809 22.323809
+      param "A_bg_chinout"
+      event_ramp
+      {
+        0.2864 0.8889
+        1.5273 0.9405
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 27.214285 27.714285
+      param ""
+    }
+    event gesture "so"
+    {
+      time 27.761904 31.481636
+      param "A_bg_hroll"
+      event_ramp
+      {
+        0.5136 0.6270
+        2.3818 0.6270
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.133788
+        "extreme" 0.318543
+        "loop" 0.471161
+        "end" 0.738434
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.111111
+        "extreme" 0.400000
+        "loop" 0.577778
+        "end" 0.688889
+      }
+      sequenceduration 3.033333
+    }
+    event gesture "good"
+    {
+      time 30.238092 32.538094
+      param "a_bg_htiltrt"
+      event_ramp
+      {
+        0.3136 0.5635
+        1.5455 0.5635
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      absolutetags sh

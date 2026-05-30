@@ -1,0 +1,27 @@
+ 0.3100
+        }
+        "eyes_rightleft"         range 30.0 -30.0        
+        {
+          0.2727 0.5200
+          0.2929 0.5900
+          0.3819 0.6200
+        }
+        "inner_raiser"         combo        
+        {
+        }
+        {
+        }
+        "outer_raiser"         combo        
+        {
+        }
+        {
+        }
+      }
+    }
+    event flexanimation "facial"
+    {
+      time 0.145958 15.728056
+      param ""
+      flexanimations samples_use_time
+      {
+        "smile"   

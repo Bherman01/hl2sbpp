@@ -1,0 +1,34 @@
+"loop" 0.296296
+        "end" 0.654321
+      }
+      sequenceduration 2.733333
+    }
+    event gesture "NULL"
+    {
+      time 14.691359 17.537037
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 7.160494 9.512346
+      param ""
+    }
+    event gesture "A_g_yell"
+    {
+      time 6.814814 9.581482
+      param "A_g_yell"
+      event_ramp
+      {
+        0.0038 0.9735
+        1.1538 0.9886
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.134146
+        "accent" 0.304878
+        "loop" 0.585366
+        "end" 0.658537
+      }
+      absolutetags shifted_time
+      {
+    

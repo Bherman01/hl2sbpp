@@ -1,0 +1,214 @@
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+  channel "Facial"
+  {
+  }
+  channel "Head"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "56"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "cit_buddykilled14"
+    {
+      time 0.006667 0.925170
+      param "ep1_citizen.cit_buddykilled14"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+  channel "Facial"
+  {
+  }
+  channel "Head"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "56"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "cit_buddykilled15"
+    {
+      time 0.006667 1.127574
+      param "ep1_citizen.cit_buddykilled15"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+  channel "Facial"
+  {
+  }
+  channel "Head"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "56"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "cit_comehere"
+    {
+      time 0.006667 0.676418
+      param "ep1_citizen.cit_comehere"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+  channel "Facial"
+  {
+  }
+  channel "Head"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "56"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "cit_denytrain01"
+    {
+      time 0.006667 2.523901
+      param "ep1_citizen.cit_denytrain01"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event gesture "b_head_forward"
+    {
+      time 0.013333 2.493333
+      param "b_head_forward"
+      absolutetags playback_time
+      {
+        "apex" 0.190708
+        "extreme" 0.628931
+        "loop" 0.642625
+        "end" 0.656320
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      sequenceduration 1.800000
+    }
+  }
+  channel "Look"
+  {
+    event lookat "!player"
+    {
+      time 0.020000 2.513334
+      param "!player"
+      event_ramp 
+      {
+        0.3180 0.8510
+        0.4880 1.0000 "curve_easein_to_curve_easeout"
+        2.0480 1.0000 "curve_easein_to_curve_easeout"
+        2.2220 0.8179
+      }
+    }
+  }
+  channel "Facial"
+  {
+    event gesture "hg_headshake"
+    {
+      time 0.146666 1.780000
+      param "hg_headshake"
+      absolutetags playback_time
+      {
+        "apex" 0.208333
+        "loop" 0.270833
+        "extreme" 0.416667
+        "end" 0.625000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.208333
+        "loop" 0.270833
+        "extreme" 0.416667
+        "end" 0.625000

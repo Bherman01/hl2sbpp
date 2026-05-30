@@ -1,0 +1,29 @@
+      sequenceduration 3.300000
+    }
+  }
+  channel "facial flex"
+  {
+    event flexanimation "face"
+    {
+      time 0.075000 10.408334
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_tightener" combo 
+        {
+          0.1000 0.0000
+          0.4538 0.0000
+          1.0028 0.0000
+          1.4150 0.0000
+          1.6182 0.0000
+          2.0598 0.0000
+          2.7598 0.0000
+          4.2017 0.3500
+          4.5363 0.9100
+          4.8446 0.0000
+          5.3529 0.0000
+          6.1256 0.2500
+          6.3756 0.0000
+          6.8090 0.0000
+          7.4440 0.3500
+ 

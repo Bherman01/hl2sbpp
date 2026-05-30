@@ -1,0 +1,35 @@
+ctor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_02.al_car_crash06"
+    {
+      time 0.242749 0.713611
+      param "ep_02.al_car_crash06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face to"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "Facial Animation"
+    {
+      time 0.010753 0.930108
+      param ""
+      flexanim

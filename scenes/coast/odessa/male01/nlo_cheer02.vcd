@@ -1,0 +1,20 @@
+  event speak "coast.vort_podsforyou01"
+    {
+      time 0.060001 5.039729
+      param "coast.vort_podsforyou01"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event flexanimation "face"
+    {
+      time 0.017779 5.020001
+      param ""
+      flextimingtags
+      {
+        "the" 0.032067 1
+        "freeman" 0.055695 1

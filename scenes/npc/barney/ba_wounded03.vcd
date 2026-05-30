@@ -1,0 +1,30 @@
+tags playback_time
+      {
+        "apex" 0.120626
+        "extreme" 0.269088
+        "loop" 0.417550
+        "end" 0.740191
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.156627
+        "extreme" 0.349398
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "2"
+    {
+      time 12.560000 19.145123
+      param "A_bg_upchindwn"
+      event_ramp
+      {
+        0.9105 0.8849
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.104946
+        "extreme" 0.151052
+        "loop" 0.279125
+   

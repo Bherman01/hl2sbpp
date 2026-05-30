@@ -1,0 +1,26 @@
+
+    event lookat "mark_al_gardoor_1"
+    {
+      time 5.558149 7.006296
+      param "mark_al_gardoor_1"
+      event_ramp 
+      {
+        0.5433 1.0000 "curve_default_to_curve_hold"
+        0.9529 1.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 6.711112 8.959260
+      param "!player"
+      event_ramp 
+      {
+        0.5700 1.0000
+        1.6762 1.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 1.484445 4.385927
+      param "!player"
+      event

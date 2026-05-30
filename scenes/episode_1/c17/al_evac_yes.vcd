@@ -1,0 +1,99 @@
+ 47.7167 0.5400
+          48.2421 0.3700
+          49.8032 0.3200
+          51.4670 0.4400
+        }
+        "head_tilt" range 15.0 -15.0 
+        {
+          0.5159 0.5700
+          0.8777 0.5500
+          1.0737 0.3600
+          2.2891 0.4000
+          2.6224 0.6600
+          3.2866 0.5200
+          4.2718 0.5000
+          12.4069 0.4600
+          13.2696 0.4500
+          14.0297 0.6700
+          14.8102 0.6800
+          16.1249 0.7100
+          16.5097 0.6700
+          17.0081 0.1900
+          18.0174 0.2400
+          18.8363 0.2200
+          19.2882 0.2300
+          19.8684 0.4400
+          21.2191 0.4600
+          22.1229 0.4700
+          47.2161 0.5100
+          47.7751 0.5100
+          48.4821 0.7400
+          48.9610 0.7600
+          49.2210 0.7300
+          49.6729 0.2200
+          50.7822 0.1700
+          51.5492 0.4600
+          52.1860 0.4900
+          53.4390 0.4800
+          53.8498 0.3200
+          54.4866 0.2700
+          54.7331 0.2600
+          55.1645 0.7700
+          55.6780 0.7700
+          56.3353 0.7700
+          58.3689 0.7700
+          60.3819 0.7700
+          60.6490 0.7700
+          61.2241 0.1900
+          62.0959 0.2200
+          62.7943 0.3900
+        }
+      }
+    }
+  }
+  faceposermodel "models\barney.mdl"
+}
+
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_safehouse_tellus"
+    {
+      time 27.680702 31.390091
+      param "ep_01.al_safehouse_separate01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_safehouse_soundgood"
+    {
+      time 50.701759 52.412327
+      param "ep_01.al_safehouse_soundgood"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_safehouse_stoleinfo01"
+    {
+      time 3.766667 6.524036
+      param "ep_01.al_safehouse_stoleinfo01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_safehouse_stoleinfo02"
+    {
+      time 6.666667 8.701315
+      param "ep_01.al_safehouse_stoleinfo02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_safehouse_tellus"
+    {
+      time 31.714035 34.485916
+      param "ep_01.al_safehouse_separate02"
+      fixedlength
+      cctype "cc_master"
+      cctoke

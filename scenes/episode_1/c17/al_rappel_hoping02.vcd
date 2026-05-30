@@ -1,0 +1,27 @@
+ 0.6059
+        1.0074 0.0720
+      }
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.013889 0.513889
+      param ""
+    }
+    event gesture "BG accent side right"
+    {
+      time 0.166667 2.577778
+      param "a_bg_acc_side_rt"
+      absolutetags playback_time
+      {
+        "apex" 0.083949
+        "extreme" 0.192590
+        "loop" 0.534653
+        "end" 0.712871
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.072289
+     

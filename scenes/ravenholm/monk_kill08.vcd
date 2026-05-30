@@ -1,0 +1,20 @@
+" 0.287671
+        "loop" 0.534247
+        "end" 0.616438
+      }
+      sequenceduration 2.466667
+    }
+    event gesture "A_g_rthdflipout"
+    {
+      time 43.467346 47.048046
+      param "A_g_rthdflipout"
+      absolutetags playback_time
+      {
+        "apex" 0.235084
+        "accent" 0.423383
+        "loop" 0.564607
+        "end" 0.754902
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.

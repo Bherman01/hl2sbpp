@@ -1,0 +1,31 @@
+olutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "accentup_ext"
+    {
+      time 0.617284 4.608658
+      param "accentup_ext"
+      event_ramp
+      {
+        0.0038 0.5606
+        0.0615 0.5682
+        3.9385 0.4962
+        3.9731 0.4924
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.101424
+        "extreme" 0.177491
+        "loop" 0.330767
+        "end" 0.763345
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        

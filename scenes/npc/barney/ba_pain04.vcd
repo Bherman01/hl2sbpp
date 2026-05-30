@@ -1,0 +1,34 @@
+  0.7012 0.8111
+        0.7957 0.8204
+      }
+    }
+    event lookat "Alyx_Emptool"
+    {
+      time 2.563494 2.971823
+      param "Alyx_Emptool"
+      event_ramp
+      {
+        0.2143 0.6527
+        0.2933 0.5014
+        0.3199 0.6754
+        0.4083 0.6847
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "move_door2_side"
+    {
+      time 3.676667 4.403334
+      param "mark_alyx_outside_int_3"
+      param2 "Walk"
+    }
+  }
+  channel "faceTo"
+  {
+    event face "player"
+    {
+      time 2.972727 8.772216
+      param "!player"
+      event_ramp
+      {

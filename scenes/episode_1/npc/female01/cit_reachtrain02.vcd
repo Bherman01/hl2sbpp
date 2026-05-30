@@ -1,0 +1,26 @@
+me 12.869205 25.960871
+      param "shiftleft"
+      absolutetags playback_time
+      {
+        "apex" 0.069906
+        "loop" 0.174765
+        "end" 0.836248
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.241379
+        "loop" 0.379310
+        "end" 0.689655
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "gestures_farewell"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.582591
+      param ""
+    }
+    event gesture "g_mid_relaxed_fist_accent"
+    {

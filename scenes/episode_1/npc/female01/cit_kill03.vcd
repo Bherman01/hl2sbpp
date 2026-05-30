@@ -1,0 +1,26 @@
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.339506
+      param ""
+    }
+    event gesture "g_fist_swing_across"
+    {
+      time 0.150998 4.008453
+      param "g_fist_swing_across"
+      event_ramp
+      {
+        0.0000 1.0000
+        1.1894 1.0000
+        1.5809 0.9181
+        2.1319 0.9044
+        2.9255 0.8498
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.150027
+        "accent" 0.193869
+        "loop" 0.307858

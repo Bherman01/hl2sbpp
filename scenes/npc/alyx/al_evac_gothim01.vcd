@@ -1,0 +1,34 @@
+ Choreo version 1
+event section "pause"
+{
+  time 0.386667 -1.000000
+  param "noaction"
+}
+actor "gman"
+{
+  channel "Audio"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.033333 3.806667
+      param ""
+      flexanimations samples_use_time
+      {
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event moveto "move to intro"
+    {
+      time 0.060000 0.486667
+      param "mark

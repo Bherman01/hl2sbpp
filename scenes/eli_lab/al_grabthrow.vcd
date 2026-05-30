@@ -1,0 +1,317 @@
+        "end" 0.642463
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.151515
+        "accent" 0.272727
+        "loop" 0.424242
+        "end" 0.575758
+      }
+      sequenceduration 2.233333
+    }
+    event gesture "E_g_hands_clasp"
+    {
+      time 117.571426 120.311905
+      param "E_g_hands_clasp"
+      absolutetags playback_time
+      {
+        "apex" 0.296213
+        "accent" 0.370266
+        "loop" 0.555400
+        "end" 0.744589
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.352941
+        "accent" 0.441176
+        "loop" 0.661765
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "E_g_fist_grab2"
+    {
+      time 40.901749 43.807812
+      param "E_g_fist_grab2"
+      absolutetags playback_time
+      {
+        "apex" 0.223380
+        "accent" 0.316492
+        "loop" 0.700508
+        "end" 0.713530
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.338235
+        "accent" 0.455882
+        "loop" 0.867647
+        "end" 0.867647
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "E_g_acc_finger_down2"
+    {
+      time 48.022732 51.345455
+      param "E_g_acc_finger_down2"
+      absolutetags playback_time
+      {
+        "apex" 0.433961
+        "accent" 0.525576
+        "loop" 0.640808
+        "end" 0.694064
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.485294
+        "accent" 0.617647
+        "loop" 0.794118
+        "end" 0.794118
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "E_g_chin_nervous"
+    {
+      time 57.712124 65.838821
+      param "E_g_chin_nervous"
+      absolutetags playback_time
+      {
+        "in" 0.193661
+        "loop" 0.383607
+        "end" 0.720661
+        "out" 0.839829
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.214286
+        "loop" 0.448980
+        "end" 0.755102
+        "out" 0.867347
+      }
+      sequenceduration 3.300000
+    }
+  }
+  channel "facial flex"
+  {
+    event flexanimation "eyes close"
+    {
+      time 21.217951 23.602566
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_closer" combo 
+        {
+          0.8535 0.0000
+          0.9760 1.0000
+          1.9120 1.0000
+          2.0680 0.0000
+        }
+        {
+          1.2875 0.3235
+          1.5824 0.3235
+        }
+        "inner_raiser" combo 
+        {
+          0.6220 0.4900
+          0.7142 0.9800
+          0.8000 0.9600
+          0.9140 0.0000
+        }
+        {
+          0.8082 0.5000
+        }
+        "lowerer" combo 
+        {
+          0.9200 0.0000
+          1.0460 0.9800
+          1.6840 0.9700
+          1.9260 0.0100
+        }
+        {
+          0.8080 0.5000
+          0.9320 0.5000
+        }
+      }
+    }
+  }
+  faceposermodel "models\eli.mdl"
+}
+
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "comein01"
+    {
+      time 4.482418 5.471760
+      param "ep_02.al_transmit_comein01"
+      param2 "0.62"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "and gordon too, we're ok"
+    {
+      time 15.249602 20.310940
+      param "ep_02.al_transmit_gordontoo"
+      param2 "0.430"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "strangecore01"
+    {
+      time 24.399675 26.607679
+      param "ep_02.al_transmit_strangecore01"
+      param2 "0.45"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "grabbed01"
+    {
+      time 55.062489 56.113171
+      param "ep_02.al_transmit_grabbed01"
+      param2 "0.25"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "feedingdata01"
+    {
+      time 62.888992 63.971668
+      param "ep_02.al_transmit_feedingdata01"
+      param2 "0.42"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "download01"
+    {
+      time 75.532143 77.062820
+      param "ep_02.al_transmit_download01"
+      param2 "0.440"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "bearings"
+    {
+      time 106.033401 108.465416
+      param "ep_02.al_transmit_bearings"
+      param2 "0.4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ahno"
+    {
+      time 126.830399 129.070404
+      param "ep_02.al_transmit_ahno"
+      param2 "0.450"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "tracking01"
+    {
+      time 129.984009 131.921356
+      param "ep_02.al_transmit_tracking01"
+      param2 "0.5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "comeon01"
+    {
+      time 136.448334 137.671005
+      param "ep_02.al_transmit_comeon01"
+      param2 "0.5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "strangecore02"
+    {
+      time 27.066341 30.061012
+      param "ep_02.al_transmit_strangecore02"
+      param2 "0.4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "download02"
+    {
+      time 77.432144 79.432144
+      param "ep_02.al_transmit_download02"
+      param2 "0.33"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "breakingup01"
+    {
+      time 120.382965 121.158974
+      param "ep_02.al_transmit_breakingup01"
+      param2 "0.66"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "breakingup02"
+    {
+      time 121.496223 122.136902
+      param "ep_02.al_transmit_breakingup02"
+      param2 "0.75"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "comein02"
+    {
+      time 5.687546 7.922217
+      param "ep_02.al_transmit_comein02"
+      param2 "0.7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "comein03"
+    {
+      time 8.405495 9.578828
+      param "ep_02.al_transmit_comein03"
+      param2 "0.7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "comein04"
+    {
+      time 10.008059 11.261392
+      param "ep_02.al_transmit_comein04"
+      param2 "0.750"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "grabbed02"
+    {
+      time 56.567616 57.351627
+      param "ep_02.al_transmit_grabbed02"
+      param2 "0.37"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "grabbed03"
+    {
+      time 57.570179 60.455532
+      param "ep_02.al_transmit_grabbed03"
+      param2 "0.450"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "grabbed04"
+    {
+      time 60.566334 61.339668
+      param 

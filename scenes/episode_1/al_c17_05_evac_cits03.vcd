@@ -1,0 +1,100 @@
+24
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "1"
+    {
+      time 20.614037 23.501755
+      param "A_p_lft_fwd"
+      absolutetags playback_time
+      {
+        "apex" 0.349828
+        "loop" 0.524742
+        "end" 0.641351
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.459184
+        "end" 0.561224
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "1"
+    {
+      time 7.791667 12.091667
+      param "A_P_rt_leanbk"
+      absolutetags playback_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+    }
+  }
+  channel "bodyges"
+  {
+    event gesture "bend down"
+    {
+      time 17.133333 19.949999
+      param "accentdown_ext_pod"
+      event_ramp 
+      {
+        1.0955 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.171598
+        "extreme" 0.337278
+        "loop" 0.503030
+        "end" 0.658730
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "shift_right"
+    {
+      time 10.359595 14.742929
+      param "A_bg_embarassed"
+      event_ramp 
+      {
+        0.5714 0.0783
+        1.1896 0.9269
+        3.4026 0.9164
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.092292
+        "extreme" 0.223039
+        "loop" 0.356464
+        "end" 0.866983
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.136364
+        "extreme" 0.329545
+        "loop" 0.454545
+        "end" 0.568182
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "shift_weight"
+    {
+      time 13.860867 17.874834
+      param "A_bg_acc_dwn_left"
+      event_ramp 
+      {
+        0.5460 0.9504
+        2.46

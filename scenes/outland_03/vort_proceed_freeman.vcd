@@ -1,0 +1,32 @@
+solutetags shifted_time
+      {
+        "apex" 0.134146
+        "accent" 0.304878
+        "loop" 0.585366
+        "end" 0.658537
+      }
+      sequenceduration 2.766667
+    }
+  }
+  channel "gesture2"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 6.500000
+      param ""
+    }
+    event gesture "A_g_headinhds"
+    {
+      time 10.304762 12.404762
+      param "A_g_headinhds"
+      event_ramp
+      {
+        0.0192 0.0000
+        0.4615 0.8258
+        1.6115 1.0000
+      }
+      absolutetags playback_time
+      {
+        "in" 0.397568
+        "loop" 0.605286
+        "end" 0.626667

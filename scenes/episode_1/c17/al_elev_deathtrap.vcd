@@ -1,0 +1,35 @@
+90
+      param "mark_barney_board"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "faceto"
+  {
+    event face "alyx"
+    {
+      time 0.321553 6.096128
+      param "alyx"
+      event_ramp 
+      {
+        0.4539 0.7803
+        0.9565 1.0000 "curve_easein_to_curve_easeout"
+        4.9607 1.0000 "curve_easein_to_curve_easeout"
+        5.4112 0.6195
+        5.7746 0.0000
+      }
+    }
+    event face "mark_barney_face_train"
+    {
+      time 6.413617 7.700726
+      param "mark_barney_face_train"
+      event_ramp 
+      {
+        0.5905 0.7857
+        0.8822 1.0000 "curve_easein_to_curve_easeout"
+        1.2870 1.0000
+      }
+    }
+  }
+  channel "postures"
+  {

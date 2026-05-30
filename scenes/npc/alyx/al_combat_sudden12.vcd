@@ -1,0 +1,23 @@
+ cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_carefulholdon"
+    {
+      time 16.222221 18.040203
+      param "ep_01.al_carefulholdon"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_whoa"
+    {
+      time 18.888891 19.536148
+      param "ep_01.al_whoa"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_changemind03"
+    {
+      time 14.133334 15.025805
+      param "ep_0

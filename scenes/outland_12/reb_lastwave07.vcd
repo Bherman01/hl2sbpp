@@ -1,0 +1,46 @@
+      }
+        "head_tilt" range 15.0 -15.0 
+        {
+          2.2179 0.5500
+          2.6500 0.6100
+          3.6857 0.6200
+          3.7679 0.6400
+          4.0857 0.9200
+          4.1750 0.9400
+          4.7821 0.9200
+          4.8607 0.8900
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "164"
+  "RampTool" "60"
+  "ExpressionTool" "48"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "Audio"
+  {
+    event speak "ep_02.al_barn_getcar"
+    {
+      time 1.402350 2.569402
+      param "ep_02.al_barn_getcar"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_barn_soldiers02"
+    {
+      time 0.078567 1.349474
+      param "ep_02.al_barn_soldiers02"
+      fixedl

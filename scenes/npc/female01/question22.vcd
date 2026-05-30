@@ -1,0 +1,129 @@
+   3.4693 0.5000
+          6.1190 0.5000
+          6.7317 0.5000
+          7.1137 0.5000
+          7.8776 0.5000
+          8.9199 0.5000
+          12.5074 0.5000
+          16.6848 0.5000
+          17.0986 0.5000
+          17.2259 0.5000
+          17.3135 0.5000
+          17.4010 0.5000
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+    event speak "tap"
+    {
+      time 1.466667 2.297189
+      param "novaprospekt.tapglass01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "tap2"
+    {
+      time 1.680000 2.201270
+      param "novaprospekt.tapglass01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "tap3"
+    {
+      time 1.880000 2.401270
+      param "novaprospekt.tapglass01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+actor "Mossman"
+{
+  channel "audio"
+  {
+    event speak "Hello? Thank god..."
+    {
+      time 2.266666 10.815351
+      param "novaprospekt.mo_howdyougetin"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "what are you talking..."
+    {
+      time 11.520001 17.082520
+      param "novaprospekt.mo_talkingabout"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look_alyx"
+    {
+      time 10.705377 20.126663
+      param "alyx"
+      event_ramp
+      {
+        0.2077 0.9480
+        9.0236 0.8699
+      }
+    }
+    event lookat "look_player"
+    {
+      time 7.551827 11.038495
+      param "!player"
+      event_ramp
+      {
+        0.2038 0.5888
+        0.3462 0.6794
+        0.5577 0.7247
+        1.3462 0.7108
+        2.6338 0.6969
+        3.0031 0.6899
+        3.4867 0.6418
+      }
+    }
+    event lookat "look_alyx"
+    {
+      time 2.030758 8.171397
+      param "alyx"
+      event_ramp
+      {
+        0.1885 0.9331
+        6.1407 0.9830
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "move_sec_window_1"
+    {
+      time 3.706667 8.090538
+      param "mark_mossman_sec_window_1"
+      param2 "Walk"
+    }
+    event moveto "move_sec_room_1"
+    {
+      time 18.693335 21.193335
+      param "mark_mossman_sec_room_1"
+      param2 "Walk"
+    }
+  }
+  channel "face to"
+  {
+    event face "face_alyx"
+    {
+      time 2.247648 18.899998
+      param "alyx"
+      event_ramp
+      {
+  

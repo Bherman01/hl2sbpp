@@ -1,0 +1,33 @@
+
+    event gesture "NULL"
+    {
+      time 4.816666 6.933333
+      param ""
+    }
+    event gesture "posture01"
+    {
+      time 7.150000 11.450001
+      param "posture01"
+      absolutetags playback_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      sequenceduration 4.300000
+    }
+  }
+  channel "body"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 5.850000
+      param ""
+    }
+    event gestur

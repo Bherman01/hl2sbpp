@@ -1,0 +1,48 @@
+sion 1
+actor "Alyx"
+{
+  channel "WAV"
+  {
+    event speak "ep_02.al_barn_pulsewhat"
+    {
+      time 0.234444 3.661111
+      param "ep_02.al_barn_pulsewhat"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "!self"
+    {
+      time 0.019964 5.766416
+      param "!self"
+      event_ramp
+      {
+        0.2214 0.3239
+        0.3680 0.8352
+        0.6810 1.0000
+        4.9579 0.9886
+        5.1949 0.8409
+        5.4858 0.2045
+      }
+    }
+  }
+  channel "face to"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.030512 5.770152
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser" combo 
+        {
+          0.3429 0.5500
+          0.9083 0.7100
+          1.3708 0.7100
+          4.82

@@ -1,0 +1,45 @@
+5129 0.0000
+          1.7036 0.0000
+          1.9357 0.0000
+          2.2429 0.0000
+          2.8143 0.0000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "56"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "cit_denytrain02"
+    {
+      time 0.006667 3.917801
+      param "ep1_citizen.cit_denytrain02"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "!player"
+    {
+      time 0.033333 4.206667
+      param "!pla

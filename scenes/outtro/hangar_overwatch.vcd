@@ -1,0 +1,101 @@
+     param "ep_02.vort_silo_admit"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.vort_silo_thruhere"
+    {
+      time 6.943624 10.015642
+      param "ep_02.vort_silo_thruhere"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc_vortigaunt.freeman"
+    {
+      time 0.513409 1.406516
+      param "npc_vortigaunt.freeman"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.157635 7.312261
+      param "!player"
+      event_ramp
+      {
+        1.4692 1.0000 "curve_easein_to_curve_easeout"
+        5.8987 1.0000 "curve_easein_to_curve_easeout"
+      }
+    }
+    event lookat "mark_look_lab_keypad_1"
+    {
+      time 6.688821 9.462129
+      param "mark_look_lab_keypad_1"
+      event_ramp
+      {
+        0.1047 0.0740
+        0.5744 0.8418
+        0.8884 0.9974 "curve_easein_to_curve_easeout"
+        1.7823 0.9974 "curve_easein_to_curve_easeout"
+        2.0800 0.8393
+        2.5963 0.1020
+      }
+    }
+    event lookat "!player"
+    {
+      time 8.686371 11.197319
+      param "!player"
+      event_ramp
+      {
+        1.0906 1.0000 "curve_easein_to_curve_easeout"
+        1.5113 1.0000 "curve_easein_to_curve_easeout"
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "mark_ur_door_faceto_1"
+    {
+      time 3.931033 10.798850
+      param "mark_ur_door_faceto_1"
+      event_ramp
+      {
+        1.0154 1.0000 "curve_easein_to_curve_easeout"
+        6.8678 1.0000 "curve_easein_to_curve_easeout"
+      }
+    }
+    event face "!player"
+    {
+      time 0.225219 3.920621
+      param "!player"
+      event_ramp
+      {
+        1.0643 1.0000 "curve_easein_to_curve_easeout"
+        3.6954 1.0000 "curve_easein_to_curve_easeout"
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_ur_door_1"
+    {
+      time 3.272577 7.923099
+      param "mark_ur_door_1"
+      param2 "Walk"
+      resumecondition
+    }
+  }
+  channel "postures"
+  {
+    event gesture "p_step_R"
+    {
+      time 1.402298 4.368965
+      param "p_step_R"
+      event_ramp
+      {
+        0.5786 1.0000 "curve_ease

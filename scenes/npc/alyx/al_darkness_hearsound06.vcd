@@ -1,0 +1,35 @@
+  "extreme" 0.411184
+        "loop" 0.625715
+        "end" 0.674772
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "A_bg_h_jerkleft"
+    {
+      time 5.092808 7.149869
+      param "A_bg_h_jerkleft"
+      event_ramp 
+      {
+        0.5967 0.4270
+        1.2271 0.5708
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.245967
+        "extreme" 0.380129
+        "loop" 0.804192
+        "end" 0.820605
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026

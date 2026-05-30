@@ -1,0 +1,41 @@
+00
+          2.8375 0.5600
+          3.1375 0.5600
+          3.2313 0.5600
+          3.4181 1.0000
+          3.7735 1.0000
+          3.8938 0.1900
+          3.9688 0.1900
+          4.0938 0.1900
+          5.4375 0.1900
+          5.5438 0.1900
+          6.2030 0.5100
+          6.3142 0.5081
+          13.2500 0.5081
+          13.4071 0.5081
+        }
+      }
+    }
+  }
+  channel "blink"
+  {
+    event generic "noblink"
+    {
+      time 0.040404 25.095554
+      param "AI_BLINK"
+      param2 "!self"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "50"
+  "ExpressionTool" "22"
+  "RampTool" "26"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+//

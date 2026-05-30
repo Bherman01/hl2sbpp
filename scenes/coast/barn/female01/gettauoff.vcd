@@ -1,0 +1,19 @@
+nt flexanimation "face"
+    {
+      time 0.038462 3.923077
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_tightener" combo 
+        {
+          0.1400 0.3400
+          0.2740 0.3400
+          0.8000 0.3398
+          0.8360 0.3398
+          1.0120 0.3283
+          1.1020 0.3283
+          1.7620 0.3280
+          1.8060 0.3281
+          1.9340 0.3162
+          1.9980 0.3162
+      

@@ -1,0 +1,97 @@
+   }
+      absolutetags playback_time
+      {
+        "apex" 0.241379
+        "extreme" 0.431034
+        "loop" 0.517241
+        "end" 0.741379
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.241379
+        "extreme" 0.431034
+        "loop" 0.517241
+        "end" 0.741379
+      }
+    }
+    event gesture "hg_chest_head_back"
+    {
+      time 4.947917 6.914583
+      param "hg_chest_head_back"
+      event_ramp
+      {
+        0.4020 0.5959
+        0.8820 0.9749
+        1.5420 0.6438
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.241379
+        "extreme" 0.431034
+        "loop" 0.517241
+        "end" 0.741379
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.241379
+        "extreme" 0.431034
+        "loop" 0.517241
+        "end" 0.741379
+      }
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "g_front_clasp"
+    {
+      time 1.788194 4.778920
+      param "g_front_clasp"
+      absolutetags playback_time
+      {
+        "in" 0.247387
+        "loop" 0.418188
+        "end" 0.730057
+        "out" 0.868289
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.142857
+        "loop" 0.551020
+        "end" 0.673469
+        "out" 0.857143
+      }
+      sequenceduration 1.666667
+    }
+    event gesture "g_hands_ease"
+    {
+      time 3.716050 6.176543
+      param "g_hands_ease"
+      event_ramp
+      {
+        0.4520 0.8734 "curve_easein_to_curve_easeout"
+        1.4518 0.8047 "curve_easein_to_curve_easeout"
+        2.2714 0.0000 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.221800
+        "accent" 0.332699
+        "loop" 0.388149
+        "end" 0.675828
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.372093
+        "accent" 0.558140
+        "loop" 0.651163
+        "end" 0.697674
+      }
+      sequenceduration 1.466667
+    }
+    event gesture "g_R_hand_ease"
+    {
+      time 5.314815 6.781482
+      param "g_R_hand_ease"
+      event_ramp
+      {
+     

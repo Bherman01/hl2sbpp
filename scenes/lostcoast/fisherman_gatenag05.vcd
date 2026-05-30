@@ -1,0 +1,101 @@
+}
+      absolutetags playback_time
+      {
+        "in" 0.220175
+        "loop" 0.549709
+        "end" 0.626186
+        "out" 0.683287
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.150538
+        "loop" 0.580645
+        "end" 0.709677
+        "out" 0.806452
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "2"
+    {
+      time 6.177778 11.188889
+      param "A_gesture05"
+      event_ramp
+      {
+        0.9267 0.9087
+        4.5200 0.8968
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.195556
+        "accent" 0.484719
+        "loop" 0.801517
+        "end" 0.812625
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.192771
+        "accent" 0.313253
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 5.544445 6.044445
+      param ""
+    }
+    event gesture "A_gesture07"
+    {
+      time 2.022223 6.190176
+      param "A_gesture07"
+      absolutetags playback_time
+      {
+        "apex" 0.137577
+        "1" 0.314667
+        "accent" 0.426667
+        "loop" 0.592000
+        "end" 0.793374
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.202381
+        "1" 0.260566
+        "accent" 0.357143
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      sequenceduration 2.833333
+    }
+    event gesture "A_gesture07"
+    {
+      time 4.755556 7.588889
+      param "A_gesture07"
+      event_ramp
+      {
+        0.5750 0.8036
+        1.9250 0.7179
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.202381
+        "accent" 0.357143
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.202381
+        "accent" 0.357143
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      sequenceduration 2.833333
+    }
+  }
+  channel "head"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.617117
+      

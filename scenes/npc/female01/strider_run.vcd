@@ -1,0 +1,22 @@
+ "in" 0.155556
+        "loop" 0.444444
+        "end" 0.566667
+        "out" 0.722222
+      }
+      sequenceduration 3.033333
+    }
+    event gesture "A_g_armscrossed"
+    {
+      time 26.152382 29.185715
+      param "A_g_armscrossed"
+      absolutetags playback_time
+      {
+        "in" 0.155556
+        "loop" 0.444444
+        "end" 0.566667
+        "out" 0.722222
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.155556
+ 

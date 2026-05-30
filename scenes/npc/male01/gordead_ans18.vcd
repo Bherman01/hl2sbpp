@@ -1,0 +1,26 @@
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time -0.000000 1.180000
+      param ""
+      flexanimations samples_use_time
+      {
+        "outer_raiser"         combo        
+        {
+          0.2039 0.4693
+          0.2600 0.5173
+          0.8218 0.5603
+          0.8821 0.5192
+          1.0401 0.1438
+        }
+        {
+          0.1539 0.1200
+          0.3452 0.0800
+          0.8733 0.1200
+        }
+        "lowerer"         combo        
+        {
+          0.1539 0.8493
+          0.2100 0.8973
+       

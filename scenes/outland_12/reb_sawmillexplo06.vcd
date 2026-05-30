@@ -1,0 +1,36 @@
+  {
+      time 48.599998 52.899998
+      param "outland_07.Advisor_BarnScene_00_50_11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "00_53_23"
+    {
+      time 52.000000 60.088299
+      param "outland_07.Advisor_BarnScene_00_53_23"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "01_01_15"
+    {
+      time 59.733341 84.019783
+      param "outland_07.Advisor_BarnScene_01_01_15"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "01_02_06"
+    {
+      time 59.500000 77.195145
+      param "outland_07.Advisor_BarnScene_01_02_06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "crunch"
+    {
+      time 40.000000 41.903130
+      param "Breakable.Flesh"
+      fixed

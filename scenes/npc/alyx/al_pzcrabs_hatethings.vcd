@@ -1,0 +1,29 @@
+nap off
+ignorePhonemes off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_02.al_car_crazy01"
+    {
+      time 0.554577 1.075688
+      param "ep_02.al_car_crazy01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face to"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.073998 1.901506
+      param "!player"
+      event_ramp
+      {
+        0.4803 0.9499
+        1.3842 0.9471

@@ -1,0 +1,71 @@
+  }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "heretohelp02"
+    {
+      time 0.086667 1.277892
+      param "npc_citizen.heretohelp02"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 1.533333
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+    event flexanimation "Head"
+    {
+      time 0.013333 1.513333
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.2342 0.4244
+          0.2778 0.4219
+          0.8275 0.4268
+          0.8899 0.4207
+        }
+        "head_tilt"         range 18.0 -18.0        
+        {
+          0.3222 0.5859
+          0.7635 0.5884
+          0.8259 0.5822
+        }
+        "eyes_updown"         range 30.0 -30.0        
+        {
+          0.2060 0.5200
+          0.2193 0.5200
+          0.2796 0.2100
+          0.2942 0.2200
+          0.5508 0.1900
+          0.5674 0.1900
+          0.6194 0.0900
+          0.6381 0.0900
+          1.1838

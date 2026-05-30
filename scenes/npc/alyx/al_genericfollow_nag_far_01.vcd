@@ -1,0 +1,46 @@
+les_use_time
+      {
+        "center_lid_closer" 
+        {
+          0.9037 0.8300
+          1.0486 0.9300
+          1.3543 1.0000
+          2.1040 1.0000
+          3.5251 1.0000
+          4.2573 0.9900
+        }
+      }
+    }
+    event flexanimation "flex"
+    {
+      time 0.770833 6.458333
+      param ""
+      flexanimations samples_use_time
+      {
+        "center_lid_closer" 
+        {
+          0.9037 0.8300
+          1.0486 0.9300
+          1.3543 1.0000
+          2.1040 1.0000
+          3.5251 1.0000
+          4.2573 0.9900
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "1_pauseMe"
+    {
+      time 12.645836 -1.000000
+      param "1"
+    }
+    event firetrigger "5_BeamOff"
+    {
+      time 14.125000 -1.000000
+      param "5"
+    }
+    event firetrigger "4_beamOn"
+    {
+   

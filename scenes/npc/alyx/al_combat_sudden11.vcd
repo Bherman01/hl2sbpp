@@ -1,0 +1,22 @@
+vent speak "ep_01.al_noseatbelts"
+    {
+      time 2.133333 4.799818
+      param "ep_01.al_noseatbelts"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_changemind01"
+    {
+      time 7.644444 9.077301
+      param "ep_01.al_changemind01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_changemind02"
+    {
+      time 9.333335 10.914786
+      param "ep_01.al_changemind02"
+      fixedlength
+     

@@ -1,0 +1,33 @@
+        "apex" 0.160000
+        "accent" 0.240000
+        "loop" 0.320000
+        "end" 0.440000
+      }
+      sequenceduration 1.700000
+    }
+    event gesture "1"
+    {
+      time 20.670940 23.037605
+      param "Gesture06"
+      absolutetags playback_time
+      {
+        "apex" 0.169327
+        "accent" 0.251969
+        "loop" 0.369797
+        "end" 0.685039
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.133333
+        "accent" 0.200000
+        "loop" 0.366667
+        "end" 0.533333
+      }
+      sequenceduration 2.033333
+    }
+    event gesture "1"
+    {
+      time 22.045586 26.245584
+      param "Gesture05"
+      absolutetags playback_time
+      {

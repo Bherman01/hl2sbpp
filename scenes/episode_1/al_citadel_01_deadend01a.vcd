@@ -1,0 +1,53 @@
+0.191964
+        "accent" 0.355452
+        "loop" 0.517342
+        "end" 0.689789
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.136364
+        "accent" 0.329545
+        "loop" 0.545455
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "A_consoletype_g_inOut"
+    {
+      time 5.860234 6.298482
+      param "A_consoletype_g_inOut"
+      event_ramp 
+      {
+        0.2363 0.9979
+        0.2394 1.0000
+        0.2492 1.0000
+      }
+      absolutetags playback_time
+      {
+        "in" 0.327273
+        "loop" 0.665595
+        "end" 0.721062
+        "out" 0.734928
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.120370
+        "loop" 0.277778
+        "end" 0.740741
+        "out" 0.787037
+      }
+      sequenceduration 3.633333
+    }
+    event gesture "A_g_cutdwnoutbig"
+    {
+      time 10.819770 13.809813
+      param "A_g_cutdwnoutbig"
+      event_ramp 
+      {
+        0.3308 0.5760
+        0.8000 0.8865
+        2.0772 0.8844
+      }
+      absolutetags playback_time
+      {
+        "ap

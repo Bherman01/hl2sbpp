@@ -1,0 +1,27 @@
+   11.1338 0.6022
+      }
+    }
+    event generic "blink override"
+    {
+      time 0.125492 11.903759
+      param "AI_BLINK"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+    event face "Faceto_player"
+    {
+      time 0.495426 5.728759
+      param "!player"
+      event_ramp
+      {
+        0.1367 0.2390
+        0.3100 0.5833
+        0.5700 0.6651
+        0.6667 0.6667
+        3.4856 0.6761
+        5.1723 0.6714
+        5.2334 0.66

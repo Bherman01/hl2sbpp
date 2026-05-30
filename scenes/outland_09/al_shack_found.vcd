@@ -1,0 +1,142 @@
+
+        0.8597 0.3481
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark watch elevator"
+    {
+      time 3.500000 4.000000
+      param "!target5"
+      param2 "Run"
+    }
+    event moveto "mark run to elevator"
+    {
+      time 10.302084 10.802084
+      param "!target6"
+      param2 "Run"
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+actor "!target3"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!target1"
+{
+  channel "audio"
+  {
+    event speak "griggs_coming01"
+    {
+      time 11.848708 12.624899
+      param "ep_02.griggs_coming01"
+      param2 "0.600"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "griggs_whahap01"
+    {
+      time 0.232638 0.964951
+      param "ep_02.griggs_whahap01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "griggs_whahap02"
+    {
+      time 1.097221 2.395044
+      param "ep_02.griggs_whahap02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "griggs_coming02"
+    {
+      time 10.920137 11.603788
+      param "ep_02.griggs_coming02"
+      param2 "0.650"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "vort"
+    {
+      time 0.066111 3.703749
+      param "!target3"
+      event_ramp
+      {
+        0.1211 0.3204
+        0.4649 0.5853
+        3.1443 0.6273
+        3.4431 0.3481
+      }
+    }
+    event lookat "vort"
+    {
+      time 5.545277 9.235001
+      param "!target3"
+      event_ramp
+      {
+        0.1211 0.3204
+        0.4649 0.5853
+        3.1963 0.6273
+        3.4951 0.3481
+      }
+    }
+    event lookat "vort"
+    {
+      time 14.368193 18.950773
+      param "!target3"
+      event_ramp
+      {
+        0.1211 0.3204
+        0.4649 0.5853
+        4.0892 0.6273
+        4.3880 0.3481
+      }
+    }
+    event lookat "s

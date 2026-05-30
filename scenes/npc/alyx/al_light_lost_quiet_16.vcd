@@ -1,0 +1,26 @@
+    }
+  }
+  channel "look at"
+  {
+    event lookat "lookit"
+    {
+      time 0.125082 3.968137
+      param "!player"
+      event_ramp 
+      {
+        0.2897 0.7619
+        0.5587 1.0000 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        1.1791 1.0000 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        3.4703 1.0000
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event flexanimation "

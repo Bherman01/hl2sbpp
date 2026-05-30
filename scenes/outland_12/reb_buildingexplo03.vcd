@@ -1,0 +1,47 @@
+layer"
+    {
+      time 10.166666 10.705127
+      param "!player"
+    }
+    event face "mark_look_barn_door"
+    {
+      time 28.148148 29.101543
+      param "mark_look_barn_door"
+      event_ramp
+      {
+        0.4856 1.0000
+        0.9534 0.9851
+      }
+    }
+  }
+  channel "Move To"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 28.584084 29.138748
+      param ""
+    }
+    event gesture "A_g_rubface"
+    {
+      time 5.833334 9.746154
+      param "A_g_rubface"
+      event_ramp
+      {
+        0.4412 0.6572
+        0.9000 0.9576
+        1.2059 1.0000
+        1.5412 1.0000
+        2.8165 1.0000
+        3.0765 0.9806
+        3.2353 0.9417
+        3.3165 0.8886
+        3.5341 0.3092
+      }
+      absolutetags playback_time
+   

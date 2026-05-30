@@ -1,0 +1,26 @@
+d_time
+      {
+        "in" 0.150538
+        "loop" 0.580645
+        "end" 0.709677
+        "out" 0.806452
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "A_g_fingptfwd"
+    {
+      time 21.222610 24.368763
+      param "A_g_fingptfwd"
+      event_ramp 
+      {
+        0.0000 0.0000
+        0.7304 0.9570
+        0.8826 1.0000
+        2.4287 0.4441
+      }
+      absolutetags playback_time
+      {
+        "h1" 0.092812
+        "apex" 0.211538
+        "accent" 0.345423
+        "loop"

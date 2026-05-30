@@ -1,0 +1,34 @@
+param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time -0.000000 0.886667
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+    event flexanimation "Head"
+    {
+      time 0.013334 0.880000
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.2130 0.4834
+          0.4117 0.4785
+          0.5260 0.4932
+        }
+        "head_tilt"         range 18.0 -18.0        
+        {
+          0.3701 0.4800
+        }
+        "eyes_updown"         range 30.0 -30.0   

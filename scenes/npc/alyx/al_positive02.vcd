@@ -1,0 +1,31 @@
+2.al_car_crash04"
+    {
+      time 0.221244 0.653602
+      param "ep_02.al_car_crash04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face to"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "Facial Animation"
+    {
+      time 0.010753 0.962366
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullr

@@ -1,0 +1,40 @@
+e 3.160494 6.127161
+      param "M_g_shrug"
+      absolutetags playback_time
+      {
+        "apex" 0.204545
+        "accent" 0.409091
+        "loop" 0.625000
+        "end" 0.681818
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.204545
+        "accent" 0.409091
+        "loop" 0.625000
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+  }
+  channel "trigger"
+  {
+  }
+  channel "level audio"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\mossman.mdl"
+}
+
+actor "Kleiner"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "f

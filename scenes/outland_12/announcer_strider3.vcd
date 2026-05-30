@@ -1,0 +1,28 @@
+arget1"
+{
+  channel "Audio"
+  {
+    event speak "freeman"
+    {
+      time 0.006667 0.382223
+      param "npc_citizen.freeman"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 0.466667
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+    event flexanimation "Head"
+    {
+      time 0.013334 0.4466

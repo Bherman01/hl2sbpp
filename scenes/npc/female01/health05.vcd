@@ -1,0 +1,130 @@
+"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "Gordon, you made it."
+    {
+      time 3.359998 4.831608
+      param "novaprospekt.al_youmadeit"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Boy am I glad to see you."
+    {
+      time 5.146669 7.686918
+      param "novaprospekt.al_gladtoseeyou"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<gasp>"
+    {
+      time 2.213334 2.671203
+      param "novaprospekt.al_boilerdoor01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "novaprospekt.al_holdit"
+    {
+      time 0.906667 1.859411
+      param "novaprospekt.al_holdit"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "citadel.al_betterhurry"
+    {
+      time 9.045673 10.227170
+      param "citadel.al_betterhurry"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look_player"
+    {
+      time 0.320001 8.393333
+      param "!player"
+      event_ramp
+      {
+        0.3917 0.6190
+        1.0297 0.9948
+        1.6944 1.0000
+        2.8944 0.4107
+        3.3056 0.3786
+        3.6789 0.3750
+        7.4012 0.3393
+        7.6650 0.3308
+      }
+    }
+    event lookat "mark_al_look_intro_console_1"
+    {
+      time 8.485675 10.292341
+      param "mark_al_look_intro_console_1"
+      event_ramp
+      {
+        0.2417 0.6151
+        0.4672 0.9948
+        1.5527 0.9844
+        1.6750 0.6310
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_alyx_runto_railing_1"
+    {
+      time 10.725107 12.233334
+      param "mark_alyx_runto_railing_1"
+      param2 "Run"
+      resumecondition
+    }
+    event moveto "mark_alyx_sneaktrains_1"
+    {
+      time 0.026667 2.020000
+      param "mark_alyx_sneaktrains_1"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "faceTo"
+  {
+    event face "face_player"
+    {
+      time 0.053333 10.526667
+      param "!player"
+      event_ramp
+      {
+        0.6480 0.5317
+        1.0375 0.6587
+        1.4500 0.7302
+        2.1286 0.7341
+        9.6153 0.7302
+        10.2250 0.7302
+        10.4733 0.7302
+      }
+    }
+  }
+  channel "Postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.060000
+      param ""
+    }
+    event gesture "kneel"
+    {
+      time 1.893334 9.532938
+      param "p_kneelprison"
+      event_ramp
+      {
+        0.3173 0.5794
+        1.1355 0.9802
+        6.2370 0.9405
+       

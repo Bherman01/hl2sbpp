@@ -1,0 +1,43 @@
+          0.6493 0.7300 "curve_easein_to_curve_easeout"
+          2.5710 0.7300 "curve_easein_to_curve_easeout"
+          2.8097 0.0000
+          3.0290 0.1300 "curve_easein_to_curve_easeout"
+          3.5484 0.0100
+        }
+        {
+          0.0643 0.5000
+          0.7719 0.5000
+          2.6387 0.5000
+          2.7774 0.5000
+        }
+        "outer_raiser" combo 
+        {
+          0.0643 0.0000
+          0.4419 0.0400
+          0.6493 0.7800 "curve_easein_to_curve_easeout"
+          2.5710 0.7800 "curve_easein_to_curve_easeout"
+          2.8194 0.0000
+          3.0452 0.1000 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.0643 0.5000
+          0.7719 0.5000
+          2.6387 0.5000
+          2.7774 0.5000
+        }
+        "lowerer" combo 
+        {
+          0.0643 0.3500 "curve_easein_to_curve_easeout"
+          0.4419 0.3600
+          0.6493 0.0000
+          1.0871 0.2200 "curve_easein_to_curve_easeout"
+          1.5387 0.4400
+          2.1484 0.2000 "curve_easein_to_curve_easeout"
+          2.5710 0.0000 "curve_easein_to_curve_easeout"
+          2.6355 0.2900
+          2.8387 0.5300 "curve_easein_to_curve_easeout"
+          3.3226 0.5200
+          3.6258 0.0065 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.064

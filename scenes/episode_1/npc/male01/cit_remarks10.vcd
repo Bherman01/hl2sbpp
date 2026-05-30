@@ -1,0 +1,30 @@
+w"
+    {
+      time 25.831547 30.263023
+      param "SS_dogthrow"
+      param2 "Run"
+    }
+  }
+  channel "face to"
+  {
+    event face "alyx"
+    {
+      time 25.773893 30.393126
+      param "alyx"
+      event_ramp 
+      {
+        0.4609 0.4586
+        0.9696 0.7930
+        1.5435 0.9713
+        3.4645 1.0000
+        4.6193 1.0000
+      }
+    }
+    event face "alyx"
+    {
+      time 40.802387 42.757149
+      param "alyx"
+      event_ramp 
+      {
+        0.1786 0.4236
+        0.41

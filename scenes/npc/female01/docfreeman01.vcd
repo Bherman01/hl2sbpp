@@ -1,0 +1,83 @@
+3.151516 54.681816
+      param "mark_sec_keyboard01"
+      event_ramp
+      {
+        0.2269 0.6620
+        0.3731 0.9129
+        0.5442 0.9930
+        1.5304 0.9965
+      }
+    }
+    event face "player"
+    {
+      time 54.939392 56.924236
+      param "!player"
+      event_ramp
+      {
+        0.2781 0.3934
+        0.5204 0.6712
+        0.7473 0.7670
+        1.0896 0.8071
+        1.4992 0.7966
+        1.5814 0.7959
+        1.8448 0.7889
+        1.9813 0.7750
+      }
+    }
+    event face "console"
+    {
+      time 60.030308 65.106041
+      param "mark_sec_keyboard01"
+      event_ramp
+      {
+        0.3519 0.6620
+        0.6281 0.8990
+        1.0442 0.9930
+        5.0758 0.9965
+      }
+    }
+    event face "!player"
+    {
+      time 15.848485 17.772730
+      param "!player"
+      event_ramp
+      {
+        0.3369 0.3654
+        0.4450 0.4685
+        0.6231 0.5595
+        0.8342 0.6201
+        1.2450 0.6579
+        1.8000 0.6466
+        1.9242 0.6279
+      }
+    }
+    active "0"
+  }
+  channel "posture"
+  {
+    event gesture "p1"
+    {
+      time 0.000000 7.563638
+      param "posture03"
+      absolutetags playback_time
+      {
+        "apex" 0.268518
+        "loop" 0.492284
+        "end" 0.803043
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.222222
+        "loop" 0.407407
+        "end" 0.629630
+      }
+      sequenceduration 4.533333
+    }
+    event gesture "NULL"
+    {
+      time 43.196972 46.530304
+      param ""
+    }
+    event gesture "console"
+    {
+      time 52.939388

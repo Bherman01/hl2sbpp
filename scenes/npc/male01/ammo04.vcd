@@ -1,0 +1,123 @@
+gesture "NULL"
+    {
+      time 48.333340 50.233337
+      param ""
+    }
+    event gesture "i do"
+    {
+      time 49.938892 51.728756
+      param "HG_headback"
+      event_ramp
+      {
+        0.6071 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.340151
+        "extreme" 0.472431
+        "loop" 0.566918
+        "end" 0.659850
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "appologize"
+    {
+      time 50.666668 54.639870
+      param "HG_headforward"
+      event_ramp
+      {
+        0.4821 0.8849
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.114081
+        "extreme" 0.173672
+        "loop" 0.216236
+        "end" 0.846768
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "you"
+    {
+      time 53.422226 55.722225
+      param "HG_forwardright"
+      event_ramp
+      {
+        0.6643 0.3333
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 56.977779 57.477779
+      param ""
+    }
+    event gesture "i trust"
+    {
+      time 57.622227 64.328766
+      param "HG_headback"
+      event_ramp
+      {
+        0.3321 0.8095
+        1.9750 0.8730
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.090781
+        "extreme" 0.126084
+        "loop" 0.151301
+        "end" 0.909219
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "well"
+    {
+      time 63.111115 66.945999
+      param "HG_forwardleft"
+      event_ramp
+      {
+        0.4250 0.5000
+        0.5929 0.5000
+        3.0429 0.5000
+        3.3143 0.4802
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.158760
+        "extreme" 0.220499
+ 

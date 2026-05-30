@@ -1,0 +1,44 @@
+rmodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d2_prison\06_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "90"
+  "SceneRampTool" "100"
+  "RampTool" "84"
+  "ExpressionTool" "24"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause_alyxToEMPtarget"
+{
+  time 0.646258 -1.000000
+  param "noaction"
+}
+event stoppoint "STOP"
+{
+  time 10.455783 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_01.al_platform_slowthem"
+    {
+      time 5.945579 7.041135
+      param "ep_01.al_platform_slowthem"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_platform_slowthem"
+    {
+      time 7.333335 8.515829
+      param "ep_01.al_platform_slowthem02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""

@@ -1,0 +1,161 @@
+      }
+    }
+    event lookat "mark_look_up_crash_1"
+    {
+      time 77.379753 79.160881
+      param "mark_look_up_crash_1"
+      event_ramp 
+      {
+        0.1200 0.2852
+        0.2720 0.6245
+        0.6350 0.9011
+        1.4593 1.0000
+        1.5693 1.0000
+        1.7811 1.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 78.454742 81.579742
+      param "!player"
+      event_ramp 
+      {
+        0.2920 0.4874
+        0.5640 0.7617
+        0.9417 0.9539
+        1.2160 1.0000
+        3.1250 1.0000
+      }
+    }
+    event lookat "!self"
+    {
+      time 26.693249 31.893555
+      param "!self"
+      event_ramp 
+      {
+        0.1640 0.1895
+        0.3760 0.5037
+        0.4880 0.6807
+        0.7868 0.9177
+        1.1680 0.9996
+        1.4680 0.9965
+        1.6600 1.0000
+        4.0560 1.0000
+        4.3800 0.9474
+        4.7000 0.7474
+        5.2002 0.0000
+      }
+    }
+    event lookat "mark_look_sleepingstalker_1"
+    {
+      time 30.651583 41.247723
+      param "mark_look_sleepingstalker_1"
+      event_ramp 
+      {
+        0.3280 0.1985
+        0.7388 0.3914
+        1.1200 0.4874
+        1.4680 0.5018
+        1.7760 0.4351
+        2.0400 0.1298
+        2.6720 0.0667
+        3.1960 0.4351
+        3.3960 0.5193
+        3.6800 0.5439
+        3.9080 0.5404
+        6.8720 0.5404
+        7.0480 0.5404
+        7.2560 0.4175
+        7.4880 0.1439
+        10.5960 0.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 46.520489 49.961124
+      param "!player"
+      event_ramp 
+      {
+        0.2720 0.5054
+        0.4750 0.7973
+        0.6320 0.9097
+        1.0360 0.9964
+        3.4406 1.0000
+      }
+    }
+    event lookat "mark_look_stalker_console_1"
+    {
+      time 48.785816 52.225178
+      param "mark_look_stalker_console_1"
+      event_ramp 
+      {
+        0.6640 0.4657
+        1.0000 0.8051
+        1.1917 0.9190
+        1.7600 1.0000
+        1.7645 0.9964
+        3.4394 1.0000
+      }
+    }
+    event lookat "self"
+    {
+      time 80.856720 87.383942
+      param "!self"
+      event_ramp 
+      {
+        0.2920 0.6101
+        0.4750 0.8676
+        0.6520 0.9711
+        0.8440 1.0000
+        6.5272 1.0000
+      }
+    }
+    event lookat "mark_look_sleepingstalker_1"
+    {
+      time 18.157597 21.039394
+      param "mark_look_sleepingstalker_1"
+      event_ramp 
+      {
+        0.2000 0.1139
+        0.5120 0.4094
+        0.6868 0.5197
+        0.9480 0.6112
+        1.4544 0.6387
+        2.0302 0.6386
+        2.1942 0.6175
+        2.3102 0.5754
+        2.3942 0.5228
+        2.8803 0.0000
+        2.8818 0.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 16.382139 19.111397
+      param "!player"
+      event_ramp 
+      {
+        0.4840 0.4128
+        0.9308 0.5318
+        1.4367 0.5608
+        1.9287 0.5542
+        2.2300 0.5193
+        2.3751 0.4351
+        2.4860 0.3053
+        2.7293 0.0000
+      }
+    }
+    active "0"
+  }
+  channel "move to"
+  {
+    event moveto "mark_stalker_console_1"
+    {
+      time 43.108913 45.915783
+      param "mark_stalker_console_1"
+      param2 "Walk"
+      resumecondition
+    }
+    event moveto "ss_alyx_stalkerpod_Closelid"
+    {
+      time 18.06

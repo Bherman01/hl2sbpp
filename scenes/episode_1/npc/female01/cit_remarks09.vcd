@@ -1,0 +1,26 @@
+solutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      sequenceduration 1.800000
+    }
+    event gesture "NULL"
+    {
+      time 12.268717 12.369094
+      param ""
+    }
+    event gesture "b_head_forward"
+    {
+      time 12.414551 14.568718
+      param "b_head_forward"
+      event_ramp
+      {
+        0.7000 0.4949
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.322069
+        "

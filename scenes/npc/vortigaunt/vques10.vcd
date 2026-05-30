@@ -1,0 +1,23 @@
+00000 0.846667
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 15.0 -15.0        
+        {
+          0.0603 0.5354
+          0.1040 0.5462
+          0.2516 0.5512
+          0.4242 0.5267
+          0.5572 0.5072
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "

@@ -1,0 +1,29 @@
+4.4876 0.4879
+        }
+      }
+    }
+  }
+  faceposermodel "models\alyx.mdl"
+}
+
+actor "Dog"
+{
+  channel "audio"
+  {
+    event speak "NPC_dog.Playful_3"
+    {
+      time 21.019508 22.115290
+      param "NPC_dog.Laugh_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_dog.Playful_3"
+    {
+      time 20.456657 21.054663
+      param "NPC_dog.Playful_3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_dog.Strai

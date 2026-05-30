@@ -1,0 +1,32 @@
+1222 67.942429
+      param "!player"
+      event_ramp
+      {
+        0.1885 0.6794
+        0.2596 0.8258
+        0.3308 0.9024
+        0.4904 0.9686
+        0.6404 0.9930
+        4.2181 0.9861
+      }
+    }
+    active "0"
+  }
+  channel "face to"
+  {
+    event face "console"
+    {
+      time 0.060606 15.136364
+      param "mark_sec_keyboard01"
+    }
+    event face "console"
+    {
+      time 17.848486 33.621216
+      param "mark_sec_keyboard01"
+      event_ramp
+      {
+        0.3569 0.6620
+        0.5581 0.8750
+        0.7692 0.9508
+        1.1800 0.9886
+        15

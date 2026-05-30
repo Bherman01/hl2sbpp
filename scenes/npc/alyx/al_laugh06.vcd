@@ -1,0 +1,28 @@
+
+    }
+  }
+  channel "Look"
+  {
+    event lookat "!player"
+    {
+      time 0.020000 3.600001
+      param "!player"
+      event_ramp 
+      {
+        0.2860 0.7649
+        0.4980 1.0000
+        2.5900 1.0000
+        3.1680 0.9934 "curve_easein_to_curve_easeout"
+        3.4300 0.7781
+      }
+    }
+  }
+  channel "Facial"
+  {
+    event flexanimation "brows"
+    {
+      time 0.033333 3.586666
+      param ""
+      flexanimations samples_use_time
+      {
+        

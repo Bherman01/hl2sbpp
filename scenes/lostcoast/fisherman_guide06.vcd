@@ -1,0 +1,78 @@
+o"
+  {
+    event speak "we lost Gordon"
+    {
+      time 5.833333 7.096984
+      param "k_lab.al_lostgordon"
+      fixedlength
+      cctype "cc_master"
+      cctoken "k_lab.al_lostgordon_cc"
+    }
+    event speak "what's going on?"
+    {
+      time 7.220000 8.102109
+      param "k_lab.al_whatsgoingon"
+      fixedlength
+      cctype "cc_slave"
+      cctoken "k_lab.al_lostgordon_cc"
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look Screen"
+    {
+      time 0.080000 11.880001
+      param "marks_eli_look_camera_1"
+      event_ramp
+      {
+        0.2240 0.9305
+        11.1520 0.7742
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "move Teleport"
+    {
+      time 11.066666 12.026668
+      param "marks_alyx_eli_teleporter_1"
+      param2 "Run"
+    }
+    event moveto "move Screen"
+    {
+      time 4.586667 10.193335
+      param "marks_alyx_monitor_1"
+      param2 "Run"
+    }
+  }
+  channel "face to"
+  {
+    event face "face Screen"
+    {
+      time 0.026666 11.846667
+      param "marks_eli_look_camera_1"
+      event_ramp
+      {
+        0.2600 0.8437
+        11.1240 0.7841
+      }
+    }
+  }
+}
+
+actor "Barney"
+{
+  channel "audio"
+  {
+    event speak "he's back"
+    {
+      time 0.193333 1.110340
+      param "k_lab.ba_hesback01"
+      fixedlength
+      cctype "cc_master"
+      cctoken "k_lab.ba_hesback01_cc"
+    }
+    event speak "I'm getting him out"
+    {
+      time 1.406666 2.421745
+      param "k_lab.ba_

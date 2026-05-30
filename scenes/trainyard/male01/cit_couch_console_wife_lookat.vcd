@@ -1,0 +1,45 @@
+     absolutetags playback_time
+      {
+        "apex" 0.301176
+        "accent" 0.521182
+        "loop" 0.690107
+        "end" 0.725803
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.227273
+        "accent" 0.522727
+        "loop" 0.659091
+        "end" 0.693182
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "NULL"
+    {
+      time 8.386667 10.533334
+      param ""
+    }
+    event gesture "g_Send_Cart"
+    {
+      time 8.920000 10.886666
+      param "g_Send_Cart"
+      absolutetags playback_time
+      {
+        "apex" 0.172414
+        "accent" 0.258621
+        "loop" 0.517241
+        "end" 0.603448
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.172414
+        "accent" 0.258621
+        "loop" 0.517241
+        "end" 0.603448
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "triggers"
+  {
+    ev

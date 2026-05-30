@@ -1,0 +1,79 @@
+t1"
+{
+  channel "audio"
+  {
+    event speak "engage07"
+    {
+      time 0.066667 2.795397
+      param "ravenholm.engage07"
+      param2 "90dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "engage08"
+    {
+      time 0.066667 4.097733
+      param "ravenholm.engage08"
+      param2 "90dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "engage09"
+    {
+      time 0.066667 1.679116
+      param "ravenholm.engage09"
+      param2 "90dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+}
+

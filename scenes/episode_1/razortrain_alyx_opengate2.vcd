@@ -1,0 +1,63 @@
+ture "a"
+    {
+      time 0.163145 2.596478
+      param "bg_accentFwd"
+      event_ramp
+      {
+        0.3340 0.6480
+        1.7040 0.5306
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.138889
+        "extreme" 0.361111
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.138889
+        "extreme" 0.361111
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      sequenceduration 2.433333
+    }
+    event gesture "b"
+    {
+      time 2.136364 4.569697
+      param "bg_accentUp"
+      event_ramp
+      {
+        0.4038 0.5510
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.305556
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.305556
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      sequenceduration 2.433333
+    }
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+    event flexanimation "face"
+    {
+      time 0.165175 3.538739
+      param ""
+      flexanimations samp

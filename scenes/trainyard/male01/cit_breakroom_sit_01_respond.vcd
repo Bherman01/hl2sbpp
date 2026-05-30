@@ -1,0 +1,61 @@
+"
+    {
+      time 3.446667 5.811117
+      param "g_Raise_Gun_Settle"
+      event_ramp
+      {
+        0.8560 0.3865
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.258134
+        "accent" 0.451977
+        "loop" 0.559322
+        "end" 0.698844
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.310345
+        "accent" 0.413793
+        "loop" 0.517241
+        "end" 0.637931
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "BodyGestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 3.126666
+      param ""
+    }
+    event gesture "g_Stop"
+    {
+      time 3.633333 6.963680
+      param "g_Stop"
+      event_ramp
+      {
+        1.1129 1.0000
+        1.2968 1.0000
+        1.4812 1.0000
+        1.6645 1.0000
+        2.2258 0.0772
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.186000
+        "accent" 0.308000
+        "loop" 0.490000
+        "end" 0.803824
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.235294
+        "accent" 0.367647
+        "loop" 0.661765
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "r_raise_gun_sett

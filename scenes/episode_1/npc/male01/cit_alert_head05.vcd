@@ -1,0 +1,27 @@
+LL"
+    {
+      time 5.487985 6.535604
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 15.642740 16.142740
+      param ""
+    }
+    event gesture "A_g_hdsinhead"
+    {
+      time 10.484718 12.992577
+      param "A_g_hdsinhead"
+      absolutetags playback_time
+      {
+        "in" 0.121242
+        "loop" 0.336780
+        "end" 0.509509
+        "out" 0.775510
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.121622
+        "loop" 0.337838
+        "end" 0.621622
+  

@@ -1,0 +1,24 @@
+ngth
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_safepath01"
+    {
+      time 40.131584 44.566597
+      param "ep_01.ba_safepath01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_safepath02"
+    {
+      time 45.722816 46.738689
+      param "ep_01.ba_safepath02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_safepath03"
+    {
+      time 46.910530 49.154160
+      param "ep_01.b

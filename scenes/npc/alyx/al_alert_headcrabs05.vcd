@@ -1,0 +1,34 @@
+id_palmpushout"
+      absolutetags playback_time
+      {
+        "apex" 0.230769
+        "accent" 0.384615
+        "loop" 0.512821
+        "end" 0.641026
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.230769
+        "accent" 0.384615
+        "loop" 0.512821
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "A_g_cutdwnoutbig"
+    {
+      time 59.111111 61.592064
+      param "A_g_cutdwnoutbig"
+      absolutetags playback_time
+      {
+        "apex" 0.135995
+        "accent" 0.380787
+        "loop" 0.666378
+        "end" 0.736791
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.121951
+        "accent" 0.341463
+        "loop" 0.597561
+        "end" 0.65

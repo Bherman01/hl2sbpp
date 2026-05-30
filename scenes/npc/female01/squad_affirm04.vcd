@@ -1,0 +1,37 @@
+tor"
+    {
+      time 44.645706 46.319035
+      param "mark_alyx_look_controlroom_console2"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.3187 0.5923
+        0.5084 0.8475
+        0.7862 0.9659
+        1.5444 1.0000
+        1.6222 1.0000
+      }
+    }
+    event face "Mossman"
+    {
+      time 46.574596 50.284912
+      param "Mossman"
+      event_ramp
+      {
+        0.2480 0.2495
+        0.5160 0.6792
+        0.7840 0.9015
+        1.1560 0.9860
+        3.0894 1.0000
+        3.7103 1.0000
+      }
+    }
+    event face "!player"
+    {
+      time 50.355545 52.051575
+      param "!player"
+      event_ramp
+      {
+        0.3440 0.4843
+        0.5680 0.7285
+  

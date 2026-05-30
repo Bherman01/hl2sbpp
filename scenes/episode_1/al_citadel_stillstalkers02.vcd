@@ -1,0 +1,42 @@
+w" "57"
+  "ExpressionTool" "52"
+  "GestureTool" "100"
+  "RampTool" "48"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause"
+{
+  time 2.133791 -1.000000
+  param "noaction"
+}
+event stoppoint "end"
+{
+  time 11.983563 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "npc_alyx.gasp03"
+    {
+      time 9.358453 9.822489
+      param "npc_alyx.gasp03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_citvista_whatdrop"
+    {
+      time 2.654970 4.035106
+      param "ep_01.al_citvista_whatdrop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_citvista_coredownthere"
+    {
+      time

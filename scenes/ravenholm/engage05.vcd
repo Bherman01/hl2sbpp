@@ -1,0 +1,19 @@
+  event speak "iloveyoudad"
+    {
+      time 103.509468 105.344231
+      param "ep_02.al_launch_iloveyoudad"
+      param2 ".7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "nodad01"
+    {
+      time 125.752487 127.096565
+      param "ep_02.al_launch_nodad01"
+      param2 "0.350"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "dogsp

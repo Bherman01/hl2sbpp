@@ -1,0 +1,24 @@
+token ""
+    }
+    event speak "coast.vbaittrain01b"
+    {
+      time 7.776122 11.599002
+      param "coast.vbaittrain01b"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "coast.vbaittrain01c"
+    {
+      time 11.849455 16.281269
+      param "coast.vbaittrain01c"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc_vortigaunt.followfm"
+    {
+      time 5.661538 6.630132
+      param "npc_vortiga

@@ -1,0 +1,60 @@
+Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_01.al_zombine_trooptrain"
+    {
+      time 0.204301 3.394052
+      param "ep_01.al_zombine_trooptrain"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.053764 3.564517
+      param "!player"
+      event_ramp 
+      {
+        0.5846 0.9585
+        0.8846 1.0000
+        1.5769 1.0000
+        2.4765 1.0000
+        2.8265 0.9668
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "!player"
+    {
+      time 0.075269 2.607527
+      param "!player"
+      param2 "Run"
+      distancetotarget 72.00
+    }
+    active "0"
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+    event gesture "NULL"
+    {
+      time 0.053764 0.553764
+      param ""
+    }
+    event gesture "1"
+    {
+      t

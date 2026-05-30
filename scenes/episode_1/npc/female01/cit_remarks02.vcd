@@ -1,0 +1,28 @@
+.641026
+      }
+      sequenceduration 2.633333
+    }
+  }
+  channel "gestures_farewell_2"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.552388
+      param ""
+    }
+    event gesture "g_point_swing"
+    {
+      time 17.508230 20.634619
+      param "g_point_swing"
+      event_ramp
+      {
+        0.7714 0.0000
+        1.2558 0.1775
+        1.7177 0.8874
+        2.2324 0.9693
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.240086
+        "accent" 0.426731
+ 

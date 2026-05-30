@@ -1,0 +1,289 @@
+"ep_01.al_postcore_atwindow03"
+    {
+      time 6.070784 7.012553
+      param "ep_01.al_postcore_atwindow03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_atwindow04"
+    {
+      time 7.376268 9.488286
+      param "ep_01.al_postcore_atwindow04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_atwindow05"
+    {
+      time 9.935700 12.448943
+      param "ep_01.al_postcore_atwindow05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_atwindow06"
+    {
+      time 12.015962 13.890973
+      param "ep_01.al_postcore_atwindow06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_sideeffect01"
+    {
+      time 13.731411 16.569597
+      param "ep_01.al_postcore_sideeffect01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_sideeffect02"
+    {
+      time 16.731411 18.724722
+      param "ep_01.al_postcore_sideeffect02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_sideeffect03"
+    {
+      time 18.864744 22.073565
+      param "ep_01.al_postcore_sideeffect03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_meanwhile"
+    {
+      time 48.358681 49.849815
+      param "ep_01.al_postcore_meanwhile"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_takealook"
+    {
+      time 50.799423 51.587429
+      param "ep_01.al_postcore_takealook"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_sideeffect04"
+    {
+      time 22.214745 27.849529
+      param "ep_01.al_postcore_sideeffect04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_sideeffect05"
+    {
+      time 28.198078 35.953522
+      param "ep_01.al_postcore_sideeffect05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_sideeffect06"
+    {
+      time 36.214745 39.755833
+      param "ep_01.al_postcore_sideeffect06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_sideeffect07"
+    {
+      time 40.498077 41.834789
+      param "ep_01.al_postcore_sideeffect07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_sideeffect08"
+    {
+      time 42.514744 43.504017
+      param "ep_01.al_postcore_sideeffect08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_sideeffect09"
+    {
+      time 43.781410 46.686127
+      param "ep_01.al_postcore_sideeffect09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_postcore_takealook02"
+    {
+      time 51.710537 52.663418
+      param "ep_01.al_postcore_takealook02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "target_core"
+    {
+      time 0.171537 4.657234
+      param "target_core"
+      event_ramp 
+      {
+        0.3038 0.5025
+        0.7193 1.0000
+        3.8090 1.0000
+        4.1926 0.5226
+      }
+    }
+    event lookat "!player"
+    {
+      time 3.866679 27.116737
+      param "!player"
+      event_ramp 
+      {
+        0.3200 0.1425
+        0.8500 0.4596
+        1.2400 0.5298
+        1.8300 0.5439
+        2.4800 0.5404
+        21.5200 0.5228
+        21.9200 0.5228
+        22.2848 0.5053
+        22.5600 0.4140
+        22.7254 0.2632
+        23.0200 0.0702
+      }
+    }
+    event lookat "mark_look_dataconsole_1"
+    {
+      time 50.374256 53.346043
+      param "mark_look_dataconsole_1"
+      event_ramp 
+      {
+        0.4800 0.6105
+        0.8300 0.8976
+        1.2200 0.9930
+        1.9200 0.9930
+        2.2032 0.9347
+        2.4400 0.7684
+        2.5600 0.5930
+      }
+    }
+    event lookat "!player"
+    {
+      time 31.155661 43.010246
+      param "!player"
+      event_ramp 
+      {
+        0.4314 0.1250
+        0.8600 0.3333
+        1.2000 0.4807
+        1.4500 0.5088
+        1.9800 0.5053
+        10.4800 0.4421
+        10.8642 0.4386
+        11.1393 0.3649
+        11.4642 0.1474
+        11.8199 0.0000
+      }
+    }
+    event lookat "mark_look_big_datascreen_1"
+    {
+      time 28.674761 32.190102
+      param "mark_look_big_datascreen_1"
+      event_ramp 
+      {
+        0.4400 0.2035
+        0.7815 0.4162
+        1.0500 0.4772
+        1.3700 0.5018
+        2.2206 0.5053
+        2.6000 0.4634
+        2.9606 0.3298
+        3.2106 0.1193
+      }
+    }
+    event lookat "!self"
+    {
+      time 46.631832 49.432529
+      param "!self"
+      event_ramp 
+      {
+        0.4400 0.6982
+        0.7815 0.9109
+        1.0500 0.9719
+        1.3700 0.9965
+        1.5060 1.0000
+        1.8854 0.9581
+        2.1660 0.8246
+        2.3960 0.6140
+      }
+    }
+    event lookat "!player"
+    {
+      time 26.220215 29.705257
+      param "!player"
+      event_ramp 
+      {
+        0.4400 0.0000
+        0.7815 0.0000
+        1.0500 0.0000
+        1.3700 0.0000
+        1.6000 0.1404
+        1.8000 0.1439
+        2.1903 0.1509
+        2.8597 0.1090
+        3.2503 0.0386
+        3.4803 0.0000
+      }
+    }
+    event lookat "mark_look_big_datascreen_1"
+    {
+      time 42.250519 44.977978
+      param "mark_look_big_datascreen_1"
+      event_ramp 
+      {
+        0.4400 0.6982
+        0.7815 0.9109
+        1.0500 0.9719
+        1.3700 0.9965
+        1.4327 1.0000
+        1.8121 0.9581
+        2.0927 0.8246
+        2.3227 0.6140
+      }
+    }
+    event lookat "!player"
+    {
+      time 44.079899 47.358727
+      param "!player"
+      event_ramp 
+      {
+        0.4014 0.1987
+        0.7800 0.5193
+        1.2000 0.6667
+        1.4500 0.6948
+        2.2885 0.6702
+        2.5636 0.5965
+        2.8385 0.4070
+        3.0042 0.1684
+      }
+    }
+    event lookat "!player"
+    {
+      time 48.231415 51.510242
+      param "!player"
+      event_ramp 
+      {
+        0.5314 0.5215
+        0.8600 0.8105
+        1.2000 0.9579
+        1.4500 0.9860
+        2.2885 0.9895
+        2.563

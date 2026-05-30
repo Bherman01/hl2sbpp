@@ -1,0 +1,55 @@
+80 0.0000
+          1.1540 0.3900
+          1.8738 0.6500
+          2.5167 0.4100
+        }
+        {
+        }
+      }
+    }
+  }
+  channel "Postures"
+  {
+  }
+  channel "generic ai"
+  {
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "84"
+  "RampTool" "50"
+  "CChoreoView" "96"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "move pause"
+{
+  time 0.426230 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_02.al_barn_wwcd"
+    {
+      time 2.524823 5.391059
+      param "ep_02.al_barn_wwcd"
+      param2 ".53"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at advisor"
+    {
+      time 0.553560 5.115253
+      param "!target1"
+      even

@@ -1,0 +1,34 @@
+"end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_bg_h_jerkrt"
+    {
+      time 10.902381 13.535714
+      param "A_bg_h_jerkrt"
+      absolutetags playback_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "NULL"
+    {
+      time 16.302380 18.085714
+      param ""
+    }
+    event gesture "accentup_ext"
+    {
+      time 18.469048 21.269047
+      param "accentup_ext"
+      eve

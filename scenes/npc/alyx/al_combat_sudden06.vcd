@@ -1,0 +1,26 @@
+ {
+      time 17.190477 20.966669
+      param "p_leftlook"
+      event_ramp 
+      {
+        1.9438 0.9971
+        3.7762 0.9914
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.384601
+        "loop" 0.686413
+        "end" 0.775182
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.426966
+        "loop" 0.617977
+        "end" 0.674157
+      }
+      sequenceduration 5.966667
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "D_g_d

@@ -1,0 +1,46 @@
+
+    {
+      time 3.946236 6.067959
+      param "ep_01.al_ihearturrets"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "mark_look_crash_1"
+    {
+      time 0.053763 2.037636
+      param "mark_look_crash_1"
+      event_ramp 
+      {
+        0.3385 0.9619
+        1.7000 0.9429
+      }
+    }
+    event lookat "!player"
+    {
+      time 1.806450 6.177422
+      param "!player"
+      event_ramp 
+      {
+        0.3385 0.9619
+        3.6632 0.9429
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+    event firetrigger "wake headcrab"
+    {
+      time 3.010

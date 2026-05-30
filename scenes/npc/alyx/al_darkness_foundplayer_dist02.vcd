@@ -1,0 +1,36 @@
+ param "A_g_invan_smfwdjerk"
+      event_ramp 
+      {
+        0.2200 0.1907
+        0.7333 0.3035
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.172529
+        "extreme" 0.276047
+        "loop" 0.370968
+        "end" 0.424731
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.238095
+        "extreme" 0.380952
+        "loop" 0.476190
+        "end" 0.476190
+      }
+      sequenceduration 0.733333
+    }
+    event gesture "A_g_invan_smfwdjerk"
+    {
+      time 22.072874 22.659031
+      param "A_g_invan_smfwdjerk"
+      event_ramp 
+      {
+        0.2566 0.3774
+        0.3876 0.4864
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.297878
+        "extreme" 0.476605
+     

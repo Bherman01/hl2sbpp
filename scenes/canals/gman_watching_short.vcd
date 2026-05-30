@@ -1,0 +1,59 @@
+ event speak "farewell dr freeman"
+    {
+      time 0.364442 1.475304
+      param "canals.gunboat_farewell"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "moveto"
+  {
+  }
+  channel "faceto"
+  {
+    event face "faceto player"
+    {
+      time 0.079998 2.886664
+      param "!player"
+      event_ramp
+      {
+        1.5180 0.9932
+        2.7607 0.9814
+      }
+    }
+  }
+  channel "lookat"
+  {
+    event lookat "look player"
+    {
+      time 0.066666 4.513334
+      param "!player"
+      event_ramp
+      {
+        0.6040 0.9086
+        4.0693 0.9459
+      }
+    }
+  }
+  channel "posture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.780000
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.120000 2.433333
+      param "shiftleft"
+      event_ramp
+      {
+        0.4618 0.8333
+        1.5881 0.8333
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.262844
+        "loop" 0.465611
+ 

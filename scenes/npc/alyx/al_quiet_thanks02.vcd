@@ -1,0 +1,37 @@
+back01"
+    {
+      time 0.522319 1.409326
+      param "ep_02.al_car_crazy03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face to"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.073998 2.267098
+      param "!player"
+      event_ramp
+      {
+        0.4957 0.9499
+        1.6190 0.9471
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "facial"
+  {
+    eve

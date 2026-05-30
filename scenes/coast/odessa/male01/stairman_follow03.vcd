@@ -1,0 +1,32 @@
+ "40"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "Wait for vort to reach camp"
+{
+  time 0.146667 -1.000000
+  param "noaction"
+}
+event section "move"
+{
+  time 1.552820 -1.000000
+  param "noaction"
+}
+event section "wait at cage"
+{
+  time 6.909743 -1.000000
+  param "noaction"
+}
+actor "!target1"
+{
+  channel "Move to"
+  {
+    event moveto "Move to camp"
+    {
+      time 0.018461 0.165641
+      param "target_vortigaunt_camp"
+      param2 "Run"
+      resumecondition
+    }
+    event m

@@ -1,0 +1,26 @@
+  param "A_bg_yell"
+      event_ramp 
+      {
+        0.0000 0.6800
+        0.8533 0.7533
+        1.2713 0.4867
+        2.0579 0.2933
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.158180
+        "extreme" 0.359501
+        "loop" 0.589733
+        "end" 0.779726
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.102564
+        "extreme" 0.269231
+        "loop" 0.487179
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "NULL"
+    {

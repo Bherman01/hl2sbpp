@@ -1,0 +1,42 @@
+ resumecondition
+    }
+  }
+  channel "faceTo"
+  {
+    event face "mark_look_lightbridge"
+    {
+      time 0.123456 4.277777
+      param "mark_look_lightbridge"
+      event_ramp 
+      {
+        0.7818 0.9683
+        4.0938 0.9968
+      }
+    }
+    event face "!player"
+    {
+      time 16.141975 17.950619
+      param "!player"
+      event_ramp 
+      {
+        0.8000 1.0000 "curve_default_to_curve_hold"
+      }
+    }
+    event face "mark_look_lightbridge"
+    {
+      time 9.135801 16.796293
+      param "mark_look_lightbridge"
+      event_ramp 
+      {
+        0.7698 1.0000 "curve_default_to_curve_hold"
+        6.8654 1.0000
+      }
+    }
+    event face "mark_look_lightbridge"
+    {
+      time 5.037036 5.919753
+      param "mark_look_lightbridge"
+      event_ramp 
+      {
+        0.5059 0.9683
+        0.8222 0.

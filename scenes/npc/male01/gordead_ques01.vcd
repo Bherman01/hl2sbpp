@@ -1,0 +1,39 @@
+        0.3944 0.5108
+          0.5712 0.5085
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "answer07"
+    {
+      time 0.006667 0.733220
+      param "npc_citizen.answer07"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+  

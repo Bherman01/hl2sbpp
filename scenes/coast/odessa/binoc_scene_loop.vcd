@@ -1,0 +1,40 @@
+ time 3.633334 6.466667
+      param "g_palm_mid_both"
+      event_ramp
+      {
+        0.6182 0.2684
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.238095
+        "accent" 0.392857
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.238095
+        "accent" 0.392857
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      sequenceduration 2.833333
+    }
+    event gesture "NULL"
+    {
+      time 5.900000 7.633333
+      param ""
+    }
+    event gesture "g_refer_right"
+    {
+      time 7.266666 9.866667
+      param "g_refer_forward"
+      event_ramp
+      {
+        0.5182 0.2785
+        0.9818 0.2506
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.194805
+        "accent"

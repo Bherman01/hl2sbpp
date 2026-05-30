@@ -1,0 +1,64 @@
+ 0.277778
+        "end" 0.740741
+      }
+      sequenceduration 3.633333
+    }
+    event gesture "A_pound_g"
+    {
+      time 46.378788 56.306160
+      param "A_pound_g"
+      absolutetags playback_time
+      {
+        "apex" 0.174497
+        "hd1" 0.641459
+        "accent" 0.782912
+        "loop" 0.844629
+        "end" 0.905071
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.145631
+        "hd1" 0.160835
+        "accent" 0.349515
+        "loop" 0.718447
+        "end" 0.728155
+      }
+      sequenceduration 3.466667
+    }
+    event gesture "NULL"
+    {
+      time 61.212128 63.318184
+      param ""
+    }
+    event gesture "A_g_headinhds"
+    {
+      time 54.636364 59.170368
+      param "A_g_headinhds"
+      absolutetags playback_time
+      {
+        "in" 0.160431
+        "loop" 0.294115
+        "end" 0.492254
+        "hd2" 0.676223
+        "out" 0.825760
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.367347
+        "loop" 0.551020
+        "end" 0.693878
+        "hd2" 0.789689
+        "out" 0.836735
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "A_gesture05"
+    {
+      time 58.346806 61.059490
+      param "A_gesture05"
+      event_ramp
+      {
+        0.0050 0.9751
+        1.4000 0.9861
+        1.5106 0.7815
+        1.5

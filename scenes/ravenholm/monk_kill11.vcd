@@ -1,0 +1,20 @@
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.204819
+        "accent" 0.397590
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.204819
+        "accent" 0.397590
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event sequence "SS_eli_death_postI_hands"
+    {
+      time 88.794884 

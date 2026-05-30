@@ -1,0 +1,35 @@
+s shifted_time
+      {
+        "apex" 0.128571
+        "extreme" 0.228571
+        "loop" 0.428571
+        "end" 0.571429
+      }
+      sequenceduration 2.366667
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "Gesture_work01"
+    {
+      time 5.432553 14.591526
+      param "Gesture_work01"
+      absolutetags playback_time
+      {
+        "apex" 0.033595
+        "accent" 0.061590
+        "loop" 0.097984
+        "end" 0.803636
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.142857
+        "accent" 0.238095
+        "loop" 0.261905
+        "end" 0.738095
+      }
+      sequenceduration 2.833333
+    }
+    event gesture "E_bg_arcfwd_nod_pod"
+    {
+      tim

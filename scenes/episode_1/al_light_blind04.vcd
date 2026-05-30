@@ -1,0 +1,45 @@
+ 0.9825 0.5232
+        1.1560 0.0903
+      }
+    }
+    event lookat "mark_lookpod_top_1"
+    {
+      time 61.517231 63.184963
+      param "mark_lookpod_top_1"
+      event_ramp 
+      {
+        0.1605 0.3127
+        0.2860 0.7285
+        0.3558 0.8593
+        0.4674 0.9622
+        0.6535 0.9966
+        1.0214 1.0000
+        1.3261 0.9313
+        1.4487 0.7543
+        1.5540 0.4914
+      }
+    }
+    event lookat "mark_al_look_console7"
+    {
+      time 12.118084 13.723147
+      param "mark_al_look_console7"
+      event_ramp 
+      {
+        0.1558 0.3105
+        0.2930 0.5596
+        0.4535 0.7978
+        0.6163 0.9326
+        0.7488 0.9653
+        0.9495 0.9483
+        1.0114 0.9105
+        1.1217 0.7616
+        1.3716 0.2635
+      }
+    }
+    event lookat "mark_al_look_console7"
+    {
+      time 35.465172 38.155384
+      param "mark_al_look_console7"
+      event_ramp 
+      {
+        0

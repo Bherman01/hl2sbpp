@@ -1,0 +1,79 @@
+5
+      }
+    }
+    event face "mossman"
+    {
+      time 0.826667 2.219999
+      param "Mossman"
+      event_ramp
+      {
+        0.5450 0.3088
+        0.9950 0.3226
+        1.1883 0.3134
+        1.3933 0.2950
+      }
+    }
+    event face "Work1"
+    {
+      time 2.013334 4.206667
+      param "marks_eli_look_keyboard"
+      event_ramp
+      {
+        0.9489 0.9862
+        2.1933 1.0000
+      }
+    }
+    event face "Work1"
+    {
+      time 6.186667 8.380000
+      param "marks_eli_look_keyboard"
+      event_ramp
+      {
+        0.9489 0.9862
+        2.1933 1.0000
+      }
+    }
+  }
+  channel "MoveTo"
+  {
+    event moveto "work1"
+    {
+      time 2.333334 5.340001
+      param "marks_eli_workstation_1"
+    }
+    event moveto "towardsMossy"
+    {
+      time 0.240001 1.740000
+      param "marks_eli_front_teleporter"
+    }
+  }
+  channel "Postures"
+  {
+    event gesture "console"
+    {
+      time 0.000000 0.900001
+      param "Posture_Console"
+      absolutetags playback_time
+      {
+        "apex" 0.104193
+        "loop" 0.268657
+        "end" 0.432836
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.170455
+        "loop" 0.454545
+        "end" 0.568182
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "NULL"
+    {
+      time 1.126179 1.626179
+      param ""
+    }
+    event gesture "console"
+    {
+      time 2.906667 9.393333
+      param "Posture_Console"
+ 

@@ -1,0 +1,32 @@
+ps 60
+snap off
+// Choreo version 1
+actor "Barney"
+{
+  channel "audio"
+  {
+    event speak "ba_gordonhelp"
+    {
+      time 0.064516 1.646126
+      param "npc_barney.ba_gordonhelp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "trigger"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "posture

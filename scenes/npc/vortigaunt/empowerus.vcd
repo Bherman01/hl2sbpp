@@ -1,0 +1,22 @@
+nceduration 2.733333
+    }
+    event gesture "NULL"
+    {
+      time 0.000000 1.677777
+      param ""
+    }
+    event gesture "finger2"
+    {
+      time 5.515554 7.968887
+      param "A_fingerpush_g"
+      event_ramp
+      {
+        0.7240 0.9861
+        2.4480 0.9930
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.149184
+        "apex2" 0.458153
+        "accent" 0.635870
+        "loop" 0.755435

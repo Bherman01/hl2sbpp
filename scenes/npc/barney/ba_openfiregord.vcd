@@ -1,0 +1,44 @@
+\hl2\hl2\models\Barney.mdl"
+}
+
+mapname "maps\d2_prison_06.bsp"
+scalesettings
+{
+  "CChoreoView" "16"
+  "SceneRampTool" "100"
+  "RampTool" "20"
+  "ExpressionTool" "10"
+  "GestureTool" "8"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "Stop"
+{
+  time 12.947185 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "I'm going to head back..."
+    {
+      time 1.496669 5.339503
+      param "novaprospekt.al_goonthru02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "go on..."
+    {
+      time 8.270005 9.429121
+      param "novaprospekt.al_careofyourself"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "novaprospekt.al_goonthru03"
+    {
+      time 5.800000 6.961769
+      par

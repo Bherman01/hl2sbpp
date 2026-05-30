@@ -1,0 +1,38 @@
+ns samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "inner_raiser" combo 
+        {
+          0.4032 0.4800
+          0.5594 0.4800
+          1.4719 0.4600
+          1.5938 0.4300
+        }
+        {
+          0.4032 0.5000
+        }
+        "outer_raiser" combo 
+        {
+          0.4032 0.2800
+          0.5563 0.3000
+          1.4281 0.2600
+          1.5938 0.2600
+        }
+        {
+          0.4032 0.5000
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d2_prison\06_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "62"
+  "SceneRampTool" "100"
+  "RampTool" "26"
+  "ExpressionTool" 

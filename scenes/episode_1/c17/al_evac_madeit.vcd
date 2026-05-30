@@ -1,0 +1,38 @@
+e
+      {
+        "apex" 0.160000
+        "accent" 0.240000
+        "loop" 0.320000
+        "end" 0.440000
+      }
+      sequenceduration 1.700000
+    }
+  }
+  channel "trigger"
+  {
+    event firetrigger "4_open drawbridge"
+    {
+      time 45.300003 -1.000000
+      param "4"
+    }
+    event firetrigger "1_oldOpenBridge"
+    {
+      time 63.718033 -1.000000
+      param "1"
+    }
+    event firetrigger "3_grabCrowbarSS"
+    {
+      time 43.719055 -1.000000
+      param "3"
+    }
+    event firetrigger "2_tossCrowbar_SS"
+    {
+      time 54.151367 -1.000000
+      param "2"
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.222222 66.38

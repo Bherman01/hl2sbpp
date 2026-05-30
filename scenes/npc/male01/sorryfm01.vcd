@@ -1,0 +1,48 @@
+{
+          0.7318 0.5000
+        }
+      }
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.006667 1.960002
+      param "!player"
+      event_ramp
+      {
+        0.0271 0.2064
+        0.0611 0.5317
+        0.1141 0.9166
+        0.1493 0.9921
+        1.6237 1.0000
+        1.7615 1.0000
+        1.8445 0.7897
+        1.8951 0.5198
+        1.9319 0.2024
+      }
+    }
+  }
+  channel "head"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "132"
+  "RampTool" "112"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  cha

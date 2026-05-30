@@ -1,0 +1,53 @@
+e 13.361789 15.195122
+      param "!player"
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+  channel "sequence"
+  {
+  }
+}
+
+actor "!target2"
+{
+  channel "audio"
+  {
+    event speak "ep_02.sheckley_training01"
+    {
+      time 1.069106 4.456430
+      param "ep_02.sheckley_training01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.sheckley_training02"
+    {
+      time 5.020325 7.189577
+      param "ep_02.sheckley_training02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.sheckley_training03"
+    {
+      time 7.577236 11.914493
+      param "ep_02.sheckley_training03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+   

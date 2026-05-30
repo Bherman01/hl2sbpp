@@ -1,0 +1,121 @@
+d"
+    {
+      time 10.817204 13.739095
+      param "A_g_fingptfwd"
+      event_ramp
+      {
+        0.5154 0.6120
+        0.6808 0.8182
+        0.9500 0.9053
+        1.1385 0.8598
+        1.4962 0.2538
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.088597
+        "accent" 0.249629
+        "hd" 0.571560
+        "loop" 0.675466
+        "end" 0.699565
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.115385
+        "accent" 0.217949
+        "hd" 0.250438
+        "loop" 0.538462
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "A_gesture16"
+    {
+      time 13.698925 16.896774
+      param "A_gesture16"
+      event_ramp
+      {
+        0.0000 0.9891
+        0.8923 0.9918
+        1.3115 0.6168
+        1.5384 0.5788
+        1.7423 0.5815
+        2.9462 0.3913
+        3.1500 0.3804
+        3.1885 0.3804
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.256757
+        "accent" 0.375839
+        "loop" 0.630174
+        "end" 0.704139
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.164384
+        "accent" 0.301370
+        "loop" 0.520548
+        "end" 0.616438
+      }
+      sequenceduration 2.466667
+    }
+    event gesture "NULL"
+    {
+      time 8.494624 12.392473
+      param ""
+    }
+    event gesture "A_gesture10"
+    {
+      time 9.634408 12.020655
+      param "A_gesture10"
+      event_ramp
+      {
+        0.5538 0.8750
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.240333
+        "accent" 0.361105
+        "loop" 0.504505
+        "end" 0.604157
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.204819
+        "accent" 0.397590
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 13.118279 15.381720
+      param ""
+    }
+    event gesture "A_g_fingptfwd"
+    {
+      time 12.559140 15.364516
+      param "A_g_fingptfwd"
+      event_ramp
+      {
+        0.6346 0.9091
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.107692
+        "accent" 0.265909
+        "loop" 0.566766
+        "end" 0.663040
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.115385
+        "accent" 0.217949
+        "loop" 0.538462
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+  }
+  channel "head"

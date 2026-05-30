@@ -1,0 +1,114 @@
+
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 21.757574 24.045454
+      param ""
+    }
+    event gesture "ordi"
+    {
+      time 25.969698 30.578955
+      param "HG_headback"
+      event_ramp
+      {
+        0.6211 0.8571
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.132087
+        "extreme" 0.183454
+        "loop" 0.220145
+        "end" 0.867913
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "these are"
+    {
+      time 29.361309 33.422779
+      param "HG_headforward"
+      event_ramp
+      {
+        0.5105 0.5952
+        0.7053 0.6071
+        3.4947 0.5952
+        3.6895 0.5675
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.149902
+        "extreme" 0.208198
+        "loop" 0.249837
+        "end" 0.850098
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "hmm"
+    {
+      time 32.205135 34.505135
+      param "HG_headback"
+      event_ramp
+      {
+        0.7053 0.5913
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 34.974358 36.320515
+      param ""
+    }
+    event gesture "rather"
+    {
+      time 35.803925 38.394119
+      param "HG_headback"
+      absolutetags playback_time
+      {
+        "apex" 0.235050
+        "extreme" 0.326458
+        "loop" 0.391748
+        "end" 0.764951
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "illusion"
+    {
+      time 37.176472 39.727428
+      param "HG_forwa

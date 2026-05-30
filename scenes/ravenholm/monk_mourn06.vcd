@@ -1,0 +1,16 @@
+amples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_raiser" combo 
+        {
+          0.0000 0.0000
+          2.6278 0.0000
+          7.6669 0.0000
+          7.8353 0.0000
+          8.2140 0.0000
+          8.3771 0.1600
+          8.6506 0.0300
+          9.0314 0.0000
+          9.1156 0.0000
+          9.2997 0.0000
+          10.0203 0.0000
+          1

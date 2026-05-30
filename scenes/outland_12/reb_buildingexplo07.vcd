@@ -1,0 +1,40 @@
+op" 0.444444
+        "end" 0.566667
+        "out" 0.722222
+      }
+      sequenceduration 3.033333
+    }
+    event gesture "a_bg_hdaccup"
+    {
+      time 15.397435 17.697435
+      param "a_bg_hdaccup"
+      event_ramp
+      {
+        0.8235 0.7527
+        1.5824 0.6979
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "A_bg_hshake_pod"
+    {
+      time 17.574074 22.151852
+      param "A_bg_hshake_pod"
+      event_ramp
+      {
+        0.7706 0.5318
+        1.8353 0.6078
+        2.4837 0.

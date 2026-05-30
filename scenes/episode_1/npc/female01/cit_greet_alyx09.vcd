@@ -1,0 +1,28 @@
+off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "odessa.nlo_cub_opengate"
+    {
+      time 5.606666 11.854603
+      param "odessa.nlo_cub_opengate"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "odessa.nlo_cub_ledtobelieve"
+    {
+      time 0.024691 5.327571
+      param "odessa.nlo_cub_ledtobelieve"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  

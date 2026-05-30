@@ -1,0 +1,51 @@
+
+      event_ramp 
+      {
+        0.1885 1.0000
+        2.9455 0.9830
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "mark_al_look_coverdoor_1"
+    {
+      time 5.469389 11.841790
+      param "mark_al_look_coverdoor_1"
+      event_ramp 
+      {
+        0.6072 1.0000
+        5.8247 1.0000
+      }
+    }
+    event face "mark_look_console_up_1"
+    {
+      time 0.450141 4.388031
+      param "mark_look_console_up_1"
+      event_ramp 
+      {
+        0.3423 1.0000
+        3.5111 1.0000
+      }
+    }
+    event face "mark_al_look_soldiers_1"
+    {
+      time 4.207207 5.778911
+      param "mark_al_look_soldiers_1"
+      event_ramp 
+      {
+        0.4286 1.0000
+        1.1734 1.0000
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_al_coverdoor_1"
+    {
+      time 5.360543 8.982992
+      param "mark_al_coverdoor_1"
+      param2 "Run"
+      resumecondition
+    }
+    event moveto 

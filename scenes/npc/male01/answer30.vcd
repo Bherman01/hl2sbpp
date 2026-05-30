@@ -1,0 +1,82 @@
+ resumecondition
+    }
+  }
+  channel "faceTo"
+  {
+    event face "mark_hive_look"
+    {
+      time 0.791667 11.477380
+      param "mark_hive_look"
+      event_ramp
+      {
+        0.4400 1.0000
+        10.1698 1.0000
+      }
+    }
+    event face "!self"
+    {
+      time 12.204005 24.909199
+      param "!self"
+      event_ramp
+      {
+        0.4400 1.0000
+        12.1893 1.0000
+      }
+    }
+    event face "!player"
+    {
+      time 27.751923 28.852453
+      param "!player"
+      event_ramp
+      {
+        0.5125 1.0000
+        0.7094 1.0000
+      }
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 1.291667 5.159523
+      param "gest_chant"
+      absolutetags playback_time
+      {
+        "apex" 0.208943
+        "accent" 0.261179
+        "loop" 0.304709
+        "end" 0.830769
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.244898
+        "accent" 0.306122
+        "loop" 0.357143
+        "end" 0.714286
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "3"
+    {
+      time 7.923810 10.757143
+      param "g_palm_mid_both"
+      absolutetags playback_time
+      {
+        "apex" 0.238095
+        "accent" 0.392857
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.238095
+        "accent" 0.392857
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      sequenceduration 2.833333
+    }
+    event gesture "1"
+    {
+      time 25.102455 28.866739
+   

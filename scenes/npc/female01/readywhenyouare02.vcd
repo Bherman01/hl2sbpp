@@ -1,0 +1,69 @@
+ param "mark_alyx_look_controlroom_monitor_center"
+      event_ramp
+      {
+        0.1440 0.1394
+        0.3240 0.4286
+        0.4880 0.6272
+        0.7040 0.7422
+        1.4080 0.8153
+        2.7347 0.7735
+        2.8827 0.7700
+      }
+    }
+    event lookat "mark_alyx_look_controlroom_monitor_center"
+    {
+      time 14.041274 17.132381
+      param "mark_alyx_look_controlroom_monitor_center"
+      event_ramp
+      {
+        0.1520 0.2927
+        0.2920 0.5645
+        0.4680 0.7352
+        0.7560 0.8083
+        1.2000 0.8106
+        2.9347 0.7735
+        3.0827 0.7700
+      }
+    }
+    event lookat "mark_alyx_look_controlroom_monitor_center"
+    {
+      time 17.341274 19.265717
+      param "mark_alyx_look_controlroom_monitor_center"
+      event_ramp
+      {
+        0.1440 0.1394
+        0.3240 0.4286
+        0.4880 0.6272
+        0.7040 0.7422
+        1.1176 0.8153
+        1.7680 0.7735
+        1.9160 0.7700
+      }
+    }
+    event lookat "console"
+    {
+      time 16.113495 18.087938
+      param "mark_alyx_look_controlroom_console"
+      event_ramp
+      {
+        0.2400 0.2927
+        0.4200 0.5645
+        0.6360 0.7352
+        1.0893 0.8083
+        1.8180 0.7735
+        1.9660 0.7700
+      }
+    }
+    event lookat "monitor"
+    {
+      time 23.696835 25.965717
+      param "mark_alyx_look_controlroom_monitor_lt"
+      event_ramp
+      {
+        0.1000 0.1394
+        0.2360 0.4286
+        0.4000 0.6272
+        0.6160 0.7422
+        1.2276 0.8153
+        2.1125 0.7735
+     

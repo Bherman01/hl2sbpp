@@ -1,0 +1,85 @@
+   "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 34.969696 38.136364
+      param ""
+    }
+    event gesture "M_bg_acctdwn_chinout"
+    {
+      time 39.939392 42.239391
+      param "M_bg_acctdwn_chinout"
+      absolutetags playback_time
+      {
+        "apex" 0.147059
+        "extreme" 0.294118
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.294118
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 43.969700 48.136368
+      param ""
+    }
+    event gesture "M_bg_hshake"
+    {
+      time 48.999996 52.133331
+      param "M_bg_hshake"
+      absolutetags playback_time
+      {
+        "apex" 0.129032
+        "extreme" 0.569892
+        "loop" 0.645161
+        "end" 0.698925
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.129032
+        "extreme" 0.569892
+        "loop" 0.645161
+        "end" 0.698925
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "NULL"
+    {
+      time 51.333336 53.409092
+      param ""
+    }
+    event gesture "M_headdroop"
+    {
+      time 52.606060 59.451511
+      param "M_headdroop"
+      absolutetags playback_time
+      {
+        "apex" 0.058889
+        "extreme" 0.206113
+        "loop" 0.840708
+        "end" 0.884956
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.093750
+        "extreme" 0.328125
+        "loop" 0.773438
+        "end" 0.781250
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "NULL"
+    {
+      time 15.060607 19.378788
+      param ""
+    }
+    event gesture "M_bg_hsh

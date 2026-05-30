@@ -1,0 +1,21 @@
+  {
+      time 10.555554 12.431043
+      param "A_consoletype_g"
+      event_ramp
+      {
+        0.0000 0.9913
+        1.4000 0.9792
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.141482
+        "accent" 0.294755
+        "loop" 0.506979
+        "end" 0.742782
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.120370
+        "accent" 0.222222
+        "loop" 0.277778
+        "end"

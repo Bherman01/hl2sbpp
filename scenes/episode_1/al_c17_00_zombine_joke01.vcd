@@ -1,0 +1,70 @@
+667
+        "end" 0.813469
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.129032
+        "extreme" 0.569892
+        "loop" 0.645161
+        "end" 0.698925
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "2"
+    {
+      time 3.714064 7.611967
+      param "M_bg_htiltrt"
+      event_ramp
+      {
+        0.3731 0.8543
+        0.7077 1.0000
+        0.9615 1.0000
+        2.7192 1.0000
+        2.8654 1.0000
+        3.1846 0.8442
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.103569
+        "extreme" 0.233879
+        "loop" 0.329440
+        "end" 0.756754
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.111111
+        "extreme" 0.349206
+        "loop" 0.523810
+        "end" 0.555556
+      }
+      sequenceduration 2.133333
+    }
+    event gesture "3"
+    {
+      time 1.059460 4.633714
+      param "M_bg_htiltleft"
+      event_ramp
+      {
+        0.3095 1.0000
+        2.6727 0.9950
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.063691
+        "extreme" 0.204720
+        "loop" 0.313906
+        "end" 0.728571
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.111111
+        "extreme" 0.349206
+        "loop" 0.523810
+        "end" 0.555556
+      }
+      sequenceduration 2.133333
+    }
+    event gesture "4"
+    {
+      time 11.741611 15.095724
+      

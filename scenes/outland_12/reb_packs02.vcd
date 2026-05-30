@@ -1,0 +1,48 @@
+       0.7548 1.0000
+        1.5895 0.9886
+        1.8265 0.8409
+        2.1174 0.2045
+      }
+    }
+    event lookat "mark_look_peak"
+    {
+      time 0.053802 4.318670
+      param "mark_look_peak"
+      event_ramp
+      {
+        0.2000 0.3239
+        0.3751 0.8352
+        0.6881 1.0000
+        3.4764 0.9886
+        3.7134 0.8409
+        4.0043 0.2045
+      }
+    }
+  }
+  channel "FaceTo"
+  {
+  }
+  channel "MoveTo"
+  {
+  }
+  channel "Postures"
+  {
+    active "0"
+  }
+  channel "body"
+  {
+    event gesture "A_bg_chinout_pod"
+    {
+      time 5.525481 7.006768
+      param "A_bg_chinout_pod"
+      event_ramp
+      {
+        0.0000 0.7605
+        0.0889 0.7545
+        1.4167 0.7365
+        1.4813 0.7246
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.156627
+ 

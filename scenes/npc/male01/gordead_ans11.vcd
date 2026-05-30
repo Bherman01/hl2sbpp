@@ -1,0 +1,29 @@
+m "npc_citizen.answer03"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time 0.000000 1.006667
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_droop"         combo        
+        {
+          0.1795 0.8400
+          0.3306 0.9200
+          0.6674 0.8300
+          0.8400 0.2100
+        }
+        {
+        }
+        "inner_raiser"         combo        
+        {
+          0.1795 0.8400
+          0.3306 0.

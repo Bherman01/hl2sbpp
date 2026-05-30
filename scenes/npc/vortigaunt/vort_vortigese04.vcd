@@ -1,0 +1,51 @@
+
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time -0.000000 1.866667
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser"         combo        
+        {
+          0.1509 0.8576
+          0.2621 0.9676
+          0.3256 0.9676
+          1.2221 0.9176
+          1.2990 0.8876
+          1.5494 0.1400
+        }
+        {
+        }
+        "outer_raiser"         combo        
+        {
+          0.1729 0.7442
+          0.2841 0.8542
+          0.3476 0.8584
+          1.2441 0.8042
+          1.3210 0.7572
+          1.5494 0.1400
+        }
+        {
+        }
+        "lid_raiser"         combo        
+        {
+          0.1509 0.3676
+          0.2621 0.4776
+          0.3256 0.4776
+          1.2221 0.4276
+          1.2990 0.3976
+          1.5494 0.1400
+        }
+        {
+        }
+      }
+    }
+  }
+  channel "Head"
+  {
+    event flexanimation "Head"
+    {
+      time 0.000000 1.

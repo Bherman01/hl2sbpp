@@ -1,0 +1,34 @@
+      param "A_g_rtthumb_overshould"
+      absolutetags playback_time
+      {
+        "apex" 0.204819
+        "accent" 0.397590
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.204819
+        "accent" 0.397590
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_g_armscrossed"
+    {
+      time 0.526190 8.290477
+      param "A_g_armscrossed"
+      absolutetags playback_time
+      {
+        "in" 0.060772
+        "loop" 0.173634
+        "end" 0.740286
+        "out" 0.834356
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.155556
+        "loop" 0.444444
+        "end" 0.566667
+        "ou

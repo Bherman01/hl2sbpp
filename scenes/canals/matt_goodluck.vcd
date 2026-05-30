@@ -1,0 +1,104 @@
+ {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "<die>"
+    {
+      time 0.199999 0.497505
+      param "canals.massacre_die"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "Start jump down"
+{
+  time 2.996667 -1.000000
+  param "noaction"
+}
+actor "!target1"
+{
+  channel "audio"
+  {
+    event speak "Get in here! Hurry!"
+    {
+      time 0.240000 1.214512
+      param "canals.matt_getin"
+      resumecondition
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Civil Protection is on ot us."
+    {
+      time 1.413334 2.966622
+      param "canals.matt_tearinguprr"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "We're tearing up the railroad, covering our tracks."
+    {
+      time 3.260002 5.201634
+      param "canals.matt_tearinguprr_a"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look at"
+  {
+    event lookat "Lookat_player_onground"
+    {
+      time

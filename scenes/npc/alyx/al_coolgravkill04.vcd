@@ -1,0 +1,36 @@
+    {
+      time 0.000000 0.679183
+      param ""
+    }
+    event gesture "A_p_invan_brace"
+    {
+      time 10.595675 34.174221
+      param "A_p_invan_brace"
+      event_ramp 
+      {
+        0.6166 1.0000
+        1.0000 0.9979
+        1.2200 1.0000
+        2.0933 0.9979
+        22.4083 1.0000
+        22.6116 1.0000
+        22.9216 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.011982
+        "loop" 0.101535
+        "end" 0.972055
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.063492
+        "loop" 0.555556
+        "end" 0.714286
+      }
+      sequenceduration 2.133333
+    }
+    event gesture "A_p_invan_dogturn"
+    {
+      time 1.405555 10.584866
+      param "A_p_in

@@ -1,0 +1,227 @@
+  event_ramp
+      {
+        0.6619 0.6905
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.305556
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.305556
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      sequenceduration 2.433333
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\Humans\Group01\male_07.mdl"
+}
+
+actor "npc_cit_gate"
+{
+  channel "audio"
+  {
+  }
+  channel "moveto"
+  {
+  }
+  channel "faceto"
+  {
+    event face "face player"
+    {
+      time 1.133333 4.629164
+      param "!player"
+      event_ramp
+      {
+        0.7900 0.9949
+        3.4958 0.9954
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "look player"
+    {
+      time 0.333332 5.011919
+      param "!player"
+      event_ramp
+      {
+        0.4380 0.9306
+        4.2006 0.8528
+      }
+    }
+  }
+}
+
+mapname "maps\d1_canals_08a.bsp"
+scalesettings
+{
+  "CChoreoView" "120"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "42"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause"
+{
+  time 2.906667 -1.000000
+  param "noaction"
+}
+event stoppoint "stop"
+{
+  time 7.306666 -1.000000
+  param "noaction"
+}
+actor "npc_cit_briefer"
+{
+  channel "moveto"
+  {
+  }
+  channel "faceto"
+  {
+    event face "faceto target2"
+    {
+      time 0.079999 7.226665
+      param "!target2"
+    }
+  }
+  channel "lookat"
+  {
+    event lookat "look player"
+    {
+      time 0.346667 9.580002
+      param "!player"
+      event_ramp
+      {
+        0.4420 0.9385
+        8.7633 0.9179
+      }
+    }
+  }
+  channel "seq"
+  {
+  }
+  channel "triggers"
+  {
+  }
+  channel "audio"
+  {
+    event speak "farewell"
+    {
+      time 1.253333 2.364195
+      param "canals.gunboat_farewell"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.572917
+      param ""
+    }
+    event gesture "farewell"
+    {
+      time 1.302083 2.883333
+      param "G_puncuate"
+      event_ramp
+      {
+        0.0929 0.3254
+        0.3393 0.6508
+        1.0714 0.6389
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.250000
+        "accent" 0.414474
+        "loop" 0.664474
+        "end" 1.000000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.250000
+        "accent" 0.416667
+        "loop" 0.562500
+        "end" 0.729167
+      }
+      sequenceduration 1.633333
+    }
+  }
+  channel "head gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.031250
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.947916 2.581249
+      param "hg_puncuate_down"
+      event_ramp
+      {
+        0.2821 0.8413
+        1.0643 0.6984
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.333333
+        "extreme" 0.541667
+        "loop" 0.552500
+        "end" 0.562500
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.333333
+        "extreme" 0.541667
+        "loop" 0.562500
+        "end" 0.562500
+      }
+      sequenceduration 1.633333
+    }
+  }
+}
+
+actor "npc_cit_gate"
+{
+  channel "moveto"
+  {
+    event moveto "moveto wheel"
+    {
+      time 0.559999 2.993333
+      param "mark_moveto_wheel2"
+      param2 "Walk"
+      resumecondition
+    }
+  }
+  channel "faceto"
+  {
+    event face "face wheel"
+    {
+      time 3.640833 10.486253
+      param "mark_faceto_wheel2"
+      event_ramp
+      {
+        0.2718 0.5357
+        0.8150 1.0000
+        6.4000 1.0000
+        6.6353 0.6706
+      }
+    }
+  }
+  channel "lookto"
+  {
+    event lookat 

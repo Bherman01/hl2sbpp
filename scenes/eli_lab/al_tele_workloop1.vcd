@@ -1,0 +1,40 @@
+ex" 0.123244
+        "accent" 0.283461
+        "loop" 0.524221
+        "end" 0.696239
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "accent" 0.338235
+        "loop" 0.411765
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "kgesture10"
+    {
+      time 84.055618 87.862885
+      param "kgesture10"
+      absolutetags playback_time
+      {
+        "apex" 0.165905
+        "accent" 0.333739
+        "loop" 0.596217
+        "end" 0.740817
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.116071
+        "accent" 0.285714
+        "loop" 0.633929
+        "end" 0.750000
+      }
+      sequenceduration 3.766667
+    }
+    event gesture "g_Rhand_chin"
+    {
+      time 89.138885 96.310677
+      param "g_Rhand_chin"
+      absolutetags playback_time
+      {

@@ -1,0 +1,113 @@
+rwardleft"
+      event_ramp
+      {
+        0.9545 0.2619
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.163766
+        "extreme" 0.227453
+        "loop" 0.272943
+        "end" 0.836234
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "3"
+    {
+      time 16.472221 19.578756
+      param "HG_headback"
+      event_ramp
+      {
+        0.6909 0.3175
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.195981
+        "extreme" 0.272196
+        "loop" 0.326636
+        "end" 0.804018
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "4"
+    {
+      time 18.361111 21.253000
+      param "HG_forwardright"
+      event_ramp
+      {
+        0.9000 0.3452
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.210527
+        "extreme" 0.292400
+        "loop" 0.350880
+        "end" 0.770833
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "a"
+    {
+      time 5.833333 10.684312
+      param "HG_forwardleft"
+      event_ramp
+      {
+        0.6455 0.6825
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.125505
+        "extreme" 0.174313
+        "loop" 0.209175
+        "end" 0.874495
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "b"
+    {
+      time 9.466667 14.031137
+      param "HG_headback"
+      event_ramp
+      {
+        0.7182 0.7659
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.133383
+        "extreme" 0.185254
+        "loop" 0.222305
+        "end" 0.866617
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176

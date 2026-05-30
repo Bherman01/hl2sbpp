@@ -1,0 +1,35 @@
+_ramp
+      {
+        0.4600 0.9848
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.101926
+        "extreme" 0.203853
+        "loop" 0.356742
+        "end" 0.714606
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.294118
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 16.199999 20.599998
+      param ""
+    }
+    event gesture "A_bg_chinout"
+    {
+      time 10.933333 17.200001
+      param "A_bg_chinout"
+      absolutetags playback_time
+      {
+        "apex" 0.128493
+        "extreme" 0.214624
+        "loop" 0.300756
+    

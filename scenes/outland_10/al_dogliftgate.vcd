@@ -1,0 +1,5688 @@
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "sorryfm01"
+    {
+      time 0.066668 0.683289
+      param "npc_citizen.sorryfm01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.022222 0.766665
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "sorryfm02"
+    {
+      time 0.066668 0.937439
+      param "npc_citizen.sorryfm02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.022222 0.966665
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_affirm01"
+    {
+      time 0.066667 0.949592
+      param "npc_citizen.squad_affirm01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.111111 0.922222
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_affirm02"
+    {
+      time 0.066667 1.471338
+      param "npc_citizen.squad_affirm02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.111111 1.500000
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_affirm03"
+    {
+      time 0.066667 1.094762
+      param "npc_citizen.squad_affirm03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.111111 1.122222
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_affirm04"
+    {
+      time 0.066667 1.844218
+      param "npc_citizen.squad_affirm04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.111111 1.788889
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_affirm05"
+    {
+      time 0.066667 1.391066
+      param "npc_citizen.squad_affirm05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.111111 1.388889
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_affirm06"
+    {
+      time 0.066667 1.671996
+      param "npc_citizen.squad_affirm06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.111111 1.655555
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_affirm07"
+    {
+      time 0.066667 0.989320
+      param "npc_citizen.squad_affirm07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.111111 1.077778
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_affirm08"
+    {
+      time 0.066667 1.226576
+      param "npc_citizen.squad_affirm08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.111111 1.077778
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_affirm09"
+    {
+      time 0.066667 0.989320
+      param "npc_citizen.squad_affirm09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.111111 1.077778
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_approach01"
+    {
+      time 0.066667 1.200204
+      param "npc_citizen.squad_approach01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "friend"
+    {
+      time 0.111111 1.233333
+      param "!friend"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_approach02"
+    {
+      time 0.066667 1.042064
+      param "npc_citizen.squad_approach02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 1.077778
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_approach03"
+    {
+      time 0.066667 0.831157
+      param "npc_citizen.squad_approach03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 1.077778
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_approach04"
+    {
+      time 0.066667 0.620250
+      param "npc_citizen.squad_approach04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 0.722222
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_away01"
+    {
+      time 0.066667 0.962971
+      param "npc_citizen.squad_away01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "friend"
+    {
+      time 0.066667 1.011111
+      param "!friend"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_away02"
+    {
+      time 0.066667 0.857506
+      param "npc_citizen.squad_away02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "friend"
+    {
+      time 0.066667 0.944444
+      param "!friend"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_away03"
+    {
+      time 0.066667 0.883878
+      param "npc_citizen.squad_away03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "friend"
+    {
+      time 0.066667 0.944444
+      param "!friend"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_follow01"
+    {
+      time 0.066667 1.433583
+      param "npc_citizen.squad_follow01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "friend"
+    {
+      time 0.066667 1.455555
+      param "!friend"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_follow02"
+    {
+      time 0.066667 1.136440
+      param "npc_citizen.squad_follow02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "friend"
+    {
+      time 0.066667 1.144444
+      param "!friend"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_follow03"
+    {
+      time 0.066667 1.255284
+      param "npc_citizen.squad_follow03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "friend"
+    {
+      time 0.066667 1.144444
+      param "!friend"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_follow04"
+    {
+      time 0.066667 1.909025
+      param "npc_citizen.squad_follow04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "friend"
+    {
+      time 0.066667 1.922222
+      param "!friend"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_reinforce_group01"
+    {
+      time 0.066667 2.149252
+      param "npc_citizen.squad_reinforce_group01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 2.233333
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_reinforce_group02"
+    {
+      time 0.066667 2.070159
+      param "npc_citizen.squad_reinforce_group02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 2.233333
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_reinforce_group03"
+    {
+      time 0.066667 1.806554
+      param "npc_citizen.squad_reinforce_group03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 1.833333
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_reinforce_group04"
+    {
+      time 0.066667 1.015692
+      param "npc_citizen.squad_reinforce_group04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 1.099999
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_reinforce_single01"
+    {
+      time 0.066667 2.096531
+      param "npc_citizen.squad_reinforce_single01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 2.011111
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_reinforce_single02"
+    {
+      time 0.066667 1.648368
+      param "npc_citizen.squad_reinforce_single02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 1.722222
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_reinforce_single03"
+    {
+      time 0.066667 2.808300
+      param "npc_citizen.squad_reinforce_single03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 2.833333
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_reinforce_single04"
+    {
+      time 0.066667 0.910227
+      param "npc_citizen.squad_reinforce_single04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 1.033332
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_train01"
+    {
+      time 0.066667 1.909025
+      param "npc_citizen.squad_train01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 1.899999
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_train02"
+    {
+      time 0.066667 1.790182
+      param "npc_citizen.squad_train02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 1.899999
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_train03"
+    {
+      time 0.066667 2.087325
+      param "npc_citizen.squad_train03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 1.899999
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "squad_train04"
+    {
+      time 0.066667 3.598413
+      param "npc_citizen.squad_train04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066667 3.655555
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "startle01"
+    {
+      time 0.006667 0.495556
+      param "npc_citizen.startle01"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 0.493334
+      param "!player"
+    }
+  }
+}
+
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "startle02"
+    {
+      time 0.006667 0.695556
+      param "npc_citizen.startle02"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 0.693334
+      param "!player"
+    }
+  }
+}
+
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "stop"
+    {
+      time 0.060000 1.009410
+      param "npc_citizen.stopitfm"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+    event flexanimation "face"
+    {
+      time 0.020000 1.040000
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser"         combo        
+        {
+          0.0580 0.0000
+          0.2352 0.0000
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+        }
+        "outer_raiser"         combo        
+        {
+          0.0580 0.2300
+          0.3119 0.1800
+          0.6389 0.3500
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "lowerer"         combo        
+        {
+          0.0871 0.7300
+          0.2699 0.6100
+          0.7695 0.7900
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "wrinkler"        
+        {
+          0.0974 0.4800
+          0.2352 0.0800
+          0.3632 0.6700
+          0.6457 0.7500
+        }
+        "upper_raiser"         combo        
+        {
+          0.0580 0.1300
+          0.2352 0.0000
+          0.3119 0.2500
+          0.5818 0.2500
+          0.7227 0.4400
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "corner_puller"         combo        
+        {
+          0.0580 0.0000
+          0.2352 0.0000
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+        }
+        "corner_depressor"         combo        
+        {
+          0.0580 0.0600
+          0.2352 0.0600
+          0.3119 0.0500
+          0.5818 0.0500
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "part"         combo        
+        {
+          0.0580 0.3400
+          0.2352 0.2000
+          0.3119 0.2600
+          0.4868 0.6500
+          0.5852 0.1600
+          0.7264 0.5000
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+          0.7264 0.5000
+        }
+        "puckerer"         combo        
+        {
+          0.0580 0.5600
+          0.2352 0.2400
+          0.3119 0.4600
+          0.5465 0.1100
+          0.5818 0.2300
+          0.7264 0.0600
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+          0.7264 0.5000
+        }
+        "lid_closer"         combo        
+        {
+          0.3119 0.0400
+          0.5818 0.0400
+          0.7068 0.0500
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+          0.7068 0.5000
+        }
+        "chin_raiser"        
+        {
+          0.3119 0.1400
+          0.5818 0.1400
+        }
+        "funneler"         combo        
+        {
+          0.3119 0.1500
+          0.5818 0.0000
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "stretcher"         combo        
+        {
+          0.3119 0.8800
+          0.4826 0.1900
+          0.5818 0.0000
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "bite"        
+        {
+        }
+        "presser"        
+        {
+        }
+        "tightener"        
+        {
+        }
+        "jaw_clencher"        
+        {
+        }
+        "jaw_drop"        
+        {
+        }
+        "mouth_drop"         combo        
+        {
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "lid_tightener"         combo        
+        {
+          0.0692 0.4200
+          0.3542 0.7700
+          0.6286 0.8000
+          0.8493 0.5900
+        }
+        {
+          0.0920 0.5000
+        }
+      }
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.033334 1.053335
+      param "!player"
+      event_ramp
+      {
+        0.0271 0.2064
+        0.0593 0.5317
+        0.1070 0.9166
+        0.1314 0.9921
+        0.6551 1.0000
+        0.8978 1.0000
+        0.9398 0.7897
+        0.9689 0.5198
+        0.9985 0.2024
+      }
+    }
+  }
+  channel "head"
+  {
+    event flexanimation "head"
+    {
+      time 0.020000 1.080000
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.1030 0.6100
+          0.2288 0.5200
+          0.3577 0.6400
+          0.6116 0.5600
+          0.7663 0.6100
+        }
+        "head_tilt"         range 18.0 -18.0        
+        {
+          0.1148 0.5400
+          0.4967 0.5100
+          0.6791 0.5400
+        }
+        "part"         combo        
+        {
+          0.3787 0.6100
+        }
+        {
+          0.3787 0.5000
+        }
+        "stretcher"         combo        
+        {
+          0.3787 0.6800
+        }
+        {
+          0.3787 0.5000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "254"
+  "RampTool" "172"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "strider"
+    {
+      time 0.006667 2.341338
+      param "npc_citizen.strider"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "strider_run"
+    {
+      time 0.006667 2.007801
+      param "npc_citizen.strider_run"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "takecover02"
+    {
+      time 0.006667 0.875556
+      param "npc_citizen.takecover02"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "player"
+    {
+      time 0.020000 0.893333
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "thehacks01"
+    {
+      time 0.006667 1.705851
+      param "npc_citizen.thehacks01"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "player"
+    {
+      time 0.020000 1.693333
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "thehacks02"
+    {
+      time 0.006667 0.664581
+      param "npc_citizen.thehacks02"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "player"
+    {
+      time 0.020000 0.680000
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "thislldonicely01"
+    {
+      time 0.006667 0.855715
+      param "npc_citizen.thislldonicely01"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "player"
+    {
+      time 0.020000 0.866667
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "uhoh"
+    {
+      time 0.040000 0.527483
+      param "npc_citizen.uhoh"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+    event flexanimation "face"
+    {
+      time 0.006667 0.640000
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser"         combo        
+        {
+          0.0857 0.6000
+          0.3204 0.9000
+          0.5923 0.6700
+        }
+        {
+          0.0976 0.5000
+        }
+        "cheek_raiser"         combo        
+        {
+          0.0976 0.2800
+          0.2068 0.2700
+          0.3219 0.4700
+        }
+        {
+          0.0976 0.5000
+        }
+        "puckerer"         combo        
+        {
+          0.0976 0.3800
+        }
+        {
+          0.0976 0.5000
+        }
+        "head_rightleft"         range 30.0 -30.0        
+        {
+        }
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.2123 0.5700
+          0.3895 0.5900
+          0.5358 0.5300
+        }
+        "head_tilt"         range 18.0 -18.0        
+        {
+          0.2325 0.5300
+          0.3895 0.4800
+        }
+      }
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.006667 0.693335
+      param "!player"
+      event_ramp
+      {
+        0.0271 0.2064
+        0.0593 0.5317
+        0.1070 0.9166
+        0.1314 0.9921
+        0.3570 1.0000
+        0.5644 1.0000
+        0.6064 0.7897
+        0.6355 0.5198
+        0.6652 0.2024
+      }
+    }
+  }
+  channel "head"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "218"
+  "RampTool" "172"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "upthere01"
+    {
+      time 0.006667 0.592449
+      param "npc_citizen.upthere01"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "upthere02"
+    {
+      time 0.006667 0.672585
+      param "npc_citizen.upthere02"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer01"
+    {
+      time 0.006667 1.915941
+      param "npc_citizen.vanswer01"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer02"
+    {
+      time 0.006667 1.094876
+      param "npc_citizen.vanswer02"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer03"
+    {
+      time 0.006667 2.165579
+      param "npc_citizen.vanswer03"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer04"
+    {
+      time 0.006667 1.113107
+      param "npc_citizen.vanswer04"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer05"
+    {
+      time 0.006667 0.979433
+      param "npc_citizen.vanswer05"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer06"
+    {
+      time 0.006667 1.129932
+      param "npc_citizen.vanswer06"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer07"
+    {
+      time 0.006667 2.485692
+      param "npc_citizen.vanswer07"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer08"
+    {
+      time 0.006667 1.561247
+      param "npc_citizen.vanswer08"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer09"
+    {
+      time 0.006667 2.318254
+      param "npc_citizen.vanswer09"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer10"
+    {
+      time 0.006667 2.419524
+      param "npc_citizen.vanswer10"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer11"
+    {
+      time 0.006667 1.488549
+      param "npc_citizen.vanswer11"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer12"
+    {
+      time 0.006667 1.682404
+      param "npc_citizen.vanswer12"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer13"
+    {
+      time 0.006667 1.165964
+      param "npc_citizen.vanswer13"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vanswer14"
+    {
+      time 0.006667 1.684127
+      param "npc_citizen.vanswer14"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vquestion01"
+    {
+      time 0.006667 1.346077
+      param "npc_citizen.vquestion01"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vquestion02"
+    {
+      time 0.006667 2.602585
+      param "npc_citizen.vquestion02"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vquestion03"
+    {
+      time 0.006667 2.576327
+      param "npc_citizen.vquestion03"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vquestion04"
+    {
+      time 0.006667 1.987914
+      param "npc_citizen.vquestion04"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vquestion05"
+    {
+      time 0.006667 0.944672
+      param "npc_citizen.vquestion05"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vquestion06"
+    {
+      time 0.006667 1.508708
+      param "npc_citizen.vquestion06"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "vquestion07"
+    {
+      time 0.006667 2.395375
+      param "npc_citizen.vquestion07"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "waitingsomebody"
+    {
+      time 0.006667 1.011066
+      param "npc_citizen.waitingsomebody"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 0.993334
+      param "!player"
+    }
+  }
+}
+
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "out"
+    {
+      time 0.060000 0.697574
+      param "npc_citizen.watchout"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+    event flexanimation "face"
+    {
+      time 0.020000 0.806666
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser"         combo        
+        {
+          0.0580 0.0000
+          0.2352 0.0000
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+        }
+        "outer_raiser"         combo        
+        {
+          0.0580 0.2300
+          0.3119 0.1800
+          0.6389 0.3500
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "lowerer"         combo        
+        {
+          0.0871 0.7300
+          0.2699 0.6100
+          0.6498 0.4800
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "wrinkler"        
+        {
+          0.0974 0.4800
+          0.2352 0.0800
+          0.3788 0.3600
+        }
+        "upper_raiser"         combo        
+        {
+          0.0580 0.1300
+          0.2352 0.0000
+          0.3119 0.2500
+          0.5818 0.2500
+          0.7227 0.4400
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "corner_puller"         combo        
+        {
+          0.0580 0.0000
+          0.2352 0.0000
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+        }
+        "corner_depressor"         combo        
+        {
+          0.0580 0.0600
+          0.2352 0.0600
+          0.3119 0.0500
+          0.5818 0.0500
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "part"         combo        
+        {
+          0.0580 0.3400
+          0.2352 0.2000
+          0.3119 0.2600
+          0.4868 0.6500
+          0.5852 0.1600
+          0.7264 0.5000
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+          0.7264 0.5000
+        }
+        "puckerer"         combo        
+        {
+          0.0580 0.5600
+          0.2352 0.2400
+          0.3119 0.4600
+          0.5465 0.1100
+          0.5818 0.2300
+          0.7264 0.0600
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+          0.7264 0.5000
+        }
+        "lid_closer"         combo        
+        {
+          0.3119 0.0400
+          0.5818 0.0400
+          0.7068 0.0500
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+          0.7068 0.5000
+        }
+        "chin_raiser"        
+        {
+          0.3119 0.1400
+          0.5818 0.1400
+        }
+        "funneler"         combo        
+        {
+          0.3119 0.1500
+          0.5818 0.0000
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "stretcher"         combo        
+        {
+          0.3119 0.8800
+          0.4826 0.1900
+          0.5818 0.0000
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "bite"        
+        {
+        }
+        "presser"        
+        {
+        }
+        "tightener"        
+        {
+        }
+        "jaw_clencher"        
+        {
+        }
+        "jaw_drop"        
+        {
+        }
+        "mouth_drop"         combo        
+        {
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+      }
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.033334 0.793335
+      param "!player"
+      event_ramp
+      {
+        0.0271 0.2064
+        0.0593 0.5317
+        0.1070 0.9166
+        0.1314 0.9921
+        0.3951 1.0000
+        0.6378 1.0000
+        0.6798 0.7897
+        0.7089 0.5198
+        0.7385 0.2024
+      }
+    }
+  }
+  channel "head"
+  {
+    event flexanimation "head"
+    {
+      time 0.020000 0.793333
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.1030 0.6100
+          0.2288 0.5200
+          0.3577 0.6100
+          0.5061 0.5600
+        }
+        "head_tilt"         range 18.0 -18.0        
+        {
+          0.1148 0.5400
+          0.4967 0.5100
+        }
+        "part"         combo        
+        {
+          0.3787 0.6100
+        }
+        {
+          0.3787 0.5000
+        }
+        "stretcher"         combo        
+        {
+          0.3787 0.6800
+        }
+        {
+          0.3787 0.5000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "254"
+  "RampTool" "172"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "what"
+    {
+      time 0.040000 1.274785
+      param "npc_citizen.watchwhat"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+    event flexanimation "face"
+    {
+      time 0.020000 1.320000
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser"         combo        
+        {
+          0.0580 0.0000
+          0.2352 0.0000
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+        }
+        "outer_raiser"         combo        
+        {
+          0.0580 0.2300
+          0.3119 0.1800
+          0.6389 0.3500
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "lowerer"         combo        
+        {
+          0.0871 0.7300
+          0.2699 0.6100
+          0.7695 0.7900
+          1.1232 0.6000
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "wrinkler"        
+        {
+          0.0974 0.4800
+          0.2352 0.0800
+          0.3632 0.4700
+          0.6457 0.7500
+          1.1210 0.5100
+        }
+        "upper_raiser"         combo        
+        {
+          0.0580 0.1300
+          0.2352 0.0000
+          0.3119 0.2500
+          0.5818 0.2500
+          0.7227 0.4400
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "corner_puller"         combo        
+        {
+          0.0580 0.0000
+          0.2352 0.0000
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+        }
+        "corner_depressor"         combo        
+        {
+          0.0580 0.0600
+          0.2352 0.0600
+          0.3119 0.0500
+          0.5818 0.0500
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "part"         combo        
+        {
+          0.0580 0.3400
+          0.2352 0.2000
+          0.3119 0.2600
+          0.4868 0.6500
+          0.5852 0.1600
+          0.7264 0.5000
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+          0.7264 0.5000
+        }
+        "puckerer"         combo        
+        {
+          0.0580 0.5600
+          0.2352 0.2400
+          0.3119 0.4600
+          0.5465 0.1100
+          0.5818 0.2300
+          0.7264 0.0600
+        }
+        {
+          0.0580 0.5000
+          0.1547 0.5000
+          0.3119 0.5000
+          0.5818 0.5000
+          0.7264 0.5000
+        }
+        "lid_closer"         combo        
+        {
+          0.3119 0.0400
+          0.5818 0.0400
+          0.7068 0.0500
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+          0.7068 0.5000
+        }
+        "chin_raiser"        
+        {
+          0.3119 0.1400
+          0.5818 0.1400
+        }
+        "funneler"         combo        
+        {
+          0.3119 0.1500
+          0.5818 0.0000
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "stretcher"         combo        
+        {
+          0.3119 0.8800
+          0.4826 0.1900
+          0.5818 0.0000
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "bite"        
+        {
+        }
+        "presser"        
+        {
+        }
+        "tightener"        
+        {
+        }
+        "jaw_clencher"        
+        {
+        }
+        "jaw_drop"        
+        {
+        }
+        "mouth_drop"         combo        
+        {
+        }
+        {
+          0.3119 0.5000
+          0.5818 0.5000
+        }
+        "lid_tightener"         combo        
+        {
+          0.0692 0.4200
+          0.3542 0.7700
+          0.6286 0.8000
+          0.8493 0.5900
+        }
+        {
+          0.0920 0.5000
+        }
+      }
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.033334 1.373335
+      param "!player"
+      event_ramp
+      {
+        0.0271 0.2064
+        0.0593 0.5317
+        0.1070 0.9166
+        0.1314 0.9921
+        0.9751 1.0000
+        1.2178 1.0000
+        1.2598 0.7897
+        1.2889 0.5198
+        1.3185 0.2024
+      }
+    }
+  }
+  channel "head"
+  {
+    event flexanimation "head"
+    {
+      time 0.020000 1.360000
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.1030 0.6100
+          0.2674 0.5200
+          0.4167 0.5700
+          0.7659 0.5600
+          0.8568 0.6700
+          0.9945 0.6000
+        }
+        "head_tilt"         range 18.0 -18.0        
+        {
+          0.1148 0.5400
+          0.4967 0.5100
+          0.6791 0.5400
+          0.9681 0.5200
+          1.1109 0.5400
+        }
+        "part"         combo        
+        {
+        }
+        {
+          0.3787 0.5000
+        }
+        "stretcher"         combo        
+        {
+        }
+        {
+          0.3787 0.5000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "184"
+  "RampTool" "172"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!target1"
+{
+  channel "Audio"
+  {
+    event speak "ep_02.cit_welder_bottle"
+    {
+      time 0.102565 2.747916
+      param "ep_02.cit_welder_bottle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.115384 3.282051
+      param "!player"
+      event_ramp
+      {
+        0.4300 0.8496
+        0.6880 1.0000 "curve_easein_to_curve_easeout"
+        2.0162 1.0000
+        2.3834 1.0000 "curve_easein_to_curve_easeout"
+        2.5937 0.8929
+        3.0697 0.0867
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+    event face "!player"
+    {
+      time 0.217949 3.179488
+      param "!player"
+      event_ramp
+      {
+        0.3735 0.1438 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        1.3320 0.1750 "curve_easein_to_curve_easeout"
+        2.2415 0.1688
+      }
+      lockbodyfacing
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "body"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "g_weld_down"
+    {
+      time 0.038461 3.287181
+      param "g_weld_down"
+      absolutetags playback_time
+      {
+        "in" 0.064430
+        "loop" 0.161076
+        "end" 0.689026
+        "out" 0.858330
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.147059
+        "loop" 0.367647
+        "end" 0.735294
+        "out" 0.955882
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+    event firetrigger "1. spark off"
+    {
+      time 0.128205 -1.000000
+      param "1"
+    }
+    event firetrigger "2. spark on"
+    {
+      time 3.128205 -1.000000
+      param "2"
+    }
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "RampTool" "58"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "CChoreoView" "52"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "!target1"
+{
+  channel "Audio"
+  {
+    event speak "ep_02.cit_welderplususe_01"
+    {
+      time 0.769231 14.678574
+      param "ep_02.cit_welderplususe_01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.115384 14.769231
+      param "!player"
+      event_ramp
+      {
+        0.4300 0.8496
+        0.6880 1.0000 "curve_easein_to_curve_easeout"
+        13.5035 1.0000
+        13.8707 1.0000 "curve_easein_to_curve_easeout"
+        14.0810 0.8929
+        14.5570 0.0867
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+    event face "!player"
+    {
+      time 0.217949 14.820512
+      param "!player"
+      event_ramp
+      {
+        0.3735 0.1438 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        1.3320 0.1750 "curve_easein_to_curve_easeout"
+        13.8826 0.1688
+      }
+      lockbodyfacing
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "g_weld_down"
+    {
+      time 0.128205 15.184616
+      param "g_weld_down"
+      absolutetags playback_time
+      {
+        "in" 0.022465
+        "loop" 0.056161
+        "end" 0.923447
+        "out" 0.957459
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.147059
+        "loop" 0.367647
+        "end" 0.735294
+        "out" 0.955882
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "body"
+  {
+    event gesture "bg_right"
+    {
+      time 1.141026 5.943591
+      param "bg_right"
+      absolutetags playback_time
+      {
+        "apex" 0.070475
+        "extreme" 0.133903
+        "loop" 0.218473
+        "end" 0.887701
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.153846
+        "extreme" 0.292308
+        "loop" 0.476923
+        "end" 0.723077
+      }
+      sequenceduration 2.200000
+    }
+    event gesture "bg_up_l"
+    {
+      time 6.192307 8.266667
+      param "bg_up_l"
+      absolutetags playback_time
+      {
+        "apex" 0.085106
+        "extreme" 0.276596
+        "loop" 0.425532
+        "end" 0.638298
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.085106
+        "extreme" 0.276596
+        "loop" 0.425532
+        "end" 0.638298
+      }
+      sequenceduration 1.600000
+    }
+    event gesture "bg_up_r"
+    {
+      time 11.141026 13.971797
+      param "bg_up_r"
+      event_ramp
+      {
+        0.1966 0.5313
+        2.3172 0.6125
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.048104
+        "extreme" 0.156337
+        "loop" 0.240518
+        "end" 0.817868
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.085106
+        "extreme" 0.276596
+        "loop" 0.425532
+        "end" 0.638298
+      }
+      sequenceduration 1.600000
+    }
+    event gesture "bg_right"
+    {
+      time 7.423078 9.623076
+      param "bg_right"
+      absolutetags playback_time
+      {
+        "apex" 0.153846
+        "extreme" 0.292308
+        "loop" 0.476923
+        "end" 0.723077
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.153846
+        "extreme" 0.292308
+        "loop" 0.476923
+        "end" 0.723077
+      }
+      sequenceduration 2.200000
+    }
+    event gesture "bg_up_r"
+    {
+      time 3.346154 6.010257
+      param "bg_up_r"
+      absolutetags playback_time
+      {
+        "apex" 0.085106
+        "extreme" 0.276596
+        "loop" 0.425532
+        "end" 0.730769
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.085106
+        "extreme" 0.276596
+        "loop" 0.425532
+        "end" 0.638298
+      }
+      sequenceduration 1.600000
+    }
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+    event firetrigger "1. spark off"
+    {
+      time 0.615385 -1.000000
+      param "1"
+    }
+    event firetrigger "2. spark on"
+    {
+      time 14.525642 -1.000000
+      param "2"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "52"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "58"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "!target1"
+{
+  channel "Audio"
+  {
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.115384 3.282051
+      param "!player"
+      event_ramp
+      {
+        0.4300 0.8496
+        0.6880 1.0000 "curve_easein_to_curve_easeout"
+        2.0162 1.0000
+        2.3834 1.0000 "curve_easein_to_curve_easeout"
+        2.5937 0.8929
+        3.0697 0.0867
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+    event face "!player"
+    {
+      time 0.217949 3.179488
+      param "!player"
+      event_ramp
+      {
+        0.3735 0.1438 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        1.3320 0.1750 "curve_easein_to_curve_easeout"
+        2.2415 0.1688
+      }
+      lockbodyfacing
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "body"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "g_weld_down"
+    {
+      time 0.038461 3.287181
+      param "g_weld_down"
+      absolutetags playback_time
+      {
+        "in" 0.064430
+        "loop" 0.161076
+        "end" 0.689026
+        "out" 0.858330
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.147059
+        "loop" 0.367647
+        "end" 0.735294
+        "out" 0.955882
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+    event firetrigger "1. spark off"
+    {
+      time 0.128205 -1.000000
+      param "1"
+    }
+    event firetrigger "2. spark on"
+    {
+      time 3.128205 -1.000000
+      param "2"
+    }
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "RampTool" "58"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "CChoreoView" "52"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "trust1"
+    {
+      time 0.040000 1.263311
+      param "npc_citizen.wetrustedyou01"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+    event flexanimation "face"
+    {
+      time 0.006667 1.313334
+      param ""
+      flexanimations samples_use_time
+      {
+        "lowerer"         combo        
+        {
+          0.0975 0.7700
+          1.0679 0.9200
+        }
+        {
+          0.1081 0.5000
+        }
+        "cheek_raiser"         combo        
+        {
+          0.1081 0.7300
+          0.3933 0.8800
+          0.7647 0.9300
+          1.0256 0.8000
+        }
+        {
+          0.1081 0.5000
+        }
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.1301 0.5900
+          0.3193 0.5600
+          0.4304 0.6700
+          0.6193 0.5800
+          0.8003 0.5700
+          0.9775 0.5000
+        }
+        "head_tilt"         range 18.0 -18.0        
+        {
+          0.1301 0.5000
+          0.4026 0.5600
+          0.9098 0.5100
+        }
+        "lid_tightener"         combo        
+        {
+          0.0857 0.4700
+          0.2696 0.7500
+          0.4875 0.7800
+          0.7904 0.7900
+          1.1179 0.5200
+        }
+        {
+          0.1083 0.5000
+        }
+        "wrinkler"        
+        {
+          0.1006 0.4700
+          0.3164 0.6300
+          0.6180 0.6300
+          1.0920 0.3900
+        }
+      }
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.006667 1.313335
+      param "!player"
+      event_ramp
+      {
+        0.0271 0.2064
+        0.0611 0.5317
+        0.1141 0.9166
+        0.1493 0.9921
+        0.9770 1.0000
+        1.1148 1.0000
+        1.1979 0.7897
+        1.2484 0.5198
+        1.2852 0.2024
+      }
+    }
+  }
+  channel "head"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "168"
+  "RampTool" "112"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "trust2"
+    {
+      time 0.040000 1.058209
+      param "npc_citizen.wetrustedyou02"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+    event flexanimation "face"
+    {
+      time 0.006667 1.133334
+      param ""
+      flexanimations samples_use_time
+      {
+        "lowerer"         combo        
+        {
+        }
+        {
+          0.1081 0.5000
+        }
+        "cheek_raiser"         combo        
+        {
+          0.1081 0.2600
+          0.9665 0.2700
+        }
+        {
+          0.1081 0.5000
+        }
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.1301 0.5900
+          0.3193 0.5600
+          0.4304 0.6300
+          0.6193 0.5800
+          0.8003 0.5700
+          0.9775 0.5000
+        }
+        "head_tilt"         range 18.0 -18.0        
+        {
+          0.1301 0.5000
+          0.4026 0.5500
+          0.9098 0.5100
+        }
+        "lid_tightener"         combo        
+        {
+        }
+        {
+          0.1083 0.5000
+          0.1083 0.5000
+        }
+        "inner_raiser"         combo        
+        {
+          0.1083 0.5500
+          0.9709 0.6800
+        }
+        {
+          0.1083 0.5000
+        }
+        "wrinkler"        
+        {
+          0.1006 0.3300
+        }
+      }
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.006667 1.133335
+      param "!player"
+      event_ramp
+      {
+        0.0271 0.2064
+        0.0611 0.5317
+        0.1141 0.9166
+        0.1493 0.9921
+        0.7970 1.0000
+        0.9348 1.0000
+        1.0179 0.7897
+        1.0684 0.5198
+        1.1052 0.2024
+      }
+    }
+  }
+  channel "head"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "168"
+  "RampTool" "112"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "whoops01"
+    {
+      time 0.066667 0.475896
+      param "npc_citizen.whoops01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.066666 0.522222
+      param "!player"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "yeah02"
+    {
+      time 0.006667 0.881882
+      param "npc_citizen.yeah02"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "player"
+    {
+      time 0.020000 0.880000
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "youdbetterreload01"
+    {
+      time 0.006667 1.082018
+      param "npc_citizen.youdbetterreload01"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 1.093334
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "yougotit02"
+    {
+      time 0.006667 0.532018
+      param "npc_citizen.yougotit02"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 0.540000
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "zombies01"
+    {
+      time 0.006667 1.229093
+      param "npc_citizen.zombies01"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "zombies02"
+    {
+      time 0.006667 0.829048
+      param "npc_citizen.zombies02"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "look at player"
+    {
+      time 0.062318 4.381740
+      param "!player"
+      event_ramp
+      {
+        0.4400 0.9958
+        4.0834 0.9831
+      }
+    }
+  }
+  channel "Gesture"
+  {
+    event sequence "Wave"
+    {
+      time 0.260868 3.594201
+      param "Wave"
+      event_ramp
+      {
+        0.4200 0.8796
+        0.5100 0.9672
+        0.6650 1.0000
+        2.5750 1.0000
+        2.7050 0.9489
+        2.7900 0.8650
+      }
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event face "!player"
+    {
+      time 0.101449 4.500000
+      param "!player"
+      event_ramp
+      {
+        0.6800 0.7119
+        4.3985 1.0000
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "46"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "40"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "lighthouse_morale"
+    {
+      time 0.096411 11.888656
+      param "barn.lighthouse_morale"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "look at player"
+    {
+      time 0.026666 12.128571
+      param "!player"
+      event_ramp
+      {
+        0.4160 0.8467
+        0.4840 0.9380
+        0.6260 1.0000
+        11.5080 0.9964
+        11.6020 0.9599
+        11.6840 0.9015
+        11.7840 0.7555
+      }
+    }
+  }
+  channel "Turn to face"
+  {
+    event face "face player"
+    {
+      time -0.015873 12.160563
+      param "!player"
+      event_ramp
+      {
+        0.7020 0.8613
+        0.8240 0.9562
+        0.9980 1.0000
+        11.3420 1.0000
+        12.1764 1.0000
+        12.1764 1.0000
+      }
+    }
+  }
+  channel "sequence"
+  {
+  }
+  channel "body_gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.051282
+      param ""
+    }
+    event gesture "b_OverHere_Right"
+    {
+      time 2.948719 5.222860
+      param "b_OverHere_Right"
+      event_ramp
+      {
+        0.3380 0.7701
+        0.4440 0.9015
+        0.6320 0.9708
+        1.0137 0.9380
+        1.2468 0.8029
+        1.9050 0.1643
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.192090
+        "extreme" 0.711794
+        "loop" 0.726729
+        "end" 0.865593
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      sequenceduration 1.800000
+    }
+    event gesture "hg_headshake"
+    {
+      time 4.576923 6.618788
+      param "hg_headshake"
+      absolutetags playback_time
+      {
+        "apex" 0.166650
+        "loop" 0.216646
+        "extreme" 0.333301
+        "end" 0.700029
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.208333
+        "loop" 0.270833
+        "extreme" 0.416667
+        "end" 0.625000
+      }
+      sequenceduration 1.633333
+    }
+    event gesture "NULL"
+    {
+      time 5.884615 6.128205
+      param ""
+    }
+    event gesture "b_OverHere_Left"
+    {
+      time 6.423077 8.901691
+      param "b_OverHere_Left"
+      event_ramp
+      {
+        0.3980 0.7080
+        0.5360 0.8723
+        0.7080 0.9124
+        1.4428 0.8759
+        1.5548 0.7518
+        1.9248 0.0547
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.219780
+        "extreme" 0.767364
+        "loop" 0.807709
+        "end" 0.876681
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      sequenceduration 1.800000
+    }
+    event gesture "bg_accentUp"
+    {
+      time 0.346154 2.543019
+      param "bg_accentUp"
+      event_ramp
+      {
+        0.3115 0.5179
+        0.6231 0.6107
+        0.8423 0.5500
+        1.5154 0.0857
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.138455
+        "extreme" 0.338445
+        "loop" 0.615355
+        "end" 0.661555
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.305556
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      sequenceduration 2.433333
+    }
+    event gesture "NULL"
+    {
+      time 2.397436 2.897436
+      param ""
+    }
+    event gesture "bg_accentFwd"
+    {
+      time 1.461538 4.471795
+      param "bg_accentFwd"
+      event_ramp
+      {
+        0.3269 0.7143
+        0.8885 0.8071
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.112271
+        "extreme" 0.291903
+        "loop" 0.449082
+        "end" 0.463736
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.138889
+        "extreme" 0.361111
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      sequenceduration 2.433333
+    }
+    event gesture "b_head_forward"
+    {
+      time 8.089743 10.941027
+      param "b_head_forward"
+      event_ramp
+      {
+        0.3923 0.4821
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.177566
+        "extreme" 0.708678
+        "loop" 0.749045
+        "end" 0.829781
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      sequenceduration 1.800000
+    }
+  }
+  channel "body_gestures_accent"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.794872
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 8.717949 9.217949
+      param ""
+    }
+    event gesture "hg_puncuate_down"
+    {
+      time 9.384616 11.017949
+      param "hg_puncuate_down"
+      event_ramp
+      {
+        0.5420 0.7445
+        0.8480 0.8431
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.333333
+        "extreme" 0.541667
+        "loop" 0.552500
+        "end" 0.562500
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.333333
+        "extreme" 0.541667
+        "loop" 0.562500
+        "end" 0.562500
+      }
+      sequenceduration 1.633333
+    }
+    event gesture "NULL"
+    {
+      time 4.500000 4.846154
+      param ""
+    }
+    event gesture "bg_accentFwd"
+    {
+      time 4.679487 7.112821
+      param "bg_accentFwd"
+      event_ramp
+      {
+        0.3769 0.2071
+        1.7115 0.2500
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.138889
+        "extreme" 0.361111
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.138889
+        "extreme" 0.361111
+        "loop" 0.555556
+        "end" 0.694444
+      }
+    }
+  }
+  channel "flex"
+  {
+    event flexanimation "facial"
+    {
+      time 0.064103 12.153847
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser"         combo        
+        {
+          0.5845 0.9200
+          1.4538 0.0600
+          7.7974 0.1000
+          8.1988 0.9400
+          10.9109 0.8900
+        }
+        {
+        }
+        "inner_raiser"         combo        
+        {
+          1.8734 0.1700
+          2.1823 0.9100
+          3.8967 0.9400
+          4.0916 0.2100
+          8.0932 0.0000
+          9.3672 1.0000
+          10.3713 0.9600
+          11.7294 0.0400
+        }
+        {
+        }
+        "outer_raiser"         combo        
+        {
+          1.4838 0.0900
+          1.7111 0.8100
+          3.5050 0.9400
+          4.5035 0.8900
+          4.7810 0.0600
+          6.3847 0.0000
+          8.3630 0.0700
+          9.9217 0.5800
+          11.0158 0.9000
+        }
+        {
+        }
+        "lowerer"         combo        
+        {
+          0.0937 0.7400
+          1.7685 0.0000
+          3.8967 0.0000
+          5.8901 0.8900
+          8.1232 1.0000
+          8.9026 0.0800
+        }
+        {
+        }
+        "cheek_raiser"         combo        
+        {
+          5.2040 0.3000
+          5.5604 0.8900
+          7.1190 0.9100
+          7.5835 0.2700
+        }
+        {
+        }
+        "dilator"        
+        {
+          8.6478 0.1700
+          10.2364 0.8800
+          11.4804 0.9000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "52"
+  "SceneRampTool" "100"
+  "ExpressionTool" "14"
+  "GestureTool" "100"
+  "RampTool" "52"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!target1"
+{
+  channel "audio"
+  {
+  }
+  channel "Look at"
+  {
+    event lookat "player"
+    {
+      time 0.000000 0.473333
+      param "!player"
+      event_ramp
+      {
+        0.2480 0.9912
+      }
+    }
+  }
+  channel "Face to"
+  {
+  }
+  channel "Move to"
+  {
+    event firetrigger "pause"
+    {
+      time 0.240000 -1.000000
+      param "1"
+    }
+  }
+  channel "Posture"
+  {
+  }
+  channel "Gesture"
+  {
+  }
+  channel "Flex anim"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "50"
+  "SceneRampTool" "100"
+  "ExpressionTool" "38"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!target1"
+{
+  channel "audio"
+  {
+  }
+  channel "Look at"
+  {
+    event lookat "player"
+    {
+      time -0.000000 0.473333
+      param "!player"
+      event_ramp
+      {
+        0.2480 0.9912
+      }
+    }
+  }
+  channel "Face to"
+  {
+    event face "face to"
+    {
+      time 0.006667 0.480000
+      param "!player"
+      event_ramp
+      {
+        0.2560 0.9956
+      }
+    }
+  }
+  channel "Move to"
+  {
+    event firetrigger "pause"
+    {
+      time 0.240000 -1.000000
+      param "1"
+    }
+  }
+  channel "Posture"
+  {
+  }
+  channel "Gesture"
+  {
+  }
+  channel "Flex anim"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "50"
+  "SceneRampTool" "100"
+  "ExpressionTool" "38"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!target1"
+{
+  channel "audio"
+  {
+  }
+  channel "Look at"
+  {
+    event lookat "player"
+    {
+      time 0.000000 0.473333
+      param "!target2"
+      event_ramp
+      {
+        0.2480 0.9912
+      }
+    }
+  }
+  channel "Face to"
+  {
+  }
+  channel "Move to"
+  {
+    event firetrigger "pause"
+    {
+      time 0.240000 -1.000000
+      param "1"
+    }
+  }
+  channel "Posture"
+  {
+  }
+  channel "Gesture"
+  {
+  }
+  channel "Flex anim"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "50"
+  "SceneRampTool" "100"
+  "ExpressionTool" "38"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "barn.getoffroad01"
+    {
+      time 0.347826 1.327032
+      param "barn.getoffroad01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+  channel "triggers"
+  {
+  }
+  channel "Look at"
+  {
+  }
+  channel "Face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "46"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "72"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "barn.getoffroad01"
+    {
+      time 0.347826 1.966375
+      param "barn.getcaringarage"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+  channel "triggers"
+  {
+  }
+  channel "Look at"
+  {
+  }
+  channel "Face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "46"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "72"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+  channel "triggers"
+  {
+  }
+  channel "Look at"
+  {
+    event lookat "player"
+    {
+      time 0.014493 5.438259
+      param "!player"
+      event_ramp
+      {
+        0.3632 0.7660
+        0.4192 0.8191
+        0.5152 0.8457
+        4.6590 0.7999
+        4.7550 0.7627
+        4.8070 0.7201
+        5.2759 0.0608
+        5.3620 0.0101
+      }
+    }
+  }
+  channel "Face to"
+  {
+  }
+  channel "posture"
+  {
+    event gesture "Scan_Skies_Respond"
+    {
+      time 0.000000 5.430434
+      param "Scan_Skies_Respond"
+      absolutetags playback_time
+      {
+        "apex" 0.080731
+        "loop" 0.242194
+        "end" 0.815508
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "loop" 0.441176
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "46"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "72"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+  }
+  channel "Trigger"
+  {
+    event firetrigger "open gate 1"
+    {
+      time 2.906666 -1.000000
+      param "1"
+    }
+  }
+  channel "Look"
+  {
+    event lookat "Look at button"
+    {
+      time 0.380001 3.800000
+      param "info_lookat_button"
+      event_ramp
+      {
+        0.2960 0.3098
+        0.6360 0.8868
+        1.0040 0.9969
+        2.7213 0.9953
+        2.9973 0.8900
+        3.1253 0.6525
+      }
+    }
+    event lookat "Look at player"
+    {
+      time 3.326666 5.246667
+      param "!player"
+      event_ramp
+      {
+        0.2040 0.6132
+        0.4160 0.8742
+        0.8120 0.9984
+        1.5107 0.9984
+        1.7827 0.8899
+        1.8627 0.6305
+      }
+    }
+  }
+  channel "Face to"
+  {
+    event face "Face to player"
+    {
+      time 3.520000 5.240002
+      param "!player"
+      event_ramp
+      {
+        0.4080 0.4371
+        1.1680 0.9277
+        1.7200 1.0000
+      }
+    }
+    event face "Face to button"
+    {
+      time 0.066666 3.893334
+      param "info_lookat_button"
+      event_ramp
+      {
+        0.3840 0.3459
+        0.7680 0.7720
+        1.9814 1.0000
+        3.8267 1.0000
+      }
+    }
+  }
+  channel "Postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.606667
+      param ""
+    }
+    event gesture "p_pushbutton_rifle"
+    {
+      time 1.520000 4.040000
+      param "p_ConsoleType_Rifle"
+      absolutetags playback_time
+      {
+        "apex" 0.133813
+        "loop" 0.628922
+        "end" 0.802879
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.116279
+        "loop" 0.546512
+        "end" 0.697674
+      }
+      sequenceduration 2.900000
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.240000
+      param ""
+    }
+    event gesture "g_pushbutton_rifle"
+    {
+      time 2.373335 4.373334
+      param "g_buttonpush_rifle"
+      absolutetags playback_time
+      {
+        "apex" 0.169540
+        "accent" 0.237356
+        "loop" 0.610345
+        "end" 0.678161
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.172414
+        "accent" 0.241379
+        "loop" 0.620690
+        "end" 0.689655
+      }
+      sequenceduration 1.966667
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "50"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "chatter"
+    {
+      time 0.006667 2.584014
+      param "barn.chatter"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "look at player"
+    {
+      time 0.026666 2.586665
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "ditchcar"
+    {
+      time 0.006667 2.559207
+      param "barn.ditchcar"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "look at player"
+    {
+      time 0.026666 2.566665
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "exit_cliffpath"
+    {
+      time 0.006667 3.601542
+      param "barn.exit_cliffpath"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "look at player"
+    {
+      time 0.026666 3.606665
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "exit_comewith"
+    {
+      time 0.006667 3.108526
+      param "barn.exit_comewith"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "look at player"
+    {
+      time 0.026666 3.133332
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "exit_watchstep"
+    {
+      time 0.006667 2.671905
+      param "barn.exit_watchstep"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "look at player"
+    {
+      time 0.026666 2.673332
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "getcarinbarn"
+    {
+      time 0.006667 1.548481
+      param "barn.getcarinbarn"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "look at player"
+    {
+      time 0.026666 1.566665
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"

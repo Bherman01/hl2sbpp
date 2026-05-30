@@ -1,0 +1,24 @@
+ firetrigger "3 - Dog picks up door"
+    {
+      time 55.050079 -1.000000
+      param "3"
+    }
+    event firetrigger "1 - Dog climb gate"
+    {
+      time 21.661196 -1.000000
+      param "1"
+    }
+    event firetrigger "2 - Dog throw car 1"
+    {
+      time 41.493923 -1.000000
+      param "2"
+    }
+    event firetrigger "dog trow SS 7"
+    {
+      time 1.357139 -1.000000
+      param "7"
+    }
+    event firetrigger "back over wall 4"
+    {
+      time 45.238087 -1.000000
+     

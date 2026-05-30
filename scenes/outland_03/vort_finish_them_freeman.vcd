@@ -1,0 +1,54 @@
+\models\alyx.mdl"
+}
+
+actor "Mossman"
+{
+  channel "audio"
+  {
+    event speak "it's the only way"
+    {
+      time 0.065186 4.562601
+      param "novaprospekt.mo_onlyway"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look_alyx"
+    {
+      time 5.474955 13.628288
+      param "alyx"
+      event_ramp
+      {
+        0.3077 0.4114
+        0.4615 0.6856
+        0.6615 0.8796
+        0.9308 0.9833
+        8.1406 0.9866
+      }
+    }
+    event lookat "!player"
+    {
+      time 4.040611 6.355561
+      param "!player"
+      event_ramp
+      {
+        0.3077 0.4114
+        0.4615 0.6856
+        0.6615 0.8796
+        0.9308 0.9833
+        2.3022 0.9866
+      }
+    }
+    event lookat "look_alyx"
+    {
+      time 0.262833 4.880813
+      param "alyx"
+      event_ramp
+      {
+        0.3077 0.4114
+        0.4615 0.6856
+        0.6615 0.8796
+      

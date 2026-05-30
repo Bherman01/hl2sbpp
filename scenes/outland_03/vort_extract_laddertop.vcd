@@ -1,0 +1,196 @@
+esture "2"
+    {
+      time 16.347826 28.995651
+      param "Posture_PodAlert"
+      absolutetags playback_time
+      {
+        "apex" 0.079963
+        "loop" 0.210364
+        "end" 0.867277
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.340909
+        "loop" 0.511364
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.260869 28.818842
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser"         combo        
+        {
+          0.7145 0.1100
+          1.7487 0.4100
+          4.1085 0.1100
+          8.4544 0.0500
+          9.6437 0.3900
+          16.3658 0.3900
+          19.5459 0.1100
+          22.5967 0.1100
+          24.0963 0.4400
+          27.6383 0.4400
+        }
+        {
+          0.7145 0.5000
+          1.7487 0.5000
+          4.1085 0.5000
+          8.4544 0.5000
+          9.6437 0.5000
+          16.3658 0.5000
+          19.5459 0.5000
+          22.5967 0.5000
+          24.0963 0.5000
+          27.6383 0.5000
+        }
+        "outer_raiser"         combo        
+        {
+          0.7145 0.1900
+          1.7487 0.5600
+          4.1085 0.2400
+          8.4544 0.1400
+          9.6437 0.6300
+          16.3658 0.6300
+          19.5459 0.1800
+          22.5967 0.1800
+          24.0963 1.0000
+          27.6383 1.0000
+        }
+        {
+          0.7145 0.5000
+          1.7487 0.5000
+          4.1085 0.5000
+          8.4544 0.5000
+          9.6437 0.5000
+          16.3658 0.5000
+          19.5459 0.5000
+          22.5967 0.5000
+          24.0963 0.5000
+          27.6383 0.5000
+        }
+      }
+    }
+  }
+  channel "trigger"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\Eli.mdl"
+}
+
+actor "Kleiner"
+{
+  channel "audio"
+  {
+    event speak "yes alyx"
+    {
+      time 1.866670 3.902294
+      param "novaprospekt.kl_yesalyx"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ready, etc."
+    {
+      time 9.280003 12.377689
+      param "novaprospekt.kl_ready"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\d2_prison_08.bsp"
+scalesettings
+{
+  "CChoreoView" "23"
+  "ExpressionTool" "8"
+  "GestureTool" "100"
+  "RampTool" "48"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 18.886911 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "come back!"
+    {
+      time 4.642439 6.854049
+      param "novaprospekt.al_comebackdad"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_mutter"
+    {
+      time 12.134032 16.137524
+      param "novaprospekt.al_mutter"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "novaprospekt.al_combinespy01"
+    {
+      time 3.773421 4.421698
+      param "novaprospekt.al_combinespy01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "streetwar.al_no"
+    {
+      time 7.342049 8.281709
+      param "streetwar.al_no"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look_mossman"
+    {
+      time 16.481396 19.628487
+      param "mossman"
+      event_ramp
+      {
+        0.2038 0.5682
+        0.3077 0.7955
+        0.4769 0.9470
+ 

@@ -1,0 +1,29 @@
+       0.0030 0.6178
+        0.0333 0.6152
+        1.5956 0.5209
+        1.6471 0.5157
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.142857
+        "extreme" 0.410714
+        "loop" 0.673469
+        "end" 0.714286
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.111111
+        "extreme" 0.349206
+        "loop" 0.523810
+        "end" 0.555556
+      }
+      sequenceduration 2.133333
+    }
+    event gesture "M_bg_hshake"
+    {
+      time 5.303704 8.437037
+      param "M_bg_hshake"
+      event_ramp
+      {
+        0.0030 0.8377
+     

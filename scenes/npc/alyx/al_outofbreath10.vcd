@@ -1,0 +1,42 @@
+"
+{
+  channel "audio"
+  {
+    event speak "ep_01.al_swamped07"
+    {
+      time 0.268817 0.752196
+      param "ep_01.al_swamped06"
+      param2 "0.700"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  chan

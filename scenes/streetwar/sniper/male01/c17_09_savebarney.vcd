@@ -1,0 +1,254 @@
+       5.6167 0.0200 "curve_easein_to_curve_hold"
+          13.1833 0.0300
+          13.7833 0.3300 "curve_easein_to_curve_easeout"
+          14.1167 0.3600
+          14.3111 0.0900
+          19.7444 0.0200
+          19.8500 0.5000
+          20.1667 0.6800
+          20.3278 0.0900
+        }
+        {
+          2.2547 0.5000
+        }
+      }
+    }
+  }
+  channel "facial_emphasis"
+  {
+    event flexanimation "mouth"
+    {
+      time 0.036232 25.311594
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "corner_puller" combo 
+        {
+          1.9209 0.0000
+          2.1778 0.0500
+          2.4688 0.2600
+          2.7563 0.3500
+          3.0188 0.3100
+          3.3063 0.2517
+          3.5188 0.2386
+          3.7125 0.3870
+          4.0750 0.4584
+          4.4250 0.1830
+          5.1000 0.2400
+          5.4875 0.0400
+          5.6938 0.0508
+          5.8813 0.1800
+          6.4688 0.2148
+          6.9000 0.1494
+          7.2250 0.1428
+          7.7813 0.1000
+          8.7278 0.0100
+        }
+        {
+          1.9209 0.5000
+        }
+        "mouth_sideways" range -1.0 1.0 
+        {
+          1.9209 0.5000
+          2.3375 0.5100
+          2.6125 0.5000
+          2.8563 0.5600
+          3.0333 0.6100
+          3.3049 0.5500
+          3.5750 0.5000
+          4.0660 0.6000
+          4.4056 0.4800
+          4.7438 0.4300
+          5.0944 0.6100
+          5.3938 0.5600
+          5.7250 0.4200
+          6.8250 0.4900
+          7.1438 0.3900
+          7.4188 0.3800
+          7.7702 0.4500
+          8.7625 0.5300
+          9.3222 0.5900 "curve_easein_to_curve_easeout"
+          9.9278 0.6400
+          10.3778 0.5100
+          11.3778 0.5200
+          12.3167 0.4800
+          13.0389 0.4900
+          13.3611 0.4500
+          13.7944 0.3900 "curve_easein_to_curve_easeout"
+          14.2056 0.4500
+          16.8944 0.4300
+          17.3500 0.5100
+          17.5778 0.4300
+          17.9333 0.6300
+          18.4333 0.6600
+          18.7278 0.5100
+          19.1500 0.4800
+          19.5667 0.4700 "curve_easein_to_curve_easeout"
+        }
+        "jaw_sideways" range -1.0 1.0 
+        {
+          1.9209 0.5000
+          5.4125 0.6100
+          6.8188 0.5500
+          6.9944 0.4800
+          7.2188 0.4900
+          7.4167 0.5600
+          7.7646 0.5600
+          8.7889 0.5100
+          9.3222 0.8000
+          9.8833 0.7800
+          10.3480 0.5300
+          11.3778 0.3900
+          12.1500 0.4100 "curve_easein_to_curve_easeout"
+          12.3611 0.5200
+          13.0889 0.5700
+          13.3889 0.5400
+          13.6389 0.4900
+          13.9167 0.4700 "curve_easein_to_curve_easeout"
+          14.2778 0.5100 "curve_easein_to_curve_easeout"
+          16.9333 0.5500
+          17.4111 0.6700
+          17.6056 0.4200
+          17.9611 0.7600
+          18.4667 0.8200
+          18.7556 0.6400
+          19.1556 0.5600
+          19.5889 0.5700 "curve_easein_to_curve_easeout"
+          20.1667 0.5300
+        }
+      }
+    }
+  }
+  faceposermodel "U:\DEV\main\game\ep2\models\magnusson.mdl"
+}
+
+actor "alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_02.al_launch_gethug"
+    {
+      time 25.388136 29.740154
+      param "ep_02.al_launch_gethug"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_launch_moveitnag03a"
+    {
+      time 31.903391 33.486839
+      param "ep_02.al_launch_moveitnag03a"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_launch_moveitnag03b"
+    {
+      time 33.649155 35.859493
+      param "ep_02.al_launch_moveitnag03b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "moveTo"
+  {
+    event moveto "Moveto !target2"
+    {
+      time 0.791978 1.913979
+      param "!target2"
+    }
+    event moveto "!player"
+    {
+      time 26.431372 28.372549
+      param "!player"
+      param2 "Walk"
+      distancetotarget 70.00
+    }
+    active "0"
+  }
+  channel "faceTo"
+  {
+    event face "Face !player"
+    {
+      time 1.423077 25.423075
+      param "!player"
+      event_ramp
+      {
+        0.3074 0.0856
+        0.6741 0.3738
+        0.9296 0.5450
+        1.2667 0.6621
+        1.9667 0.7252
+        3.1333 0.7523
+        4.2000 0.7568
+        21.1333 0.7477
+        21.7333 0.7432
+        22.7519 0.6982
+        23.1630 0.6081
+        23.4593 0.4054
+        23.8704 0.0270
+      }
+    }
+    event face "player"
+    {
+      time 24.922583 27.655340
+      param "!player"
+      event_ramp
+      {
+        0.1778 0.2838
+        0.3852 0.6802
+        0.5852 0.8964
+        0.7222 0.9640
+        1.1074 1.0000
+        2.7328 1.0000
+      }
+    }
+    active "0"
+  }
+  channel "look at"
+  {
+    event lookat "magnusson"
+    {
+      time 0.011567 4.837949
+      param "magnusson"
+      event_ramp
+      {
+        0.1481 0.1216 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        0.4361 0.5994 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        0.6407 0.8378
+        0.8815 0.9595 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        1.1981 1.0000 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        3.4724 1.0000
+        3.8160 0.9730
+        4.0568 0.8964
+        4.2938 0.7072
+        4.4961 0.3862
+      }
+    }
+    event lookat "!player"
+    {
+      time 3.834148 7.182035
+      param "!player"
+      event_ramp
+      {
+        0.1481 0.1216 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        0.4361 0.5994 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        0.6407 0.8378
+        0.8815 0.9595 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        1.1981 1.0000 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        1.9939 1.0000
+        2.3375 0.9730
+        2.5783 0.8964
+        2.8153 0.7072
+        3.0176 0.3862
+      }
+    }
+    event lookat "magnusson"
+    {
+      time 6.318018 13.139024
+      param "magnusson"
+      event_ramp
+      {
+        0.1481 0.1216 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        0.4361 0.5994 "curve_

@@ -1,0 +1,24 @@
+ param "NPC_dog.Dissapointed_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc_dog.phrase10"
+    {
+      time 13.880950 15.213558
+      param "npc_dog.phrase10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_dog.Playful_4"
+    {
+      time 22.119047 22.684263
+      param "NPC_dog.Playful_4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_dog.Playful_4"
+    {
+      time 2

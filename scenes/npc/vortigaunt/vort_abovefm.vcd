@@ -1,0 +1,55 @@
+   {
+          0.0120 0.5016 "curve_default_to_curve_hold"
+          0.5040 0.5032
+          0.6931 0.4409
+          0.8545 0.7412
+          0.9715 0.7853
+          1.1273 0.6550
+          1.3051 0.5815
+          1.5462 0.5751 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+          1.8370 0.5879
+          2.3864 0.5080 "curve_default_to_curve_hold"
+        }
+        "head_tilt" range 15.0 -15.0 
+        {
+          0.2280 0.5000
+        }
+      }
+    }
+    event generic "AI_BLINK"
+    {
+      time 0.034723 3.069444
+      param "AI_BLINK"
+    }
+  }
+  channel "FaceTo"
+  {
+    event face "!player"
+    {
+      time 0.013889 2.208333
+      param "!player"
+      event_ramp 
+      {
+        0.4449 0.3386 "curve_default_to_curve_hold"
+        1.7251 0.3386
+      }
+      lockbodyfacing
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "66"
+  "RampTool" "78"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Barney"
+{
+  channel "audio"
+  {

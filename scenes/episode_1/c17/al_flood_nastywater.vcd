@@ -1,0 +1,26 @@
+ to"
+  {
+    event face "barney"
+    {
+      time 6.204288 18.140909
+      param "barney"
+      event_ramp 
+      {
+        0.7545 0.4020
+        1.1636 0.6081
+        1.6818 0.6533
+        3.3500 0.6432
+        8.2750 0.6633
+        10.2288 0.6533
+        10.6106 0.6332
+        11.1470 0.4874
+      }
+    }
+    event face "mark_al_lookAt_barneyDoor"
+    {
+      time 0.990054 6.699676
+      param "mark_al_lookAt_barneyDoor"
+      event_ramp 
+      {
+        0.8588 0.5075
+     

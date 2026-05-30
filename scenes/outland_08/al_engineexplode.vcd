@@ -1,0 +1,161 @@
+time 72.447685 77.196167
+      param "ep_02.gman_mono12"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono13"
+    {
+      time 77.473946 79.023880
+      param "ep_02.gman_mono13"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.gman_mono11"
+    {
+      time 66.694443 72.400749
+      param "ep_02.gman_mono11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  faceposermodel "models\gman.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "88"
+  "ExpressionTool" "96"
+  "GestureTool" "100"
+  "RampTool" "40"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!player"
+{
+  channel "Audio"
+  {
+    event speak "outland_ep02.GMAN_Full_00_01_03"
+    {
+      time 0.000000 174.980957
+      param "outland_ep02.GMAN_Full_00_01_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  faceposermodel "models\gman.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "4"
+  "ExpressionTool" "2"
+  "GestureTool" "100"
+  "RampTool" "72"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "gman_face"
+{
+  channel "lookAt"
+  {
+    event lookat "camera_intro"
+    {
+      time 0.156612 133.912186
+      param "camera_intro"
+    }
+    event lookat "alyx_gman"
+    {
+      time 109.221436 131.779755
+      param "alyx_gman"
+    }
+  }
+  channel "trigger"
+  {
+    event firetrigger "7 - fade to vorts"
+    {
+      time 128.964157 -1.000000
+      param "7"
+    }
+    event firetrigger "Teleport_6"
+    {
+      time 107.451401 -1.000000
+      param "6"
+    }
+    event firetrigger "Teleport_1"
+    {
+      time 18.944441 -1.000000
+      param "1"
+    }
+    event firetrigger "Teleport_2"
+    {
+      time 36.249996 -1.000000
+      param "2"
+    }
+    event firetrigger "Teleport_3"
+    {
+      time 64.180557 -1.000000
+      param "3"
+    }
+    event firetrigger "Teleport_5"
+    {
+      time 79.187508 -1.000000
+      param "5"
+    }
+  }
+  channel "audio"
+  {
+    event speak "gman_mono01"
+    {
+      time 0.618056 4.411616
+      param "ep_02.gman_mono01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono02"
+    {
+      time 4.869949 12.280017
+      param "ep_02.gman_mono02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono03"
+    {
+      time 12.280017 19.919382
+      param "ep_02.gman_mono03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono04"
+    {
+      time 20.336048 21.926615
+      param "ep_02.gman_mono04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono09"
+    {
+      time 53.914833 64.143219
+      param "ep_02.gman_mono09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono10"
+    {
+      time 64.143234 66.685822
+      param "ep_02.gman_mono10"
+      fixedlength
+      cctype "cc_master"
+   

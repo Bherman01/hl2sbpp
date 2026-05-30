@@ -1,0 +1,17 @@
+ 0.8378
+        0.8815 0.9595 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        1.1981 1.0000 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        2.9650 1.0000
+        3.3086 0.9730
+        3.5494 0.8694
+        3.7864 0.6081
+        3.9887 0.2511
+      }
+    }
+    event lookat "!player"
+    {
+      time 24.721245 30.171284
+      param "!player"
+      event_ramp
+      {
+        0.1037 0.1216 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"

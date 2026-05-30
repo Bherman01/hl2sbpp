@@ -1,0 +1,161 @@
+          6.1040 0.2100
+        }
+        {
+          2.5146 0.5000
+          2.9597 0.5000
+          3.6468 0.5000
+          3.8017 0.5000
+          5.0723 0.5000
+          5.1883 0.5000
+          6.1040 0.5000
+        }
+      }
+    }
+  }
+  channel "AI"
+  {
+    event generic "AI_HOLSTER"
+    {
+      time -0.008878 1.438125
+      param "AI_HOLSTER"
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\ep1_citadel_01.bsp"
+scalesettings
+{
+  "CChoreoView" "168"
+  "SceneRampTool" "100"
+  "ExpressionTool" "62"
+  "GestureTool" "100"
+  "RampTool" "32"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause"
+{
+  time 9.045445 -1.000000
+  param "noaction"
+}
+event stoppoint "end"
+{
+  time 87.824471 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_01.al_advisor_outofhere"
+    {
+      time 70.432976 71.567848
+      param "ep_01.al_advisor_outofhere"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_pod_lookout"
+    {
+      time 67.128288 67.753052
+      param "ep_01.al_gravcharge_explo"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_gravcharge_thing"
+    {
+      time 62.939526 64.062790
+      param "ep_01.al_gravcharge_thing"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "citadel.al_gasp01"
+    {
+      time 39.008331 39.466198
+      param "citadel.al_gasp01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_advisor_breen"
+    {
+      time 15.428275 16.159704
+      param "ep_01.al_advisor_breen"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_advisor_oldrecording"
+    {
+      time 25.544008 28.649677
+      param "ep_01.al_advisor_oldrecording"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_gravcharge_anotherconsole02"
+    {
+      time 31.969040 33.948540
+      param "ep_01.al_advisor_findmap02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_advisor_pain01"
+    {
+      time 68.022362 69.537460
+      param "ep_01.al_advisor_pain01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_advisor_pain02"
+    {
+      time 69.262360 70.240501
+      param "ep_01.al_advisor_pain02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_advisor_gonenow"
+    {
+      time 76.650055 77.680443
+      param "ep_01.al_advisor_gonenow"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_advisor_wasthatthing"
+    {
+      time 78.398773 80.648209
+      param "ep_01.al_advisor_wasthatthing"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_advisor_breen"
+    {
+      time 17.127254 17.897867
+      param "ep_01.al_advisor_breen02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_advisor_gonenow"
+    {
+      time 83.312088 85.413490
+      param "ep_01.al_advisor_gonenow02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_advisor_pain02"
+    {
+      time 72.396675 73.374817
+      param "ep_01.al_advisor_pain02"
+      fixedlength
+      cctype "cc_master"

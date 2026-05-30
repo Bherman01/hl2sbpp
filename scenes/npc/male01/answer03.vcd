@@ -1,0 +1,76 @@
+    "apex" 0.153846
+        "accent" 0.346154
+        "loop" 0.448718
+        "end" 0.769231
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.153846
+        "accent" 0.346154
+        "loop" 0.448718
+        "end" 0.769231
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "2"
+    {
+      time -0.000000 2.466666
+      param "g_cross_palmout_right"
+      event_ramp
+      {
+        0.6760 0.7662
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.259539
+        "accent" 0.657194
+        "loop" 0.890302
+        "end" 0.904014
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.205882
+        "accent" 0.632353
+        "loop" 0.882353
+        "end" 0.897059
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.141667 5.808333
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "center_lid_raiser" 
+        {
+          0.7947 0.0000
+          1.5760 0.0000
+          1.9904 0.1900
+          2.4263 0.0600
+          2.8983 0.0000
+          3.5659 0.0000
+          4.0150 0.4600
+          4.6650 0.0100
+        }
+        "center_lid_tightener" 
+        {
+          0.7947 0.0300
+          1.5760 0.0355
+          1.9904 0.0355
+          2.8983 0.0355
+          3.5659 0.0355
+          4.0150 0.0355
+          4.6650 0.0355
+        }
+        "center_lid_droop" 
+        {
+          0.7947 0.6300
+          1.5760 0.6064
+  

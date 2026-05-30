@@ -1,0 +1,58 @@
+    {
+      time 11.117119 14.725031
+      param "M_g_rthd_upout"
+      event_ramp
+      {
+        0.0091 0.0000
+        0.1000 0.0000
+        0.6409 0.6549
+        0.9045 0.6984
+        2.7182 0.6141
+        2.7545 0.6141
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.187033
+        "accent" 0.346010
+        "loop" 0.411472
+        "end" 0.738154
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.243902
+        "accent" 0.451219
+        "loop" 0.536585
+        "end" 0.658537
+      }
+      sequenceduration 2.766667
+    }
+    event gesture "M_g_rthd_chopdwn"
+    {
+      time 13.207208 16.839333
+      param "M_g_rthd_chopdwn"
+      event_ramp
+      {
+        0.0136 0.0000
+        0.0682 0.0000
+        0.5909 0.6141
+        1.0318 0.6766
+        2.8955 0.5897
+        2.9409 0.5897
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.157788
+        "accent" 0.334139
+        "loop" 0.510491
+        "end" 0.740114
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.193182
+        "accent" 0.409091
+        "loop" 0.625000
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event 

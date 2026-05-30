@@ -1,0 +1,49 @@
+
+      {
+        0.4929 0.0801
+        1.1023 0.9588
+        2.4143 0.8291
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.212174
+        "accent" 0.339891
+        "loop" 0.444949
+        "end" 0.754397
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.120370
+        "accent" 0.222222
+        "loop" 0.277778
+        "end" 0.740741
+      }
+      sequenceduration 3.633333
+    }
+    event gesture "NULL"
+    {
+      time 0.000000 0.296406
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 39.107487 39.983280
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 15.989560 16.489561
+      param ""
+    }
+    event gesture "type"
+    {
+      time 33.792080 38.700275
+      param "A_consoletype_g"
+      event_ramp 
+      {
+        0.2977 0.5560
+        0.4929 0.8440
+        0.8302 0.9856
+        4.1762 1.0000
+        4.4479 0.7292
+        4.7014

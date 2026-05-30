@@ -1,0 +1,35 @@
+er" 
+        {
+          20.1905 0.0000
+          20.1905 0.0000
+          20.6310 0.0000
+        }
+        "dilator" 
+        {
+          20.1905 0.0000
+          20.1905 0.0000
+          20.6310 0.0000
+        }
+      }
+    }
+  }
+}
+
+mapname "maps\ep2_outland_06.bsp"
+scalesettings
+{
+  "CChoreoView" "44"
+  "ExpressionTool" "62"
+  "GestureTool" "100"
+  "RampTool" "92"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "!target1"
+{
+  channel "audio"
+  {
+    e

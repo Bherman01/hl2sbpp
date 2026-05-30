@@ -1,0 +1,51 @@
+1618 0.5000
+        }
+        "cheek_raiser" combo 
+        {
+          0.4327 0.3800
+          0.8910 0.0400
+          1.1618 0.2800
+        }
+        {
+          0.4327 0.5000
+          0.8910 0.5000
+          1.1618 0.5000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "88"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pp"
+{
+  time 0.577236 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_01.al_crank2_fireout"
+    {
+      time 2.094411 3.876520
+      param "ep_01.al_evac_notsohard02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_crank2_fireout"
+    {
+      time 0.793599 1.971921
+      param "ep_01.al_evac_notsohard01"
+   

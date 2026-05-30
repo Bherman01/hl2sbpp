@@ -1,0 +1,105 @@
+token ""
+    }
+  }
+  channel "lookat"
+  {
+    event lookat "!player"
+    {
+      time 0.083333 8.853227
+      param "!player"
+      event_ramp
+      {
+        0.9300 1.0000
+        7.8699 1.0000
+      }
+    }
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+actor "vort_calvary_2"
+{
+  channel "audio"
+  {
+    event speak "vort_junc_bye02"
+    {
+      time 5.668272 7.550608
+      param "ep_02.vort_junc_bye02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookat"
+  {
+    event lookat "!player"
+    {
+      time 0.137094 8.866667
+      param "!player"
+      event_ramp
+      {
+        0.8000 1.0000
+        8.0195 1.0000
+      }
+    }
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "RampTool" "20"
+  "CChoreoView" "40"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "vort"
+{
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time -0.013333 23.853334
+      param "G_hold_nectar"
+      absolutetags playback_time
+      {
+        "apex" 0.000000
+        "accent" 0.000000
+        "loop" 0.000000
+        "end" 0.999534
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.051020
+        "accent" 0.204082
+        "loop" 0.306122
+        "end" 0.714286
+      }
+      sequenceduration 3.300000
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "60"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "vort"
+{
+  channel "blink"
+  {
+    event generic "blink"
+    {
+   

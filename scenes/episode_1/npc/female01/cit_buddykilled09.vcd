@@ -1,0 +1,25 @@
+loop" 0.648325
+        "end" 0.715515
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.176471
+        "accent" 0.250000
+        "a2" 0.341142
+        "loop" 0.441176
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "g_fist_swing_across"
+    {
+      time 0.000000 3.373563
+      param "g_fist_swing_across"
+      event_ramp
+      {
+        0.3286 0.8567
+        0.4310 0.9659
+        1.0690 1.0000
+        1.5429 0.7543
+        2.0643 0.7611
+   

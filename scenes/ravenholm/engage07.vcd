@@ -1,0 +1,19 @@
+me 67.609749 68.516190
+      param "ep_02.al_launch_struggle08"
+      param2 "1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "struggle08"
+    {
+      time 76.075516 77.398239
+      param "ep_02.al_launch_struggle12"
+      param2 "0.6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "struggle08"
+    {
+      time 79.689049 80.977005

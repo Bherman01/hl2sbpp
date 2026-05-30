@@ -1,0 +1,29 @@
+m2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time -0.000000 2.020000
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser"         combo        
+        {
+          0.1372 0.3200
+          0.2287 0.4100
+          0.7693 0.4400
+          0.8442 0.5300
+          0.9544 0.9700
+          1.3387 0.9700
+          1.5825 0.2200
+        }
+        {
+        }
+        "outer_raiser"         combo        
+    

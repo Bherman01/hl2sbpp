@@ -1,0 +1,28 @@
+ent face "!player"
+    {
+      time 14.665298 15.793585
+      param "!player"
+      event_ramp 
+      {
+        0.2364 0.1580
+        0.4364 0.2672
+        0.7031 0.2586
+        0.9366 0.1063
+        1.1282 0.0000
+      }
+      lockbodyfacing
+    }
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "A_P_exposreact_ng"
+    {
+      time 9.058796 11.518055
+      param "A_P_exposreact_ng"
+      absolutetags playback_time
+      {
+        "apex" 0.133885
+        "loop" 0.395095

@@ -1,0 +1,22 @@
+    }
+    event speak "ep_01.al_bettersuggestion"
+    {
+      time 69.207977 77.474281
+      param "ep_01.al_bettersuggestion"
+      param2 ".65"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_onceacross01"
+    {
+      time 87.558167 90.686172
+      param "ep_01.al_onceacross01"
+      param2 ".5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_dontworryaboutme"
+    {
+      time 102.829704 105.801857

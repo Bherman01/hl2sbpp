@@ -1,0 +1,40 @@
+ {
+      time 1.087990 3.933318
+      param "sheckley"
+      event_ramp
+      {
+        1.1507 0.3387
+      }
+    }
+    event face "!player"
+    {
+      time 0.041156 1.294641
+      param "!player"
+      event_ramp
+      {
+        0.4584 0.3896
+        0.8588 0.3896
+      }
+    }
+  }
+  channel "moveto"
+  {
+    event moveto "mark_cit_approach_vort_2"
+    {
+      time 10.023596 10.984456
+      param "mark_cit_approach_vort_2"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 2.272727 4.509090
+      param "bg_up_l"
+      event_ramp
+      {
+        0.8722 0.3333
+      }
+      absolutetags playback_t

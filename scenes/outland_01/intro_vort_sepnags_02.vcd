@@ -1,0 +1,30 @@
+ayback_time
+      {
+        "apex" 0.179293
+        "extreme" 0.330225
+        "loop" 0.459452
+        "end" 0.701236
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.128205
+        "extreme" 0.256410
+        "loop" 0.384615
+        "end" 0.846154
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "E_bg_hshake"
+    {
+      time 119.984123 123.117455
+      param "E_bg_hshake"
+      absolutetags playback_time
+      {
+        "apex" 0.161290
+        "extreme" 0.397849
+        "loop" 0.591398
+        "end" 0.698925
+      }
+      absolutetags shifted_time
+      {
+      

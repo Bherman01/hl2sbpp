@@ -1,0 +1,64 @@
+vent speak "ammo01"
+    {
+      time 0.006667 1.051565
+      param "npc_citizen.ammo01"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 1.140000
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+    event flexanimation "Head"
+    {
+      time -0.006667 1.120000
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_rightleft"         range 30.0 -30.0        
+        {
+          0.1821 0.4800
+          0.4607 0.4900
+          0.5584 0.5000
+          0.6837 0.4800
+        }
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.1601 0.4400
+          0.4387 0.4900
+          0.5364 0.5000
+          0.6617 0.4200
+        }
+        "head_forwardback"         range -1.0 1.0        
+        {
+          0.1601 0.6500
+          0.4387 0.4900
+          0.5364 0.5000
+          0.6617 0.6100
+        }
+      }
+    }
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time 0.006666 1.120000
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser"         combo        
+        {
+          0.4606 0.0000
+          0.6245 0.8200
+       

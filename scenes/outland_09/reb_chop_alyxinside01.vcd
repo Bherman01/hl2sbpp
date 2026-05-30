@@ -1,0 +1,38 @@
+"
+      distancetotarget 185.00
+    }
+  }
+}
+
+actor "vort_calvary_2"
+{
+  channel "move to"
+  {
+    event moveto "vorts move to player"
+    {
+      time 0.002315 1.289215
+      param "!player"
+      param2 "Run"
+      distancetotarget 182.00
+    }
+  }
+}
+
+actor "vort"
+{
+  channel "audio"
+  {
+    event speak "vort_junc_attendtoalyx"
+    {
+      time 13.642859 17.237530
+      param "ep_02.vort_junc_attendtoalyx"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 13.833

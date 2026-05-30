@@ -1,0 +1,26 @@
+
+    }
+    event gesture "D_g_exciteddance"
+    {
+      time 8.999999 13.966666
+      param "D_g_exciteddance"
+      absolutetags playback_time
+      {
+        "in" 0.121622
+        "loop" 0.682432
+        "end" 0.743243
+        "out" 0.810811
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.121622
+        "loop" 0.682432
+        "end" 0.743243
+        "out" 0.810811
+      }
+      sequenceduration 4.966667
+    }
+  }
+  channel "trigger"
+  {
+    event

@@ -1,0 +1,26 @@
+ize_x"
+      }
+    }
+    event lookat "mark_barney_look_train"
+    {
+      time 6.268446 7.709994
+      param "mark_barney_look_train"
+      event_ramp 
+      {
+        0.3896 0.7911
+        1.1371 1.0000
+        1.4415 1.0000
+      }
+    }
+  }
+  channel "MoveTo"
+  {
+    event moveto "mark_barney_train"
+    {
+      time 6.492937 7.702337
+      param "mark_barney_train"
+      resumecondition
+    }
+    event moveto "mark_barney_board"
+    {
+      time -0.138825 6.4805

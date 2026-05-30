@@ -1,0 +1,36 @@
+uenceduration 3.633333
+    }
+    event gesture "NULL"
+    {
+      time 15.313492 19.463490
+      param ""
+    }
+    event gesture "type2"
+    {
+      time 16.369047 18.807936
+      param "A_consoletype_g"
+      event_ramp
+      {
+        0.6720 0.0417
+        1.2615 0.9962
+        2.4153 0.9962
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.281828
+        "accent" 0.433562
+        "loop" 0.516326
+        "end" 0.794413
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.120370
+        "accent" 0.222222
+        "loop" 0.277778
+        "end" 0.740741
+      }
+      sequenceduration 3.633333
+    }
+    event gesture "NULL"
+    {
+      time 18.669048 24.0134

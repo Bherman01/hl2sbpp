@@ -1,0 +1,35 @@
+ownload01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_stalkcar_download04"
+    {
+      time 12.803029 13.915047
+      param "ep_01.al_stalkcar_download04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_stalkcar_download03"
+    {
+      time 11.036363 12.395297
+      param "ep_01.al_stalkcar_download03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_worstover"
+    {
+      time 54.745098 57.638794
+      param "ep_01.al_worstover"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "mark_look_sleepingstalker_1"
+    {
+      time 13.845097 17.1852

@@ -1,0 +1,54 @@
+8452
+        0.7392 0.9498
+        0.9026 1.0000
+        1.1323 1.0000
+        6.1250 1.0000
+      }
+    }
+  }
+  channel "Move To"
+  {
+  }
+  channel "Postures"
+  {
+    event gesture "NULL"
+    {
+      time 8.500001 9.293334
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 0.000000 0.793333
+      param ""
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 9.395835 10.069169
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 15.693331 16.158333
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 0.000000 0.673334
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 7.005833 7.470834
+      param ""
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "flex"
+    {
+      time 9.458334 15.145832
+      param ""
+      flexanimations samp

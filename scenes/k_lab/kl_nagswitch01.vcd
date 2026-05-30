@@ -1,0 +1,38 @@
+ic "AI_BLINK"
+    {
+      time 0.034723 4.375000
+      param "AI_BLINK"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "50"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.017057 7.653070
+      param "!player"
+      event_ramp 
+      {
+        0.5002 0.9586
+        1.6500 0.9960
+        1.9700 0.0818
+        2.1000 0.0699
+        2.3167 0.0539
+        2.47

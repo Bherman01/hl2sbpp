@@ -1,0 +1,35 @@
+rmarks.bsp"
+scalesettings
+{
+  "CChoreoView" "72"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_cantinterrupt02"
+    {
+      time 0.055556 0.875261
+      param "ep_01.al_cantinterrupt02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  

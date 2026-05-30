@@ -1,0 +1,116 @@
+ent lookat "mark_alyx_lookat_secroom_mon_2"
+    {
+      time 7.974749 9.784846
+      param "mark_alyx_lookat_secroom_mon_2"
+      event_ramp
+      {
+        0.4120 0.4469
+        0.5520 0.5705
+        1.2141 0.6141
+        1.3061 0.6141
+        1.3781 0.5746
+      }
+    }
+    event lookat "mark_alyx_lookat_secroom_rtsidemon_1"
+    {
+      time 11.241921 16.096972
+      param "mark_alyx_lookat_secroom_rtsidemon_1"
+      event_ramp
+      {
+        0.7460 0.6245
+        0.8860 0.7481
+        3.9843 0.7745
+        4.2931 0.7493
+        4.3143 0.7166
+      }
+    }
+    event lookat "mark_alyx_lookat_secroom_ltsidemon_1"
+    {
+      time 3.921719 5.991920
+      param "mark_alyx_lookat_secroom_ltsidemon_1"
+      event_ramp
+      {
+        0.4120 0.5087
+        0.5520 0.6323
+        1.3542 0.7014
+        1.5375 0.6926
+        1.5831 0.6786
+      }
+    }
+    event lookat "mark_alyx_lookat_secroom_console_1"
+    {
+      time 5.733335 8.310604
+      param "mark_alyx_lookat_secroom_console_1"
+      event_ramp
+      {
+        0.4120 0.6724
+        0.5520 0.7960
+        0.9260 0.8403
+        1.7173 0.8232
+        1.8193 0.8177
+        1.9113 0.8017
+        1.9833 0.7643
+      }
+    }
+  }
+  channel "moveto"
+  {
+  }
+  channel "face to"
+  {
+    event face "mark_alyx_lookat_secroom_console_1"
+    {
+      time 0.444444 16.433332
+      param "mark_alyx_lookat_secroom_console_1"
+      event_ramp
+      {
+        0.1880 0.9922
+        15.9360 0.9870
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "Postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.811113
+      param ""
+    }
+  }
+  channel "bodyaccent"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 2.688893 4.682227
+      param ""
+    }
+    event gesture "fingertype"
+    {
+      time 1.368894 4.481689
+      param "A_fingerpush_g"
+      event_ramp
+      {
+        0.5840 0.9861
+        2.5066 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.072818
+        "accent" 0.158485
+        "loop" 0.290161
+        "end" 0.628571
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.135802
+        "accent" 0.259259
+        "loop" 0.296296
+        "end" 0.654321
+      }
+      sequenceduration 2.733333

@@ -1,0 +1,20 @@
+6078
+      param "g_accent2hands_01"
+      event_ramp
+      {
+        0.5231 0.6111
+        2.2769 0.6667
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.159890
+        "accent" 0.303318
+        "loop" 0.473500
+        "end" 0.638364
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "accent" 0.352941
+        "loop" 0.588235
+        "end" 0.661

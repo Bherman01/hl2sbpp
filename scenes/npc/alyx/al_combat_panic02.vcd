@@ -1,0 +1,43 @@
+ime 66.261909 66.857239
+      param "NPC_dog.Playful_5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_dog.Playful_3"
+    {
+      time 67.785728 68.383736
+      param "NPC_dog.Playful_3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_dog.Playful_4"
+    {
+      time 6.666667 7.231883
+      param "NPC_dog.Playful_4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "mark_look_cit_sec2_1"
+    {
+      time 0.039685 1.361481
+      param "mark_look_cit_sec2_1"
+      event_ramp 
+      {
+        0.3286 0.8109
+        0.5600 0.9601
+        0.7796 0.9701
+        0.9507 0.9102
+      }
+    }
+    event lookat "mark_look_cit_venthole"
+    {
+      time 0.572812 2.499794
+      param "mark_look_cit_venthole"
+      event_ramp 
+  

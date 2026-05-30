@@ -1,0 +1,139 @@
+
+    }
+    event gesture "NULL"
+    {
+      time 0.000000 0.811111
+      param ""
+    }
+    event gesture "finger2"
+    {
+      time 5.137778 9.426666
+      param "A_fingerpush_g"
+      event_ramp
+      {
+        0.7240 0.9861
+        4.2836 0.9930
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.085337
+        "apex2" 0.262073
+        "accent" 0.363730
+        "loop" 0.432124
+        "end" 0.751295
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.135802
+        "apex2" 0.144146
+        "accent" 0.259259
+        "loop" 0.296296
+        "end" 0.654321
+      }
+      sequenceduration 2.733333
+    }
+    event gesture "NULL"
+    {
+      time 4.528890 6.819999
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 6.595556 8.375556
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 9.422221 9.708888
+      param ""
+    }
+  }
+  channel "armpose"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d2_prison\07_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "88"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause1"
+{
+  time 6.386666 -1.000000
+  param "noaction"
+}
+event stoppoint "end"
+{
+  time 20.246033 -1.000000
+  param "noaction"
+}
+actor "Mossman"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "monitor"
+    {
+      time 8.533333 13.522221
+      param "mark_moss_look_monitor_1"
+      event_ramp
+      {
+        0.1920 0.3846
+        0.2780 0.5853
+        0.4180 0.7960
+        0.5840 0.9197
+        0.7160 0.9833
+        4.9840 0.9967
+      }
+    }
+    event lookat "monitor"
+    {
+      time 12.844444 16.144444
+      param "mic_mossman"
+      event_ramp
+      {
+        0.1700 0.2195
+        0.2820 0.4599
+        0.3920 0.6202
+        0.5400 0.6969
+        0.9420 0.7038
+        3.1640 0.6307
+        3.2960 0.6202
+      }
+    }
+    event lookat "monitor"
+    {
+      time 15.400000 20.388887
+      param "mark_moss_look_monitor_1"
+      event_ramp
+      {
+        0.0700 0.0348
+        0.1860 0.1916
+        0.3460 0.4146
+        0.4920 0.7108
+        0.6100 0.8850
+        0.7860 0.9895
+        4.9860 0.9965
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "mo

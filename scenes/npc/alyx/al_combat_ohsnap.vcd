@@ -1,0 +1,31 @@
+      time 0.571429 1.331882
+      param "npc_dog.phrase06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_dog.Playful_3"
+    {
+      time 48.928562 49.526566
+      param "NPC_dog.Playful_3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc_dog.phrase07"
+    {
+      time 49.666656 50.473549
+      param "npc_dog.phrase07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc_dog.phrase02"
+    {
+      time 55.023800 55.621716
+      param "npc_dog.phrase02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc_dog.phrase06"

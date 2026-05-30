@@ -1,0 +1,63 @@
+hannel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.810345
+      param ""
+    }
+    event gesture "a"
+    {
+      time 0.163145 3.100751
+      param "bg_accentFwd"
+      event_ramp
+      {
+        0.3340 0.3062
+        2.2083 0.5306
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.115047
+        "extreme" 0.299122
+        "loop" 0.460189
+        "end" 0.575235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.138889
+        "extreme" 0.361111
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      sequenceduration 2.433333
+    }
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+    event flexanimation "face"
+    {
+      time 0.051539 3.425103
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser"         combo        
+        {
+          0.5053 0.0087
+          0.6880 0.3300
+          1.0716 0.0000
+          1.3992 0.0600
+          1.6731 

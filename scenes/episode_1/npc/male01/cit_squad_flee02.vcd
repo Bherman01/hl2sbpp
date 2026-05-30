@@ -1,0 +1,26 @@
+.8762 0.4691
+        3.0827 0.4480
+        3.2923 0.3918
+        3.5783 0.2712
+      }
+    }
+    event lookat "mark_look_cit_venthole"
+    {
+      time 7.263289 11.142652
+      param "mark_look_cit_venthole"
+      event_ramp 
+      {
+        0.2935 0.1308
+        0.6889 0.3657
+        1.1143 0.4799
+        1.6638 0.4985
+        2.5190 0.4847
+        3.0282 0.4144
+        3.4048 0.2279
+      }
+    }
+    event lookat "Dog"
+    {
+      time 22.033131 27.722015
+      param "Dog"
+      event_ram

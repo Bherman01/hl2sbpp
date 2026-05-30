@@ -1,0 +1,31 @@
+posermodel "models\vortigaunt.mdl"
+}
+
+actor "vort_calvary_actor"
+{
+  channel "Audio"
+  {
+    event speak "vort_junc_nopulse01"
+    {
+      time 0.444445 1.509751
+      param "ep_02.vort_junc_nopulse01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "vort_junc_nopulse02"
+    {
+      time 1.625000 3.266293
+      param "ep_02.vort_junc_nopulse02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "vort_extract_pharynx"
+    {
+      time 12.115385 15.259489
+      param "ep_02.vort_extract_pharynx"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+ 

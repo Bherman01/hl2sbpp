@@ -1,0 +1,33 @@
+  {
+          0.5171 0.6300
+          1.3788 0.7200
+        }
+        {
+        }
+        "corner_puller"         combo        
+        {
+          1.5978 0.5200
+          2.0070 0.5700
+        }
+        {
+        }
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "!player"
+    {
+      time 0.478261 6.775362
+      param "!player"
+      param2 "Run"
+      distancetotarget 80.00
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "46"
+  "SceneRampTool" "100"
+  "ExpressionT

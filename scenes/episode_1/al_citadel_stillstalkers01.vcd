@@ -1,0 +1,43 @@
+.0000
+          2.4689 0.0000
+          2.5766 0.0000
+        }
+        "mouth_sideways" range -1.0 1.0 
+        {
+          0.0819 0.5000
+          0.4508 0.5000
+          2.0064 0.5000
+          2.2691 0.5000
+          2.3420 0.5000
+          2.4689 0.5000
+          2.5766 0.5000
+        }
+        "jaw_sideways" range -1.0 1.0 
+        {
+          0.0819 0.5000
+          0.4508 0.5000
+          2.0064 0.5000
+          2.2691 0.5000
+          2.3420 0.5000
+          2.4689 0.5000
+          2.5766 0.5000
+        }
+      }
+    }
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "flex BodyHead"
+  {
+  }
+  faceposermodel "models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoVie

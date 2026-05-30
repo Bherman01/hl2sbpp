@@ -1,0 +1,20 @@
+ 2.0000 0.9203
+        2.3484 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.218183
+        "accent" 0.288891
+        "loop" 0.480813
+        "end" 0.680074
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.235294
+        "accent" 0.367647
+        "loop" 0.661765
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "g_Raise_Gun_Settle

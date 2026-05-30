@@ -1,0 +1,39 @@
+
+        1.0686 0.3293
+      }
+    }
+    event lookat "monitor_controlroom"
+    {
+      time 27.005976 28.036444
+      param "monitor_controlroom"
+      event_ramp
+      {
+        0.4384 0.3932
+        0.5194 0.3972
+        0.5462 0.4052
+        0.6422 0.3872
+        0.7723 0.4012
+      }
+    }
+    event lookat "monitor_controlroom"
+    {
+      time 35.543007 40.110512
+      param "monitor_controlroom"
+      event_ramp
+      {
+        1.0115 0.9860
+        4.3094 0.9900
+      }
+    }
+    event lookat "!player"
+    {
+      time 28.796299 30.481483
+      param "!player"
+      event_ramp
+      {
+        1.0128 0.9780
+        1.3797 0.9840
+      }
+    }
+  }
+  channel "move

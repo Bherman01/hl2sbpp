@@ -1,0 +1,186 @@
+2560 0.5000
+        }
+        "corner_puller" combo 
+        {
+          0.0385 0.0000
+          0.1400 0.0000
+          0.2740 0.0000
+          0.8000 0.0000
+          0.8360 0.0000
+          1.0120 0.1800
+          1.1020 0.1800
+          1.7620 0.2900
+          1.8060 0.2900
+          1.9340 0.1700
+          1.9980 0.1100
+          2.5900 0.3600
+          2.9040 0.2900
+          3.2560 0.2900
+        }
+        {
+          0.0385 0.5000
+          0.1400 0.5000
+          0.2740 0.5000
+          0.8000 0.5000
+          0.8360 0.5000
+          1.0120 0.5000
+          1.1020 0.5000
+          1.7620 0.5000
+          1.8060 0.5000
+          1.9340 0.5000
+          1.9980 0.5000
+          2.9040 0.5000
+          3.2560 0.5000
+        }
+        "corner_depressor" combo 
+        {
+          0.0385 0.0000
+          0.1400 0.1000
+          0.2740 0.1700
+          0.8000 0.1300
+          0.8360 0.1300
+          1.0120 0.0000
+          1.1020 0.0000
+          1.7620 0.0000
+          1.8060 0.0000
+          1.9340 0.0000
+          1.9980 0.0000
+          2.9040 0.0000
+          3.2560 0.0000
+        }
+        {
+          0.0385 0.5000
+          0.1400 0.5000
+          0.2740 0.5000
+          0.8000 0.5000
+          0.8360 0.5000
+          1.0120 0.5000
+          1.1020 0.5000
+          1.7620 0.5000
+          1.8060 0.5000
+          1.9340 0.5000
+          1.9980 0.5000
+          2.9040 0.5000
+          3.2560 0.5000
+        }
+      }
+    }
+  }
+  channel "trigger"
+  {
+  }
+  faceposermodel "U:\dev\main\game\ep2\models\Humans\Group03\male_08.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "52"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "58"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "!target1"
+{
+  channel "Audio"
+  {
+    event speak "reb1_combatuse01ep_02.reb_1stwave08"
+    {
+      time 0.145833 1.852500
+      param "ep_02.reb_idles01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "look at player"
+    {
+      time 0.061600 2.261615
+      param "!player"
+      event_ramp
+      {
+        0.1500 0.8492
+        2.1753 0.0556
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "body"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "!target1"
+{
+  channel "Audio"
+  {
+    event speak "reb1_combatuse01ep_02.reb_1stwave08"
+    {
+      time 0.145833 2.193838
+      param "ep_02.reb_idles02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "look at player"
+    {
+      time 0.061600 2.261615
+      param "!player"
+      event_ramp
+      {
+        0.1500 0.8492
+        2.1753 0.0556
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  ch

@@ -1,0 +1,43 @@
+time 11.778193 14.848091
+      param "mark_kleiner"
+      event_ramp
+      {
+        0.8878 0.9963
+        3.0699 0.9890
+      }
+    }
+    event face "mark_kleiner"
+    {
+      time 17.060520 20.795055
+      param "mark_kleiner"
+      event_ramp
+      {
+        1.3362 0.9963
+        3.7346 1.0000
+      }
+    }
+    event face "mark_player"
+    {
+      time 14.862556 17.016874
+      param "!player"
+      event_ramp
+      {
+        1.3689 0.8281
+        2.1543 0.8242
+      }
+    }
+    event face "mark_eli"
+    {
+      time 20.942711 32.395878
+      param "mark_eli"
+      event_ramp
+      {
+        0.7269 1.0000
+        8.4286 1.0000
+        11.4571 1.0000
+      }
+    }
+    event face "mark_player"
+    {
+      time 55.595963 62.721268
+ 

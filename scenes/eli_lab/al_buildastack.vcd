@@ -1,0 +1,160 @@
+0847
+      }
+      sequenceduration 3.966667
+    }
+    event gesture "E_P_monitor"
+    {
+      time 117.431458 124.768082
+      param "E_P_monitor"
+      absolutetags playback_time
+      {
+        "apex" 0.050580
+        "loop" 0.160936
+        "end" 0.616883
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.132530
+        "loop" 0.421687
+        "end" 0.542169
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "e_p_feetapart"
+    {
+      time 69.818184 79.141991
+      param "e_p_feetapart"
+      absolutetags playback_time
+      {
+        "apex" 0.082924
+        "loop" 0.180269
+        "end" 0.818374
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.194915
+        "loop" 0.423729
+        "end" 0.550847
+      }
+      sequenceduration 3.966667
+    }
+  }
+  channel "head"
+  {
+    event gesture "E_bg_hshake_pod"
+    {
+      time 22.886906 26.020239
+      param "E_bg_hshake_pod"
+      absolutetags playback_time
+      {
+        "apex" 0.161290
+        "extreme" 0.397849
+        "loop" 0.698925
+        "end" 0.806452
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.161290
+        "extreme" 0.397849
+        "loop" 0.698925
+        "end" 0.806452
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "E_bg_hshake"
+    {
+      time 96.615387 99.415382
+      param "E_bg_hshake"
+      event_ramp
+      {
+        0.9714 1.0000
+        2.8000 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.180491
+        "extreme" 0.408177
+        "loop" 0.661803
+        "end" 0.695267
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.161290
+        "extreme" 0.397849
+        "loop" 0.591398
+        "end" 0.698925
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "E_bg_arcfwd_chinout"
+    {
+      time 21.233334 23.600000
+      param "E_bg_arcfwd_chinout"
+      absolutetags playback_time
+      {
+        "apex" 0.142857
+        "extreme" 0.328571
+        "loop" 0.528571
+        "end" 0.671429
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.142857
+        "extreme" 0.328571
+        "loop" 0.528571
+        "end" 0.671429
+      }
+      sequenceduration 2.366667
+    }
+    event gesture "E_bg_arcfwd_chinout"
+    {
+      time 38.166664 41.645073
+      param "E_bg_arcfwd_chinout"
+      absolutetags playback_time
+      {
+        "apex" 0.097199
+        "extreme" 0.223556
+        "loop" 0.359633
+        "end" 0.733597
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.142857
+        "extreme" 0.328571
+        "loop" 0.528571
+        "end" 0.671429
+      }
+      sequenceduration 2.366667
+    }
+    event gesture "E_bg_arcfwd_nod_pod"
+    {
+      time 51.335430 53.635429
+      param "E_bg_arcfwd_nod_pod"
+      absolutetags playback_time
+      {
+        "apex" 0.147059
+        "extreme" 0.338235
+        "loop" 0.558824
+        "end" 0.691176
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.338235
+        "loop" 0.558824
+        "end" 0.691176
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "E_bg_arcfwd_chinout"
+    {
+      time 31.391666 34.124996
+      param "E_bg_arcfwd_chinout"
+      event_ramp
+      {
+        0.0000 0.5532
+        2.7333 0.5021
+      }
+      absolutetags playback_time
+      {
+    

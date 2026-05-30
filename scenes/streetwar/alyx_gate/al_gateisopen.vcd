@@ -1,0 +1,33 @@
+  2.9200 0.2308
+        4.0368 0.0000
+      }
+      absolutetags playback_time
+      {
+        "h1" 0.152264
+        "apex" 0.213132
+        "accent" 0.412271
+        "loop" 0.579294
+        "end" 0.739130
+      }
+      absolutetags shifted_time
+      {
+        "h1" 0.241518
+        "apex" 0.284091
+        "accent" 0.454545
+        "loop" 0.681818
+        "end" 0.795455
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "E_g_rthd_cutdwn"
+    {
+      time 36.832664 48.318897
+      param "E_g_rthd_cutdwn"
+      event_ramp
+      {
+        0.0000 0.8308
+        0.0333 0.8154
+        1.6467 0.8103
+        1.8333 0.6718
+        2.1200 0.7385
+        2

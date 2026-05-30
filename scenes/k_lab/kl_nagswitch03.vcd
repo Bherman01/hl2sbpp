@@ -1,0 +1,32 @@
+tures"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.231852
+      param ""
+    }
+    event gesture "hairbrush"
+    {
+      time 0.939257 6.425196
+      param "A_hairbrush"
+      event_ramp 
+      {
+        0.0115 0.9930
+        2.7691 0.9895
+        4.2499 0.7909
+        4.6576 0.6167
+        5.4344 0.0488
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.152055
+        "accent" 0.319279
+        "loop" 0.658706
+        "end" 0.763419
+      }
+      absolutetags shifted_time
+      {
+        

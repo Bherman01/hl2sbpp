@@ -1,0 +1,180 @@
+amp
+      {
+        0.3864 0.4892
+        1.2545 0.4545
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.155172
+        "extreme" 0.379310
+        "loop" 0.827586
+        "end" 0.844828
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.155172
+        "extreme" 0.379310
+        "loop" 0.827586
+        "end" 0.844828
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "3"
+    {
+      time 15.375000 17.674999
+      param "hg_headup"
+      event_ramp
+      {
+        0.7000 0.3377
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.264706
+        "extreme" 0.441176
+        "loop" 0.514706
+        "end" 0.661765
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.441176
+        "loop" 0.514706
+        "end" 0.661765
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "lookat"
+  {
+    event lookat "vort"
+    {
+      time 0.041667 4.916667
+      param "vort"
+      event_ramp
+      {
+        0.4636 0.3203
+        0.7500 0.3896
+        1.0682 0.3896
+        3.8409 0.3896
+        4.1227 0.3896
+        4.3864 0.3203
+      }
+    }
+    event lookat "vort"
+    {
+      time 15.343750 20.218750
+      param "vort"
+      event_ramp
+      {
+        0.4636 0.3203
+        0.7500 0.3896
+        1.0682 0.3896
+        3.8409 0.3896
+        4.1227 0.3896
+        4.3864 0.3203
+      }
+    }
+    event lookat "vort"
+    {
+      time 8.177083 12.093750
+      param "vort"
+      event_ramp
+      {
+        0.4636 0.3203
+        0.7500 0.3896
+        1.0682 0.3896
+        2.8826 0.3896
+        3.1644 0.3896
+        3.4281 0.3203
+      }
+    }
+    event lookat "vort_calvary_1"
+    {
+      time 11.739583 15.770833
+      param "vort_calvary_1"
+      event_ramp
+      {
+        0.4636 0.3203
+        0.7500 0.3896
+        1.0682 0.3896
+        2.9972 0.3896
+        3.2790 0.3896
+        3.5427 0.3203
+      }
+    }
+    event lookat "vort_calvary_1"
+    {
+      time 4.479167 8.510416
+      param "vort_calvary_1"
+      event_ramp
+      {
+        0.4636 0.3203
+        0.7500 0.3896
+        1.0682 0.3896
+        2.9972 0.3896
+        3.2790 0.3896
+        3.5427 0.3203
+      }
+    }
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+actor "vort_calvary_1"
+{
+  channel "audio"
+  {
+    event speak "vort_extract_theextract03"
+    {
+      time 3.008547 5.696937
+      param "ep_02.vort_extract_theextract03"
+      param2 ".75"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "vort_grp_agree05"
+    {
+      time 12.047009 13.694923
+      param "ep_02.vort_grp_agree05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "vort_grp_agree05"
+    {
+      time 16.286753 17.553034
+      param "ep_02.vort_grp_agree02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 3.205129 5.171795
+      param "hg_acc_down"
+      event_ramp
+      {
+        0.5409 0.5325
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.155172
+        "extreme" 0.379310
+        "loop" 0.827586
+        "end" 0.844828
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.155172
+        "extreme" 0.379310
+        "loop" 0.82

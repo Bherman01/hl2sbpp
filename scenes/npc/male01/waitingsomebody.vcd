@@ -1,0 +1,21 @@
+  {
+    event speak "question16"
+    {
+      time 0.006667 1.940386
+      param "npc_citizen.question16"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time -0.000000 1.386667
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_droop"         combo

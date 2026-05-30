@@ -1,0 +1,48 @@
+       }
+        "jaw_sideways" range -1.0 1.0 
+        {
+          0.0000 0.3600
+          0.0000 0.3596
+          1.2426 0.3658
+          1.5032 0.5100
+          2.8576 0.5110
+          2.9389 0.5100
+          3.1899 0.5065
+          3.4566 0.5027
+        }
+        "lip_bite" 
+        {
+          0.0000 0.0100
+          0.0000 0.0100
+          1.2426 0.0096
+          1.5032 0.0000
+          2.8576 0.0000
+          2.9389 0.0000
+          3.1899 0.0000
+          3.4566 0.0000
+        }
+        "lower_lip" 
+        {
+          0.0000 0.0100
+          0.0000 0.0100
+          1.2426 0.0096
+          1.5032 0.8900
+          2.4576 0.8869
+          2.9389 1.0000
+          3.1899 0.7294
+          3.4566 0.8400
+        }
+        "eyes_updown" range 30.0 -30.0 
+        {
+          0.0080 0.5300 "curve_easein_to_curve_easeout"
+          1.7360 0.5000 "curve_easein_to_curve_easeout"
+          1.8585 0.6300 "curve_easein_to_curve_easeout"
+          3.0596 0.6300 "curve_easein_to_curve_easeout"
+          3.1551 0.5100 "curve_easein_to_curve_easeout"
+          3.5211 0.5200 "curve_easein_to_curve_easeout"
+        }
+        "eyes_rightleft" range 30.0 -30.0 
+        {
+          0.0080 0.4900 "curve_easein_to_curve_easeout"
+          1.7200 0.4800 "curve_easein_to_curve_easeout"
+          1.8345 0.8200 "curve_easein_to_curv

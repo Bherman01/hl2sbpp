@@ -1,0 +1,32 @@
+reTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_02.al_car_laughing13"
+    {
+      time 0.543825 1.472850
+      param "ep_02.al_car_laughing13"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face to"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.073998 2.320861
+      param "!player"
+      event_ramp
+      {
+        0.5495 0.9499
+        1.

@@ -1,0 +1,31 @@
+ner_console"
+    }
+    event moveto "mark_move_kl_bye"
+    {
+      time 66.481667 70.248840
+      param "mark_move_kl_bye"
+      param2 "walk_all_moderate"
+      forceshortmovement
+    }
+    event moveto "mark_kleiner_console"
+    {
+      time 90.092323 93.460602
+      param "mark_kleiner_console"
+    }
+    event moveto "mark_kleiner_console"
+    {
+      time 62.414730 64.819412
+      param "mark_kleiner_console"
+    }
+    event moveto "alyx"
+    {
+      time 80.525978 84.036659
+      param "alyx"
+      param2 "walk_all_moderate"
+      distancetotarget 108.00
+    }
+    active "0"
+  }
+  channel "faceTo"
+  {
+    event 

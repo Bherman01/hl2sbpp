@@ -1,0 +1,38 @@
+"
+      cctoken ""
+    }
+    event speak "mudcop1_05"
+    {
+      time 21.973335 22.890705
+      param "canals.mudcop1_05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+}
+
+actor "!Target2"
+{
+  channel "Audio"
+  {
+    event speak "mudcop2_01"
+    {
+      time 1.920000 3.110137
+      param "canals.mudcop2_01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "mudcop2_02"
+    {
+      time 7.446666 10.149251
+      param "canals.mudcop2_02"
+      fixedlength
+    

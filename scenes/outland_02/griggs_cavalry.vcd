@@ -1,0 +1,179 @@
+nt section "get to map"
+{
+  time 21.127136 -1.000000
+  param "noaction"
+}
+event section "pause to get into position at car"
+{
+  time 8.023149 -1.000000
+  param "noaction"
+}
+actor "!target1"
+{
+  channel "audio"
+  {
+    event speak "taken a few liberties"
+    {
+      time 0.124243 2.176828
+      param "ep_02.mirt_brief_overhere02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "I added a rack for magnusson devices back here"
+    {
+      time 2.274243 2.884606
+      param "ep_02.mirt_brief_yanktrunk01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "combine show up red now"
+    {
+      time 8.204055 12.892014
+      param "ep_02.mirt_brief_ports01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "homing signal to your HEV suit"
+    {
+      time 13.024799 17.839245
+      param "ep_02.mirt_brief_ports02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "no need to thank me"
+    {
+      time 18.591770 19.964741
+      param "ep_02.mirt_brief_ports03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "check this map"
+    {
+      time 20.980925 22.109995
+      param "ep_02.mirt_brief_mapquicklook01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "we're here in the south"
+    {
+      time 22.233255 24.320875
+      param "ep_02.mirt_brief_mapquicklook02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gang's up by the old sawmill, here"
+    {
+      time 24.712460 28.308151
+      param "ep_02.mirt_brief_mapquicklook03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "head on up and they'll fill you in"
+    {
+      time 28.875921 32.296829
+      param "ep_02.mirt_brief_mapquicklook04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "I'm sticking here"
+    {
+      time 32.403198 35.500862
+      param "ep_02.mirt_brief_keepyoucurrent01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "I added a rack for magnusson devices back here"
+    {
+      time 3.016667 6.016485
+      param "ep_02.mirt_brief_yanktrunk02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "good luck out there"
+    {
+      time 36.475586 37.524429
+      param "ep_02.mirt_brief_keepyoucurrent02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.066667 3.644317
+      param "!player"
+      event_ramp
+      {
+        0.9605 1.0000
+        2.6161 1.0000
+      }
+    }
+    event lookat "look at player"
+    {
+      time 11.198985 20.983728
+      param "!player"
+      event_ramp
+      {
+        1.1932 0.9877
+        8.7385 1.0000
+      }
+    }
+    event lookat "look at map of valley"
+    {
+      time 20.356922 25.202143
+      param "mirt_lcs_2_lookat_map"
+      event_ramp
+      {
+        0.7682 0.9877
+        4.8452 1.0000
+      }
+    }
+    event lookat "look at player"
+    {
+      time 24.601442 27.353193
+      param "!player"
+      event_ramp
+      {
+        0.7682 0.9877
+        2.7518 1.0000
+      }
+    }
+    event lookat "look at button pad"
+    {
+      time 38.160736 42.512947
+      param "mirt_lcs_2_lookat_buttonpad"
+      event_ramp
+      {
+        0.7682 0.9877
+        3.2966 1.0000
+      }
+    }
+    event lookat "look at player"
+    {
+      time 41.797333 46.111786
+      param "!player"
+      event_ramp
+      {
+        0.7682 0.9877
+        3.8104 1.0000
+      }
+    }
+    event lookat "look at car"
+    {
+      time 2.488032 12.328876
+      param "jeep"
+      event_ramp
+   

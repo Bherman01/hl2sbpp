@@ -1,0 +1,17 @@
+"ep_02.al_launch_attackstart01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_launch_attackstart02"
+    {
+      time 55.515160 56.393188
+      param "ep_02.al_launch_attackstart02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_launch_bringherback03"
+    {
+      time 31.280701 32.175327
+      param "ep_02.al_launch

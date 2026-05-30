@@ -1,0 +1,26 @@
+ayback_time
+      {
+        "apex" 0.115568
+        "accent" 0.157027
+        "loop" 0.865403
+        "end" 0.883569
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.192771
+        "accent" 0.313253
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_g_armscrossed"
+    {
+      time 25.745457 57.825237
+      param "A_g_armscrossed"
+      absolutetags playback_time
+      {
+        "in" 0.020943
+        "loop" 0.048260
+        "end" 0.687187
+        "out" 

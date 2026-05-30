@@ -1,0 +1,40 @@
+time 17.502382 24.435715
+      param "SS_eli_kleiner_shove"
+      fixedlength
+    }
+  }
+  channel "postures"
+  {
+    event gesture "Posture_Console"
+    {
+      time 5.406912 14.786400
+      param "Posture_Console"
+      absolutetags playback_time
+      {
+        "apex" 0.051974
+        "loop" 0.094373
+        "end" 0.850534
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.170455
+        "loop" 0.454545
+        "end" 0.568182
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "e_p_feetapart"
+    {
+      time 36.719730 47.882622
+      param "e_p_feetapart"
+      absolutetags playback_time
+      {
+        "apex" 0.104715
+        "loop" 0.200092
+        "end" 0.704760
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.194915
+        "loop" 0.423729
+        "end" 0.55

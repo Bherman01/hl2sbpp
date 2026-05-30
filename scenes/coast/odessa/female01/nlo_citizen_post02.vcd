@@ -1,0 +1,27 @@
+e "NULL"
+    {
+      time 14.550000 15.050000
+      param ""
+    }
+    event gesture "4"
+    {
+      time 15.566667 17.866667
+      param "g_accent2hands_01"
+      event_ramp
+      {
+        0.3842 0.5635
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.147059
+        "accent" 0.352941
+        "loop" 0.588235
+        "end" 0.661765
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "accent" 0.352941
+        "loop" 0.588235
+        "end" 0.661765
+      }

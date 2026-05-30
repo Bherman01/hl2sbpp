@@ -1,0 +1,39 @@
+NULL"
+    {
+      time 3.484127 3.984127
+      param ""
+    }
+    event gesture "2"
+    {
+      time 4.603175 6.969842
+      param "E_bg_chinout_pod"
+      absolutetags playback_time
+      {
+        "apex" 0.142857
+        "extreme" 0.328571
+        "loop" 0.528571
+        "end" 0.671429
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.142857
+        "extreme" 0.328571
+        "loop" 0.528571
+        "end" 0.671429
+      }
+      sequenceduration 2.366667
+    }
+  }
+  faceposermodel "E:\HL2\hl2\models\Eli.mdl"
+  active "0"
+}
+
+actor "Mossman"
+{
+  channel "audio"
+  {
+    event speak "interference"
+    {
+      time 2.146666 4.929115
+      param "k_lab.mo_interfer"
+   

@@ -1,0 +1,20 @@
+     time 2.450369 6.680414
+      param "eli_lab.mo_taketoeli"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 10.130372 13.137038
+      param "!player"
+      event_ramp
+      {
+        0.5400 0.4661
+        0.7696 0.5650
+        1.0957 0.6009
+        1.5854 0.5979
+       

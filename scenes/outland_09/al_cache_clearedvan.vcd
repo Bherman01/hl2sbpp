@@ -1,0 +1,194 @@
+
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 0.916667 2.883334
+      param "g_point_l_rpg"
+      absolutetags playback_time
+      {
+        "in" 0.086207
+        "loop" 0.431034
+        "end" 0.603448
+        "out" 0.775862
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.086207
+        "loop" 0.431034
+        "end" 0.603448
+        "out" 0.775862
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "1"
+    {
+      time 0.072917 2.039584
+      param "g_palm_up_l"
+      absolutetags playback_time
+      {
+        "apex" 0.172414
+        "accent" 0.362069
+        "loop" 0.431034
+        "end" 0.775862
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.172414
+        "accent" 0.362069
+        "loop" 0.431034
+        "end" 0.775862
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "head gestures"
+  {
+    event gesture "1"
+    {
+      time 0.197917 2.164583
+      param "bg_down"
+      absolutetags playback_time
+      {
+        "apex" 0.086207
+        "extreme" 0.241379
+        "loop" 0.482759
+        "end" 0.672414
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.086207
+        "extreme" 0.241379
+        "loop" 0.482759
+        "end" 0.672414
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "trigger"
+  {
+    event firetrigger "1"
+    {
+      time 2.677778 -1.000000
+      param "1"
+    }
+  }
+}
+
+actor "sheckley"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "moveto"
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "RampTool" "48"
+  "ExpressionTool" "100"
+  "CChoreoView" "64"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+event section "pause"
+{
+  time 10.903142 -1.000000
+  param "noaction"
+}
+actor "griggs"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 3.547245 10.390969
+      param "!player"
+      event_ramp
+      {
+        0.6025 1.0000
+        6.4137 1.0000
+      }
+    }
+    event lookat "vort"
+    {
+      time 9.959835 11.051374
+      param "vort"
+      event_ramp
+      {
+        0.5125 1.0000
+      }
+    }
+    event lookat "sheckley"
+    {
+      time 1.111350 3.884707
+      param "sheckley"
+      event_ramp
+      {
+        0.7125 0.9946
+        2.1087 1.0000
+      }
+    }
+    event lookat "player"
+    {
+      time 0.032094 1.382887
+      param "!player"
+      event_ramp
+      {
+        0.6025 1.0000
+        0.9207 1.0000
+      }
+    }
+  }
+  channel "faceto"
+  {
+    event face "!player"
+    {
+      time 3.550060 10.400702
+      param "!player"
+      event_ramp
+      {
+        0.4584 0.5108
+        0.7667 0.6017
+        1.1792 0.6017
+        5.9167 0.6017
+        6.2333 0.6017
+        6.4449 0.5108
+      }
+    }
+    event face "vort"
+    {
+      time 9.951626 11.099985
+      param "vort"
+      event_ramp
+      {
+        0.5761 0.5508
+      }
+    }
+    event face "sheckley"
+   

@@ -1,0 +1,26 @@
+     0.6067 0.9810 "curve_default_to_curve_hold"
+      }
+    }
+    event face "!player"
+    {
+      time 6.752223 8.734444
+      param "!player"
+      event_ramp 
+      {
+        0.6734 0.9810 "curve_default_to_curve_hold"
+      }
+    }
+    event face "mark_al_gardoor_2"
+    {
+      time 8.718888 10.141109
+      param "mark_al_gardoor_2"
+      event_ramp 
+      {
+        0.6499 1.0000 "curve_default_to_curve_hold"
+      }
+    }
+  }
+  channel "Postures"
+  {
+  }
+  channel "Body_g

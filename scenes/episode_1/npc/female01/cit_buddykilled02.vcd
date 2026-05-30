@@ -1,0 +1,26 @@
+rward"
+    {
+      time 1.537038 4.515655
+      param "b_head_forward"
+      event_ramp
+      {
+        0.4056 0.2171
+        1.5111 0.2317
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.169974
+        "extreme" 0.477308
+        "loop" 0.487308
+        "end" 0.897381
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      sequenceduration 1.800000
+    }
+    event gesture 

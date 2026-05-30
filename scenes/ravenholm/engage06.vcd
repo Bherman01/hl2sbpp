@@ -1,0 +1,21 @@
+ot02"
+    {
+      time 115.707886 116.738541
+      param "ep_02.al_launch_dogspot02"
+      param2 "0.650"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "dadcry"
+    {
+      time 128.594727 130.429504
+      param "ep_02.al_launch_dadcry"
+      param2 "0.650"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "struggle08"
+    {
+      ti

@@ -1,0 +1,136 @@
+
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_02.griggs_coming01"
+    {
+      time 0.147748 1.257861
+      param "ep_02.griggs_coming01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.griggs_coming02"
+    {
+      time 0.992793 1.933133
+      param "ep_02.griggs_coming02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+    active "0"
+  }
+  channel "postures"
+  {
+  }
+  channel "bodygestures"
+  {
+  }
+  channel "headges"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "face"
+  {
+  }
+  channel "trigger"
+  {
+  }
+  faceposermodel "models\alyx.mdl"
+}
+
+actor "vort"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {
+    active "0"
+  }
+  channel "face to"
+  {
+  }
+  channel "posture"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "bodygesture"
+  {
+  }
+  channel "headgesture"
+  {
+  }
+  channel "gesture"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "face"
+  {
+  }
+  channel "AI"
+  {
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+actor "vort_calvary_actor"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "postures"

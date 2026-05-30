@@ -1,0 +1,115 @@
+rything04"
+    {
+      time 122.394379 123.375717
+      param "ep_02.eli_launch_thanksforeverything04"
+      param2 "0.6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "thanksforeverything05"
+    {
+      time 123.515594 126.496933
+      param "ep_02.eli_launch_thanksforeverything05"
+      param2 "0.6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 98.873383 116.036789
+      param "!player"
+      event_ramp
+      {
+        0.1058 0.0146
+        0.2469 0.0711
+        0.4556 0.1220
+        0.6556 0.1268
+        16.4333 0.1171
+        16.6889 0.1171
+        17.0656 0.0534
+        17.1634 0.0000
+      }
+    }
+    event lookat "alyx"
+    {
+      time 115.588585 118.002029
+      param "alyx"
+      event_ramp
+      {
+        0.1502 0.0929
+        0.2358 0.2077
+        0.5444 0.4341
+        0.8333 0.5024
+        1.6889 0.5122
+        1.9223 0.4683
+        2.0713 0.3851
+        2.3024 0.1073
+      }
+    }
+    event lookat "!player"
+    {
+      time 42.851509 45.858177
+      param "!player"
+      event_ramp
+      {
+        0.1280 0.0929
+        0.4042 0.4126
+        0.7052 0.6683
+        1.0778 0.8599
+        1.7000 0.9333
+        2.0649 0.8537
+        2.4864 0.4976
+        2.7778 0.1707
+        3.0067 0.0000
+      }
+    }
+    event lookat "alyx"
+    {
+      time 59.292076 63.039486
+      param "alyx"
+      event_ramp
+      {
+        0.0280 0.0000
+        0.1580 0.0565
+        0.5576 0.4485
+        0.9136 0.7073
+        1.1102 0.7805
+        1.4444 0.8107
+        2.5828 0.7795
+        2.8196 0.7402
+        3.0753 0.6078
+        3.5318 0.1179
+      }
+    }
+    event lookat "!player"
+    {
+      time 78.030151 80.882217
+      param "!player"
+      event_ramp
+      {
+        0.1126 0.0929
+        0.3939 0.4126
+        0.7205 0.7512
+        0.9222 0.8683
+        1.2000 0.9415
+        1.5139 0.9561
+        1.8167 0.9073
+        2.0950 0.7268
+        2.3017 0.4683
+        2.5539 0.1805
+        2.8520 0.0000
+      }
+    }
+    event lookat "kleiner"
+    {
+      time 52.959343 56.918785
+      param "kleiner"
+      event_ramp
+      {
+        0.0280 0.0000
+        0.4580 0.0976

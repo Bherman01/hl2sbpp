@@ -1,0 +1,111 @@
+
+  {
+  }
+  channel "bodygesture"
+  {
+  }
+  channel "headgesture"
+  {
+  }
+  channel "gesture"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "face"
+  {
+  }
+  channel "temp"
+  {
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+actor "vort_calvary_1"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+  channel "NULL"
+  {
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+actor "vort_calvary_2"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+mapname "maps\ep1_citadel_00.bsp"
+scalesettings
+{
+  "CChoreoView" "74"
+  "ExpressionTool" "38"
+  "RampTool" "76"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "griggs"
+{
+  channel "audio"
+  {
+    event speak "griggs_wegotantlions01"
+    {
+      time 0.215278 0.743283
+      param "ep_02.griggs_wegotantlions01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "griggs_wegotantlions02"
+    {
+      time 1.386111 2.468787
+      param "ep_02.griggs_wegotantlions02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+    

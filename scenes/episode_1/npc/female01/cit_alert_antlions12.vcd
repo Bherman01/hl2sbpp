@@ -1,0 +1,29 @@
+
+        1.3000 0.7544
+        1.4846 0.7367
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.186668
+        "accent" 0.360892
+        "loop" 0.488943
+        "end" 0.718137
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.207792
+        "accent" 0.376623
+        "loop" 0.506494
+        "end" 0.636364
+      }
+      sequenceduration 2.600000
+    }
+    event gesture "NULL"
+    {
+      time 4.568717 7.242052
+      param ""
+    }
+  }
+  channel "head"
+  {
+    event fle

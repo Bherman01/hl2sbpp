@@ -1,0 +1,21 @@
+_mid_2hdcutdwn"
+    {
+      time 40.818222 44.828747
+      param "A_g_mid_2hdcutdwn"
+      event_ramp
+      {
+        0.2176 0.1231
+        0.8765 0.9692
+        4.0105 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.168015
+        "accent" 0.334412
+        "loop" 0.564808
+        "end" 0.641606
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.109589
+        "accent

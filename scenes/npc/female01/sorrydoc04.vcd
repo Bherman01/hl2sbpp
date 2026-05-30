@@ -1,0 +1,36 @@
+   {
+        0.4280 0.4774
+        0.5640 0.5993
+        0.7800 0.6899
+        2.5914 0.6934
+        3.2736 0.5923
+        3.4216 0.5888
+      }
+    }
+    event lookat "monitor"
+    {
+      time 33.915016 35.317230
+      param "mark_alyx_look_controlroom_monitor_lt"
+      event_ramp
+      {
+        0.1000 0.1394
+        0.2040 0.4286
+        0.3280 0.6272
+        0.4520 0.7422
+        0.7587 0.8153
+        1.2458 0.7924
+        1.3938 0.7700
+      }
+    }
+    active "0"
+  }
+  channel "move to"
+  {
+    event moveto "move_sec_room_1"
+    {
+      time 0.110995 5.235757
+      param "mark_alyx_sec_room_1"
+      param2 "Walk"
+      resumecondition
+    }
+    event 

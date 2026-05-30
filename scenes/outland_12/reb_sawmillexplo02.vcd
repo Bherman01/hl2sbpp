@@ -1,0 +1,37 @@
+""
+    }
+    event speak "00_16_13"
+    {
+      time 14.666670 19.700003
+      param "outland_07.Advisor_BarnScene_00_16_13"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "00_21_13"
+    {
+      time 19.666670 25.390842
+      param "outland_07.Advisor_BarnScene_00_21_13"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "00_27_10"
+    {
+      time 25.266668 27.218233
+      param "outland_07.Advisor_BarnScene_00_27_10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "00_28_15"
+    {
+      time 26.733339 39.288216
+      param "outland_07.Advisor_BarnScene_00_28_15"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "00_28_24"
+    {
+      time 26.799999 29.099998

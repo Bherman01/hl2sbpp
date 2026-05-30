@@ -1,0 +1,159 @@
+.3175
+        3.5000 0.1190
+      }
+    }
+  }
+  channel "flex"
+  {
+    event flexanimation "face"
+    {
+      time 13.107142 15.178572
+      param ""
+      flexanimations samples_use_time
+      {
+        "center_lid_closer"        
+        {
+          0.3604 1.0000
+          1.4148 1.0000
+          1.6754 0.0500
+        }
+        "blink"        
+        {
+          0.3604 1.0000
+          1.4148 1.0000
+          1.7002 0.0300
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "48"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "70"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "certainly"
+    {
+      time 0.020000 0.686735
+      param "npc_vortigaunt.certainly"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Look"
+  {
+    event lookat "!player"
+    {
+      time 0.020000 0.693333
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+  }
+  channel "Facial"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "corporeal"
+    {
+      time 0.020000 4.568572
+      param "npc_vortigaunt.corporeal"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Look"
+  {
+    event lookat "!player"
+    {
+      time 0.033333 4.566667
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+  }
+  channel "Facial"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "dedicate"
+    {
+      time 0.020000 3.889342
+      param "npc_vortigaunt.dedicate"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Look"
+  {
+    event lookat "!player"
+    {
+      time 0.033333 3.880000
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+  }
+  channel "Facial"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"

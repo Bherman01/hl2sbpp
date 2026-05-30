@@ -1,0 +1,75 @@
+_h_jerkleft"
+      event_ramp
+      {
+        0.4100 0.0797
+        0.7900 0.7246
+        1.7000 0.0688
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+  }
+  faceposermodel "models\alyx.mdl"
+}
+
+actor "gman"
+{
+  channel "lookAt"
+  {
+    event lookat "alyx_gman"
+    {
+      time 0.156612 133.912186
+      param "alyx_gman"
+    }
+    event lookat "alyx_gman"
+    {
+      time 109.221436 131.779755
+      param "alyx_gman"
+    }
+  }
+  channel "trigger"
+  {
+  }
+  channel "audio"
+  {
+    event speak "gman_mono01"
+    {
+      time 0.618056 4.411616
+      param "ep_02.gman_mono01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono02"
+    {
+      time 4.869949 12.280017
+      param "ep_02.gman_mono02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono03"
+    {
+      time 12.280017 19.919382
+      param "ep_02.gman_mono03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono04"
+    {
+      time 20.336048 21.926615
+      param "ep_02.gman_mo

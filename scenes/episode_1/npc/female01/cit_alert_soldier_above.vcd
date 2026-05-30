@@ -1,0 +1,27 @@
+estureTool" "40"
+  "RampTool" "28"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "odessa.nlo_cub_warning"
+    {
+      time 0.455608 5.932048
+      param "odessa.nlo_cub_warning"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "odessa.nlo_cub_teachgunship"
+    {
+      time 5.961158 9.268890
+      param "odessa.nlo_cub_teachgunship"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "odessa.nl

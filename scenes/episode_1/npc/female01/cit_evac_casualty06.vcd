@@ -1,0 +1,26 @@
+      }
+      }
+    }
+    event flexanimation "brows down"
+    {
+      time 28.369328 32.630692
+      param ""
+      flexanimations samples_use_time
+      {
+        "lowerer"         combo        
+        {
+          0.1217 0.7400
+          0.2178 0.9200
+          0.5663 0.8200
+          0.8376 0.8100
+          1.0396 0.0600
+          1.3901 0.0700
+          1.5149 0.8200
+          1.6455 0.9100
+          3.3019 0.7100
+        }
+        {
+        }
+      }
+    }
+    event flexanimation "brows up"

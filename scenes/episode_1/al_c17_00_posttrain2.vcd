@@ -1,0 +1,81 @@
+e_easeout"
+          2.8920 0.8300 "curve_easein_to_curve_easeout"
+          3.1591 0.4500 "curve_easein_to_curve_easeout"
+          3.5302 0.4300 "curve_easein_to_curve_easeout"
+        }
+      }
+    }
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "164"
+  "ExpressionTool" "22"
+  "GestureTool" "86"
+  "RampTool" "82"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "loop"
+{
+  time 11.473333 -1.000000
+  param "0.000000"
+  loopcount "-1"
+}
+actor "Alyx"
+{
+  channel "Facial"
+  {
+    event flexanimation "dead"
+    {
+      time -0.106667 12.980000
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_closer" combo 
+        {
+          0.0000 1.0000
+          12.3125 1.0000
+          12.4875 1.0000
+        }
+        {
+          0.0000 0.5000
+          12.3125 0.5000
+          12.4875 0.5000
+        }
+        "blink" 
+        {
+          0.0000 1.0000
+          12.3125 1.0000
+          12.4875 1.0000
+        }
+        "corner_puller" combo 
+        {
+          0.0000 0.0000
+          12.3125 0.0000
+          12.4875 0.0000
+        }
+        {
+          0.0000 0.5000
+          12.3125 0.5000
+          12.4875 0.5000
+        }
+        "corner_depressor" combo 
+        {
+          0.0000 0.3600 "curve_easein_to_curve_easeout"
+          12.3125 0.3600
+          12.4875 0.3600
+        }
+        {
+          0.0000 0.50

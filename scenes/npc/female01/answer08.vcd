@@ -1,0 +1,45 @@
+    "accent" 0.516001
+        "loop" 0.589715
+        "end" 0.708737
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.135802
+        "accent" 0.259259
+        "loop" 0.296296
+        "end" 0.654321
+      }
+      sequenceduration 2.733333
+    }
+    event gesture "A_g_rtl_dwnshp"
+    {
+      time 2.777778 6.244444
+      param "A_g_rtl_dwnshp"
+      event_ramp
+      {
+        0.0060 0.9962
+        1.7640 0.9848
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.281553
+        "accent" 0.398058
+        "loop" 0.631068
+        "end" 0.728155
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.281553
+        "accent" 0.398058
+        "loop" 0.631068
+        "end" 0.728155
+      }
+      sequenceduration 3.466667
+    }
+  }
+  channel "armpose"
+  {
+  }
+  channel "head"
+  {
+    event flexanimation "head"

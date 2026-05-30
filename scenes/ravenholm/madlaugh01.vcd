@@ -1,0 +1,20 @@
+ags shifted_time
+      {
+        "apex" 0.086207
+        "extreme" 0.379310
+        "loop" 0.775862
+        "end" 0.793103
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "Struggle01"
+    {
+      time 71.948715 74.396858
+      param "Struggle01"
+      absolutetags playback_time
+      {
+        "apex" 0.069497
+        "extreme" 0.305787
+        "loop" 0.528178
+        "end" 0.542077
+      }

@@ -1,0 +1,95 @@
+me 32.106667 -1.000000
+  param "noaction"
+}
+event section "pause_KleinerTyping"
+{
+  time 50.666668 -1.000000
+  param "noaction"
+}
+event section "pause_KleinerAlyxPreSS"
+{
+  time 63.680000 -1.000000
+  param "noaction"
+}
+event section "pause_KleinerButton"
+{
+  time 78.293327 -1.000000
+  param "noaction"
+}
+actor "Kleiner"
+{
+  channel "audio"
+  {
+    event speak "alyx, gordon...?"
+    {
+      time 14.928347 17.192791
+      param "k_lab2.kl_howandwhen01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "how did you get here?"
+    {
+      time 17.241678 20.537983
+      param "k_lab2.kl_howandwhen02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "my dear I'd given up hope"
+    {
+      time 22.081682 26.954494
+      param "k_lab2.kl_givenuphope"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "that was over a week ago"
+    {
+      time 32.461685 39.054314
+      param "k_lab2.kl_aweekago01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "fascinating - a slow teleport"
+    {
+      time 42.941681 44.507462
+      param "k_lab2.kl_slowteleport01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "suggests new investigation"
+    {
+      time 48.990566 52.372879
+      param "k_lab2.kl_slowteleport02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "oh yes..."
+    {
+      time 57.697235 59.173607
+      param "k_lab2.kl_blowyoustruck01"
+      fixedlength
+      tags
+      {
+        "deal" 0.433495
+      }
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "a great deal..."
+    {
+      time 59.530567 64.615852
+      param "k_lab2.kl_blowyoustruck02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "that's most troubling - he's at the citadel"
+    {
+      time 66.297241 68.376472
+      param "k_lab2.kl_atthecitadel01"
+ 

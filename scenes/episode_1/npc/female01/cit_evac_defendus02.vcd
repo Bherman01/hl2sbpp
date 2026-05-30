@@ -1,0 +1,26 @@
+       1.8641 0.9300
+          2.2183 0.9200
+        }
+        {
+        }
+        "outer_raiser"         combo        
+        {
+          0.0871 0.6700
+          0.2297 0.9000
+          0.6403 0.7100
+          0.9294 0.0900
+          1.5994 0.0800
+          1.8720 0.3400
+          2.2839 0.2900
+        }
+        {
+        }
+      }
+    }
+    event flexanimation "eyes"
+    {
+      time 32.571430 34.119049
+      param ""
+      flexanimations samples_use_time
+      {
+        "eyes_updown"         

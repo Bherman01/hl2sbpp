@@ -1,0 +1,25 @@
+oveto "Move to training cage"
+    {
+      time 6.489744 6.969743
+      param "target_vort_cage"
+      param2 "Run"
+      resumecondition
+    }
+    event moveto "Move to training cage"
+    {
+      time 1.222051 1.589231
+      param "tutorial_stand_wait"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "audio"
+  {
+    event speak "coast.vbaittrain01a"
+    {
+      time 2.516923 5.208578
+      param "coast.vbaittrain01a"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cc

@@ -1,0 +1,152 @@
+20000 4.362834
+      param "ep_01.kl_carefullamarr01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens01"
+    {
+      time 15.585835 36.072617
+      param "ep_01.kl_fellowcitizens01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens02"
+    {
+      time 33.474724 66.360962
+      param "ep_01.kl_fellowcitizens02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens03"
+    {
+      time 63.641392 71.095970
+      param "ep_01.kl_fellowcitizens03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens04"
+    {
+      time 68.419167 79.745674
+      param "ep_01.kl_fellowcitizens04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens05"
+    {
+      time 77.085838 95.680191
+      param "ep_01.kl_fellowcitizens05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens06"
+    {
+      time 93.030289 105.511993
+      param "ep_01.kl_fellowcitizens06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens07"
+    {
+      time 103.101715 119.446640
+      param "ep_01.kl_fellowcitizens07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens08"
+    {
+      time 116.625511 153.380768
+      param "ep_01.kl_fellowcitizens08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens09"
+    {
+      time 151.292191 174.727905
+      param "ep_01.kl_fellowcitizens09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens10"
+    {
+      time 172.030289 201.038788
+      param "ep_01.kl_fellowcitizens10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens11"
+    {
+      time 198.458862 210.783829
+      param "ep_01.kl_fellowcitizens11"
+      param2 ".63"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens12"
+    {
+      time 208.220779 227.325974
+      param "ep_01.kl_fellowcitizens12"
+      param2 ".5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens13"
+    {
+      time 224.696976 241.247971
+      param "ep_01.kl_fellowcitizens13"
+      param2 ".53"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens14"
+    {
+      time 239.077927 247.252319
+      param "ep_01.kl_fellowcitizens14"
+      param2 ".5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens15"
+    {
+      time 244.839844 255.968979
+      param "ep_01.kl_fellowcitizens15"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens16"
+    {
+      time 253.363678 262.310150
+      param "ep_01.kl_fellowcitizens16"
+      param2 "0.64"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens17"
+    {
+      time 259.697021 275.742981
+      param "ep_01.kl_fellowcitizens17"
+      param2 ".53"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_fellowcitizens18"
+    {
+      time 273.077972 294.290375
+      param 

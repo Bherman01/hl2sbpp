@@ -1,0 +1,37 @@
+6438
+      }
+      sequenceduration 2.466667
+    }
+    event gesture "A_gesture10"
+    {
+      time 10.619048 13.419048
+      param "A_gesture10"
+      event_ramp
+      {
+        0.0240 1.0000
+        1.2080 1.0000
+        2.4160 0.1477
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.204819
+        "accent" 0.335329
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.204819
+        "accent" 0.397590
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 21.552383 23.402382
+      param ""
+    }
+    event gesture "A_g_fingptfwd"
+  

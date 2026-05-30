@@ -1,0 +1,36 @@
+
+    }
+    event gesture "NULL"
+    {
+      time 11.819047 14.519047
+      param ""
+    }
+    event gesture "A_p_lft_fwd"
+    {
+      time 5.652381 12.652382
+      param "A_p_lft_fwd"
+      absolutetags playback_time
+      {
+        "apex" 0.110981
+        "loop" 0.183139
+        "end" 0.876191
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.459184
+        "end" 0.561224
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "NULL"
+    {
+      time 26.035713 29.352381
+      param ""
+    }
+    event gesture "A_p_lft_fwd"
+    {
+      time 27.952379 32.274006
+      param "A_p_lft_fwd"
+      absolutetags playback_time
+  

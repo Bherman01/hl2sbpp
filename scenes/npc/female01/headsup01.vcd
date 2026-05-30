@@ -1,0 +1,30 @@
+   event gesture "console1"
+    {
+      time 1.875556 13.702865
+      param "consoleposture"
+      absolutetags playback_time
+      {
+        "apex" 0.085413
+        "loop" 0.113885
+        "end" 0.817521
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.408163
+        "end" 0.561224
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "NULL"
+    {
+      time 0.000000 1.677779
+      param ""
+    }
+  }
+  channel "bodyaccent"
+  {
+  }
+  channel "Gestures"
+  {
+    event ge

@@ -1,0 +1,26 @@
+ack"
+      fixedlength
+    }
+    event sequence "null"
+    {
+      time 21.571428 30.404762
+      param "E1_intro_dog_over_gate"
+      fixedlength
+    }
+    event sequence "null"
+    {
+      time 67.333351 105.666687
+      param "Ep1_intro_alyxDogGoodbye"
+      fixedlength
+    }
+    event sequence "null"
+    {
+      time 1.261905 8.428572
+      param "fetch_front_lookat_throw"
+      fixedlength
+    }
+  }
+  channel "postures"
+  {
+    event gesture "p_leftlook"
+   

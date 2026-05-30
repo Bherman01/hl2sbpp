@@ -1,0 +1,58 @@
+ "end" 0.694444
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.305556
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      sequenceduration 2.433333
+    }
+  }
+}
+
+actor "npc_cit_gate"
+{
+  channel "audio"
+  {
+  }
+  channel "moveto"
+  {
+  }
+  channel "faceto"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.528718 2.908718
+      param "!player"
+    }
+  }
+}
+
+mapname "maps\d1_canals_08a.bsp"
+scalesettings
+{
+  "CChoreoView" "104"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "76"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 4.133335 -1.000000
+  param "noaction"
+}
+actor "npc_cit_briefer"
+{
+  channel "audio"
+  {
+  }
+  channel "moveto

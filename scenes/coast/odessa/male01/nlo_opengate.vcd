@@ -1,0 +1,25 @@
+ {
+        "apex" 0.168370
+        "accent" 0.252555
+        "loop" 0.387251
+        "end" 0.678869
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.238095
+        "accent" 0.392857
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      sequenceduration 2.833333
+    }
+    event gesture "NULL"
+    {
+      time 2.306667 4.193333
+      param ""
+    }
+    event gesture "g_refer_forward"
+    {
+      time 2.886667 6.260001
+      param "g_refer_forward"
+      absolute

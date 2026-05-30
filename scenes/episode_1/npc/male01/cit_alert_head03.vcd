@@ -1,0 +1,26 @@
+
+    {
+      time 0.251515 3.501516
+      param "A_bg_hroll"
+      event_ramp 
+      {
+        0.0000 0.9675
+        1.6105 1.0000
+        2.5158 0.2202
+        2.7368 0.0830
+        2.9053 0.0289
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.153846
+        "extreme" 0.364103
+        "loop" 0.605926
+        "end" 0.709630
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.111111
+        "extreme" 0.400000
+        "loop" 0.577778
+        "end" 0.688889
+      

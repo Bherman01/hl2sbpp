@@ -1,0 +1,113 @@
+1
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 2.430504
+      param ""
+    }
+    event gesture "empbig"
+    {
+      time 2.293333 7.873333
+      param "A_EMPbig_g"
+      absolutetags playback_time
+      {
+        "apex" 0.084129
+        "loop" 0.498770
+        "end" 0.671429
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.083333
+        "loop" 0.494048
+        "end" 0.625000
+      }
+      sequenceduration 5.633333
+    }
+    event gesture "NULL"
+    {
+      time 6.186666 9.433332
+      param ""
+    }
+    event gesture "A_g_rthd_selfpoint"
+    {
+      time 10.960003 15.563777
+      param "A_g_rthd_selfpoint"
+      event_ramp
+      {
+        0.0038 0.1174
+        0.2808 0.5492
+        0.6962 0.8674
+        0.9462 0.8068
+        1.2538 0.7235
+        1.5115 0.6894
+        1.7462 0.7386
+        1.9808 0.9886
+        3.9269 0.9924
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.151030
+        "hd2" 0.232418
+        "hd1" 0.380992
+        "accent" 0.442851
+        "loop" 0.560015
+        "end" 0.794964
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.159091
+        "hd2" 0.258204
+        "hd1" 0.275536
+        "accent" 0.363636
+        "loop" 0.545455
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "A_g_cutoutpdwn"
+    {
+      time 13.546668 16.846666
+      param "A_g_cutoutpdwn"
+      event_ramp
+      {
+        0.0154 0.9811
+        1.4500 0.9886
+        2.1308 0.3902
+        2.3769 0.1894
+        2.6808 0.0114
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.325203
+        "accent" 0.437669
+        "loop" 0.662602
+        "end" 0.713723
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.195122
+        "accent" 0.329268
+        "loop" 0.597561
+        "end" 0.658537
+      }
+      sequenceduration 2.766667
+    }
+    event gesture "NULL"
+    {
+      time 9.039999 12.206667
+      param ""
+    }
+    event gesture "A_gesture16"
+    {
+      time 7.013334 9.480000
+      param "A_gesture16"
+      event_ramp
+      {
+        0.0000 0.6629
+        0.7192 0.7689
+      

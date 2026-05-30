@@ -1,0 +1,25 @@
+   0.6404 0.9930
+        2.8302 0.9861
+      }
+    }
+    event lookat "monitor"
+    {
+      time 17.969700 33.954548
+      param "mark_sec_monitor01"
+      event_ramp
+      {
+        0.1173 0.4390
+        0.2115 0.7875
+        0.2808 0.8920
+        0.3673 0.9547
+        15.9848 1.0000
+      }
+    }
+    event lookat "player"
+    {
+      time 33.454548 36.287880
+      param "!self"
+      event_ramp
+      {
+        0.1885 0.6794
+ 

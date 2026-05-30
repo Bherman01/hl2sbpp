@@ -1,0 +1,35 @@
+ event_ramp
+      {
+        0.5753 0.7660
+        0.7785 0.9417
+        2.0081 1.0000
+        2.5148 1.0000
+      }
+    }
+    event face "player"
+    {
+      time 11.134814 12.982964
+      param "!player"
+      event_ramp
+      {
+        0.6474 0.5144
+        1.0962 0.5804
+        1.7754 0.5808
+        1.8482 0.5779
+      }
+    }
+  }
+  channel "Postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 2.277778
+      param ""
+    }
+    event gesture "posture02"
+    {
+      time 2.266667 5.900001
+      param "posture02"
+      event_ramp
+      {
+    

@@ -1,0 +1,57 @@
+eoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "answer18"
+    {
+      time -0.000000 2.321451
+      param "npc_citizen.answer18"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time 0.000000 2.353333
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser"         combo        
+        {
+          0.6737 0.0200
+          0.8379 0.3700
+          0.9606 0.0900
+        }
+        {
+        }
+        "lid_tightener"         combo        
+        {
+          0.1231 0.3986
+          0.1814 0.4306
+          0.2125 0.4306
+          0.2557 0.3772
+          0.3410 0.4520
+          0.4325 0.3665
+          0.5219 0.4377
+          0.5872 0.4270
+          0.6350 0.4235
+          0.7538 0.0320
+        }
+        {
+        }
+        "lid_closer"         combo        
+        {

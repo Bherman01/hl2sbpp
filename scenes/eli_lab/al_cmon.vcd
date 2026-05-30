@@ -1,0 +1,38 @@
+    "apex" 0.214738
+        "extreme" 0.418641
+        "loop" 0.591812
+        "end" 0.715505
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.142857
+        "extreme" 0.328571
+        "loop" 0.528571
+        "end" 0.671429
+      }
+      sequenceduration 2.366667
+    }
+    event gesture "E_g_chin_touch"
+    {
+      time 83.236107 95.577782
+      param "E_g_chin_touch"
+      absolutetags playback_time
+      {
+        "in" 0.057297
+        "loop" 0.120051
+        "end" 0.931384
+        "out" 0.967381
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.214286
+        "loop" 0.448980
+        "end" 0.755102
+        "out" 0.867347
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "Gesture_leanIn_H"
+    {
+      time 40.958336 43.570839
+      param "Ge

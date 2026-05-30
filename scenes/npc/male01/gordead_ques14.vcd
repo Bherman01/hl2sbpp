@@ -1,0 +1,36 @@
+.0900
+        }
+        {
+        }
+        "lowerer"         combo        
+        {
+          0.1206 0.1900
+          0.2266 0.2700
+          0.5822 0.3300
+          0.9565 0.2900
+          1.1744 0.0900
+        }
+        {
+        }
+      }
+    }
+  }
+  channel "Head"
+  {
+    event flexanimation "Head"
+    {
+      time 0.000000 1.593334
+      param ""
+      flexanimations samples_use_time
+      {
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"

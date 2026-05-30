@@ -1,0 +1,28 @@
+3
+      param "ep1_GrabCrowbar"
+      fixedlength
+    }
+    event sequence "NULL"
+    {
+      time 54.151367 62.951366
+      param "ep1_TossCrowbar"
+      fixedlength
+    }
+  }
+  channel "postures"
+  {
+    event gesture "NULL"
+    {
+      time -0.041667 1.100001
+      param "NULL"
+    }
+    event gesture "1"
+    {
+      time 0.416667 13.793055
+      param "Posture02"
+      absolutetags playback_time
+      {
+        "apex" 0.094252
+        "loop" 0.114402
+        "end" 0.884721
+    

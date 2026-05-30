@@ -1,0 +1,39 @@
+m "barney"
+      event_ramp 
+      {
+        0.3736 0.3867
+        1.2584 0.9008
+        2.3033 0.9347
+        3.3632 0.4143
+      }
+    }
+    event lookat "!player"
+    {
+      time 48.891670 54.234707
+      param "!player"
+      event_ramp 
+      {
+        0.6070 0.6927
+        1.3067 1.0000
+        4.0017 0.9945
+        4.6509 0.6851
+      }
+    }
+    event lookat "barney"
+    {
+      time 3.392983 9.671929
+      param "barney"
+      event_ramp 
+      {
+        0.5640 0.6098
+        0.9372 0.7588
+        5.1048 0.6583
+        5.6622 0.4696
+      }
+    }
+    event lookat "player"
+    {
+      time 9.148539 12.383041
+      param "!player"
+      event_ramp 
+      {

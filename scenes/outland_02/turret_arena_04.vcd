@@ -1,0 +1,414 @@
+r"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "56"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "Audio"
+  {
+    event speak "ep_02.al_junc_gordonglad"
+    {
+      time 0.154532 1.019521
+      param "ep_02.al_junc_cominggordon"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.039148 1.794644
+      param "!player"
+      event_ramp
+      {
+        0.5040 1.0000
+        1.1319 1.0000
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "body"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "56"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "Audio"
+  {
+    event speak "ep_02.al_junc_gordonglad"
+    {
+      time 0.237866 1.563149
+      param "ep_02.al_junc_gettowhiteforest01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_junc_nexttome02"
+    {
+      time 1.642858 3.994151
+      param "ep_02.al_junc_gettowhiteforest02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.039148 4.380952
+      param "!player"
+      event_ramp
+      {
+        0.5040 1.0000
+        3.7182 1.0000
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "body"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "56"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "Audio"
+  {
+    event speak "ep_02.al_junc_gordonglad"
+    {
+      time 0.237866 1.173852
+      param "ep_02.al_junc_nexttome01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_junc_nexttome02"
+    {
+      time 1.392858 2.511520
+      param "ep_02.al_junc_nexttome02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.039148 2.809524
+      param "!player"
+      event_ramp
+      {
+        0.5040 1.0000
+        2.1468 1.0000
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "body"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "56"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "Audio"
+  {
+    event speak "ep_02.al_junc_gordonglad"
+    {
+      time 0.237866 2.262923
+      param "ep_02.al_junc_notwithoutyou01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_junc_nexttome02"
+    {
+      time 2.285715 4.411112
+      param "ep_02.al_junc_notwithoutyou02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.039148 4.857143
+      param "!player"
+      event_ramp
+      {
+        0.5040 1.0000
+        4.1944 1.0000
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "body"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "56"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "Audio"
+  {
+    event speak "ep_02.al_junc_trynotslow"
+    {
+      time 0.714056 2.246664
+      param "ep_02.al_junc_trynotslow"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.039148 2.842262
+      param "!player"
+      event_ramp
+      {
+        0.5040 0.4952
+        1.0340 0.8167 "curve_easein_to_curve_easeout"
+        2.1795 0.7910 "curve_easein_to_curve_easeout"
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "body"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "56"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "ep_02.al_canyon_walkonmyown01"
+    {
+      time 0.026667 2.368005
+      param "ep_02.al_canyon_walkonmyown01"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_canyon_walkonmyown02"
+    {
+      time 2.566667 4.316010
+      param "ep_02.al_canyon_walkonmyown02"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look"
+  {
+    event lookat "vort"
+    {
+      time 0.033333 2.666667
+      param "vort"
+      event_ramp
+      {
+        0.4960 1.0000
+        2.2280 1.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 2.406667 4.640000
+      param "!player"
+      event_ramp

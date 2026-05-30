@@ -1,0 +1,36 @@
+8.0 -18.0        
+        {
+          0.3596 0.5179
+          0.6062 0.5591
+          1.2434 0.5561
+          1.5128 0.5281
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "answer11"
+    {
+      time 0.006667 1.563062
+      param "npc_citizen.answer11"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expressio

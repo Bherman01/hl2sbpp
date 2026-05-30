@@ -1,0 +1,44 @@
+669492
+        "out" 0.788136
+      }
+      sequenceduration 3.966667
+    }
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+actor "vort_calvary_2"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "alyx"
+    {
+      time 5.216667 87.581085
+      param "alyx"
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+    event face "alyx"
+    {
+      time 6.161112 22.533333
+      param "alyx"
+    }
+  }
+  channel "blink"
+  {
+    event generic "no blink"
+    {
+      time -0.033334 5.133333
+      param "AI_BLINK"
+      param2 "vort_calvary_2"
+    }
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}

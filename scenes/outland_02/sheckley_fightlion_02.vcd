@@ -1,0 +1,80 @@
+     event_ramp
+      {
+        0.2458 0.8512
+        9.3134 0.9422
+      }
+    }
+    event lookat "look at player"
+    {
+      time 9.228633 12.237822
+      param "!player"
+      event_ramp
+      {
+        0.2458 0.8556
+        2.6828 0.9422
+      }
+    }
+    event lookat "look at player"
+    {
+      time 21.236109 23.948717
+      param "!player"
+      event_ramp
+      {
+        0.2458 0.8068
+        2.3862 0.9422
+      }
+    }
+    event lookat "look at map"
+    {
+      time 23.564955 26.464760
+      param "sawmill_briefing_lookat_map"
+      event_ramp
+      {
+        0.2458 0.8448
+        2.5732 0.9422
+      }
+    }
+    event lookat "look at sawmill_citizen_start_briefer"
+    {
+      time 28.733408 32.340553
+      param "sawmill_citizen_start_briefer"
+      event_ramp
+      {
+        0.2458 0.8556
+        3.2806 0.9422
+      }
+    }
+    event lookat "look at sawmill_citizen_start_3"
+    {
+      time 32.342186 34.306816
+      param "sawmill_citizen_start_3"
+      event_ramp
+      {
+        0.2458 0.8556
+        1.6382 0.9422
+      }
+    }
+    event lookat "look at player"
+    {
+      time 26.149153 29.079153
+      param "!player"
+      event_ramp
+      {
+        0.2458 0.8068
+        2.6036 0.9422
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "face sawmill_citizen_start_briefer"
+    {
+      time 4.153573 21.880953
+      param "sawmill_citizen_start_briefer"
+      event_ramp
+      {
+        1.0071 0.9783
+        16.9298 0.9892
+      }
+    }
+    event fac

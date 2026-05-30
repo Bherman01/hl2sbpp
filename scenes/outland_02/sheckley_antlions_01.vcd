@@ -1,0 +1,107 @@
+equenceduration 2.766667
+    }
+    event gesture "g_palm_out_l"
+    {
+      time 16.909090 19.675756
+      param "g_palm_out_l"
+      event_ramp
+      {
+        0.2219 0.1617
+        0.4375 0.7107
+        0.8063 0.9749
+        1.9000 0.7221
+        2.4094 0.1777
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.121951
+        "accent" 0.231707
+        "loop" 0.390244
+        "end" 0.780488
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.121951
+        "accent" 0.231707
+        "loop" 0.390244
+        "end" 0.780488
+      }
+      sequenceduration 2.766667
+    }
+    event gesture "g_palm_up_l"
+    {
+      time 18.922726 21.734108
+      param "g_palm_up_l"
+      event_ramp
+      {
+        0.2437 0.2073
+        0.7594 0.9158
+        1.9113 0.9248
+        2.3853 0.8087
+        2.6322 0.2938
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.120610
+        "accent" 0.253281
+        "loop" 0.301525
+        "end" 0.769231
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.172414
+        "accent" 0.362069
+        "loop" 0.431034
+        "end" 0.775862
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "p_L_forwthrow"
+    {
+      time 32.349064 34.315731
+      param "p_L_forwthrow"
+      absolutetags playback_time
+      {
+        "apex" 0.258621
+        "accent" 0.517241
+        "loop" 0.775862
+        "end" 0.827586
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.258621
+        "accent" 0.517241
+        "loop" 0.775862
+        "end" 0.827586
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "g_openarms"
+    {
+      time 0.041667 1.991667
+      param "g_openarms"
+      event_ramp
+      {
+        0.0733 0.0706
+        0.3067 0.8223
+        0.4356 0.9636
+        0.6089 1.0000
+        1.0400 1.0000
+        1.3422 0.9681
+        1.5311 0.7904
+        1.7733 0.0957
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.173382
+        "accent" 0.364103
+        "loop" 0.719613
+        "end" 0.816277
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.142857
+        "accent" 0.300000
+        "loop" 0.714286
+        "end" 0.742857
+      

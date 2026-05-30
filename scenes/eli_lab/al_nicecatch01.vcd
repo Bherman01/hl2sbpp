@@ -1,0 +1,35 @@
+loop" 0.296007
+        "end" 0.614401
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.408163
+        "end" 0.561224
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "consoleposture"
+    {
+      time 131.000000 135.207642
+      param "consoleposture"
+      absolutetags playback_time
+      {
+        "apex" 0.200420
+        "loop" 0.294444
+        "end" 0.649074
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.408163
+        "end" 0.561224
+      }
+      sequenceduration 3.300000
+    }
+  }
+  channel "head"
+  {
+    event gesture "accentup_ext_pod"
+    {
+      time 82.397606 91.593231

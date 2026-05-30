@@ -1,0 +1,34 @@
+  "loop" 0.617648
+        "end" 0.660870
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.294118
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "A_bg_upchindwn"
+    {
+      time 9.302382 11.884995
+      param "A_bg_upchindwn"
+      event_ramp
+      {
+        0.0000 0.9811
+        1.1880 0.9773
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.129068
+        "extreme" 0.222526
+        "loop" 0.374298
+        "end" 0.763323
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.132530
+        "extreme" 0.240964
+        "loop" 0.542169
+        

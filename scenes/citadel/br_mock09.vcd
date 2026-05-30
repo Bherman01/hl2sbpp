@@ -1,0 +1,166 @@
+    1.1927 0.5300
+          1.6616 0.5100
+          2.2683 0.5000
+          3.4817 0.5000
+          4.9511 0.5000
+          5.7845 0.5100
+          6.3160 0.5000
+          6.6808 0.5900
+          6.9152 0.4000
+          7.2185 0.4900
+          7.3495 0.4900
+          8.3510 0.5000
+          9.6566 0.5000
+          10.6003 0.5000
+          12.1386 0.5100
+          12.5911 0.5800
+        }
+      }
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\breen.mdl"
+}
+
+mapname "maps\eli_lab.bsp"
+scalesettings
+{
+  "CChoreoView" "44"
+  "SceneRampTool" "100"
+  "RampTool" "46"
+  "ExpressionTool" "16"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Breen"
+{
+  channel "audio"
+  {
+    event speak "br_failing11"
+    {
+      time 0.222222 1.247369
+      param "citadel.br_failing11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "NULL"
+    {
+      time 1.444444 1.944444
+      param "NULL"
+    }
+  }
+  channel "move to "
+  {
+    event moveto "NULL"
+    {
+      time 1.466667 1.966667
+      param "NULL"
+    }
+  }
+  channel "face to"
+  {
+    event face "NULL"
+    {
+      time 1.466667 1.966667
+      param "NULL"
+    }
+  }
+  channel "sequence"
+  {
+    event sequence "NULL"
+    {
+      time 1.488888 1.988888
+      param "NULL"
+    }
+  }
+  channel "postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 2.011111
+      param "null1"
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 2.033333
+      param "NULL"
+    }
+  }
+  channel "trigger"
+  {
+    event firetrigger "1_NULL"
+    {
+      time 1.644444 -1.000000
+      param "1"
+    }
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 12.935899 -1.000000
+  param "noaction"
+}
+actor "Breen"
+{
+  channel "audio"
+  {
+    event speak "br_foundation"
+    {
+      time 0.066667 12.651792
+      param "citadel.br_foundation"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "camera_tv_breen"
+    {
+      time 0.000000 13.609832
+      param "camera_tv_breen"
+      event_ramp
+      {
+        0.3130 0.6694
+        0.8435 0.9896
+        12.7107 1.0000
+        13.2772 0.5403
+      }
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.012821 13.807693
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser"         combo        
+        {
+          0.2254 0.0000
+          0.3923 0.0000
+          2.6675 0.0000
+          3.4627 0.0000
+          3.6374 0.0000

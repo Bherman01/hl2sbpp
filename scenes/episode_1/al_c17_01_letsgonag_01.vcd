@@ -1,0 +1,49 @@
+fted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.301205
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.215053 2.220430
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser" combo 
+        {
+          0.5323 0.2000
+          1.3495 0.1168
+        }
+        {
+          0.5323 0.5000
+          1.3495 0.5000
+        }
+        "inner_raiser" combo 
+        {
+          0.5323 0.4300
+          1.3495 0.0000
+        }
+        {
+          0.5323 0.5000
+          1.3495 0.5000
+        }
+        "outer_raiser" combo 
+        {
+          0.5323 0.4300
+          1.3495 0.0000
+        }
+        {
+          0

@@ -1,0 +1,27 @@
+ lookat "look at player"
+    {
+      time 0.026666 4.646667
+      param "!player"
+      event_ramp
+      {
+        0.4060 0.9494
+        4.0340 0.9671
+      }
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.580000
+      param ""
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.766667
+      param ""
+    }
+    eve

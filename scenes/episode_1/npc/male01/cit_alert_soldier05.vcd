@@ -1,0 +1,26 @@
+ 0.512821
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "concentrategesture"
+    {
+      time 35.499996 40.066662
+      param "concentrategesture"
+      event_ramp 
+      {
+        0.0000 1.0000
+        1.6050 1.0000
+      }
+      absolutetags playback_time
+      {
+        "in" 0.286765
+        "loop" 0.360294
+        "end" 0.654412
+        "out" 0.727941
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.286765
+        "loop" 0.360294
+        

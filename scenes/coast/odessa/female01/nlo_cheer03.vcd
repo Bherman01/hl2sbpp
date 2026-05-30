@@ -1,0 +1,23 @@
+765
+      }
+      sequenceduration 2.300000
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\vortigaunt.mdl"
+}
+
+actor "!target2"
+{
+  channel "audio"
+  {
+    event speak "coast.vgossip_02"
+    {
+      time 8.019608 12.581240
+      param "coast.vgossip_02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "coast.vgossip_04"
+    {
+      time 15.941176 16.936075

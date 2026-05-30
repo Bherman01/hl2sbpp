@@ -1,0 +1,32 @@
+  absolutetags playback_time
+      {
+        "apex" 0.111698
+        "extreme" 0.200049
+        "loop" 0.442623
+        "end" 0.596708
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.136364
+        "extreme" 0.329545
+        "loop" 0.454545
+        "end" 0.568182
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "NULL"
+    {
+      time 0.000000 0.194671
+      param ""
+    }
+  }
+  channel "body2"
+  {
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.091481 7.711852
+      param ""
+      flex

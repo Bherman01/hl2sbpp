@@ -1,0 +1,29 @@
+4821
+          1.0743 0.5137
+          1.2973 0.4863
+          1.4749 0.5074
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "answer32"
+    {
+      time 0.133333 0.706508
+      pa

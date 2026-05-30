@@ -1,0 +1,28 @@
+   "apex" 0.125000
+        "extreme" 0.305556
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      sequenceduration 2.433333
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event flexanimation "faceflex"
+    {
+      time 0.012583 4.349024
+      param ""
+      event_ramp 
+      {
+        0.2373 1.0000
+        3.8967 1.0000
+      }
+      flexanimations samples_use_time
+      {
+        "lid_tightener" combo 
+        {
+          0.0000 0.0000
+   

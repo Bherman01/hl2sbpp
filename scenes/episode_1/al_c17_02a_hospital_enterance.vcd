@@ -1,0 +1,150 @@
+ator_shaftoutside_stand"
+    {
+      time 0.000000 2.166667
+      param "elevator_shaftoutside_stand"
+      lockbodyfacing
+    }
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.392473
+      param "null"
+    }
+    event gesture "A_hairbrush"
+    {
+      time 0.655172 2.669866
+      param "A_hairbrush"
+      absolutetags playback_time
+      {
+        "apex" 0.243049
+        "accent" 0.414288
+        "loop" 0.729282
+        "end" 0.795433
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.072289
+        "accent" 0.192771
+        "loop" 0.777108
+        "end" 0.831325
+      }
+      sequenceduration 5.566667
+    }
+    event gesture "NULL"
+    {
+      time 4.144445 4.793104
+      param "null"
+    }
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "58"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "52"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause"
+{
+  time 1.047920 -1.000000
+  param "noaction"
+}
+event section "faceto"
+{
+  time 5.604167 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_01.al_elev_letsgetout"
+    {
+      time 2.169207 3.127552
+      param "ep_01.al_elev_letsgetout"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "info_elev_button_inside"
+    {
+      time 2.212218 5.222971
+      param "info_elev_button_inside"
+      event_ramp 
+      {
+        0.0538 0.0000
+        0.4962 0.8840
+        2.2423 0.9613
+      }
+    }
+    event lookat "look at player"
+    {
+      time 1.536769 2.155048
+      param "!player"
+    }
+    event lookat "elevator_shaftoutside_stand"
+    {
+      time 5.254167 5.754167
+      param "elevator_shaftoutside_stand"
+      resumecondition
+    }
+  }
+  channel "move to"
+  {
+    event moveto "info_elev_button02"
+    {
+      time 0.009357 1.299678
+      param "info_elev_button02"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "faceTo"
+  {
+    event face "info_elev_button_inside"
+    {
+      time 1.557863 4.922963
+      param "info_elev_button_inside"
+      event_ramp 
+      {
+        0.0538 0.0110
+        0.9000 1.0000
+        3.3651 1.0000
+      }
+    }
+    event face "!player"
+    {
+      time

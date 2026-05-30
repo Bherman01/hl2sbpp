@@ -1,0 +1,30 @@
+om_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "inner_raiser" combo 
+        {
+          0.2312 0.3000
+          0.3531 0.3200
+          0.7656 0.2600
+        }
+        {
+          0.2312 0.5000
+        }
+        "lowerer" combo 
+        {
+          0.2312 0.5500
+          0.3781 0.5800
+          0.7688 0.4500
+        }
+        {
+          0.2312 0.5000
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+mapname "

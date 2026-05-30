@@ -1,0 +1,57 @@
+"
+  "RampTool" "26"
+  "ExpressionTool" "64"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "Sound"
+  {
+    event speak "ep_02.al_barn_peakview02"
+    {
+      time 4.459383 6.830426
+      param "ep_02.al_barn_peakview02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_barn_peakview01"
+    {
+      time 0.443124 4.179111
+      param "ep_02.al_barn_peakview01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "text"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 4.072994 8.496501
+      param "!player"
+      event_ramp
+      {
+        0.2944 0.3239
+        0.5362 0.8352
+        0.8492 1.0000
+        3.6572 0.9886
+        3.8942 0.8409
+        4.1389 0.2695
+      }
+    }
+    event lookat "mark_look_tracks"
+    {
+      time 7.783595 10.161654
+      param "mark_look_tracks"
+      event_ramp
+      {
+        0.2667 0.2281
+        0.4418 0.7394
+ 

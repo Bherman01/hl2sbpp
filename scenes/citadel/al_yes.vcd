@@ -1,0 +1,27 @@
+        1.2820 0.7556
+        1.3267 0.7519
+      }
+    }
+    event face "citadel_breakable_finalcore1"
+    {
+      time 10.773335 11.813011
+      param "citadel_breakable_finalcore1"
+      event_ramp
+      {
+        0.1080 0.1955
+        0.2220 0.4060
+        0.3680 0.6015
+        0.5380 0.7143
+        0.7123 0.7397
+        0.7608 0.7403
+        0.8633 0.7377
+        0.9210 0.7377
+        0.9617 0.7377
+        0.9931 0.7377
+        1.0396 0.7299
+      }
+    }
+    event face "citadel_breakable_finalcore1"
+    {
+      time 7.408257 8.447932
+      param "citadel_breakable_fi

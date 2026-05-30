@@ -1,0 +1,46 @@
+ 0.3177
+        4.8479 0.0866
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.095006
+        "accent" 0.236324
+        "loop" 0.312910
+        "end" 0.819413
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.120370
+        "accent" 0.222222
+        "loop" 0.277778
+        "end" 0.740741
+      }
+      sequenceduration 3.633333
+    }
+    event gesture "A_g_hdsinhead"
+    {
+      time 71.927849 77.315536
+      param "A_g_hdsinhead"
+      event_ramp 
+      {
+        0.0000 0.9866
+        3.7956 0.9799
+        4.7235 0.9101
+      }
+      absolutetags playback_time
+      {
+        "in" 0.079646
+        "loop" 0.159292
+        "end" 0.662771
+        "out" 0.792988
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.121622
+        "loop" 0.337838
+        "end" 0.621622
+        "out" 0.810811
+      }
+      sequenceduration 2.500000
+    }
+    event gesture "A_g_

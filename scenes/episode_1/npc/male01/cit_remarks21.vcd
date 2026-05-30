@@ -1,0 +1,23 @@
+     fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_onceacross03"
+    {
+      time 93.157158 94.433777
+      param "ep_01.al_onceacross03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_allrightdog"
+    {
+      time 99.292076 100.874435
+      param "ep_01.al_allrightdog"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_01.al_fight10"
+    {
+      time 98.314293 99.91647

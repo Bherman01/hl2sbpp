@@ -1,0 +1,48 @@
+
+    }
+  }
+  channel "look at"
+  {
+    event lookat "doorcontrol"
+    {
+      time 2.027754 5.422313
+      param "!target1"
+      event_ramp 
+      {
+        0.3780 0.7205
+        0.5040 0.8384
+        2.7564 0.8865
+        2.9436 0.8822
+        3.0555 0.8782
+      }
+    }
+    event lookat "doorcontrol"
+    {
+      time 0.020409 1.106940
+      param "!target1"
+      event_ramp 
+      {
+        0.7303 0.8563
+        0.7851 0.8865
+        0.9326 0.8384
+        0.9931 0.7845
+      }
+    }
+    event lookat "doorcontrol"
+    {
+      time 6.254014 7.774559
+      param "!target1"
+      event_ramp 
+      {
+        0.3780 0.7205
+        0.5040 0.8384
+        0.9489 0.8865
+        1.0422 0.8723
+        1.1446 0.8543
+      }
+    }
+    event lookat "Alyx_Emptool"
+    {
+      time 0.724858 2.184219
+      param "Alyx_Emptool"
+   

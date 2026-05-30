@@ -1,0 +1,30 @@
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time 0.000000 0.933334
+      param "!player"
+    }
+  }
+  channel "Head"
+  {
+    event flexanimation "Head"
+    {
+      time 0.013334 0.906667
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_rightleft"         range 30.0 -30.0        
+        {
+          0.0478 0.5051
+          0.1468 0.4974
+        }
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.0461 0.5598
+          0.0915 0.5670
+          0.2183 0.5683
+          0.3306 0.5658
+          0.6155 0.5449
+  

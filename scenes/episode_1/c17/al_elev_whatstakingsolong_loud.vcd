@@ -1,0 +1,28 @@
+ridge01"
+    {
+      time 63.680710 66.680710
+      param "mark_barney_besideBridge01"
+    }
+  }
+  channel "face to"
+  {
+    event face "alyx"
+    {
+      time 4.675662 39.558746
+      param "alyx"
+      event_ramp 
+      {
+        1.0833 0.4924
+        1.5575 0.6332
+        3.0600 0.7286
+        3.7667 0.7286
+        32.1850 0.7286
+        32.9350 0.7236
+        33.7667 0.6583
+        34.3309 0.4674
+      }
+    }
+    event face "!player"
+    {
+      time 45.577126 66.846542
+      param "!player

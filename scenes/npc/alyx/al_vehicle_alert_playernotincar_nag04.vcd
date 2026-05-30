@@ -1,0 +1,59 @@
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d2_prison\06_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "62"
+  "SceneRampTool" "100"
+  "RampTool" "26"
+  "ExpressionTool" "64"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event flexanimation "facial"
+    {
+      time 0.034722 6.000000
+      param ""
+      event_ramp 
+      {
+        0.3837 0.9942
+        5.5400 1.0000
+      }
+      flexanimations samples_use_time
+      {
+        "lid_raiser" combo 
+        {
+          0.0000 0.0000
+          4.0194 0.0000
+          5.9653 0.0000
+        }
+        {
+          0.0000 0.5000
+          4.0194 0.5000
+          5.9653 0.5000
+        }
+        "lid_tightener" c

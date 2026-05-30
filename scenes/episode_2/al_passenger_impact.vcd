@@ -1,0 +1,27 @@
+Tool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause"
+{
+  time 2.262963 -1.000000
+  param "noaction"
+}
+event stoppoint "stop"
+{
+  time 12.186666 -1.000000
+  param "noaction"
+}
+event section "pause_door"
+{
+  time 9.102221 -1.000000
+  param "noaction"
+}
+actor "Mossman"
+{
+  channel "audio"
+  {
+    event speak "I'll take you to Eli"
+    {
+ 

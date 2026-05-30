@@ -1,0 +1,29 @@
+04943
+      param "odessa.nlo_citizen_drivesafe"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "open gate 1"
+    {
+      time 4.346666 -1.000000
+      param "1"
+    }
+  }
+  channel "Look"
+  {
+    event lookat "look at player"
+    {
+      time 0.026666 2.580000
+      param "!player"
+      event_ramp
+      {
+        0.4400 0.9958
+        1.8613 0.9831
+      }
+    }
+    event lookat "Look at button"

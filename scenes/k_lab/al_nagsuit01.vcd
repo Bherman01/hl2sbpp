@@ -1,0 +1,422 @@
+    }
+      absolutetags shifted_time
+      {
+        "apex" 0.200000
+        "accent" 0.300000
+        "loop" 0.400000
+        "end" 0.625000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "armpose"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "Aim"
+  {
+    event generic "!target1"
+    {
+      time 0.033333 1.833333
+      param "AI_AIM"
+      param2 "!target1"
+      event_ramp
+      {
+        0.5167 0.9751
+        1.4534 1.0000
+      }
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "82"
+  "SceneRampTool" "100"
+}
+fps 60
+snap on
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "alyx vo"
+    {
+      time 0.173611 1.870527
+      param "ep_01.al_mobbed_thanks"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "lookit"
+    {
+      time 0.010556 2.325277
+      param "!player"
+      event_ramp 
+      {
+        0.1211 0.3204
+        0.5838 0.5525
+        1.8462 0.5580
+        2.1201 0.3481
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_mobbed_thanks01"
+    {
+      time 0.173611 1.658214
+      param "ep_01.al_mobbed_thanks01"
+      resumecondition
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_mobbed_thanks02"
+    {
+      time 0.173611 1.993452
+      param "ep_01.al_mobbed_thanks02"
+      resumecondition
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "alyx vo"
+    {
+      time 0.173611 1.899711
+      param "ep_01.al_mobbed_thatwasclose"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "lookit"
+    {
+      time 0.010556 2.325277
+      param "!player"
+      event_ramp 
+      {
+        0.1211 0.3204
+        0.5838 0.5525
+        1.8462 0.5580
+        2.1201 0.3481
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_mobbed_thatwasclose01"
+    {
+      time 0.173611 1.791706
+      param "ep_01.al_mobbed_thatwasclose01"
+      resumecondition
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_mobbed_thatwasclose02"
+    {
+      time 0.173611 1.574405
+      param "ep_01.al_mobbed_thatwasclose02"
+      resumecondition
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "al_mobbed_thatwasclose03"
+    {
+      time 0.173611 1.470595
+      param "ep_01.al_mobbed_thatwasclose03"
+      resumecondition
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "lookit"
+    {
+      time 0.045278 2.859999
+      param "!player"
+      event_ramp 
+      {
+        0.1773 0.4988
+        0.3853 0.9272
+        0.5320 1.0000
+        0.7460 1.0000
+        1.7940 1.0000
+        2.0840 1.0000
+        2.2089 0.9347
+        2.5691 0.4458
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "1"
+    {
+      time 0.645834 2.945834
+      param "a_bg_htiltleft"
+      event_ramp 
+      {
+        0.2490 0.5860
+        1.5980 0.6000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.498489
+        "end" 0.673716
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "facial flex"
+  {
+    event flexanimation "face"
+    {
+      time 0.006945 2.826389
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser" combo 
+        {
+          0.0151 0.0000
+          0.0751 0.0000
+          0.1051 0.0000
+          0.1671 0.0000
+          0.5213 0.0000
+          0.7301 0.0000
+          0.9110 0.0000
+          1.3900 0.0000
+          1.8530 0.0000
+          2.4050 0.0000
+        }
+        {
+          0.01

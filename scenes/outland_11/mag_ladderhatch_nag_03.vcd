@@ -1,0 +1,72 @@
+7586
+        "end" 0.844828
+      }
+    }
+    event gesture "1"
+    {
+      time 12.051282 14.351282
+      param "hg_headup"
+      event_ramp
+      {
+        0.6455 0.1818
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.264706
+        "extreme" 0.441176
+        "loop" 0.514706
+        "end" 0.661765
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.441176
+        "loop" 0.514706
+        "end" 0.661765
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "3"
+    {
+      time 15.923078 17.889744
+      param "hg_acc_down"
+      event_ramp
+      {
+        0.5182 0.4545
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.155172
+        "extreme" 0.379310
+        "loop" 0.827586
+        "end" 0.844828
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.155172
+        "extreme" 0.379310
+        "loop" 0.827586
+        "end" 0.844828
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "lookat"
+  {
+    event lookat "vort"
+    {
+      time 0.038462 5.384615
+      param "vort"
+      event_ramp
+      {
+        0.5409 0.3680
+        0.7227 0.3680
+        1.0955 0.3680
+        4.3000 0.3680
+        4.5545 0.3680
+        4.8127 0.3680
+      }
+    }
+    event lookat "vort_calvary_2"
+    {
+      time 7.625

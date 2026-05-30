@@ -1,0 +1,99 @@
+
+  {
+    event flexanimation "face"
+    {
+      time 0.500000 7.700000
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "center_lid_raiser" 
+        {
+          0.8440 0.0200
+          1.3620 0.6100
+          2.4020 0.0000
+          2.7833 0.0000
+          2.9233 0.5900
+          3.4767 0.0000
+          5.2700 0.0000
+          5.6567 0.4400
+          6.1300 0.0000
+        }
+        "center_lid_tightener" 
+        {
+          0.8420 0.6900
+          1.3620 0.0000
+          2.4020 0.7800
+          2.7833 0.8664
+          2.9233 0.0100
+          3.4767 0.4300
+          5.2700 0.4465
+          5.6567 0.0100
+          6.1300 0.5000
+        }
+        "center_lid_droop" 
+        {
+          0.8420 0.7600
+          1.3620 0.0000
+          2.4020 0.6600
+          2.7833 0.7331
+          2.9233 0.0000
+          3.4767 0.4400
+          5.2700 0.4618
+          5.6567 0.0000
+          6.1300 0.4000
+        }
+      }
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "fx_extract_glow5_extractglow"
+    {
+      time 0.191140 7.590790
+      param "fx_extract_glow5_extractglow"
+      event_ramp
+      {
+        0.4840 1.0000
+        6.9630 1.0000
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+    event face "fx_extract_glow5_extractglow"
+    {
+      time 0.200000 7.646667
+      param "fx_extract_glow5_extractglow"
+      event_ramp
+      {
+        1.0975 1.0000
+        6.8000 1.0000
+      }
+    }
+  }
+  channel "head"
+  {
+    event gesture "1"
+    {
+      time 0.400000 3.700000
+      param "HG_extract_behold"
+      event_ramp
+      {
+        0.3335 0.6883
+        0.5550 0.7835
+        0.7775 0.7835
+        2.5400 0.7835
+        2.7200 0.7835
+        2.9325 0.6926
+      }
+      absolutetags playback_time
+      {
+        "in" 0.081633
+        "out" 0.938776
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.081

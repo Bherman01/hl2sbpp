@@ -1,0 +1,43 @@
+_head_back"
+      event_ramp
+      {
+        0.2105 0.0890
+        0.4711 0.4498
+        0.7158 0.7100
+        0.9421 0.8333
+        1.2868 0.9269
+        3.5789 0.7420 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        3.9895 0.4155
+        4.3000 0.1096
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.104120
+        "extreme" 0.185929
+        "loop" 0.223115
+        "end" 0.863821
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.241379
+        "extreme" 0.431034
+        "loop" 0.517241
+        "end" 0.741379
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "hg_raisechest"
+    {
+      time 20.990866 22.950876
+      param "hg_raisechest"
+      event_ramp
+      {
+        0.5107 0.0000
+        0.6821 0.0913
+        0.9464 0.8356
+        1.1214 1.0000
+        1.5517 0.9893
+        1.6750 0.8402
+        1.8143 0.0890
+      }
+      absolutetags playback_tim

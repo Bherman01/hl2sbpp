@@ -1,0 +1,28 @@
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "civilprotection01"
+    {
+      time 0.066667 1.277823
+      param "npc_citizen.civilprotection01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  ch

@@ -1,0 +1,37 @@
+.2853 0.2652
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.233161
+        "accent" 0.363313
+        "loop" 0.653957
+        "end" 0.775843
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.135802
+        "accent" 0.259259
+        "loop" 0.296296
+        "end" 0.654321
+      }
+      sequenceduration 2.733333
+    }
+    event gesture "NULL"
+    {
+      time 37.580154 39.191265
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 44.230148 45.974598
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 13.519048 14.019048
+      param ""
+    }
+    event gesture "A_g_fingptfwd"
+    {
+      time 5.252381 8.601526
+      param "A_g_fingptfw

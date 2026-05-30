@@ -1,0 +1,51 @@
+6462 0.7284
+      }
+    }
+    event lookat "!player"
+    {
+      time 7.768553 9.745322
+      param "!player"
+      event_ramp 
+      {
+        0.1873 0.3650
+        0.3208 0.6070
+        0.4842 0.8047
+        0.6583 0.9193
+        1.3553 0.9895
+        1.5593 0.8589
+        1.7678 0.5544
+        1.8803 0.2281
+      }
+    }
+    event lookat "!player"
+    {
+      time 4.756021 6.863117
+      param "!player"
+      event_ramp 
+      {
+        0.1873 0.3650
+        0.3208 0.6070
+        0.4842 0.8047
+        0.6583 0.9193
+        1.4857 0.9895
+        1.6897 0.8589
+        1.8982 0.5544
+        2.0107 0.2281
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_al_lookforconsole_1"
+    {
+      time 0.015307 3.867565
+      param "mark_al_lookforconsole_1"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "faceTo"
+  {
+    event face "mark_look_gap_1"
+    {
+      tim

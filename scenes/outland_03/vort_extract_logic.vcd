@@ -1,0 +1,29 @@
+utetags playback_time
+      {
+        "apex" 0.266390
+        "extreme" 0.448657
+        "loop" 0.705126
+        "end" 0.774047
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 11.209877 15.512346
+      param ""
+    }
+    event gesture "A_typeinout_g"
+    {
+      time 12.320988 15.929104
+      param "A_typeinout_g"
+      absolutetags playback_time
+      {
+        "in" 0.176901
+        "loop" 0.

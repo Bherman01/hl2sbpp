@@ -1,0 +1,34 @@
+810
+        "end" 0.523810
+      }
+      sequenceduration 0.733333
+    }
+    event gesture "A_g_invan_rtjerk"
+    {
+      time 20.364708 21.064709
+      param "A_g_invan_rtjerk"
+      absolutetags playback_time
+      {
+        "apex" 0.200000
+        "extreme" 0.400000
+        "loop" 0.540000
+        "end" 0.550000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.200000
+        "extreme" 0.400000
+        "loop" 0.550000
+        "end" 0.550000
+      }
+      sequenceduration 0.700000
+    }
+    event gesture "A_g_invan_leftjerk"
+    {
+      time 20.825159 21.482166
+      param "A_g_invan_leftjerk"
+      absolutetags playback_time
+      {
+        "apex" 0.212604
+        "extreme" 0.425209
+        "loop" 0.596

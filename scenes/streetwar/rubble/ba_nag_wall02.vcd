@@ -1,0 +1,60 @@
+19
+      }
+    }
+    event lookat "!self"
+    {
+      time 13.785870 14.941303
+      param "!self"
+    }
+    event lookat "look at player"
+    {
+      time 18.745235 20.020189
+      param "!player"
+      event_ramp
+      {
+        0.4820 0.9639
+        0.9302 0.9819
+      }
+    }
+    event lookat "!self"
+    {
+      time 19.929346 21.678623
+      param "!self"
+    }
+    event lookat "look at player"
+    {
+      time 21.532557 25.925264
+      param "!player"
+      event_ramp
+      {
+        0.4820 0.9639
+        3.6991 0.9819
+      }
+    }
+    event lookat "look at player"
+    {
+      time 14.657193 17.102076
+      param "!player"
+      event_ramp
+      {
+        0.4820 0.9639
+        1.7513 0.9819
+      }
+    }
+    event lookat "!self"
+    {
+      time 16.829348 18.810869
+      param "!self"
+    }
+  }
+  channel "moveTo"
+  {
+    event moveto "Moveto !target1"
+    {
+      time 0.459478 2.167672
+      param "!target1"
+      param2 "Walk"
+    }
+    event moveto "Moveto !target3"
+    {
+      time 24.

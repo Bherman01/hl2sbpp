@@ -1,0 +1,33 @@
+       10.5953 0.5000
+          11.8810 0.5000
+        }
+      }
+    }
+  }
+  faceposermodel "D:\DEV\main\game\ep2\models\Humans\Group03\male_09.mdl"
+}
+
+actor "vort"
+{
+  channel "audio"
+  {
+    event speak "vort_junc_ahfreeman"
+    {
+      time 0.380953 6.045919
+      param "ep_02.vort_junc_ahfreeman"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "vort_junc_assistance01"
+    {
+      time 6.142857 10.062789
+      param "ep_02.vort_junc_assistance01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "vort_junc_assistance02"
+    {
+      time 10.166667 13.131973
+      param "ep_02.vort_junc_assistance0

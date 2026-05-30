@@ -1,0 +1,27 @@
+      }
+        {
+        }
+        "wrinkler"        
+        {
+          0.1051 0.6500
+          0.4946 0.0000
+          0.6596 0.0000
+          0.9689 0.0000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+acto

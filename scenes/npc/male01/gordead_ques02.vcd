@@ -1,0 +1,30 @@
+    time 0.000000 0.873333
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_droop"         combo        
+        {
+          0.0873 0.3300
+          0.2370 0.3800
+          0.5879 0.3400
+        }
+        {
+        }
+        "inner_raiser"         combo        
+        {
+          0.0873 0.2800
+          0.2370 0.3800
+          0.5879 0.3400
+        }
+        {
+        }
+      }
+    }
+  }
+  channel "Head"
+  {
+    event flexanimation "Head"
+    {
+      time 0.000000 0.866667
+      param ""
+      flexanim

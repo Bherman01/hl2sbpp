@@ -1,0 +1,439 @@
+eScream"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<hit>"
+    {
+      time 0.239999 0.652108
+      param "NPC_Combine.WeaponBash"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<hit>"
+    {
+      time 2.346666 2.758775
+      param "NPC_Combine.WeaponBash"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "trigger"
+  {
+    event firetrigger "1_ragdoll"
+    {
+      time 0.426666 -1.000000
+      param "1"
+    }
+    event firetrigger "2_ragdoll"
+    {
+      time 1.560000 -1.000000
+      param "2"
+    }
+  }
+}
+
+actor "Dog"
+{
+  channel "audio"
+  {
+    event speak "<dog sfx>"
+    {
+      time 1.333334 3.786032
+      param "NPC_dog.Roll_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<dog voice>"
+    {
+      time 3.866667 5.869887
+      param "NPC_dog.Growl_2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<dog sfx>"
+    {
+      time 0.506666 0.869455
+      param "NPC_dog.PoundGround_hard"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<dog sfx>"
+    {
+      time 3.253334 3.761361
+      param "NPC_dog.Pneumatic_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<dog sfx>"
+    {
+      time 4.213334 4.947665
+      param "NPC_dog.MetalHit_Soft_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<dog sfx>"
+    {
+      time 4.826668 5.630523
+      param "NPC_dog.Servo_dn_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<dog sfx>"
+    {
+      time 0.026667 0.508594
+      param "NPC_dog.Servo_up_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<dog voice>"
+    {
+      time 0.026667 1.542585
+      param "NPC_dog.Growl_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<dog voice>"
+    {
+      time 5.906667 9.390499
+      param "NPC_dog.Scared_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "50"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "loop"
+{
+  time 28.239998 -1.000000
+  param "0.000000"
+  loopcount "-1"
+}
+actor "Dog"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "look player"
+    {
+      time 0.106667 1.326666
+      param "!player"
+      event_ramp
+      {
+        0.3333 0.9609
+        0.6853 0.9974
+        0.9200 0.8915
+      }
+    }
+    event lookat "mark_dog_look_shaft_1"
+    {
+      time 1.120001 10.580000
+      param "mark_dog_look_shaft_1"
+      event_ramp
+      {
+        0.4100 0.9955
+        8.8734 0.9557
+      }
+    }
+    event lookat "look player"
+    {
+      time 10.266668 12.446669
+      param "!player"
+      event_ramp
+      {
+        0.4000 0.9351
+        0.5200 0.9922
+        1.5934 0.9557
+      }
+    }
+    event lookat "mark_dog_look_shaft_1"
+    {
+      time 12.133335 16.740000
+      param "mark_dog_look_shaft_1"
+      event_ramp
+      {
+        0.4400 0.8545
+        0.6800 0.9669
+        4.0200 0.9557
+      }
+    }
+    event lookat "look player"
+    {
+      time 16.080000 21.193333
+      param "!player"
+      event_ramp
+      {
+        0.3800 0.9325
+        1.0000 1.0000
+        4.5267 0.9557
+      }
+    }
+    event lookat "mark_dog_look_shaft_1"
+    {
+      time 21.013334 23.646666
+      param "mark_dog_look_shaft_1"
+      event_ramp
+      {
+        0.3500 0.8987
+        0.6800 0.9929
+        2.0467 0.9557
+      }
+    }
+    event lookat "look player"
+    {
+      time 23.493332 25.033333
+      param "!player"
+      event_ramp
+      {
+        0.3800 0.9325
+        0.9534 0.9557
+        1.0000 1.0000
+      }
+    }
+    event lookat "mark_dog_look_shaft_1"
+    {
+      time 24.666668 28.180000
+      param "mark_dog_look_shaft_1"
+      event_ramp
+      {
+        0.3500 0.8987
+        0.6800 0.9929
+        2.9267 0.9557
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+    event face "mark_dog_look_shaft_1"
+    {
+      time 1.866666 3.700001
+      param "mark_dog_look_shaft_1"
+      event_ramp
+      {
+        0.9348 0.9974
+        1.8002 0.9902
+      }
+    }
+    event face "!player"
+    {
+      time 16.986666 18.900000
+      param "!player"
+      event_ramp
+      {
+        0.8317 0.9974
+        1.8802 0.9902
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "Sequence"
+  {
+    event sequence "pound"
+    {
+      time 18.159998 23.159998
+      param "excited_dance"
+      fixedlength
+    }
+  }
+  faceposermodel "C:\VALVE\HL2\hl2\models\dog.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "25"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "20"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Dog"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event moveto "mark_dog_movestreet1"
+    {
+      time 0.080000 5.033333
+      param "mark_dog_movestreet1"
+      param2 "Walk"
+      resumecondition
+    }
+  }
+  channel "face to"
+  {
+    event face "face player"
+    {
+      time 3.920000 6.926667
+      param "!player"
+      event_ramp
+      {
+        0.8400 0.9412
+        2.7867 0.9608
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "Sequence"
+  {
+  }
+  faceposermodel "C:\VALVE\HL2\hl2\models\dog.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "25"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "20"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 5.786668 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 4.906667 -1.000000
+  param "noaction"
+}
+actor "Dog"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event moveto "mark_dog_movestreet2"
+    {
+      time 2.800001 5.006667
+      param "mark_dog_movestreet2"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "face to"
+  {
+    event face "mark_GroundZero1"
+    {
+      time 4.346667 7.326667
+      param "mark_GroundZero1"
+      event_ramp
+      {
+        1.5107 0.9853
+        2.9468 0.9902
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "Sequence"
+  {
+    event sequence "pound"
+    {
+      time -0.026667 3.640000
+      param "pound"
+      event_ramp
+      {
+        0.5100 0.9932
+        2.6500 0.9966
+        3.0800 0.0103
+      }
+      fixedlength
+    }
+  }
+  faceposermodel "C:\VALVE\HL2\hl2\models\dog.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "25"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "20"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 18.979166 -1.000000
+  param "noaction"
+}
+event loop "loop"
+{
+  time 18.760416 -1.000000
+  param "0.000000"
+  loopcount "-1"
+}
+actor "Dog"
+{
+  channel "audio"
+  {
+    event speak "<boop>"
+    {
+      time 0.597917 1.163132
+      param "NPC_dog.Playful_4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<blooooop>"
+    {
+      time 8.879169 9.474497
+      param "NPC_dog.Playful_5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<dooOOOp>"
+    {
+      time 12.327085 12.925089
+      param "NPC_dog.P

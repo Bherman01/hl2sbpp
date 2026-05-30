@@ -1,0 +1,213 @@
+
+      absolutetags shifted_time
+      {
+        "apex" 0.093750
+        "extreme" 0.328125
+        "loop" 0.773438
+        "end" 0.781250
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "A_P_shy_rt"
+    {
+      time 61.666672 68.692154
+      param "A_P_shy_rt"
+      event_ramp 
+      {
+        0.0120 0.4188
+        2.3120 0.5271
+        7.0255 0.4621
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.148045
+        "loop" 0.293303
+        "end" 0.793288
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.562500
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "A_P_rt_bktiltfwd"
+    {
+      time 67.458336 71.158333
+      param "A_P_rt_bktiltfwd"
+      absolutetags playback_time
+      {
+        "apex" 0.202331
+        "loop" 0.444004
+        "end" 0.651955
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.222222
+        "loop" 0.407407
+        "end" 0.629630
+      }
+      sequenceduration 4.533333
+    }
+    event gesture "A_g_yell"
+    {
+      time 78.479172 80.383339
+      param "A_g_yell"
+      event_ramp 
+      {
+        0.0000 0.9675
+        0.0360 0.9684
+        1.0640 0.7439
+        1.3920 0.5895
+        1.8960 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.141839
+        "accent" 0.372328
+        "loop" 0.526831
+        "end" 0.570733
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.102564
+        "accent" 0.269231
+        "loop" 0.487179
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "A_p_stalkconsole_grab"
+    {
+      time 72.791672 76.091675
+      param "A_p_stalkconsole_grab"
+      absolutetags playback_time
+      {
+        "apex" 0.306122
+        "loop" 0.500000
+        "end" 0.663265
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.500000
+        "end" 0.642857
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "A_p_stalkconsole_grab"
+    {
+      time 79.791672 87.383339
+      param "A_p_stalkconsole_grab"
+      absolutetags playback_time
+      {
+        "apex" 0.133068
+        "loop" 0.217344
+        "end" 0.975275
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.500000
+        "end" 0.642857
+      }
+      sequenceduration 3.300000
+    }
+    event sequence "NULL"
+    {
+      time 33.968224 40.634892
+      param "StalkerPod_CloseLid"
+      fixedlength
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "1 - close door"
+    {
+      time 0.039520 -1.000000
+      param "1"
+    }
+    event firetrigger "3 - trainstart"
+    {
+      time 1.320687 -1.000000
+      param "3"
+    }
+    event firetrigger "2 - light"
+    {
+      time 0.618901 -1.000000
+      param "2"
+    }
+    event firetrigger "5 - big bump loop"
+    {
+      time 75.508919 -1.000000
+      param "5"
+    }
+    event firetrigger "4 - bump"
+    {
+      time 67.142258 -1.000000
+      param "4"
+    }
+    event firetrigger "4 - bump"
+    {
+      time 80.708900 -1.000000
+      param "4"
+    }
+    event firetrigger "4 - bump"
+    {
+      time 72.425583 -1.000000
+      param "4"
+    }
+    event firetrigger "4 - bump"
+    {
+      time 79.725578 -1.000000
+      param "4"
+    }
+    event firetrigger "7 - crash"
+    {
+      time 81.942253 -1.000000
+      param "7"
+    }
+    event firetrigger "6 - close pod"
+    {
+      time 33.961746 -1.000000
+      param "6"
+    }
+    event firetrigger "8 - open lid"
+    {
+      time 11.903031 -1.000000
+      param "8"
+    }
+    event gesture "accentup_ext"
+    {
+      time 29.949892 32.377342
+      param "accentup_ext"
+      absolutetags playback_time
+      {
+        "apex" 0.166767
+        "extreme" 0.291843
+        "loop" 0.583686
+        "end" 0.750000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_bg_hshake"
+    {
+      time 18.274509 22.025490
+      param "A_bg_hshake"
+      event_ramp 
+      {
+        0.0000 0.9747
+        1.5480 0.9892
+        2.0120 0.1227
+      }
+      absolutetags playback_time
+      {
+      

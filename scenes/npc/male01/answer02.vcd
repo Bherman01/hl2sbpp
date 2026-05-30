@@ -1,0 +1,61 @@
+    time 0.275000 5.587041
+      param "ep_02.vort_extract_magnificently"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.041667 5.941667
+      param "!player"
+      event_ramp
+      {
+        0.4900 0.9913
+        5.4860 1.0000
+      }
+    }
+  }
+  channel "moveTo"
+  {
+    event moveto "!player"
+    {
+      time 0.891667 4.000000
+      param "!player"
+      param2 "Walk"
+      distancetotarget 80.00
+    }
+  }
+  channel "faceTo"
+  {
+    event face "!player"
+    {
+      time 0.041667 5.950001
+      param "!player"
+      event_ramp
+      {
+        0.6400 0.3550
+        0.8840 0.4113
+        1.0420 0.4113
+        4.8640 0.4113
+        5.0020 0.4113
+        5.2760 0.3420
+      }
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 2.583333 5.216667
+      param "g_palm_both"
+      event_ramp
+      {
+        0.3940 0.9654
+        1.8680 0.9351
+      }
+      absolutetags playback_time
+      {
+    

@@ -1,0 +1,38 @@
+ctoken ""
+    }
+    event speak "NPC_Stalker.screech03"
+    {
+      time 2.657143 3.220726
+      param "NPC_Stalker.screech03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_Stalker.screech09"
+    {
+      time 2.323810 2.806622
+      param "NPC_Stalker.screech09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.001831 3.586202
+      param "!player"
+      event_ramp 
+      {
+        0.5500 0.9378
+        0.8154 1.0000
+        2.2066 1.0000
+        2.8912 1.0000
+        3.1707 0.9378
+      }
+    }
+  }
+  channel "move to"
+  {
+  }

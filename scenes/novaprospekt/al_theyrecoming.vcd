@@ -1,0 +1,131 @@
+   {
+        "apex" 0.299825
+        "accent" 0.484593
+        "loop" 0.630463
+        "end" 0.727709
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.181818
+        "accent" 0.397727
+        "loop" 0.568182
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "NULL"
+    {
+      time 25.175440 25.675440
+      param ""
+    }
+    event gesture "A_gesture03"
+    {
+      time 27.473684 30.766556
+      param "A_gesture03"
+      absolutetags playback_time
+      {
+        "apex" 0.153568
+        "accent" 0.317375
+        "loop" 0.491419
+        "end" 0.753830
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.170455
+        "accent" 0.352273
+        "loop" 0.545455
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "A_gesture10"
+    {
+      time 29.382458 32.805782
+      param "A_gesture10"
+      event_ramp
+      {
+        0.0095 0.9686
+        0.1833 0.9721
+        0.7048 0.9582
+        1.1381 0.9477
+        1.5571 0.8920
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.167525
+        "accent" 0.281553
+        "loop" 0.443451
+        "end" 0.660253
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.204819
+        "accent" 0.397590
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 7.313725 8.696078
+      param ""
+    }
+    event gesture "A_bigshrug_g"
+    {
+      time 3.627450 6.594117
+      param "A_bigshrug_g"
+      event_ramp
+      {
+        0.0071 0.4634
+        0.4333 0.7073
+        1.3238 0.7805
+        2.2381 0.6551
+        2.8119 0.5401
+        2.9524 0.5017
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.181818
+        "accent" 0.397727
+        "loop" 0.568182
+        "end" 0.681818
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.181818
+        "accent" 0.397727
+        "loop" 0.568182
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "NULL"
+    {
+      time 75.370369 81.159256
+      param ""
+    }
+    event gesture "A_g_armscrossed"
+    {
+      time 32.422222 40.857998
+      param "A_g_armscrossed"
+      absolutetags playback_time
+      {
+        "in" 0.182381
+        "loop" 0.286259
+        "end" 0.774704
+        "out" 0.833992
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.155556
+        "loop" 0.444444
+        "end" 0.566667
+        "out" 0.722222
+      }
+      sequenceduration 3.033333
+    }
+    event gesture "A_bigshrug_g"
+    {
+      time 39.022221 40.968166
+      

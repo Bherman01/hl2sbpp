@@ -1,0 +1,40 @@
+ to"
+  {
+    event moveto "console"
+    {
+      time 0.053763 1.983871
+      param "!target1"
+      param2 "Run"
+      resumecondition
+    }
+    event moveto "console"
+    {
+      time 30.415644 31.894140
+      param "!target1"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "faceTo"
+  {
+    event face "monitor"
+    {
+      time 0.387096 19.094826
+      param "!target2"
+    }
+    event face "monitor"
+    {
+      time 30.573006 33.373764
+      param "!target2"
+    }
+    event face "!player"
+    {
+      time 33.432903 34.579235
+      param "!player"
+      event_ramp
+      {
+        0.8047 0.9780
+        1.1463 1.0000
+      }
+    }
+    event face "!play

@@ -1,0 +1,45 @@
+
+      time 21.809525 25.171431
+      param "bg_accentUp"
+      event_ramp
+      {
+        0.5071 0.9889
+        2.5238 0.7761
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.090475
+        "extreme" 0.221160
+        "loop" 0.402109
+        "end" 0.666667
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.305556
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      sequenceduration 2.433333
+    }
+  }
+  channel "flex"
+  {
+    event flexanimation "facila"
+    {
+      time 0.107143 34.414288
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "half_closed" 
+        {
+          20.1905 0.0000
+          20.1905 0.0000
+        }
+        "blink" 
+        {
+          20.1905 0.0000
+          20.1905 0.0000
+          20.6310 0.0000
+        }
+        "inner_rais

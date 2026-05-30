@@ -1,0 +1,38 @@
+t gesture "5"
+    {
+      time 77.059525 80.823814
+      param "HG_headforward"
+      event_ramp
+      {
+        0.6437 0.9891
+        3.2268 0.9855
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.161737
+        "extreme" 0.224634
+        "loop" 0.269561
+        "end" 0.851735
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "face1"
+    {
+      time 53.488190 79.654564
+      param ""
+      event_ramp
+      {
+        0.6222 1.0000
+        25.7997 1.0000
+      }
+      flex

@@ -1,0 +1,32 @@
+"extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "M_g_sweepout"
+    {
+      time 0.000000 4.829093
+      param "M_g_sweepout"
+      absolutetags playback_time
+      {
+        "apex" 0.109936
+        "accent" 0.282693
+        "loop" 0.369071
+        "end" 0.780128
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.159091
+        "accent" 0.409091
+        "loop" 0.534091
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "M_g_shrug"
+    {
+      tim

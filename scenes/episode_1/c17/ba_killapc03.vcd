@@ -1,0 +1,41 @@
+    1.7521 0.6900
+          1.7896 0.6787
+          1.8417 0.5000
+          1.8792 0.5000
+          4.6756 0.5000
+          4.7235 0.5000
+          4.7714 0.4300
+          4.8339 0.4300
+          5.2458 0.4299
+          5.2708 0.4299
+          5.2958 0.6900
+          5.3292 0.6900
+          5.7750 0.6693
+          5.8104 0.6693
+          5.8438 0.4700
+          5.8667 0.4700
+        }
+      }
+    }
+  }
+  channel "head"
+  {
+    event flexanimation "head"
+    {
+      time 0.057220 8.327381
+      param ""
+      flexanimations samples_use_time
+      {
+      }
+    }
+    event flexanimation "face"
+    {
+      time 0.023618 8.459102
+      param ""
+      flexanimations samples_use_time
+      {
+        "cheek_raiser" combo 
+        {
+          0.0335 0.0000
+          0.3000 0.0000
+          

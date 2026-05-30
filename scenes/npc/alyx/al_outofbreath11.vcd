@@ -1,0 +1,32 @@
+nel "head"
+  {
+  }
+  channel "seq"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d1_trainstation_05bill.bsp"
+scalesettings
+{
+  "CChoreoView" "62"
+  "ExpressionTool" "18"
+  "GestureTool" "100"
+  "RampTool" "52"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "sound"
+  {
+    event speak "Speak"
+    {
+      time 0.000000 1.227755
+      param "ep_01.al_headcrabsurprise03"
+      fixedlength
+      cctype "cc_master"
+      cctoke

@@ -1,0 +1,26 @@
+posermodel "U:\HL2\release\dev\hl2\models\Humans\Group01\Female_01.mdl"
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "ExpressionTool" "38"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "airboat_redbarn"
+    {
+      time 5.850981 11.065811
+      param "canals.airboat_redbarn"
+      fixedlength
+      cctype "cc_master"
+      c

@@ -1,0 +1,72 @@
+
+      {
+        "apex" 0.125000
+        "extreme" 0.305556
+        "loop" 0.555556
+        "end" 0.694444
+      }
+      sequenceduration 2.433333
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "announcer interrupts"
+    {
+      time 24.961649 -1.000000
+      param "1"
+    }
+    event firetrigger "begin assault"
+    {
+      time 34.221954 -1.000000
+      param "2"
+    }
+    event firetrigger "wait for player "
+    {
+      time 22.960649 -1.000000
+      param "3"
+    }
+  }
+  faceposermodel "U:\DEV\main\game\hl2\models\Humans\Group03\male_02.mdl"
+}
+
+actor "!target2"
+{
+  channel "audio"
+  {
+    event speak "npc_citizen.ohno"
+    {
+      time 30.888697 31.486519
+      param "npc_citizen.ohno"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.117064 3.918091
+      param "!player"
+      event_ramp
+      {
+        0.6529 0.9088 "curve_easein_to_curve_easein"
+        3.4673 0.9422
+      }
+    }
+    event lookat "look at sawmill_citizen_start_briefer"
+    {
+      time 3.608068 9.530952
+      param "sawmill_citizen_start_briefer"
+      event_ramp
+      {
+        0.5065 0.9845 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        5.4218 0.9734
+      }
+    }
+    event lookat "look at sawmill_citizen_start_briefer"
+    {
+      time 11.979014 21.619049
+      param "sawmill_citizen_start_briefer"
+ 

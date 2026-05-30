@@ -1,0 +1,236 @@
+  {
+        "apex" 0.142857
+        "accent" 0.238095
+        "loop" 0.261905
+        "end" 0.738095
+      }
+      sequenceduration 2.833333
+    }
+    event gesture "NULL"
+    {
+      time 10.111111 13.055555
+      param ""
+    }
+  }
+}
+
+mapname "maps\d1_trainstation_05.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "GestureTool" "100"
+  "RampTool" "35"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "loopy"
+{
+  time 12.133334 -1.000000
+  param "1.500000"
+  loopcount "-1"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.116667 13.100001
+      param "!player"
+      event_ramp
+      {
+        0.8303 1.0000
+        12.9833 1.0000
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "Player"
+    {
+      time 2.150000 11.066667
+      param "!player"
+      event_ramp
+      {
+        1.0394 0.9873
+        8.9167 1.0000
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "posture"
+  {
+  }
+  channel "gesture"
+  {
+    event gesture "idle"
+    {
+      time 2.016667 11.350000
+      param "bodystretch01"
+      absolutetags playback_time
+      {
+        "apex" 0.061538
+        "extreme" 0.138462
+        "loop" 0.184615
+        "end" 0.784615
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.264706
+        "loop" 0.352941
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 0.000000 2.000000
+      param ""
+    }
+  }
+  channel "Response"
+  {
+  }
+  faceposermodel "U:\hl2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "40"
+  "GestureTool" "35"
+  "RampTool" "66"
+  "SceneRampTool" "100"
+  "ExpressionTool" "74"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "loopy"
+{
+  time 22.866667 -1.000000
+  param "2.500000"
+  loopcount "-1"
+}
+actor "Barney"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "tpMonitor"
+    {
+      time 0.116667 23.516666
+      param "marks_teleport_sec_screen_2"
+      event_ramp
+      {
+        0.8303 1.0000
+        23.4000 1.0000
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "faceMonitor"
+    {
+      time 0.060000 23.503334
+      param "marks_teleport_sec_screen_2"
+      event_ramp
+      {
+        1.1375 1.0000
+        23.4433 0.9958
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "posture"
+  {
+    event gesture "cool"
+    {
+      time 0.000000 11.499997
+      param "Posture01"
+      absolutetags playback_time
+      {
+        "apex" 0.185599
+        "loop" 0.437681
+        "end" 0.863768
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.309278
+        "loop" 0.391753
+        "end" 0.536082
+      }
+      sequenceduration 3.266667
+    }
+    event gesture "asdf"
+    {
+      time 7.616667 22.409981
+      param "Posture02"
+      absolutetags playback_time
+      {
+        "apex" 0.156602
+        "loop" 0.465300
+        "end" 0.933528
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.322581
+        "loop" 0.408602
+        "end" 0.559140
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "asdf"
+    {
+      time 19.116669 28.633337
+      param "Posture01"
+      absolutetags playback_time
+      {
+        "apex" 0.242729
+        "loop" 0.514886
+        "end" 0.793345
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.309278
+        "loop" 0.391753
+        "end" 0.536082
+      }
+      sequenceduration 3.266667
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.740000
+      param ""
+    }
+    event gesture "Gesture13"
+    {
+      time 2.560000 22.579998
+      param "Gesture13"
+      absolutetags playback_time
+      {
+        "in" 0.044241
+        "loop" 0.110519
+        "end" 0.909331
+        "out" 0.953332
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.171429
+        "l

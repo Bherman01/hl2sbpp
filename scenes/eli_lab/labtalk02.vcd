@@ -1,0 +1,735 @@
+0.9717 0.5000
+          11.3457 0.5000
+          11.5367 0.5000
+          11.6719 0.5000
+          12.2528 0.5000
+        }
+        "cheek_raiser"         combo        
+        {
+          5.1483 0.1900
+          5.3870 0.0500
+          5.5541 0.0500
+          6.6442 0.0500
+          6.8590 0.2000
+          7.0978 0.2000
+          7.4102 0.2000
+          7.5274 0.2400
+          7.9651 0.2400
+          8.1481 0.1400
+          8.6574 0.1400
+          8.8165 0.1400
+          9.3246 0.1400
+          9.4519 0.1400
+          9.6429 0.1400
+          10.1760 0.1400
+          10.6534 0.1400
+          10.9717 0.1400
+          11.3457 0.1400
+          11.5367 0.1400
+          11.6719 0.1400
+          12.2528 0.1400
+        }
+        {
+          5.1483 0.5000
+          5.3870 0.5000
+          5.5541 0.5000
+          6.6442 0.5000
+          6.8590 0.5000
+          7.0978 0.5000
+          7.4102 0.5000
+          7.5274 0.5000
+          7.9651 0.5000
+          8.1481 0.5000
+          8.6574 0.5000
+          8.8165 0.5000
+          9.3246 0.5000
+          9.4519 0.5000
+          9.6429 0.5000
+          10.1760 0.5000
+          10.6534 0.5000
+          10.9717 0.5000
+          11.3457 0.5000
+          11.5367 0.5000
+          11.6719 0.5000
+          12.2528 0.5000
+        }
+        "corner_depressor"         combo        
+        {
+          2.4031 0.3400
+          2.8566 0.4800
+          3.2067 0.4000
+          3.8433 0.4000
+          4.2809 0.4000
+          4.4401 0.6600
+          4.8379 0.6600
+          5.1483 0.6600
+          5.3870 0.2100
+          5.5541 0.2100
+          6.6442 0.2100
+          6.8590 0.1300
+          7.0978 0.1300
+          7.4102 0.1300
+          7.5274 0.1300
+          7.9651 0.1300
+          8.1481 0.1300
+          8.6574 0.1300
+          8.8165 0.1300
+          9.3246 0.1300
+          9.4519 0.1300
+          9.6429 0.1300
+          10.1760 0.1300
+          10.6534 0.1300
+          10.9717 0.1300
+          11.3457 0.1300
+          11.5367 0.1300
+          11.6719 0.1300
+          12.2528 0.1300
+        }
+        {
+          2.4031 0.5000
+          2.8566 0.5000
+          3.2067 0.5000
+          3.8433 0.5000
+          4.2809 0.5000
+          4.4401 0.5000
+          4.8379 0.5000
+          5.1483 0.5000
+          5.3870 0.5000
+          5.5541 0.5000
+          6.6442 0.5000
+          6.8590 0.5000
+          7.0978 0.5000
+          7.4102 0.5000
+          7.5274 0.5000
+          7.9651 0.5000
+          8.1481 0.5000
+          8.6574 0.5000
+          8.8165 0.5000
+          9.3246 0.5000
+          9.4519 0.5000
+          9.6429 0.5000
+          10.1760 0.5000
+          10.6534 0.5000
+          10.9717 0.5000
+          11.3457 0.5000
+          11.5367 0.5000
+          11.6719 0.5000
+          12.2528 0.5000
+        }
+      }
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "2 - trigger_crash"
+    {
+      time 11.839999 -1.000000
+      param "2"
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+actor "Dog"
+{
+  channel "look at"
+  {
+    event lookat "look_alyx"
+    {
+      time 0.080003 10.206664
+      param "alyx"
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_dog_ravenTunnel_1"
+    {
+      time 12.880000 16.259995
+      param "mark_dog_ravenTunnel_1"
+      param2 "Run"
+      resumecondition
+    }
+    event moveto "mark_dog_cavein"
+    {
+      time 0.080002 4.553331
+      param "mark_dog_cavein"
+      param2 "Run"
+    }
+  }
+  channel "face to"
+  {
+    event face "face_alyx"
+    {
+      time 0.266669 10.180005
+      param "alyx"
+    }
+    event face "player"
+    {
+      time 12.720002 15.353338
+      param "!player"
+      event_ramp
+      {
+        1.0308 0.9916
+        2.6334 1.0000
+      }
+    }
+  }
+  channel "seq."
+  {
+    event sequence "disappointed"
+    {
+      time 3.866666 8.866666
+      param "disappointed"
+      event_ramp
+      {
+        0.0400 0.9811
+        3.5000 0.9886
+      }
+      fixedlength
+    }
+    event gesture "NULL"
+    {
+      time 0.000000 5.593333
+      param ""
+    }
+    event gesture "g_chestpound"
+    {
+      time 10.453333 12.753333
+      param "g_chestpound"
+      absolutetags playback_time
+      {
+        "in" 0.397059
+        "out" 0.838235
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.397059
+        "out" 0.838235
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "audio"
+  {
+    event speak "<dissapointed>"
+    {
+      time 5.439999 6.085305
+      param "NPC_dog.Dissapointed_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<roar>"
+    {
+      time 0.106666 1.796553
+      param "NPC_dog.Angry_3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "<roar>"
+    {
+      time 11.946666 13.747074
+      param "NPC_dog.Angry_2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+actor "!Target1"
+{
+  channel "move to"
+  {
+    event moveto "mark_vort_blast_door"
+    {
+      time 0.480000 2.020000
+      param "mark_vort_blast_door"
+      param2 "Run"
+    }
+    event moveto "marks_eli_run_away"
+    {
+      time 12.000000 15.059999
+      param "marks_eli_run_away"
+      param2 "Run"
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "1 - Trigger_vort_attack"
+    {
+      time 2.933334 -1.000000
+      param "1"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "25"
+  "ExpressionTool" "26"
+  "GestureTool" "100"
+  "RampTool" "20"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "done"
+{
+  time 5.086662 -1.000000
+  param "noaction"
+}
+actor "Dog"
+{
+  channel "audio"
+  {
+    event speak "dfs"
+    {
+      time 1.413333 2.058639
+      param "NPC_dog.Dissapointed_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.133328 5.373329
+      param "!player"
+      event_ramp
+      {
+        0.2400 0.9584
+        0.3400 0.9688
+        0.4400 0.9584
+        1.0000 0.2468
+        1.0700 0.1740
+        1.1300 0.1740
+        1.6700 0.1662
+        3.8667 0.1091
+        3.9667 0.1065
+        4.0267 0.1091
+        4.8567 0.0000
+        4.9067 0.0000
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+    event face "player"
+    {
+      time 0.100000 5.000000
+      param "!player"
+      event_ramp
+      {
+        0.8000 0.9922
+        4.3233 0.9844
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "gestures"
+  {
+    event sequence "dissapointed"
+    {
+      time 0.100000 5.100000
+      param "disappointed"
+      event_ramp
+      {
+        0.1100 0.9974
+        4.4700 0.9875
+      }
+      fixedlength
+    }
+  }
+  faceposermodel "C:\VALVE\HL2\hl2\models\dog.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "50"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "20"
+  "SceneRampTool" "100"
+}
+fps 10
+snap on
+// Choreo version 1
+actor "Dog"
+{
+  channel "audio"
+  {
+    event speak "dsvfsdf"
+    {
+      time 0.960000 1.555329
+      param "NPC_dog.Playful_5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.133328 4.899996
+      param "!player"
+      event_ramp
+      {
+        0.3500 0.9844
+        4.3600 0.9818
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+    event face "player"
+    {
+      time 0.080000 5.033333
+      param "!player"
+      event_ramp
+      {
+        0.4400 0.9844
+        4.5600 0.9922
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "gestures"
+  {
+    event sequence "excited_dance"
+    {
+      time 0.080000 5.080000
+      param "excited_dance"
+      event_ramp
+      {
+        0.1300 1.0000
+        4.9200 1.0000
+      }
+      fixedlength
+    }
+  }
+  faceposermodel "C:\VALVE\HL2\hl2\models\dog.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "25"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "20"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Dog"
+{
+  channel "audio"
+  {
+    event speak "dsvfsdf"
+    {
+      time 0.960000 2.387710
+      param "NPC_dog.Playful_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "player"
+    {
+      time 0.133328 4.313329
+      param "!player"
+      event_ramp
+      {
+        0.3000 0.9948
+        3.9200 0.9948
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+    event face "player"
+    {
+      time 0.080000 4.313333
+      param "!player"
+      event_ramp
+      {
+        0.2400 0.9896
+        4.0700 0.9922
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  channel "gestures"
+  {
+    event sequence "excited_dance"
+    {
+      time 0.080000 4.080000
+      param "excitedpound"
+      event_ramp
+      {
+        0.0700 0.9974
+        3.9200 1.0000
+      }
+      fixedlength
+    }
+  }
+  faceposermodel "C:\VALVE\HL2\hl2\models\dog.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "25"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "20"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "loop"
+{
+  time 5.911111 -1.000000
+  param "1.000000"
+  loopcount "-1"
+}
+actor "Dog"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "ball"
+    {
+      time 0.017777 6.091112
+      param "ball"
+      event_ramp
+      {
+        0.0500 0.9949
+        6.0100 0.9949
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "face to"
+  {
+    event face "ball"
+    {
+      time 0.008889 6.126667
+      param "ball"
+      event_ramp
+      {
+        0.5467 0.9932
+        6.1178 1.0000
+      }
+    }
+  }
+  channel "Trigger"
+  {
+  }
+  faceposermodel "C:\VALVE\HL2\hl2\models\dog.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "75"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "20"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 4.106668 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 2.586668 -1.000000
+  param "noaction"
+}
+actor "Dog"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "look alyx"
+    {
+      time 0.062222 1.308889
+      param "alyx"
+      event_ramp
+      {
+        0.0500 0.9949
+        1.1833 0.9949
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_dog_get_ball"
+    {
+      time 1.848889 2.606665
+      param "mark_dog_get_ball"
+      param2 "Run "
+      resumecondition
+    }
+  }
+  channel "face to"
+  {
+    event face "mark_look_get_ball"
+    {
+      time 1.048889 2.384444
+      param "mark_look_get_ball"
+      event_ramp
+      {
+        0.5467 0.9932
+        1.3356 1.0000
+      }
+    }
+  }
+  channel "Trigger"
+  {
+    event firetrigger "1_ss_dog_scrapyard_rockHoist"
+    {
+      time 3.297779 -1.000000
+      param "1"
+    }
+  }
+  faceposermodel "C:\VALVE\HL2\hl2\models\dog.mdl"
+}
+
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "Dog, go get your ball!"
+    {
+      time 0.328890 1.542564
+      param "eli_lab.al_getyourball"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look_dog"
+    {
+      time 0.008889 4.482223
+      param "dog"
+      event_ramp
+      {
+        0.2885 0.8439
+        3.8772 0.7100
+      }
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "75"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "20"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 4.445253 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 0.586667 -1.000000
+  param "noaction"
+}
+event section "pause - face-to"
+{
+  time 1.983838 -1.000000
+  param "noaction"
+}
+actor "Dog"
+{
+  channel "audio"
+  {
+    event sequence "pickup"
+    {
+      time 2.081617 4.781617
+      param "fetch"
+      event_ramp
+      {
+        0.3900 0.9948
+        2.3700 0.9921
+      }
+      fixedlength
+    }
+  }
+  channel "look at"
+  {
+    event lookat "mark_dog_grab_look"
+    {
+      time 2.161611 3.621612
+      param "mark_dog_grab_look"
+      event_ramp
+      {
+        0.2500 0.9922
+        1.2000 0.9922
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_dog_grab"
+    {
+      time 0.053333 0.602625
+      param "mark_dog_grab"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "face to"
+  {
+    event face "mark_dog_grab_look"
+    {
+      time 0.627071 2.026464
+      param "mark_dog_grab_look"
+      event_ramp
+      {
+        1.1147 1.0000
+        1.3993 1

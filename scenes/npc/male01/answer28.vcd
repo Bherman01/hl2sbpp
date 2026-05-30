@@ -1,0 +1,119 @@
+66667
+      }
+      sequenceduration 2.833333
+    }
+  }
+  channel "trigger"
+  {
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "80"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Vort"
+{
+  channel "Audio"
+  {
+    event speak "ep_02.vort_04_enter_elevator_02"
+    {
+      time 0.016667 6.709229
+      param "ep_02.vort_extract_liftmovesnot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.014473 1.815790
+      param "!player"
+      event_ramp
+      {
+        0.5500 1.0000
+        1.2307 1.0000
+      }
+    }
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+  }
+  faceposermodel "models\vortigaunt.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "80"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause"
+{
+  time 0.725000 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 27.019121 -1.000000
+  param "noaction"
+}
+event stoppoint "finish"
+{
+  time 28.269119 -1.000000
+  param "noaction"
+}
+event section "pause2"
+{
+  time 27.709595 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 12.090909 -1.000000
+  param "noaction"
+}
+actor "Vort"
+{
+  channel "Audio"
+  {
+    event speak "vort_extract_bounty01"
+    {
+      time 3.833333 7.902358
+      param "ep_02.vort_extract_bounty01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "vort_extract_finequality01"
+    

@@ -1,0 +1,26 @@
+0.9089
+      }
+      absolutetags playback_time
+      {
+        "preapex" 0.142877
+        "apex" 0.191099
+        "apex2" 0.239319
+        "accent" 0.383048
+        "loop" 0.405659
+        "end" 0.499274
+      }
+      absolutetags shifted_time
+      {
+        "preapex" 0.165210
+        "apex" 0.192308
+        "apex2" 0.223105
+        "accent" 0.474359
+        "loop" 0.512821
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+  }
+  channel "body_gestures"
+  {
+    eve

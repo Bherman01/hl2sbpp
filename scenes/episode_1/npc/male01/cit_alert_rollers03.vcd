@@ -1,0 +1,25 @@
+
+      absolutetags shifted_time
+      {
+        "apex" 0.230769
+        "accent" 0.384615
+        "loop" 0.512821
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "A_g_midhigh_arcout"
+    {
+      time 24.991844 28.227741
+      param "A_g_midhigh_arcout"
+      event_ramp 
+      {
+        1.1652 0.9885
+        2.4171 0.9943
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.186594
+        "accent" 0.396735
+        "loop" 0.604757
+        "end" 0.7

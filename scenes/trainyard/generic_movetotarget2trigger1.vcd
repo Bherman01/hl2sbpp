@@ -1,0 +1,31 @@
+ 8.1809 0.1253 "curve_easein_to_curve_easeout"
+        10.1259 0.1185
+        11.5670 0.0797
+      }
+    }
+    event lookat "mark_big_monitor"
+    {
+      time 89.424843 94.243881
+      param "mark_big_monitor"
+      event_ramp
+      {
+        0.1040 0.0000
+        0.4929 0.2333
+        0.9333 0.7634
+        1.3044 0.9415
+        3.0985 1.0000
+        3.2997 1.0000
+        3.7964 0.8537
+        4.0223 0.6306
+        4.2776 0.2734
+        4.6051 0.0462
+      }
+    }
+    event lookat "mark_kleiner_look_console"
+    {
+      time 93.025375 96.204865
+      param "mark_kleiner_look_console"
+      event_ramp
+      {
+        0.2050 0.3458
+    

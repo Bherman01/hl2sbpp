@@ -1,0 +1,97 @@
+shifted_time
+      {
+        "apex" 0.454545
+        "loop" 0.581818
+        "end" 0.763636
+      }
+      sequenceduration 1.866667
+    }
+  }
+  channel "Gesture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 11.264444
+      param ""
+    }
+    event gesture "boo!"
+    {
+      time 20.586668 22.491112
+      param "gesture_head_02"
+      event_ramp
+      {
+        0.1429 0.7446
+        0.5357 0.7749
+        0.7021 0.5887
+        0.8199 0.5368
+        0.9532 0.5455
+        1.0060 0.5411
+        1.1274 0.5152
+        1.2345 0.4935
+        1.3679 0.4026
+        1.6452 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.127587
+        "extreme" 0.186916
+        "loop" 0.495366
+        "end" 0.813098
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.289474
+        "extreme" 0.394737
+        "loop" 0.605263
+        "end" 0.789474
+      }
+      sequenceduration 1.300000
+    }
+    event gesture "NULL"
+    {
+      time 20.293335 20.793335
+      param ""
+    }
+    event gesture "fsdf"
+    {
+      time 12.293334 15.260000
+      param "Gesture07"
+      event_ramp
+      {
+        0.0075 0.6478
+        0.0775 0.6478
+        1.9425 0.6435
+        2.0750 0.6435
+        2.8225 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.231231
+        "accent" 0.366366
+        "loop" 0.546547
+        "end" 0.681818
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.172414
+        "accent" 0.258621
+        "loop" 0.344828
+        "end" 0.517241
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "FlexAnim"
+  {
+    event flexanimation "lastTime"
+    {
+      time 11.653334 14.695557
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_closer"         combo        
+        {
+          0.1838 0.0000
+          0.3130 1.0000
+          0.4537 0.0000
+          2

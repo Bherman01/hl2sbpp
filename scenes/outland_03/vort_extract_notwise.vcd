@@ -1,0 +1,29 @@
+279318
+        "end" 0.650604
+        "out" 0.794422
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.148438
+        "loop" 0.234375
+        "end" 0.625000
+        "out" 0.781250
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "A_fingerpush_g"
+    {
+      time 14.864199 17.597532
+      param "A_fingerpush_g"
+      absolutetags playback_time
+      {
+        "apex" 0.289370
+        "accent" 0.412827
+        "loop" 0.449864
+        "end" 0.762990
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.135802
+        "accent" 0.259259
+        

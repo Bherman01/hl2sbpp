@@ -1,0 +1,32 @@
+ixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time 0.000000 1.180000
+      param ""
+      flexanimations samples_use_time
+      {
+      }
+    }
+  }
+  channel "Head"
+  {
+    event flexanimation "Head"
+    {
+      time 0.000000 1.186667
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.1158 0.5227
+          0.2204 0.5197
+          0.4358 0.5197
+          0.6134 0.5318
+  

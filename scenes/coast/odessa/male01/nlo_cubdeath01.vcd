@@ -1,0 +1,20 @@
+ime 1.200000 4.033334
+      param "g_palm_mid_right"
+      absolutetags playback_time
+      {
+        "apex" 0.238095
+        "accent" 0.357143
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.238095
+        "accent" 0.357143
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      sequenceduration 2.833333
+    }
+  }
+  channel "ge

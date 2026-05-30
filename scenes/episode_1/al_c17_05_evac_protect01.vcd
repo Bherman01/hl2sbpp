@@ -1,0 +1,49 @@
+        2.2682 0.4930
+        2.4000 0.4930
+        2.6227 0.4279
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.142857
+        "accent" 0.295918
+        "loop" 0.612245
+        "end" 0.714286
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.142857
+        "accent" 0.295918
+        "loop" 0.612245
+        "end" 0.714286
+      }
+    }
+  }
+  channel "Trigger"
+  {
+    event generic "Draw"
+    {
+      time 2.884735 3.384735
+      param "AI_UNHOLSTER"
+      param2 "Alyx"
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 0.028038 3.341122
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_raiser" combo 
+        {
+          0.3520 0.0000
+          0.7944 0.0000
+          1.1028 1.0000
+          1.5358 1.0000
+          1.8754 0.0300
+          2.4393 0.0000
+          2.7383 0.9500
+        }
+        {
+          0.3520 0.5000

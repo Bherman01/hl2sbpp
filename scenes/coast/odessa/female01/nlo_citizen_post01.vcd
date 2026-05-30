@@ -1,0 +1,26 @@
+ent gesture "3"
+    {
+      time 11.233334 14.066667
+      param "g_palm_mid_right"
+      event_ramp
+      {
+        0.6632 0.8135
+        2.0632 0.8333
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.238095
+        "accent" 0.357143
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.238095
+        "accent" 0.357143
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      sequenceduration 2.833333
+    }
+    event gestur

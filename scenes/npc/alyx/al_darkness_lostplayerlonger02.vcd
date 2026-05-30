@@ -1,0 +1,49 @@
+{
+      time 11.683617 15.683617
+      param "excitedpound"
+      fixedlength
+    }
+    event sequence "disappointed"
+    {
+      time 6.531074 11.531074
+      param "disappointed"
+      fixedlength
+    }
+    event sequence "excitedup"
+    {
+      time 3.819210 6.485876
+      param "excitedup"
+      fixedlength
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+    event firetrigger "2 - rumble --  van creak --  van ride start"
+    {
+      time 8.298612 -1.000000
+      param "1"
+    }
+    event firetrigger "vanride"
+    {
+      time 9.541666 -1.000000
+      param "2"
+    }
+  }
+}
+
+actor "Eli"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {

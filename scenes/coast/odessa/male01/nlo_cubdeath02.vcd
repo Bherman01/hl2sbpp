@@ -1,0 +1,22 @@
+stures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.740000
+      param ""
+    }
+    event gesture "g_palm_mid_both"
+    {
+      time 0.033333 4.039999
+      param "g_palm_mid_both"
+      event_ramp
+      {
+        0.6540 0.5165
+        0.8735 0.6228
+        1.0360 0.6456
+        1.2880 0.6481
+        2.6348 0.6177
+        3.0553 0.5696
+      }
+      absolutetags playback_time
+     

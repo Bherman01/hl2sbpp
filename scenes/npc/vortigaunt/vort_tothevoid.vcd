@@ -1,0 +1,63 @@
+
+          0.6713 0.5490
+        }
+        "head_tilt"         range 18.0 -18.0        
+        {
+          0.1020 0.5113
+          0.2687 0.5768
+          0.3633 0.5904
+          0.6111 0.5866
+          0.6873 0.5769
+        }
+        "head_updown"         range 35.0 -30.0        
+        {
+          0.2687 0.5095
+          0.3633 0.5066
+          0.5951 0.5083
+          0.6713 0.5132
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "answer24"
+    {
+      time 0.006667 1.160930
+      param "npc_citizen.answer24"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time 0.000000 1.180000
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser"         combo        
+        {
+          0.5710 0.0600
+          0.7153 0.7500
+          0.7631 0.8300
+          0

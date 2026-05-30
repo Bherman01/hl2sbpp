@@ -1,0 +1,19 @@
+ channel "Expression"
+  {
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time 0.000000 2.293334
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_tightener"         combo        
+        {
+          0.1206 0.3400
+          0.2266 0.4200
+          0.5822 0.4800
+          1.8085 0.4891
+          1.9542 0.4400
+          2.1721

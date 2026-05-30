@@ -1,0 +1,38 @@
+ 0.9450
+        0.7104 1.0000
+        4.4645 1.0000
+        4.6123 0.9800
+        4.7277 0.9100
+        4.8240 0.7025
+        4.9896 0.1625
+      }
+    }
+  }
+  channel "posture"
+  {
+    event gesture "NULL"
+    {
+      time 0.181818 17.630304
+      param "null"
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "a_g_blind_fire"
+    {
+      time 16.162573 18.556326
+      param "a_g_blind_fire"
+      absolutetags playback_time
+      {
+        "in" 0.195652
+        "loop" 0.326087
+        "end" 0.505624
+        "out" 0.644671
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.154930
+        "loop" 0.352113
+        "end" 0.577465
+        "out" 0.676056
+      }

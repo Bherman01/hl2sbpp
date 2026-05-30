@@ -1,0 +1,127 @@
+530
+        "extreme" 0.240964
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "A_bg_upchindwn"
+    {
+      time 47.133335 49.850731
+      param "A_bg_upchindwn"
+      absolutetags playback_time
+      {
+        "apex" 0.136559
+        "extreme" 0.248289
+        "loop" 0.558650
+        "end" 0.652397
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.132530
+        "extreme" 0.240964
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "NULL"
+    {
+      time 47.200001 51.366673
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 28.933334 30.066668
+      param ""
+    }
+    event gesture "A_bg_h_jerkrt"
+    {
+      time 31.400000 34.363659
+      param "A_bg_h_jerkrt"
+      absolutetags playback_time
+      {
+        "apex" 0.125307
+        "extreme" 0.239223
+        "loop" 0.558187
+        "end" 0.681036
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "NULL"
+    {
+      time 64.493828 65.709877
+      param ""
+    }
+    event gesture "a_bg_htiltrt"
+    {
+      time 59.802471 65.040749
+      param "a_bg_htiltrt"
+      event_ramp
+      {
+        0.0025 0.5385
+        0.0275 0.5452
+        5.2158 0.4482
+        5.2383 0.4415
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.174211
+        "extreme" 0.353774
+        "loop" 0.490566
+        "end" 0.806585
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 66.320992 69.067902
+      param ""
+    }
+    event gesture "A_headdroop"
+    {
+      time 70.839508 74.167778
+      param "A_headdroop"
+      event_ramp
+      {
+        0.0000 0.4114
+        1.3875 0.5452
+        2.1425 0.0201
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.121121
+        "extreme" 0.455667
+        "loop" 0.783582
+        "end" 0.798507
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.093750
+        "extreme" 0.328125
+        "loop" 0.773438
+        "end" 0.781250
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "NULL"
+    {
+      time 70.987648 74.327156
+      param ""
+    }
+    event gesture "NULL"
+   

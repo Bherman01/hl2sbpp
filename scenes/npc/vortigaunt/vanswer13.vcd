@@ -1,0 +1,24 @@
+    time 0.064516 1.860185
+      param "npc_barney.ba_oldtimes"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "trigger"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.021506 1.844087
+      param "!player"
+      event_ramp
+      {
+        0.1400 0.8553
+        0.2367 0.9868
+        1.6307 0.9868
+        1.7007 0.8640
+      }
+   

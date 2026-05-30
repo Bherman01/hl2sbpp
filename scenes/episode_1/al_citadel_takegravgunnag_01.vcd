@@ -1,0 +1,46 @@
+e 3.041705 7.691928
+      param "mark_look_gap_1"
+      event_ramp 
+      {
+        0.1999 0.2062
+        0.5208 0.6727
+        0.8292 0.9088
+        1.3586 1.0000
+        1.6042 1.0000
+        4.6502 0.9963
+      }
+    }
+    event face "npc_catwalkbreak1_combine"
+    {
+      time 9.228070 12.102338
+      param "shooter_rumble_a_02"
+      event_ramp rightedge curve_default_to_curve_default 1.000
+      {
+        0.0708 0.1388
+        0.4417 0.9802
+      }
+    }
+    event face "!player"
+    {
+      time 7.821989 9.183991
+      param "!player"
+      event_ramp 
+      {
+        0.2457 0.3185
+        0.4875 0.8035
+        0.6872 1.0000
+        1.3620 0.9963
+      }
+    }
+    active "0"
+  }
+  channel "Trigger"
+  {
+    event firetrigger "1 - bridge explosed a few seconds after this"
+    {
+      time 9.214744 -1.000000
+      param "1"
+    }
+    event interrupt "int"
+    {
+      time 10.116660 17.398956

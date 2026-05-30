@@ -1,0 +1,26 @@
+       0.4561 1.0000
+        1.2486 1.0000
+        1.5224 1.0000
+      }
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "bg_accentUp"
+    {
+      time 0.291666 2.259722
+      param "bg_accentUp"
+      event_ramp 
+      {
+        0.0877 0.2590 "curve_default_to_curve_hold"
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.154552
+        "extreme" 0.377793
+        "loop" 0.581221
+        "end" 0.764140
+      }
+      absolutetags shifted_time
+      {
+     

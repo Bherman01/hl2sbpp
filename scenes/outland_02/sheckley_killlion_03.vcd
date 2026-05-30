@@ -1,0 +1,25 @@
+ }
+    event lookat "look at map"
+    {
+      time 6.257074 9.361109
+      param "sawmill_briefing_lookat_map"
+      event_ramp
+      {
+        0.2542 0.9747
+        2.8091 0.9856
+      }
+    }
+    event lookat "look at sawmill_citizen_start_2"
+    {
+      time 28.067062 30.550068
+      param "sawmill_citizen_start_2"
+      event_ramp
+      {
+        0.2542 0.9747
+        2.1881 0.9856
+      }
+    }
+    event lookat "look at map"
+    {
+      time 19.533205 26.084789
+      param "sawmill_briefing_lookat_map"

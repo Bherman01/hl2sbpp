@@ -1,0 +1,51 @@
+037037 26.235043
+      param "!target3"
+      param2 "Walk"
+      resumecondition
+    }
+  }
+  channel "faceTo"
+  {
+    event face "face player"
+    {
+      time 0.877536 23.714844
+      param "!player"
+      event_ramp
+      {
+        0.5500 0.4721
+        22.1923 0.5385
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "p_mag_door"
+    {
+      time 1.561404 25.365789
+      param "p_mag_door"
+      event_ramp
+      {
+        0.7036 0.4475 "curve_easein_to_curve_easeout"
+        22.4536 0.4155 "curve_easein_to_curve_easeout"
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.028350
+        "loop" 0.116807
+        "end" 0.978634
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.270833
+        "loop" 0.520833
+        "end" 0.625000
+      }
+      sequenceduration 1.633333
+    }
+  }
+  channel "body"
+  {
+    event gesture "hg_chest_head_back"
+    {
+      time 4.716775 9.276034
+      param "hg_chest

@@ -1,0 +1,52 @@
+" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "!target2"
+{
+  channel "audio"
+  {
+    event speak "sheckley_threelights"
+    {
+      time 0.138888 2.233741
+      param "ep_02.sheckley_threelights"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 0.114583 2.697917
+      param "!player"
+      event_ramp
+      {
+        0.4788 1.0000
+        2.0194 1.0000
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 0.125000 2.891667
+      param "g_palm_out_l"
+      absolutetags playback_time
+      {
+        "apex" 0.121951
+        "accent" 0.231707
+        "loop" 0.390244
+        "end" 0.780488
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.121951
+       

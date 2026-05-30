@@ -1,0 +1,27 @@
+  {
+      time 6.051388 8.507500
+      param "soundscape_computerroom2_pos0"
+      event_ramp 
+      {
+        0.5111 1.0000
+        1.9194 1.0000
+      }
+    }
+    event lookat "!player"
+    {
+      time 0.451389 5.400834
+      param "!player"
+      event_ramp 
+      {
+        0.5111 1.0000
+        4.4127 1.0000
+      }
+    }
+  }
+  channel "Face To"
+  {
+    event face "advisor_monitor_aisc"
+    {
+      time 5.055555 6.662779
+      param "advisor_monitor_aisc"
+      even

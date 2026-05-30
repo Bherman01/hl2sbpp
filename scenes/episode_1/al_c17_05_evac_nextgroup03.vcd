@@ -1,0 +1,121 @@
+600
+          15.3887 0.0000
+          15.4462 0.0000
+        }
+        {
+          2.1810 0.5000
+          2.3810 0.5000
+          15.3887 0.5000
+          15.4462 0.5000
+        }
+        "corner_depressor" combo 
+        {
+          15.3887 0.0000
+        }
+        {
+          15.3887 1.0000
+        }
+        "chin_raiser" 
+        {
+          15.3887 0.0000
+        }
+        "puckerer" combo 
+        {
+          11.1301 0.0000
+          11.6811 0.2800
+          12.1582 0.0000
+          15.3887 0.0000
+        }
+        {
+          11.6811 0.5000
+          15.3887 0.5000
+        }
+        "lip_bite" 
+        {
+          15.3887 0.0000
+          15.7057 0.0000
+          16.5023 0.0000
+          16.8857 0.0000
+        }
+      }
+    }
+  }
+  channel "head"
+  {
+    event gesture "shake"
+    {
+      time 16.053535 19.859596
+      param "A_HG_smallhshake"
+      event_ramp 
+      {
+        0.6136 0.0992
+        1.0659 0.5284
+        2.2182 0.5860
+        3.0203 0.2507
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.131489
+        "extreme" 0.264159
+        "loop" 0.517494
+        "end" 0.669866
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.073529
+        "extreme" 0.147059
+        "loop" 0.441176
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "tilt"
+    {
+      time 16.456566 20.938383
+      param "a_bg_htiltrt"
+      event_ramp 
+      {
+        1.5556 0.9426
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.091525
+        "extreme" 0.291525
+        "loop" 0.474576
+        "end" 0.735593
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "nod"
+    {
+      time 9.836550 15.927778
+      param "A_HG_smallnod"
+      event_ramp 
+      {
+        3.4093 0.2507
+        4.5806 0.5144
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.126961
+        "extreme" 0.472719
+        "loop" 0.763732
+        "end" 0.851646
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.060241
+        "extreme" 0.120482
+        "loop" 0.566265
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event flexanimation "heh

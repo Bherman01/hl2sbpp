@@ -1,0 +1,520 @@
+t gesture "NULL"
+    {
+      time 8.812500 10.529412
+      param ""
+    }
+    event gesture "fwd"
+    {
+      time 9.645833 11.279166
+      param "b_accent_fwd"
+      event_ramp
+      {
+        0.1433 0.2556
+        0.6167 0.4737
+        0.9933 0.2030
+        1.3767 0.3835
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.208333
+        "extreme" 0.312500
+        "loop" 0.416667
+        "end" 0.625000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.208333
+        "extreme" 0.312500
+        "loop" 0.416667
+        "end" 0.625000
+      }
+      sequenceduration 1.633333
+    }
+  }
+  faceposermodel "U:\HL2\release\dev\hl2\models\Humans\Group01\Female_01.mdl"
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "ExpressionTool" "38"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "canals.airboat_go_nag01"
+    {
+      time 0.263480 1.642732
+      param "canals.airboat_nag03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "Lookat_player"
+    {
+      time 0.047059 2.063890
+      param "!player"
+      event_ramp
+      {
+        0.3467 0.7343
+        0.4834 0.9057
+        0.7400 0.9890
+        1.3880 0.9796
+        1.6413 0.8915
+        1.8213 0.6022
+      }
+    }
+    event generic "blink override"
+    {
+      time 0.125492 2.049592
+      param "AI_BLINK"
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+    event face "Faceto_player"
+    {
+      time 0.063481 1.950982
+      param "!player"
+      event_ramp
+      {
+        0.1367 0.2390
+        0.3100 0.5833
+        0.5700 0.6651
+        0.6667 0.6667
+        1.4397 0.6761
+        1.8264 0.6714
+        1.8875 0.6698
+      }
+    }
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.274510
+      param ""
+    }
+  }
+  channel "trigger"
+  {
+    event firetrigger "trigger_opengate"
+    {
+      time 1.241261 -1.000000
+      param "1"
+    }
+  }
+  channel "flex anim"
+  {
+    event flexanimation "Facial animation 3"
+    {
+      time 0.116257 1.785703
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_closer"         combo        
+        {
+          0.5542 0.0000
+          0.6083 1.0000
+          0.6638 0.0000
+          1.4908 0.0000
+          1.5450 1.0000
+          1.5943 0.0000
+        }
+        {
+        }
+        "inner_raiser"         combo        
+        {
+          0.5741 0.0000
+          1.1882 0.4300
+        }
+        {
+        }
+        "outer_raiser"         combo        
+        {
+          0.4974 0.3100
+          1.2046 0.6000
+        }
+        {
+        }
+        "head_rightleft"         range 30.0 -30.0        
+        {
+          0.8373 0.5000
+          1.2101 0.5224
+        }
+        "head_updown"         range 15.0 -15.0        
+        {
+          0.3493 0.5482
+          0.8485 0.5602
+          1.0895 0.4036
+          1.3015 0.4819
+          1.5281 0.4819
+        }
+        "head_tilt"         range 15.0 -15.0        
+        {
+          0.3274 0.4842
+          0.7221 0.5474
+          1.0346 0.5368
+          1.3601 0.4842
+        }
+        "eyes_rightleft"         range 30.0 -30.0        
+        {
+        }
+        "eyes_updown"         range 30.0 -30.0        
+        {
+        }
+      }
+    }
+  }
+  channel "body gesture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 1.716912
+      param ""
+    }
+  }
+  faceposermodel "U:\HL2\release\dev\hl2\models\Humans\Group01\Female_01.mdl"
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "32"
+  "ExpressionTool" "36"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Arlene"
+{
+  channel "audio"
+  {
+    event speak "airboat_go_nag01"
+    {
+      time 0.200000 1.693175
+      param "canals.airboat_go_nag01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "NULL"
+    {
+      time 0.066666 1.944444
+      param "NULL"
+      event_ramp
+      {
+        0.1167 0.2689
+        0.2500 0.5157
+        0.3333 0.5393
+        0.4000 0.5440
+        0.9267 0.5472
+        1.4600 0.5472
+        1.5233 0.5440
+        1.6133 0.5110
+        1.7567 0.2626
+      }
+    }
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Arlene"
+{
+  channel "audio"
+  {
+    event speak "airboat_go_nag02"
+    {
+      time 0.200000 3.719615
+      param "canals.airboat_go_nag02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "NULL"
+    {
+      time 0.111111 3.677777
+      param "NULL"
+      event_ramp
+      {
+        0.0955 0.2044
+        0.2409 0.5063
+        0.4545 0.5660
+        0.5455 0.5739
+        1.6773 0.5865
+        2.9364 0.5849
+        3.0136 0.5833
+        3.1727 0.5377
+        3.4182 0.2296
+      }
+    }
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "44"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Arlene"
+{
+  channel "audio"
+  {
+    event speak "airboat_go_nag03"
+    {
+      time 0.200000 2.297551
+      param "canals.airboat_go_nag03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "NULL"
+    {
+      time 0.066666 2.255555
+      param "NULL"
+      event_ramp
+      {
+        0.1200 0.1950
+        0.2933 0.2862
+        0.3833 0.2956
+        1.1100 0.3082
+        1.7867 0.2972
+        1.8633 0.2925
+        2.0433 0.2186
+      }
+    }
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Arlene"
+{
+  channel "audio"
+  {
+    event speak "Go ahead and get in the boat, Dr. Freeman"
+    {
+      time 0.200000 1.998277
+      param "canals.airboat_nag01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "face to"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Arlene"
+{
+  channel "audio"
+  {
+    event speak "Get in the Airboat sir."
+    {
+      time 0.266667 1.296758
+      param "canals.airboat_nag02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "face to"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Arlene"
+{
+  channel "audio"
+  {
+    event speak "Climb on in, fire her up."
+    {
+      time 0.311111 1.690363
+      param "canals.airboat_nag03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "face to"
+  {
+  }
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "look at loop"
+{
+  time 17.607843 -1.000000
+  param "1.000000"
+  loopcount "-1"
+}
+actor "!Target1"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "Lookat_player"
+    {
+      time 0.066666 18.522223
+      param "!player"
+      event_ramp
+      {
+        0.1200 0.7343
+        0.2567 0.9057
+        0.5133 0.9890
+        17.8267 0.9796
+        18.0800 0.8915
+        18.2600 0.6022
+      }
+    }
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+    event face "Faceto_player"
+    {
+      time 0.074510 18.500002
+      param "!player"
+      event_ramp
+      {
+        0.1367 0.2390
+        0.3100 0.5833
+        0.5700 0.6651
+        0.6667 0.6667
+        16.6777 0.6761
+        18.3644 0.6714
+        18.4255 0.6698
+      }
+    }
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+  channel "flex anim"
+  {
+  }
+  faceposermodel "U:\HL2\release\dev\hl2\models\Humans\Group01\Female_01.mdl"
+}
+
+mapname "maps\klab_actormarks.bsp"
+scalesettings
+{
+  "CChore

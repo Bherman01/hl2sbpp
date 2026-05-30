@@ -1,0 +1,20 @@
+" 0.514706
+        "end" 0.588235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "A_bg_acc_side_rt"
+    {
+      time 46.063065 48.962162
+      param "A_bg_acc_side_rt"
+      absolutetags playback_time
+      {
+        "apex" 0.104001
+        "extreme" 

@@ -1,0 +1,119 @@
+.5181
+      }
+    }
+    event face "!player"
+    {
+      time 26.907852 28.447853
+      param "!player"
+      event_ramp
+      {
+        0.5638 0.5845
+        0.9182 0.6551
+        1.3182 0.6481
+        1.5160 0.5845
+      }
+    }
+    event face "face palyer"
+    {
+      time 3.570338 6.306694
+      param "!player"
+      event_ramp
+      {
+        0.2727 0.3380
+        0.4000 0.5379
+        0.5909 0.7016
+        1.0500 0.7547
+        1.5056 0.7538
+        1.8740 0.7469
+        2.1128 0.7077
+        2.2667 0.5980
+        2.4133 0.4071
+        2.7362 0.0000
+      }
+    }
+    event face "face kleiner"
+    {
+      time 58.867435 61.078545
+      param "kleiner"
+      event_ramp
+      {
+        0.8557 0.8919
+        1.0417 0.9627
+        1.2917 1.0000
+        1.3944 1.0000
+        2.2111 1.0000
+      }
+    }
+    event face "kleiner"
+    {
+      time 79.377769 80.945755
+      param "kleiner"
+      event_ramp
+      {
+        0.5540 0.6899
+        0.6713 0.8118
+        0.9574 1.0000
+        1.2453 1.0000
+        1.2630 1.0000
+        1.5278 1.0000
+        1.5658 1.0000
+      }
+    }
+    active "0"
+  }
+  channel "Move to"
+  {
+    event moveto "mark_alyx_out_1"
+    {
+      time 1.749019 5.529854
+      param "mark_alyx_out_1"
+      param2 "Walk"
+      resumecondition
+    }
+    event moveto "mark_alyx_follow_k_1"
+    {
+      time 54.696369 63.888210
+      param "mark_alyx_follow_k_1"
+      param2 "Walk"
+      resumecondition
+    }
+    event moveto "mark_alyx_doggreet_1"
+    {
+      time 76.503571 80.293205
+      param "mark_alyx_doggreet_1"
+      param2 "Walk_all_moderate"
+      resumecondition
+    }
+    event moveto "mark_alyx_out_2"
+    {
+      time 5.875556 8.100000
+      param "mark_alyx_out_2"
+      param2 "Walk"
+      resumecondition
+    }
+    event moveto "mark_alyx_out_3"
+    {
+      time 11.358139 13.856035
+      param "mark_alyx_out_3"
+      param2 "Walk_all_moderate"
+    }
+    event moveto "mark_alyx_01"
+    {
+      time 27.111860 33.060757
+      param "mark_alyx_01"
+      param2 "Walk"
+      resumecondition
+    }
+    event moveto "mark_alyx_out_2b"
+    {
+      time 20.383902 22.608343
+      param "mark_alyx_out_2b"
+      param2 "Walk_all_moderate"
+    }
+  }
+  channel "temp"
+  {
+    event sequence "NULL"
+    {
+      time 82.043594 93.543594
+      param "alyxDog_

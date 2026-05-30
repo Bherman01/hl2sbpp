@@ -1,0 +1,25 @@
+ }
+      sequenceduration 2.800000
+    }
+    event gesture "A_g_mid_palmpushout"
+    {
+      time 16.833332 19.466665
+      param "A_g_mid_palmpushout"
+      event_ramp 
+      {
+        0.5909 0.2865
+        1.2091 0.4040
+        2.6333 0.1862
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.230769
+        "accent" 0.384615
+        "loop" 0.512821
+        "end" 0.641026
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.230769
+        "accent" 0.384615
+        "loop"

@@ -1,0 +1,42 @@
+n2"
+{
+  channel "audio"
+  {
+    event speak "mo_intercept03"
+    {
+      time 10.189955 11.702154
+      param "ep_01.mo_intercept03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "mo_intercept04"
+    {
+      time 11.834993 16.850504
+      param "ep_01.mo_intercept04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "mo_intercept05"
+    {
+      time 16.868149 19.277220
+      param "ep_01.mo_intercept05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "mo_intercept07"
+    {
+      time 20.908928 23.181581
+      param "ep_01.mo_intercept07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "mo_intercept02"
+    {
+      time 4.477131 10.078945
+      param "ep_01.mo_intercept02"
+      fixedlength
+      cctype "c

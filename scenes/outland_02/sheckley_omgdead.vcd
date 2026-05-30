@@ -1,0 +1,28 @@
+_start_briefer"
+      event_ramp
+      {
+        0.3929 0.9856
+        9.3749 1.0000
+      }
+    }
+    event lookat "look at player"
+    {
+      time 20.620993 25.428572
+      param "!player"
+      event_ramp
+      {
+        0.3929 0.9856
+        4.4171 0.9928
+      }
+    }
+    event lookat "look at sawmill_citizen_start_briefer"
+    {
+      time 29.899279 32.827850
+      param "sawmill_citizen_start_briefer"
+      event_ramp
+      {
+        0.3929 0.9856
+        2.5381 0.9928
+      }
+    }
+    even

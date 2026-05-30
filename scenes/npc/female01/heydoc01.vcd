@@ -1,0 +1,57 @@
+
+  channel "audio"
+  {
+    event speak "made it in one piece"
+    {
+      time 3.088434 5.185259
+      param "novaprospekt.al_onepiece"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "I think my Dad's up there..."
+    {
+      time 7.040773 10.276306
+      param "novaprospekt.al_perfecttiming03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "It's going to take some doing......"
+    {
+      time 10.427440 12.374719
+      param "novaprospekt.al_perfecttiming03_b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "novaprospekt.al_letsgetout01"
+    {
+      time 14.052670 15.658180
+      param "novaprospekt.al_letsgetout01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "self"
+    {
+      time 12.163848 14.201612
+      param "!self"
+      event_ramp
+      {
+        0.3174 0.7302
+        0.3879 0.8182
+        0.4727 0.8533
+        0.5758 0.8636
+        1.6209 0.8298
+        1.9366 0.7879
+        2.0378 0.7733
+      }
+    }
+    event lookat "look_player"
+    {
+      time 10.400774 12.714989
+      param "!

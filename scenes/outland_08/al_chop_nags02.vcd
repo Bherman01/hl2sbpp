@@ -1,0 +1,180 @@
+ "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.gman_mono11"
+    {
+      time 66.694443 72.400749
+      param "ep_02.gman_mono11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  faceposermodel "models\gman.mdl"
+}
+
+actor "Gman_Voice"
+{
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.156612 133.912186
+      param "!player"
+    }
+  }
+  channel "audio"
+  {
+    event speak "gman_mono05"
+    {
+      time 22.468283 26.485334
+      param "ep_02.gman_mono05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono06"
+    {
+      time 26.485334 36.713722
+      param "ep_02.gman_mono06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono08"
+    {
+      time 37.010704 53.914833
+      param "ep_02.gman_mono08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  faceposermodel "models\gman.mdl"
+}
+
+actor "Gman_Voice"
+{
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.156612 133.912186
+      param "!player"
+    }
+  }
+  channel "audio"
+  {
+    event speak "gman_mono14"
+    {
+      time 79.398880 81.796341
+      param "ep_02.gman_mono14"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono15"
+    {
+      time 81.796341 83.379654
+      param "ep_02.gman_mono15"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono16"
+    {
+      time 83.504654 84.648239
+      param "ep_02.gman_mono16"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono17"
+    {
+      time 84.731575 90.385635
+      param "ep_02.gman_mono17"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  faceposermodel "models\gman.mdl"
+}
+
+actor "Gman_Voice"
+{
+  channel "lookAt"
+  {
+    event lookat "!player"
+    {
+      time 0.156612 133.912186
+      param "!player"
+    }
+  }
+  channel "audio"
+  {
+    event speak "gman_mono22"
+    {
+      time 91.545799 96.247841
+      param "ep_02.gman_mono22"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono24"
+    {
+      time 96.573586 97.310822
+      param "ep_02.gman_mono24"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  faceposermodel "models\gman.mdl"
+}
+
+actor "alyx_gman"
+{
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time -0.111111 128.888885
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_closer" combo 
+        {
+          0.1040 0.9300
+          0.2020 0.9479
+          0.6500 0.9523
+          1.1000 0.9523
+          128.7542 0.9206
+          128.9520 0.9206
+          128.9520 0.9213
+        }
+        {
+          0.1040 0.5000
+          0.2020 0.5000
+          0.6500 0.5000
+          1.1000 0.5000
+          128.7542 0.5000
+          128.9520 0.5000
+          128.9520 0.5000
+        }
+        "cheek_raiser" combo 
+        {
+          0.1040 0.2900
+          0.2020 0.2900
+          0.6500 0.2900
+          1.1000 0.2900
+          128.7542 0.2717
+          128.9520 0.2717
+          128.9520 0.2719
+        }
+        {
+          0.1040 0.5000
+          0.2020 0.5000
+          0.6500 0.5000
+          1.1000 0.5000
+         

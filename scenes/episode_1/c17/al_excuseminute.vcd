@@ -1,0 +1,37 @@
+n ""
+    }
+    event speak "wave"
+    {
+      time 17.533335 17.920818
+      param "ep_01.al_safehouse_yeah"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_safehouse_stoleinfo03"
+    {
+      time 8.966667 12.014286
+      param "ep_01.al_safehouse_stoleinfo03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "barney"
+    {
+      time 11.526318 27.457647
+      param "barney"
+      event_ramp 
+      {
+        0.3495 0.3867
+        0.9185 0.8912
+        14.5596 0.8593
+        15.2193 0.4696
+      }
+    }
+    event lookat "!player"
+    {
+      time 26.544613 30.427204
+ 

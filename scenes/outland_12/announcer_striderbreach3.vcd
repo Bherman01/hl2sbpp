@@ -1,0 +1,29 @@
+ channel "Audio"
+  {
+    event speak "gordead_ans03"
+    {
+      time 0.006667 0.621724
+      param "npc_citizen.gordead_ans03"
+      param2 "75dB"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "look at player"
+    {
+      time 0.006666 0.606666
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTo

@@ -1,0 +1,46 @@
+
+    event lookat "speaker_trans"
+    {
+      time 129.633591 130.540283
+      param "speaker_trans"
+      event_ramp
+      {
+        0.4283 0.0423
+      }
+    }
+    event lookat "mark_look_wires_1"
+    {
+      time 128.490341 129.974014
+      param "mark_look_wires_1"
+      event_ramp
+      {
+        0.5354 0.0308
+        0.8940 0.0308
+      }
+    }
+    event lookat "keyboard"
+    {
+      time 130.527634 133.989914
+      param "keyboard"
+      event_ramp
+      {
+        1.0354 1.0000
+        2.6029 1.0000
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "mark_look_monitor_1"
+    {
+      time 0.200000 11.209805
+      param "mark_look_monitor_1"
+      event_ramp
+      {
+        1.0949 0.9963
+        11.0098 1.0000
+      }
+    }
+    event face "mark_kleiner"
+    {
+      

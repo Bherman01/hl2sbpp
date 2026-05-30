@@ -1,0 +1,26 @@
+time
+      {
+        "apex" 0.181818
+        "accent" 0.397727
+        "loop" 0.568182
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "A_g_hdclasp"
+    {
+      time 14.991840 18.125175
+      param "A_g_hdclasp"
+      event_ramp 
+      {
+        0.8545 0.9885
+        2.9091 0.9885
+      }
+      absolutetags playback_time
+      {
+        "in" 0.150538
+        "loop" 0.580645
+        "end" 0.709677
+        "out" 0.806452
+      }
+      absolutetags shifte

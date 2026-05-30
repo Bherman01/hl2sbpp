@@ -1,0 +1,28 @@
+MG1_4"
+    {
+      time 0.040803 17.024414
+      param "Idle_RPG_Relaxed"
+      event_ramp
+      {
+        0.0885 0.0614
+        0.3923 0.2106
+        2.8500 0.3377
+        7.7750 0.3640
+        13.0500 0.3860
+        16.9004 0.0614
+      }
+    }
+  }
+  channel "body_gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.000000
+      param ""
+    }
+    event gesture "hg_puncuate_down"
+    {
+      time 6.874858 8.508189
+      param "hg_puncuate_down"
+      event_ramp
+      {

@@ -1,0 +1,41 @@
+
+        2.1941 0.5212
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.204545
+        "accent" 0.443182
+        "loop" 0.568182
+        "end" 0.681818
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.204545
+        "accent" 0.443182
+        "loop" 0.568182
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "A_g_armscrossed"
+    {
+      time 17.572649 20.977777
+      param "A_g_armscrossed"
+      event_ramp
+      {
+        0.9353 0.6943
+        1.4588 0.9470
+        1.9882 0.9541
+        2.5588 0.6855
+      }
+      absolutetags playback_time
+      {
+        "in" 0.138571
+        "loop" 0.395917
+        "end" 0.710462
+        "out" 0.864662
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.155556
+        "lo

@@ -1,0 +1,38 @@
+0.8750 0.5833
+        1.1056 0.6421
+        6.1450 0.6375
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "WALK mark_eli_closeup"
+    {
+      time 114.269135 115.987808
+      param "mark_eli_closeup"
+      param2 "Walk"
+    }
+    event moveto "mark_eli_start"
+    {
+      time 15.218911 17.466822
+      param "mark_eli_start"
+      param2 "fwalk_all"
+      resumecondition
+    }
+    event moveto "WALK_mark_eli_moveback1"
+    {
+      time 79.164818 80.459686
+      param "mark_eli_moveback1"
+      param2 "Walk"
+      forceshortmovement
+    }
+    event moveto "WALK_mark_eli_moveback2"
+    {
+      time 81.708977 82.833969
+      param "mark_eli_moveback2"
+      param2 "Walk"
+      forceshortmovement
+    }
+    event sequence "null"
+    {
+      

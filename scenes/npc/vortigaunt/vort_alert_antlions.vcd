@@ -1,0 +1,69 @@
+el "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+}
+
+mapname "maps\d1_town_05.bsp"
+scalesettings
+{
+  "CChoreoView" "62"
+  "ExpressionTool" "40"
+  "RampTool" "60"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "abouttime01"
+    {
+      time 0.006667 3.595669
+      param "npc_citizen.abouttime01"
+      param2 "75dB"
+      fixedlength
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+    event lookat "Lookatplayer"
+    {
+      time -0.026667 3.646667
+      param "!player"
+    }
+  }
+  channel "Facial"
+  {
+    event flexanimation "Facial"
+    {
+      time 0.000000 3.626667
+      param ""
+      flexanimations samples_use_time
+      {
+        "lid_droop"         combo        
+        {
+          0.1228 0.6000
+          0.4800 0.5500
+          1.3203 0.3900
+          1.6240 0.1900
+          2.1095 0.2900
+          2.2785 0.6400
+          2.5074 0.6300
+          2.8605 0.5800
+          3.2049 0.4100
+ 

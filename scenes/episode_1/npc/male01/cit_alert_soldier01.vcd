@@ -1,0 +1,24 @@
+
+        "loop" 0.295181
+        "end" 0.536145
+        "out" 0.650602
+      }
+      sequenceduration 5.566667
+    }
+    event gesture "A_g_low2side_palmsout"
+    {
+      time 2.240093 4.940094
+      param "A_g_low2side_palmsout"
+      absolutetags playback_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.150000
+        "accent" 0.300000
+        "loop" 0.475000
+        "end"

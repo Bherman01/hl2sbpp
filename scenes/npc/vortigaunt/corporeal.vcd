@@ -1,0 +1,30 @@
+17
+        2.4831 0.9948
+        3.4585 0.9974
+      }
+    }
+    event face "face_player"
+    {
+      time 17.948830 19.209188
+      param "!player"
+      event_ramp
+      {
+        0.7099 0.9948
+        0.8692 0.7117
+        1.2603 0.9974
+      }
+    }
+  }
+  channel "Postures"
+  {
+    event gesture "console1"
+    {
+      time 1.875556 8.102864
+      param "consoleposture"
+      absolutetags playback_time
+      {
+        "apex" 0.162222
+        "loop" 0.216298
+        "end" 0.904616
+      }
+  

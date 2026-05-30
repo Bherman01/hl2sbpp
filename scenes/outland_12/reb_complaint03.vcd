@@ -1,0 +1,42 @@
+       "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "2"
+    {
+      time 4.574544 6.874544
+      param "a_bg_htiltleft"
+      event_ramp 
+      {
+        0.3643 0.8730
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "face"
+    {
+      time 2.734545 6.734545
+      param ""
+      flexanimations samples_use_time
+      {
+        "inner_raiser" combo 
+        

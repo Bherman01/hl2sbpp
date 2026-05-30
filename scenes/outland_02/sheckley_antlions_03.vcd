@@ -1,0 +1,84 @@
+809 "curve_easein_to_curve_easeout"
+        1.7565 0.5718
+        6.9275 0.5353 "curve_easein_to_curve_easeout"
+        7.1884 0.3964
+        7.4101 0.0547
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.094714
+        "accent" 0.212074
+        "loop" 0.297478
+        "end" 0.900881
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.142857
+        "accent" 0.300000
+        "loop" 0.714286
+        "end" 0.742857
+      }
+      sequenceduration 2.366667
+    }
+  }
+  channel "head"
+  {
+    event flexanimation "headup"
+    {
+      time 27.333332 29.139782
+      param ""
+    }
+    event gesture "hg_nod_yes"
+    {
+      time 0.284313 2.584313
+      param "hg_nod_yes"
+      event_ramp
+      {
+        0.3178 0.9841
+        0.6711 0.4123
+        1.1822 0.4601
+        1.4578 1.0000
+        1.6889 0.0501
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.058824
+        "extreme" 0.161765
+        "loop" 0.411765
+        "end" 0.764706
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.058824
+        "extreme" 0.161765
+        "loop" 0.411765
+        "end" 0.764706
+      }
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "eyes"
+    {
+      time 0.133334 7.366669
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_closer" combo 
+        {
+          0.0643 0.0000
+          0.2548 0.7300
+          0.6333 0.7400
+          0.8203 0.0000
+          1.0871 0.1700
+          2.2065 0.1700
+          2.5548 0.0500
+          2.5935 0.9400
+          2.7032 0.0000
+          2.7774 0.0000
+          3.2484 0.0600
+          3.3000 0.9800
+          3.3258 0.9700
+          3.5323 0.0400
+        }
+   

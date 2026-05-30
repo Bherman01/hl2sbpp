@@ -1,0 +1,43 @@
+1.0000
+        7.5575 1.0000
+      }
+    }
+    event lookat "LOOKAT_mark_kleiner"
+    {
+      time 60.972454 74.007942
+      param "mark_kleiner"
+      event_ramp
+      {
+        0.9539 0.8955
+        12.2565 1.0000
+      }
+    }
+    event lookat "look at player"
+    {
+      time 100.559006 102.955292
+      param "!player"
+      event_ramp
+      {
+        0.5838 0.5525
+        1.8482 0.5580
+      }
+    }
+    event lookat "mark_look_monitor_2"
+    {
+      time 75.795036 100.807533
+      param "mark_look_monitor_2"
+      event_ramp
+      {
+        1.2474 1.0000
+        24.2390 1.0000
+      }
+    }
+    event lookat "mark_look_monitor_2"
+    {
+      time 102.108215 118.682755
+      param "mark_look_monitor_2"
+      event_ramp
+      {
+        0.9158 1.0000
+        15.8012 1.0000
+      }

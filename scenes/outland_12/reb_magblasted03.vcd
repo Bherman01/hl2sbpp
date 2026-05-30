@@ -1,0 +1,57 @@
+ctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "doorcontrol"
+    {
+      time 6.438011 7.914202
+      param "!target1"
+      event_ramp
+      {
+        0.3780 0.7205
+        0.5040 0.8384
+        0.8380 0.8865
+        1.0252 0.8822
+        1.1371 0.8782
+      }
+    }
+    event lookat "doorcontrol"
+    {
+      time 2.695637 5.517197
+      param "!target1"
+      event_ramp
+      {
+        0.4154 0.9598
+        2.2154 0.9705
+      }
+    }
+    event lookat "doorcontrol"
+    {
+      time 8.317332 9.912707
+      param "!target1"
+      event_ramp
+      {
+        0.3780 0.7205
+        0.5040 0.8384
+        1.0237 0.8865
+        1.1170 0.8723
+        1.2194 0.8543
+      }
+    }
+    event lookat "Alyx_Emptool"
+    {
+      time 5.135115 6.594476
+      param "Alyx_Emptool"
+      event_ramp
+      {
+        0.2872 0.6131
+        0.3524 0.6307
+        1.1391 0.6267
+        1.2510 0.6208
+      }
+    }
+    event lookat "Alyx_Emptool"
+    {
+      time 7.7023

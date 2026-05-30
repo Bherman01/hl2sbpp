@@ -1,0 +1,222 @@
+0
+          0.7501 0.2900
+          0.8488 0.4900
+          0.9229 0.4900
+        }
+      }
+    }
+    event flexanimation "eyes flex"
+    {
+      time 9.157894 10.219296
+      param ""
+      flexanimations samples_use_time
+      {
+        "eyes_updown"         range 30.0 -30.0        
+        {
+          0.1193 0.4900
+          0.1768 0.4900
+          0.2632 0.0900
+          0.3167 0.0900
+          0.5223 0.0900
+          0.5963 0.0900
+          0.6950 0.4900
+          0.7691 0.4900
+        }
+        "eyes_rightleft"         range 30.0 -30.0        
+        {
+          0.1193 0.4900
+          0.1768 0.4900
+          0.2632 0.6000
+          0.3167 0.6000
+          0.5223 0.6000
+          0.5963 0.6000
+          0.6950 0.4900
+          0.7691 0.4900
+        }
+      }
+    }
+    event flexanimation "eyes flex"
+    {
+      time 14.491227 16.833330
+      param ""
+      flexanimations samples_use_time
+      {
+        "eyes_updown"         range 30.0 -30.0        
+        {
+          0.1193 0.4900
+          0.1768 0.4900
+          0.2632 0.0900
+          0.3167 0.0900
+          0.9531 0.0900
+          1.0271 0.0900
+          1.1258 0.4900
+          1.1999 0.4900
+        }
+        "eyes_rightleft"         range 30.0 -30.0        
+        {
+          0.1193 0.4900
+          0.1768 0.4900
+          0.2632 0.6000
+          0.3167 0.6000
+          0.9531 0.6000
+          1.0271 0.6000
+          1.1258 0.4900
+          1.1999 0.4900
+        }
+      }
+    }
+    event flexanimation "eyes flex"
+    {
+      time 12.210526 13.271928
+      param ""
+      flexanimations samples_use_time
+      {
+        "eyes_updown"         range 30.0 -30.0        
+        {
+          0.1193 0.4900
+          0.1768 0.4900
+          0.2632 0.0900
+          0.3167 0.0900
+          0.5223 0.0900
+          0.5963 0.0900
+          0.6950 0.4900
+          0.7691 0.4900
+        }
+        "eyes_rightleft"         range 30.0 -30.0        
+        {
+          0.1193 0.4900
+          0.1768 0.4900
+          0.2632 0.3800
+          0.3167 0.3800
+          0.5223 0.3800
+          0.5963 0.3800
+          0.6950 0.4900
+          0.7691 0.4900
+        }
+      }
+    }
+    event flexanimation "eyes flex"
+    {
+      time 7.508771 8.570174
+      param ""
+      flexanimations samples_use_time
+      {
+        "eyes_updown"         range 30.0 -30.0        
+        {
+          0.1193 0.4900
+          0.1768 0.4900
+          0.2632 0.6600
+          0.3167 0.6600
+          0.5223 0.6600
+          0.5963 0.6600
+          0.6950 0.4900
+          0.7691 0.4900
+        }
+        "eyes_rightleft"         range 30.0 -30.0        
+        {
+          0.1193 0.4900
+          0.1768 0.4900
+          0.2632 0.7100
+          0.3167 0.7100
+          0.5223 0.7100
+          0.5963 0.7100
+          0.6950 0.4900
+          0.7691 0.4900
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "38"
+  "SceneRampTool" "100"
+  "ExpressionTool" "52"
+  "GestureTool" "100"
+  "RampTool" "84"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "loop"
+{
+  time 13.000000 -1.000000
+  param "0.000000"
+  loopcount "0"
+}
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "odessa.nlo_cub_radio"
+    {
+      time 0.074940 7.724940
+      param "odessa.nlo_cub_radio"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Look"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "52"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "end"
+{
+  time 40.690475 -1.000000
+  param "noaction"
+}
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "odessa.nlo_cub_class02"
+    {
+      time 11.035877 18.328259
+      param "odessa.nlo_cub_class02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "odessa.nlo_cub_class01"
+    {
+      time 0.053541 6.033314
+      param "odessa.nlo_cub_class01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "odessa.nlo_cub_class03"
+    {
+      time 18.387398 28.305061
+      param "odessa.nlo_cub_class03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "odessa.nlo_cub_carry"
+    {
+      time 28.418648 31.778875
+      param "odess

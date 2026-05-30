@@ -1,0 +1,41 @@
+nel "Gestures"
+  {
+    event gesture "sdfsd"
+    {
+      time 3.066667 6.220000
+      param "g_chestpound"
+      absolutetags playback_time
+      {
+        "in" 0.243920
+        "out" 0.807459
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.397059
+        "out" 0.838235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 0.000000 3.593333
+      param "asd"
+    }
+  }
+  faceposermodel "C:\VALVE\HL2\hl2\models\dog.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "25"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "20"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 6.50

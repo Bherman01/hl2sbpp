@@ -1,0 +1,58 @@
+ration 2.633333
+    }
+    event gesture "puncuate"
+    {
+      time 3.352941 5.572807
+      param "give"
+      absolutetags playback_time
+      {
+        "apex" 0.335593
+        "accent" 0.547318
+        "loop" 0.564408
+        "end" 0.725424
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.349206
+        "accent" 0.571429
+        "loop" 0.587302
+        "end" 0.714286
+      }
+      sequenceduration 2.133333
+    }
+    event gesture "sweep"
+    {
+      time 4.352941 7.173465
+      param "broadsweepdown"
+      event_ramp
+      {
+        0.2241 0.5188
+        1.5099 0.5338
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.216394
+        "accent" 0.381489
+        "loop" 0.449562
+        "end" 0.738083
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.310345
+        "accent" 0.500000
+        "loop" 0.586207
+        "end" 0.655172
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "punctuate"
+    {
+      time 7.921568 9.966667
+      param "G_puncuate"
+      event_ramp
+      {
+        0.2133 0.4210
+        0.8933 0.4586
+        1.5600 0.5263
+      }
+      absolutetags playback

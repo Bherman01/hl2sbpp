@@ -1,0 +1,50 @@
+channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "G_medpuct_mid"
+    {
+      time 7.252033 9.401628
+      param "G_medpuct_mid"
+      event_ramp
+      {
+        0.2649 0.9404
+        1.7937 0.9495
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.223485
+        "accent" 0.401515
+        "loop" 0.575758
+        "end" 0.714015
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.137931
+        "accent" 0.258621
+        "loop" 0.396552
+        "end" 0.517241
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "G_look_small"
+    {
+      time 11.975610 13.442276
+      param "G_look_small"
+      event_ramp
+      {
+        0.3595 0.9679
+        1.0757 0.9312
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.325581
+        "accent" 0.465116
+        "loop" 0.604651
+        "end" 0.697674
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.325581
+        "accent" 0.46

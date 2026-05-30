@@ -1,0 +1,33 @@
+  time 0.031389 5.866848
+      param "!player"
+      event_ramp
+      {
+        0.7150 1.0000
+        5.4055 1.0000
+      }
+    }
+  }
+  channel "faceto"
+  {
+    event face "!player"
+    {
+      time 0.055555 5.876489
+      param "!player"
+      event_ramp
+      {
+        0.4959 1.0000
+        5.4263 1.0000
+      }
+    }
+  }
+  channel "moveto"
+  {
+    event moveto "mark_griggs_stop1"
+    {
+      time 0.416667 2.685185
+      param "mark_griggs_stop1"
+      param2 "Run"
+    }
+  }
+  channel "postures"
+  {

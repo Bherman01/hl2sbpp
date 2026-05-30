@@ -1,0 +1,28 @@
+19 0.7484
+        0.9690 1.0000
+        1.9548 0.9936
+      }
+    }
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "D_p_sit_think"
+    {
+      time 29.565266 41.035439
+      param "D_p_sit_think"
+      absolutetags playback_time
+      {
+        "apex" 0.079129
+        "loop" 0.146535
+        "end" 0.854881
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.219512
+        "loop" 0.528455
+        "end" 0.569106
+      }
+      sequenceduration 

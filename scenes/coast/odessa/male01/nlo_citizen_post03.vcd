@@ -1,0 +1,56 @@
+   2.1312 0.9418
+        2.9601 0.0637
+      }
+    }
+  }
+  channel "Move to"
+  {
+    event face "player"
+    {
+      time 0.020000 3.313333
+      param "!player"
+      event_ramp
+      {
+        0.6696 0.8304
+        0.9500 0.8734
+        2.1300 0.8734
+        2.4500 0.8228
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.313334
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.133333 6.060000
+      param "p_leanLeft"
+      absolutetags playback_time
+      {
+        "apex" 0.127109
+        "loop" 0.258718
+        "end" 0.768068
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.242424
+        "loop" 0.454545
+        "end" 0.681818
+      }
+      sequenceduration 2.233333
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 2.033334
+      param ""
+    }
+    event gesture "g_palm_mid_right"
+    {
+      t

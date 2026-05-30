@@ -1,0 +1,25 @@
+
+        2.3668 1.0000
+        2.7364 0.9691
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.196552
+        "a2" 0.247672
+        "accent" 0.355172
+        "loop" 0.496496
+        "end" 0.647603
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.176471
+        "a2" 0.197063
+        "accent" 0.235294
+        "loop" 0.441176
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 5.137529 5.38181

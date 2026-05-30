@@ -1,0 +1,44 @@
+ "loop" 0.462963
+        "end" 0.555556
+      }
+      sequenceduration 3.633333
+    }
+    event gesture "4"
+    {
+      time 19.325792 24.469809
+      param "posture02"
+      absolutetags playback_time
+      {
+        "apex" 0.195919
+        "loop" 0.404900
+        "end" 0.805000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.229008
+        "loop" 0.458015
+        "end" 0.648855
+      }
+      sequenceduration 4.400000
+    }
+  }
+  channel "head gestures"
+  {
+    event gesture "1"
+    {
+      time 6.953533 10.737883
+      param "M_bg_hshake"
+      event_ramp
+      {
+        0.4154 0.9196
+        0.6577 1.0000
+        0.8615 1.0000
+        2.7100 1.0000
+        2.8677 1.0000
+        3.0561 1.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.106836
+        "extreme" 0.471853
+        "loop" 0.647

@@ -1,0 +1,60 @@
+c_master"
+      cctoken ""
+    }
+    event speak "mo_intercept01"
+    {
+      time 1.379688 4.447624
+      param "ep_01.mo_intercept01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "cam_mossman"
+    {
+      time 0.414622 19.751423
+      param "cam_mossman"
+      event_ramp
+      {
+        0.6667 0.9799
+        18.7533 0.9849
+      }
+    }
+    event lookat "self"
+    {
+      time 19.418634 21.045435
+      param "!self"
+      event_ramp
+      {
+        0.3537 1.0000
+        1.1959 1.0000
+      }
+    }
+    event lookat "cam_mossman"
+    {
+      time 20.648817 24.621040
+      param "cam_mossman"
+      event_ramp
+      {
+        0.6034 0.9899
+        3.3867 0.9598
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "NULL"
+    {
+      time 0.027778 0.527778
+      param ""
+    }
+    event gesture "1"
+    {
+      time 0.274510 8.313249
+      param "posture04"
+      absolutetags playback_time
+      {
+        "apex" 0.125370
+     

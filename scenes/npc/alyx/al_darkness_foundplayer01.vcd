@@ -1,0 +1,35 @@
+884
+        "end" 0.626728
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.190476
+        "extreme" 0.380952
+        "loop" 0.523810
+        "end" 0.523810
+      }
+      sequenceduration 0.733333
+    }
+    event gesture "A_g_invan_smfwdjerk"
+    {
+      time 21.672995 22.203596
+      param "A_g_invan_smfwdjerk"
+      absolutetags playback_time
+      {
+        "apex" 0.329066
+        "extreme" 0.596807
+        "loop" 0.797018
+        "end" 0.807018
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.238095
+        "extreme" 0.380952
+        "loop" 0.476190
+        "end" 0.476190
+      }
+      sequenceduration 0.733333
+    }
+    event gesture "A_g_invan_upjerk"
+    {
+      time 27.762747 28.143

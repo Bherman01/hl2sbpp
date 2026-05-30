@@ -1,0 +1,36 @@
+G_smallnod"
+      absolutetags playback_time
+      {
+        "apex" 0.060241
+        "extreme" 0.120482
+        "loop" 0.566265
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.060241
+        "extreme" 0.120482
+        "loop" 0.566265
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "facial"
+    {
+      time 0.011397 34.465420
+      param ""
+      flexanimations samples_use_time
+      {
+        "head_rightleft" range 30.0 -30.0 
+        {
+          2.3962 0.5200
+          4.3953 0.5300
+          4.3989 0.5301
+          9.1625 0.5000
+          9.5586 0.5200
+          9.9368 0.3870
+          9.9368 0.3870
+       

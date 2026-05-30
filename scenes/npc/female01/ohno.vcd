@@ -1,0 +1,89 @@
+console"
+      event_ramp
+      {
+        0.1808 0.4739
+        0.4000 0.8049
+        0.6269 0.9617
+        12.5395 0.9965
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "monitor"
+    {
+      time 0.000000 16.113331
+      param "M_consoleposture"
+      absolutetags playback_time
+      {
+        "apex" 0.253413
+        "loop" 0.337884
+        "end" 0.897347
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.277778
+        "loop" 0.370370
+        "end" 0.462963
+      }
+      sequenceduration 3.633333
+    }
+  }
+  channel "bodyaccents"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 7.993334
+      param ""
+    }
+    event gesture "type"
+    {
+      time 7.173333 11.582823
+      param "M_typing_g"
+      absolutetags playback_time
+      {
+        "apex" 0.091553
+        "accent" 0.167848
+        "loop" 0.228883
+        "end" 0.810566
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.111111
+        "accent" 0.203704
+        "loop" 0.277778
+        "end" 0.740741
+      }
+      sequenceduration 3.633333
+    }
+    event gesture "type2"
+    {
+      time 10.080001 15.340002
+      param "M_typing_g"
+      event_ramp
+      {
+        0.5808 0.0035
+        1.1692 0.4774
+        1.7192 0.5958
+        2.3423 0.9826
+        5.2423 0.9895
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.126904
+        "accent" 0.449960
+        "loop" 0.501127
+        "end" 0.820917
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.111111
+        "accent" 0.203704
+        "loop" 0.277778
+        "end" 0.740741
+      }
+      sequenceduration 3.633333
+  

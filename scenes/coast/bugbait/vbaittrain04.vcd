@@ -1,0 +1,879 @@
+
+          10.9624 0.0000
+          11.6286 0.2700
+          12.4714 0.3400
+          13.4143 0.0000
+          17.2143 0.0000
+          18.3755 0.2900
+        }
+        {
+          8.0574 0.5000
+          8.6715 0.5000
+          9.0486 0.5000
+          9.8118 0.5000
+          11.2767 0.5000
+          17.8469 0.5000
+        }
+        "dimpler" combo 
+        {
+          17.1286 0.0000
+          18.2326 0.2500
+        }
+        {
+          17.8469 0.5000
+        }
+      }
+    }
+  }
+  faceposermodel "models\alyx_ep2.mdl"
+}
+
+actor "!target1"
+{
+  channel "audio"
+  {
+    event speak "we had a feeling you were close when we saw dog run off like that"
+    {
+      time 4.686667 8.335238
+      param "ep_02.reb_silo_youwereclose"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "yo let em through"
+    {
+      time 1.186666 3.319999
+      param "ep_02.reb_silo_letemthru"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "move to"
+  {
+    event moveto "move to edge of tower"
+    {
+      time 4.866668 12.546417
+      param "base_gate_tower_citizen_lcs_moveto"
+      param2 "Walk"
+      event_ramp
+      {
+        0.4880 0.9779
+        7.3238 0.9859
+      }
+      distancetotarget 16.00
+      forceshortmovement
+    }
+    active "0"
+  }
+  channel "face to"
+  {
+    event face "face lookout"
+    {
+      time 10.505932 11.626913
+      param "base_gate_tower_citizen_lookat"
+      event_ramp
+      {
+        0.5353 1.0000
+        0.6749 1.0000
+      }
+    }
+    event face "face player"
+    {
+      time 4.872598 12.529135
+      param "!player"
+      event_ramp
+      {
+        0.9920 0.9964
+        6.6905 1.0000
+      }
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "look at Alyx"
+    {
+      time 3.217300 7.420201
+      param "Alyx"
+      event_ramp
+      {
+        0.4760 1.0000
+        3.6902 1.0000
+        4.2028 0.0000
+      }
+    }
+    event lookat "look at lookout"
+    {
+      time 10.510632 11.633331
+      param "base_gate_tower_citizen_lookat"
+      event_ramp
+      {
+        0.4760 1.0000
+        0.6100 1.0000
+        1.1226 0.0000
+      }
+    }
+    event lookat "look at base_gate_citizen"
+    {
+      time 0.790635 3.653333
+      param "base_gate_citizen"
+      event_ramp
+      {
+        0.4760 1.0000
+        2.3500 1.0000
+        2.8626 0.0000
+      }
+    }
+    event lookat "look at player"
+    {
+      time 7.018916 10.971716
+      param "!player"
+      event_ramp
+      {
+        0.4760 1.0000
+        3.4401 1.0000
+        3.9527 0.0000
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "shiftrightbig"
+    {
+      time 0.580000 5.633334
+      param "shiftrightbig"
+      absolutetags playback_time
+      {
+        "apex" 0.168643
+        "loop" 0.254282
+        "end" 0.702240
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.256410
+        "loop" 0.384615
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "shiftleft"
+    {
+      time 4.093333 9.020000
+      param "shiftleft"
+      absolutetags playback_time
+      {
+        "apex" 0.171854
+        "loop" 0.267930
+        "end" 0.809202
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.241379
+        "loop" 0.379310
+        "end" 0.689655
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "g_wave"
+    {
+      time 0.746666 3.046666
+      param "g_wave"
+      absolutetags playback_time
+      {
+        "in" 0.352941
+        "loop" 0.779412
+        "end" 0.794118
+        "out" 0.808824
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.352941
+        "loop" 0.779412
+        "end" 0.794118
+        "out" 0.808824
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "b_head_back"
+    {
+      time 6.080000 7.880000
+      param "b_head_back"
+      absolutetags playback_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      sequenceduration 1.800000
+    }
+    event gesture "g_point_l_rpg"
+    {
+      time 6.160000 8.773334
+      param "g_point_l_rpg"
+      event_ramp
+      {
+        0.3120 0.0000
+        0.8740 1.0000
+        1.5720 1.0000
+        2.0586 0.0000
+      }
+      absolutetags playback_time
+      {
+        "in" 0.086207
+        "loop" 0.336735
+        "end" 0.603448
+        "out" 0.775862
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.086207
+        "loop" 0.431034
+        "end" 0.603448
+        "out" 0.775862
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+actor "!target2"
+{
+  channel "audio"
+  {
+  }
+  channel "face to "
+  {
+    event face "face player"
+    {
+      time 4.920000 11.639999
+      param "!player"
+      event_ramp
+      {
+        0.4820 0.9783
+        6.4280 0.9819
+      }
+    }
+    event face "face gate button"
+    {
+      time 2.626667 5.373333
+      param "base_gate_button_lookat"
+      event_ramp
+      {
+        0.6168 0.9783
+        2.1892 0.9819
+      }
+    }
+    event face "face player"
+    {
+      time 0.006207 3.030804
+      param "!player"
+      event_ramp
+      {
+        0.0000 1.0000
+        2.2980 0.9819
+      }
+    }
+  }
+  channel "lookat"
+  {
+    event lookat "look at gate button"
+    {
+      time 2.639491 5.380001
+      param "base_gate_button_lookat"
+      event_ramp
+      {
+        0.7528 0.9747
+        2.4092 0.9783
+      }
+    }
+    event lookat "look at player"
+    {
+      time 4.936414 11.622173
+      param "!player"
+      event_ramp
+      {
+        0.5040 0.9747
+        6.3545 0.9783
+      }
+    }
+    event lookat "look at player"
+    {
+      time 0.007790 3.168150
+      param "!player"
+      event_ramp
+      {
+        0.0000 0.9747
+        2.3406 0.9783
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "move to base_gate_button"
+    {
+      time 2.677959 3.381019
+      param "base_gate_button_moveto"
+      param2 "Walk"
+      resumecondition
+    }
+    event moveto "move back to original mark"
+    {
+      time 5.404626 11.621019
+      param "base_gate_citizen_lcs_moveto1"
+      param2 "Walk"
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "g_buttonpush_rifle"
+    {
+      time 3.188889 7.667049
+      param "g_buttonpush_rifle"
+      event_ramp
+      {
+        0.0000 1.0000
+        1.2828 1.0000
+        2.1414 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.172414
+        "accent" 0.241379
+        "loop" 0.620690
+        "end" 0.689655
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.172414
+        "accent" 0.241379
+        "loop" 0.620690
+        "end" 0.689655
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "triggers"
+  {
+    event firetrigger "base gate opens"
+    {
+      time 4.286918 -1.000000
+      param "1"
+    }
+  }
+  faceposermodel "models\humans\group01\male_05.mdl"
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "14"
+  "RampTool" "24"
+  "CChoreoView" "76"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+actor "!target1"
+{
+  channel "audio"
+  {
+    event speak "ep_02.reb_silo_heretheycome"
+    {
+      time 0.373333 3.333877
+      param "ep_02.reb_silo_heretheycome"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "move to"
+  {
+    event moveto "move to edge of tower"
+    {
+      time 0.020001 5.053824
+      param "base_gate_tower_citizen_lcs_moveto"
+      param2 "Walk"
+      distancetotarget 16.00
+      forceshortmovement
+    }
+  }
+  channel "face to"
+  {
+    event face "face player"
+    {
+      time 0.119265 5.066913
+      param "!player"
+      event_ramp
+      {
+        0.4220 0.9964
+        4.5016 1.0000
+      }
+    }
+  }
+  channel "lookAt"
+  {
+    event lookat "look at player"
+    {
+      time 0.043967 5.066666
+      param "!player"
+      event_ramp
+      {
+        0.4760 1.0000
+        4.5100 1.0000
+        5.0226 0.0000
+      }
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "g_point_l"
+    {
+      time 0.300000 3.240000
+      param "g_point_l"
+      absolutetags playback_time
+      {
+        "in" 0.057619
+        "loop" 0.357236
+        "end" 0.843182
+        "out" 0.922727
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.081967
+        "loop" 0.508197
+        "end" 0.639344
+        "out" 0.836066
+      }
+      sequenceduration 2.066667
+    }
+  }
+  channel "triggers"
+  {
+    event firetrigger "gate citizen stands up"
+    {
+      time 1.906667 -1.000000
+      param "1"
+    }
+  }
+}
+
+actor "!target2"
+{
+  channel "audio"
+  {
+    event speak "ah, gordon freeman"
+    {
+      time 3.500000 4.816825
+      param "npc_citizen.ahgordon02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face to "
+  {
+    event face "face player"
+    {
+      time 1.912840 5.094567
+      param "!player"
+      event_ramp
+      {
+        0.7598 0.9783
+        3.1817 0.9819
+      }
+    }
+  }
+  channel "lookat"
+  {
+    event lookat "look at player"
+    {
+      time 1.919078 5.091318
+      param "!player"
+      event_ramp
+      {
+        0.7892 0.9747
+        3.1722 0.9783
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "move to base_gate_citizen_lcs_moveto1"
+    {
+      time 2.764991 5.014171
+      param "base_gate_citizen_lcs_moveto1"
+      param2 "Walk"
+    }
+  }
+  channel "gesture"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "112"
+  "RampTool" "28"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "1"
+{
+  time 1.722222 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "bodygestures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+    event firetrigger "dog_dropshipmoveSS"
+    {
+      time 1.909722 -1.000000
+      param "1"
+    }
+  }
+  channel "eyes"
+  {
+  }
+  channel "face"
+  {
+  }
+  channel "ai"
+  {
+  }
+  faceposermodel "models\alyx.mdl"
+}
+
+actor "Dog"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {
+    event moveto "mark_dog_dropshipmove"
+    {
+      time 0.013889 2.013889
+      param "mark_dog_dropshipmove"
+      resumecondition
+    }
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+mapname "maps\ep1_citadel_00.bsp"
+scalesettings
+{
+  "CChoreoView" "96"
+  "ExpressionTool" "52"
+  "RampTool" "118"
+  "GestureTool" "50"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "wait till alyx reaches the gate"
+{
+  time 0.884616 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "move to"
+  {
+    event moveto "move to dog by gate"
+    {
+      time -0.051282 3.948718
+      param "alyx_dogatgate_moveto"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "face to"
+  {
+    event face "face player"
+    {
+      time 3.000000 5.000000
+      param "!player"
+      event_ramp
+      {
+        0.4660 0.9892
+      }
+    }
+    event face "face dog"
+    {
+      time 1.000000 3.000000
+      param "dog"
+      event_ramp
+      {
+        0.4300 0.9783
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+  channel "audio"
+  {
+    event speak "gooddoggie"
+    {
+      time 0.987180 2.672531
+      param "ep_02.al_str_gooddoggie"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookat"
+  {
+    event lookat "look at dog"
+    {
+      time 1.000000 3.000000
+      param "dog"
+    }
+    event lookat "look at player"
+    {
+      time 3.000000 5.000000
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "52"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event section "pause"
+{
+  time 1.126510 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 2.529287 -1.000000
+  param "noaction"
+}
+actor "Dog"
+{
+  channel "audio"
+  {
+    event speak "npc_dog.phrase07"
+    {
+      time 0.104167 0.911060
+      param "npc_dog.phrase07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event moveto "mark_dog_base_1"
+    {
+      time 0.024327 1.183057
+      param "mark_dog_base_1"
+      param2 "run_fast"
+      event_ramp
+      {
+        0.6135 1.0000
+        0.8004 1.0000
+      }
+      resumecondition
+    }
+    event moveto "mark_dog_base_2"
+    {
+      time 1.147342 3.111629
+      param "mark_dog_base_2"
+      param2 "run_fast"
+      event_ramp
+      {
+        0.6245 1.0000
+        1.5675 1.0000
+      }
+      resumecondition
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "112"
+  "ExpressionTool" "100"
+  "RampTool" "98"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_02.al_str_itsdog"
+    {
+      time 1.576389 2.679700
+      param "ep_02.al_str_itsdog"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "bodygestures"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "trigger"
+  {
+  }
+  channel "eyes"
+  {
+  }
+  channel "face"
+  {
+  }
+  channel "ai"
+  {
+  }
+  faceposermodel "models\alyx.mdl"
+}
+
+actor "Dog"
+{
+  channel "audio"
+  {
+    event speak "NPC_dog.Angry_1"
+    {
+      time 0.118056 2.121276
+      param "NPC_dog.Growl_2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_dog.Growl_1"
+    {
+      time 5.020833 6.821241
+      param "NPC_dog.Angry_2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_dog.Growl_2"
+    {
+      time 7.138889 -1.000000
+      param "NPC_dog.Growl_2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to "
+  {
+  }
+  channel "face to"
+  {
+  }
+  channel "sequence"
+  {
+  }

@@ -1,0 +1,47 @@
+
+      }
+      sequenceduration 3.966667
+    }
+    event gesture "2"
+    {
+      time 68.000008 71.031097
+      param "g_fingers_together_lefthand"
+      absolutetags playback_time
+      {
+        "apex" 0.110904
+        "accent" 0.463393
+        "loop" 0.609968
+        "end" 0.685039
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.084746
+        "accent" 0.381356
+        "loop" 0.466102
+        "end" 0.635593
+      }
+      sequenceduration 3.966667
+    }
+    event gesture "2"
+    {
+      time 72.464287 75.764290
+      param "g_fingers_together_pointboth"
+      absolutetags playback_time
+      {
+        "apex" 0.051020
+        "accent" 0.204082
+        "loop" 0.459184
+        "end" 0.714286
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.051020
+        "accent" 0.204082
+        "loop" 0.459184
+        "end" 0.714286
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "6"
+    {
+      time 77.111900

@@ -1,0 +1,41 @@
+ "84"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+event section "pause"
+{
+  time 7.754429 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 0.154762 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "Whoa!"
+    {
+      time 2.868288 4.097631
+      param "ep_02.al_transmit_railcar"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_transmit_bldgs"
+    {
+      time 8.283784 11.145122
+      param "ep_02.al_transmit_thatdidtrick"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ep_02.al_transmit_waythrough"
+    {
+      time 11.462

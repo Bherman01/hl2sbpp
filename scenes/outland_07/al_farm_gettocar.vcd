@@ -1,0 +1,43 @@
+ifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+actor "Mossman"
+{
+  channel "audio"
+  {
+    event speak "never till now"
+    {
+      time 13.140609 17.791334
+      param "novaprospekt.mo_nevertillnow"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pulse foaming network"
+    {
+      time 21.529690 28.010098
+      param "novaprospekt.mo_pulsefoaming"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look_alyx"
+    {
+      time 10.013333 20.684914
+      param "alyx"
+      event_ramp
+      {
+ 

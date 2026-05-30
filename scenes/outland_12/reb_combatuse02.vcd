@@ -1,0 +1,55 @@
+param "4"
+    }
+    event generic "Unholster"
+    {
+      time 23.759083 24.259083
+      param "AI_UNHOLSTER"
+      param2 "Alyx"
+    }
+  }
+  channel "sequences"
+  {
+    event sequence "null"
+    {
+      time 0.038462 7.705129
+      param "ss_alyx_advisor_drop"
+      fixedlength
+    }
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "8"
+  "RampTool" "34"
+  "CChoreoView" "60"
+}
+fps 60
+snap off
+ignorePhonemes off
+// Choreo version 1
+event section "pause_alyxToEMPtarget"
+{
+  time 2.531007 -1.000000
+  param "noaction"
+}
+event stoppoint "STOP"
+{
+  time 7.544613 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "doorcontrol"
+    {
+      time 4.286652 5.762843
+      param "!target1"
+      event_ramp 
+      

@@ -1,0 +1,58 @@
+{
+  "CChoreoView" "98"
+  "SceneRampTool" "100"
+  "RampTool" "84"
+  "ExpressionTool" "64"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "stop"
+{
+  time 2.149661 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_01.al_platform_rollers"
+    {
+      time 0.210885 1.268345
+      param "ep_01.al_platform_rollers"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "rollermine"
+    {
+      time 0.034014 1.467483
+      param "!target1"
+      event_ramp 
+      {
+        0.2357 0.9854
+        1.1643 0.9854
+      }
+    }
+  }
+  channel "face to"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.047619 0.125850
+      param ""
+    }
+  

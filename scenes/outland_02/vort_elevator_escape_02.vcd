@@ -1,0 +1,70 @@
+     cctoken ""
+    }
+    event speak "gman_mono04"
+    {
+      time 20.336048 21.926615
+      param "ep_02.gman_mono04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono05"
+    {
+      time 22.468283 26.485334
+      param "ep_02.gman_mono05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono06"
+    {
+      time 26.485334 36.713722
+      param "ep_02.gman_mono06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono07"
+    {
+      time 36.713722 41.427372
+      param "ep_02.gman_mono07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono08"
+    {
+      time 41.427372 58.331497
+      param "ep_02.gman_mono08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono09"
+    {
+      time 58.331501 68.559891
+      param "ep_02.gman_mono09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono10"
+    {
+      time 68.559898 71.102486
+      param "ep_02.gman_mono10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono11"
+    {
+      time 71.102486 76.808792
+      param "ep_02.gman_mono11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "gman_mono12"
+    {
+      time 76.808792 81.557274
+      param "ep_02.gman_mono12

@@ -1,0 +1,22 @@
+oken ""
+    }
+    event speak "al_chasm_nothelpful02"
+    {
+      time 12.785716 14.115059
+      param "ep_01.al_chasm_nothelpful02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_chasm_wheredog02"
+    {
+      time 22.880953 23.616735
+      param "ep_01.al_chasm_wheredog02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "al_chasm_wheredog03"
+    {
+      time 24.619051 26.064493
+      param "ep_01.al_chasm_wheredog

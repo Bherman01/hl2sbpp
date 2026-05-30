@@ -1,0 +1,43 @@
+ion 2.800000
+    }
+    event firetrigger "open elevator"
+    {
+      time 36.176472 -1.000000
+      param "7"
+    }
+  }
+  channel "bodyges"
+  {
+    event gesture "A_g_hdclasp"
+    {
+      time 33.178570 37.978569
+      param "A_g_hdclasp"
+      absolutetags playback_time
+      {
+        "in" 0.111277
+        "h1" 0.224465
+        "h2" 0.326964
+        "loop" 0.393913
+        "end" 0.735148
+        "out" 0.851485
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.150538
+        "h1" 0.342576
+        "h2" 0.422874
+        "loop" 0.580645
+        "end" 0.709677
+        "out" 0.806452
+      }
+      sequenceduration 3.133333
+    }
+    event gesture "A_bg_acc_dwn_rt"
+    {
+      time 23.238096 26.169048
+      param "A_bg_acc_dwn_rt"
+      absolutetags playback_time
+      {
+        "apex" 0.138211
+        "extreme" 0.240347
+        "loop" 0.5280

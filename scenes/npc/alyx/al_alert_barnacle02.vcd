@@ -1,0 +1,35 @@
+x" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "A_bg_bighshake"
+    {
+      time 58.412701 61.712700
+      param "A_bg_bighshake"
+      absolutetags playback_time
+      {
+        "apex" 0.132653
+        "extreme" 0.479592
+        "loop" 0.612245
+        "end" 0.714286
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.132653
+        "extreme" 0.479592
+        "loop" 0.612245
+        "end" 0.714286
+      }
+      sequenceduration 3.300000
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "A_g_pantsbrushoff"
+    {
+      time 45.166668 47.966667
+      param "A_g_pantsbrushoff"
+      absolutetags playba

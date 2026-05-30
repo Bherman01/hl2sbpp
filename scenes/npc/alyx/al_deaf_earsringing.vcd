@@ -1,0 +1,28 @@
+ }
+    }
+  }
+  channel "Triggers"
+  {
+    event firetrigger "pause"
+    {
+      time 1.987293 -1.000000
+      param "2"
+    }
+  }
+  channel "eyes"
+  {
+    event flexanimation "eyes"
+    {
+      time 5.978495 20.241936
+      param ""
+      flexanimations samples_use_time
+      {
+        "eyes_updown" range 30.0 -30.0 
+        {
+          1.2246 0.5000
+          2.2246 0.7200
+          2.8375 0.4700
+          3.4181 0.3400
+          3.7735 0.3400
+          5.5438 0.3400
+     

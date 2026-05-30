@@ -1,0 +1,40 @@
+getbusy"
+      param2 "0.700"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "!player"
+    {
+      time 1.838710 4.672043
+      param "!player"
+      event_ramp 
+      {
+        0.3192 0.6646
+        0.6231 0.9968
+        0.9885 1.0000
+        2.0650 1.0000
+        2.2765 0.9082
+        2.6534 0.5475
+      }
+    }
+    event lookat "!player"
+    {
+      time 5.827957 7.865592
+      param "!player"
+      event_ramp 
+      {
+        0.2385 0.7278
+        0.4885 1.0000
+        0.7462 1.0000
+        1.5350 1.0000
+        1.7781 0.8513
+        1.9081 0.5665
+      }
+    }
+    event lookat "!self"
+    {
+      time 4.258

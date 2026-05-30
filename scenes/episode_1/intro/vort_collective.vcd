@@ -1,0 +1,161 @@
+me 35.528862 37.854774
+      param "mark_look_cit_sec2_1"
+      event_ramp 
+      {
+        0.2792 0.3403
+        0.4876 0.4838
+        0.6717 0.5188
+        1.3253 0.5408
+        1.5621 0.5254
+        1.9312 0.4124
+      }
+    }
+    event lookat "mark_look_cit_sec2_3"
+    {
+      time 37.270008 39.279976
+      param "mark_look_cit_sec2_3"
+      event_ramp 
+      {
+        0.1843 0.3147
+        0.3241 0.5090
+        0.5653 0.6103
+        1.1079 0.6245
+        1.3553 0.6173
+        1.7069 0.5187
+        1.8742 0.2890
+      }
+    }
+    event lookat "Dog"
+    {
+      time 38.710361 43.944096
+      param "Dog"
+      event_ramp 
+      {
+        0.2276 0.2435
+        0.4261 0.3887
+        0.7989 0.5128
+        1.7136 0.5702
+        3.9137 0.5616
+        4.5679 0.5330
+        4.7941 0.4837
+        4.9027 0.4269
+        5.0201 0.2952
+      }
+    }
+    event lookat "!self"
+    {
+      time 29.177416 34.190079
+      param "!self"
+      event_ramp 
+      {
+        0.2167 0.1720
+        0.4200 0.6815
+        0.6233 0.8741
+        0.8533 0.9639
+        1.2105 1.0000
+        4.2591 0.9799
+        4.5142 0.7676
+        4.7656 0.4236
+      }
+    }
+  }
+  channel "move to "
+  {
+    event moveto "dog"
+    {
+      time 20.721935 22.115953
+      param "dog"
+      param2 "Walk"
+      distancetotarget 80.00
+    }
+    event moveto "mark_al_path_area2_1"
+    {
+      time 2.392056 5.152796
+      param "mark_al_path_area2_1"
+      param2 "Walk"
+    }
+    event moveto "mark_alyx_ledge_1"
+    {
+      time 28.332403 29.699066
+      param "mark_alyx_ledge_1"
+      param2 "Walk"
+      resumecondition
+      distancetotarget 100.00
+    }
+    event moveto "mark_al_path_area2_1"
+    {
+      time 9.942057 12.702796
+      param "mark_al_path_area2_1"
+      param2 "Run"
+    }
+  }
+  channel "face to"
+  {
+    event face "Dog"
+    {
+      time 15.886509 20.475403
+      param "Dog"
+      event_ramp 
+      {
+        0.1925 0.4691
+        0.3182 0.7109
+        0.4933 0.8773
+        0.7227 0.9655
+        4.0697 1.0000
+        4.5888 1.0000
+      }
+    }
+    event face "mark_look_bigdebris_1"
+    {
+      time 1.942099 14.627662
+      param "mark_look_bigdebris_1"
+      event_ramp 
+      {
+        0.4032 0.3807
+        0.6363 0.5982
+        0.9000 0.7684
+        1.1767 0.8735
+        1.6833 0.9733
+        12.6854 1.0000
+      }
+    }
+    event face "mark_look_cit_sec2_1"
+    {
+      time 27.906141 29.518106
+      param "mark_look_cit_sec2_1"
+      event_ramp 
+      {
+        0.3683 0.5597
+        0.5980 0.8475
+        0.7955 0.9540
+        1.1773 1.0000
+        1.6119 1.0000
+      }
+    }
+    event face "!player"
+    {
+      time 33.634693 34.849228
+      param "!player"
+      event_ramp 
+      {
+        0.3225 0.3935
+        0.5725 0.7870
+        0.8138 0.9593
+        1.0325 0.9928
+        1.2145 1.0000
+      }
+    }
+    event face "!player"
+    {
+      time 0.022949 1.801288
+      param "!player"
+      event_ramp 
+      {
+        0.3533 0.3833
+        0.7368 0.7869
+        0.9911 0.9691
+        1.2086 1.0000
+        1.7783 1.0000
+      }
+    }
+    event face "Dog"

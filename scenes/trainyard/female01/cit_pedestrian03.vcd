@@ -1,0 +1,74 @@
+832 60.190186
+      param "ep_02.kl_launch_check09"
+      param2 "0.5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_launch_check10"
+    {
+      time 60.656460 61.620087
+      param "ep_02.kl_launch_check10"
+      param2 "0.5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_launch_check11"
+    {
+      time 65.223274 68.517609
+      param "ep_02.kl_launch_check11"
+      param2 "0.430"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "kl_launch_check12"
+    {
+      time 71.719994 72.741669
+      param "ep_02.kl_launch_check12"
+      param2 "0.5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "lookAt"
+  {
+  }
+  channel "moveTo"
+  {
+  }
+  channel "faceTo"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "seq"
+  {
+  }
+  channel "body"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "trigger"
+  {
+  }
+}
+
+actor "Magnusson"
+{
+  channel "audio"
+  {
+    event speak "check01"
+    {
+      time 0.19047

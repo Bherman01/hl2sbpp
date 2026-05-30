@@ -1,0 +1,38 @@
+0.6441 1.0000
+        2.3590 0.9886
+        2.5960 0.8409
+        2.9629 0.2045
+      }
+    }
+  }
+  channel "facial"
+  {
+    event flexanimation "Facial Animation"
+    {
+      time 0.049020 3.206291
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_raiser" combo 
+        {
+          0.3260 0.3100
+          0.5857 0.3900
+          2.0810 0.4000
+          2.3095 0.3500
+        }
+        {
+        }
+        "inner_raiser" combo 
+        {
+          0.2660 0.5500
+          0.3420 0.5700
+          2.0476 0.6000
+          2.6968 0.5200
+        }
+        {
+        }
+        "outer_raiser" combo 
+        {
+          0.2520 0.1800
+          0.3400 0.2000 "curve_linear_interp_to_curve_linear_interp"
+      

@@ -1,0 +1,135 @@
+       "loop" 0.264599
+        "end" 0.732440
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "really not"
+    {
+      time 65.311111 67.611115
+      param "HG_headback"
+      event_ramp
+      {
+        0.3000 0.2937
+        0.4143 0.2937
+        1.8964 0.2937
+        2.0714 0.2937
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "NULL"
+    {
+      time 68.888893 69.388893
+      param ""
+    }
+    event gesture "this is where"
+    {
+      time 70.777779 73.077782
+      param "HG_headforward"
+      event_ramp
+      {
+        0.2536 0.4405
+        0.4750 0.6151
+        1.8286 0.6349
+        2.0393 0.4683
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.264706
+        "extreme" 0.367647
+        "loop" 0.441176
+        "end" 0.735294
+      }
+      sequenceduration 2.300000
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\gman_high.mdl"
+}
+
+actor "!target2"
+{
+  channel "audio level"
+  {
+    event speak "d3_citadel.timestop_gman_flash"
+    {
+      time 31.950003 34.447510
+      param "d3_citadel.timestop_gman_flash"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "d3_citadel.timestop_gman_flash"
+    {
+      time 6.866663 14.484849
+      param "d3_citadel.timestop_gman_voices_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "d3_citadel.timestop_gman_flash"
+    {
+      time 23.699999 32.152515
+      param "d3_citadel.timestop_gman_voices_2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "d3_citadel.timestop_gman_flash"
+    {
+      time 57.124233 64.742416
+      param "d3_citadel.timestop_gman_voices_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "d3_citadel.timestop_gman_flash"
+    {
+      time 49.783325 52.280830
+      param "d3_citadel.timestop_gman_flash"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "d3_citadel.timestop_gman_flash"
+    {
+      time 40.991665 50.733524
+      param "d3_citadel.timestop_winddown"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  faceposermodel "U:\HL2\hl2\models\gman.mdl"
+  active "0"
+}
+
+scalesettings
+{
+  "CChoreoVie

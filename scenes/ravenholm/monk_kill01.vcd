@@ -1,0 +1,20 @@
+   {
+        "in" 0.109023
+        "loop" 0.302843
+        "end" 0.557231
+        "out" 0.825397
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.121622
+        "loop" 0.337838
+        "end" 0.621622
+        "out" 0.810811
+      }
+      sequenceduration 2.500000
+    }
+    event gesture "A_g_rtsweepoutbig"
+    {
+      time 6.088889 10.122222
+      param "A_g_rtsweepoutbig"
+      absolutetags pl

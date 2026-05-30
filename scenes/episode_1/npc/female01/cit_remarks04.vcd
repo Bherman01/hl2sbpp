@@ -1,0 +1,26 @@
+.9607 0.8073
+        1.4714 0.7341
+        2.6703 0.1362
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.143822
+        "accent" 0.356003
+        "loop" 0.383525
+        "end" 0.519828
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.192308
+        "accent" 0.474359
+        "loop" 0.512821
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "NULL"
+    {
+      time 21.227049 21.727049
+      param ""
+    }
+    event ge

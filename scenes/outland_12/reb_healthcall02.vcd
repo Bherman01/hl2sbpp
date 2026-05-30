@@ -1,0 +1,52 @@
+
+    {
+      time 1.385251 2.656158
+      param "ep_02.al_barn_soldiers02"
+      param2 ".65"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Trigger"
+  {
+    event generic "unholster"
+    {
+      time 2.507311 3.007311
+      param "AI_UNHOLSTER"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "106"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "wait_loop"
+{
+  time 6.000000 -1.000000
+  param "5.000000"
+  loopcount "0"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+    event speak "ep_02.al_barn_handy"
+    {
+      time 1.936781 4.817370
+      param "ep_02.al_barn_handy"
+      param2 ".5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"

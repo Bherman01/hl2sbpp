@@ -1,0 +1,63 @@
+3 2.345284
+      param "g_Fist"
+      event_ramp
+      {
+        0.6827 0.7271
+        0.8909 0.8364
+        1.3808 0.6675
+        1.9231 0.1026
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.279871
+        "accent" 0.381655
+        "loop" 0.454358
+        "end" 0.538544
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.258621
+        "accent" 0.413793
+        "loop" 0.517241
+        "end" 0.603448
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "NULL"
+    {
+      time 1.966667 2.466667
+      param ""
+    }
+    event gesture "g_sweep"
+    {
+      time 2.040000 5.301657
+      param "g_Sweep"
+      event_ramp
+      {
+        0.5750 0.3079
+        0.6808 0.4007
+        1.1429 0.7214
+        1.3571 0.7893
+        1.5409 0.8080
+        2.1214 0.8107
+        2.2864 0.8047
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.206717
+        "accent" 0.405405
+        "loop" 0.599481
+        "end" 0.720932
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.227273
+        "accent" 0.522727
+        "loop" 0.659091
+        "end" 0.693182
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "g_presenting"
+    {
+      tim

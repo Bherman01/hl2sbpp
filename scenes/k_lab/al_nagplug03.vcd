@@ -1,0 +1,36 @@
+  {
+        0.4264 0.9378
+        0.6264 1.0000
+        1.2633 1.0000
+        1.9800 1.0000
+        2.4466 1.0000
+      }
+    }
+  }
+  channel "Postures"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+  channel "bodyges"
+  {
+  }
+  channel "Gestures"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.716667
+      param ""
+    }
+    event gesture "g_stealth_LookBehind_01"
+    {
+      time 1.383333 2.650000
+      param "g_stealth_LookBehind_01"
+      absolutetags playback_time
+      {
+        "apex" 0.162698
+        "accent" 0.298280
+        "loop" 0.433862
+        "end" 0.595497
+  

@@ -1,0 +1,23 @@
+dio"
+  {
+    event speak "ba_makeapush01"
+    {
+      time 17.989473 20.682987
+      param "ep_01.ba_makeapush01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_makeapush02"
+    {
+      time 20.901758 27.548470
+      param "ep_01.ba_makeapush02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "ba_bestthing03"
+    {
+      time 37.587727 38.915619
+      param "ep_01.ba_bestthing03"
+      fixedle

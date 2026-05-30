@@ -1,0 +1,37 @@
+e "0"
+  }
+  channel "trigger"
+  {
+    event firetrigger "1: wait for player"
+    {
+      time 2.162393 -1.000000
+      param "1"
+    }
+    event firetrigger "3: resume checklist"
+    {
+      time 25.864803 -1.000000
+      param "3"
+    }
+    event firetrigger "2: close door"
+    {
+      time 25.076923 -1.000000
+      param "2"
+    }
+  }
+  channel "flex_head"
+  {
+    event flexanimation "head"
+    {
+      time 1.353864 25.242754
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "head_rightleft" range 30.0 -30.0 
+        {
+          1.2128 0.5000
+          1.6572 0.5000
+          5.9250 0.5000
+          9.1795 0.5000
+          11.2222 0.5000
+        }
+        "head_updown" range 15.0 

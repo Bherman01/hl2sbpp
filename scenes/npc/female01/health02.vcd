@@ -1,0 +1,185 @@
+633333
+    }
+  }
+  channel "armpose"
+  {
+  }
+  channel "head"
+  {
+  }
+  channel "facial"
+  {
+  }
+  faceposermodel "U:\HL2\hl2\models\alyx.mdl"
+}
+
+mapname "maps\d2_prison\07_actormarks.bsp"
+scalesettings
+{
+  "CChoreoView" "30"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "Alyx"
+{
+  channel "move to"
+  {
+    event moveto "Move to monitor"
+    {
+      time 0.000000 3.546667
+      param "mark_alyx_sectype"
+      param2 "Walk"
+    }
+  }
+  channel "face to"
+  {
+    event face "Face monitor"
+    {
+      time 3.693333 10.000000
+      param "mark_alyx_lookat_secroom_console_1"
+      event_ramp
+      {
+        0.6860 0.9714
+        5.9300 0.9636
+      }
+    }
+  }
+  channel "look at"
+  {
+    event lookat "Look at Control room 1 Monitor"
+    {
+      time -0.353333 10.000000
+      param "mark_alyx_lookat_secroom_console_1"
+      event_ramp
+      {
+        0.2860 0.9688
+        9.9840 0.9377
+      }
+    }
+  }
+  faceposermodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "30"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event stoppoint "STOP"
+{
+  time 2.880000 -1.000000
+  param "noaction"
+}
+event section "pause"
+{
+  time 2.613334 -1.000000
+  param "noaction"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "mark_alyx_sneaktrains_1"
+    {
+      time 0.053333 2.793333
+      param "mark_alyx_sneaktrains_1"
+      event_ramp
+      {
+        0.1180 0.9922
+        2.6100 0.9740
+      }
+    }
+  }
+  channel "move to"
+  {
+    event moveto "mark_alyx_sneaktrains_0"
+    {
+      time 0.720000 2.766667
+      param "mark_alyx_sneaktrains_0"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "faceTo"
+  {
+    event face "mark_alyx_sneaktrains_1"
+    {
+      time 0.053333 2.740000
+      param "mark_alyx_sneaktrains_1"
+      event_ramp
+      {
+        0.5040 0.9896
+        2.6220 0.9844
+      }
+    }
+  }
+  channel "Postures"
+  {
+  }
+  channel "Gestures"
+  {
+  }
+  channel "facial"
+  {
+  }
+  channel "Trigger"
+  {
+    event generic "unholster"
+    {
+      time 0.080000 0.580000
+      param "AI_UNHOLSTER"
+    }
+  }
+  faceposermodel "u:\tf2\hl2\models\alyx.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "25"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+event loop "loop"
+{
+  time 11.577779 -1.000000
+  param "0.900000"
+  loopcount "-1"
+}
+actor "Alyx"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+    event lookat "mark_al_look_intro_console_1"
+    {
+      time 0.044446 13.122221
+      param "mark_al_look_intro_console_1"
+      event_ramp
+      {
+        0.4120 0.6724
+        0.5520 0.7960
+        12.5158 0.8132
+        12.9138 0.8017
+        13.0058 0.8017
+    

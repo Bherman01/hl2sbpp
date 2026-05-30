@@ -1,0 +1,21 @@
+       "loop" 0.348411
+        "end" 0.665649
+        "out" 0.786963
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.153061
+        "loop" 0.510204
+        "end" 0.612245
+        "out" 0.816327
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "NULL"
+    {
+      time 11.647059 12.147059
+      param ""
+    }
+    event gesture "4"
+    {
+      time 12.403920 15.54

@@ -1,0 +1,32 @@
+ion 3.966667
+    }
+    event gesture "11"
+    {
+      time 24.458336 27.291670
+      param "g_palm_mid_left"
+      event_ramp
+      {
+        0.7000 0.7974
+        1.7792 0.7845
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.238095
+        "accent" 0.392857
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.238095
+        "accent" 0.392857
+        "loop" 0.547619
+        "end" 0.666667
+      }
+      sequenceduration 2.833333
+    }
+    event gesture "2"
+    {
+      time 26.875002 29.408335
+      param "g_palm_right"
+      event_ramp

@@ -1,0 +1,27 @@
+0
+      param ""
+    }
+    event gesture "NULL"
+    {
+      time 8.680438 9.180438
+      param ""
+    }
+    event gesture "g_plead_01"
+    {
+      time 9.232669 13.107693
+      param "g_plead_01"
+      event_ramp
+      {
+        0.5565 0.5291
+        0.8478 0.5722
+        2.6716 0.5494
+        2.9890 0.5063
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.267184
+        "accent" 0.560528
+        "loop" 0.684727
+        "end" 0.761157
+      }
+      absolutetags 

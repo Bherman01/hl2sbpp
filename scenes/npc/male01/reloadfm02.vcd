@@ -1,0 +1,29 @@
+ "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "218"
+  "RampTool" "172"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+// Choreo version 1
+actor "!Target1"
+{
+  channel "Audio"
+  {
+    event speak "ready2"
+    {
+      time 0.073334 0.830590
+      param "npc_citizen.okimready02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event flexanimation "face"
+    {
+      time 0.013333 0.933333
+      param ""
+      flexanimations samples_u
