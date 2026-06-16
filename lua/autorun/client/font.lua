@@ -1,4 +1,4 @@
---========== Copyright © 2026, The Aridity Team, All rights reserved. ===========--
+--========== Copyright © 2026, Team HL2:SB++, All rights reserved. ===========--
 --
 -- Purpose: Wraps the font type so handles are persistent through screen size
 --          changes, and fonts work properly without having to manually
