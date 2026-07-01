@@ -9,6 +9,7 @@ Graman/Carl - Suggestions
 ItzVladik - Contributor, the one who allowed me to use his mov_ convars from GunMod
 
 CONTRIBUTORS
+ItzVladik - Contributor, the one who allowed me to use his mov_ convars from GunMod
 Nazaret - initial Lua NextBot implementation 
 hahayoutookind - Russian translation
 Kokoleong - Fancy hat
