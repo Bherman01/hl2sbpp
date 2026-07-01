@@ -6,7 +6,6 @@ Waltenthethird - Helping fix thirdperson animations
 Ashforever - Provider of fixed GMod models
 MrDinnerMau5 - Supporter, advertising
 Graman/Carl - Suggestions
-ItzVladik - Contributor, the one who allowed me to use his mov_ convars from GunMod
 
 CONTRIBUTORS
 ItzVladik - Contributor, the one who allowed me to use his mov_ convars from GunMod
@@ -36,12 +35,12 @@ Waltenthethird - Помог починить анимации от третье�
 Ashforever - Поставщик пофикшенных GMod моделей
 MrDinnerMau5 - Сторонник, рекламирование
 Graman/Carl - Предложения
-ItzVladik - Участник, тот кто разрешил изпользовать mov_ квары из GunMod
 
 УЧАСТНИКИ
 hahayoutookind - Русский перевод
 Kokoleong - Модная шляпа
 R_4d - Модная шляпа.. снова
+ItzVladik - Участник, тот кто разрешил изпользовать mov_ квары из GunMod
 
 ТЕСТЕРЫ
 Inflesi
