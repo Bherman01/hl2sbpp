@@ -1,193 +1,198 @@
---========== Copyright © 2026, Team HL2:SB++, All rights reserved. ===========--
---
--- Purpose:
---
---===========================================================================--
-
-SWEP.PrintName = "FISTS"
-SWEP.ViewModel = "models/weapons/c_arms.mdl"
+AddCSLuaFile()
+SWEP.PrintName = "#weapon_fists"
+SWEP.Author = "Kilburn, robotboy655, MaxOfS2D & Tenrys"
+SWEP.Purpose = "Well we sure as hell didn't use guns! We would just wrestle Hunters to the ground with our bare hands! I used to kill ten, twenty a day, just using my fists."
+SWEP.Slot = 0
+SWEP.SlotPos = 4
+SWEP.Spawnable = true
+SWEP.ViewModel = Model( "models/weapons/c_arms.mdl" )
 SWEP.WorldModel = ""
-SWEP.AnimPrefix = "fist"
-SWEP.Slot = 5
-SWEP.SlotPos = 1
-
-SWEP.Primary = {
-  ClipSize = -1,
-  DefaultClip = -1,
-  Automatic = false,
-  Ammo = "None",
-}
-
-SWEP.Secondary = {
-  ClipSize = -1,
-  DefaultClip = -1,
-  Automatic = false,
-  Ammo = "None",
-}
-
-SWEP.Weight = 10
-SWEP.ItemFlags = 0
-
-SWEP.Damage = 42
-
-SWEP.SoundData = {
-  reload = "Default.Reload",
-  single_shot = "WeaponFrag.Throw",
-  special1 = "Flesh.ImpactHard",
-}
-
-SWEP.ShowUsageHint = false
-SWEP.AutoSwitchTo = true
-SWEP.AutoSwitchFrom = true
-SWEP.BuiltRightHanded = true
-SWEP.AllowFlipping = true
-SWEP.MeleeWeapon = true
+SWEP.ViewModelFOV = 54
 SWEP.UseHands = true
-
-SWEP.DrawCrosshair = true
+SWEP.Primary.ClipSize = -1
+SWEP.Primary.DefaultClip = -1
+SWEP.Primary.Automatic = true
+SWEP.Primary.Ammo = ""
+SWEP.Secondary.ClipSize = -1
+SWEP.Secondary.DefaultClip = -1
+SWEP.Secondary.Automatic = true
+SWEP.Secondary.Ammo = ""
 SWEP.DrawAmmo = false
-
-SWEP.DeploySpeed = 1.0
-
-SWEP.m_acttable = {
-  { ACT.MP_STAND_IDLE, ACT.HL2MP_IDLE_FIST, false },
-  { ACT.MP_CROUCH_IDLE, ACT.HL2MP_IDLE_CROUCH_FIST, false },
-  { ACT.MP_RUN, ACT.HL2MP_RUN_FIST, false },
-  { ACT.MP_CROUCHWALK, ACT.HL2MP_WALK_CROUCH_FIST, false },
-  { ACT.MP_ATTACK_STAND_PRIMARYFIRE, ACT.HL2MP_GESTURE_RANGE_ATTACK_FIST, false },
-  { ACT.MP_ATTACK_CROUCH_PRIMARYFIRE, ACT.HL2MP_GESTURE_RANGE_ATTACK_FIST, false },
-  { ACT.MP_RELOAD_STAND, ACT.HL2MP_GESTURE_RELOAD_FIST, false },
-  { ACT.MP_RELOAD_CROUCH, ACT.HL2MP_GESTURE_RELOAD_FIST, false },
-  { ACT.MP_JUMP, ACT.HL2MP_JUMP_FIST, false },
-  { ACT.MP_SWIM, ACT.HL2MP_SWIM_FIST, false },
-  { ACT.MP_SWIM_IDLE, ACT.HL2MP_SWIM_IDLE_FIST, false },
+SWEP.SwingSound = Sound( "WeaponFrag.Throw" )
+SWEP.HitSound = Sound( "Flesh.ImpactHard" )
+SWEP.HitDistance = 48
+SWEP.HitDelay = 0.2
+SWEP.HitForceScale = 80
+SWEP.SwingCooldown = 0.9
+SWEP.ComboCount = 2
+SWEP.ComboResetTime = 0.1
+SWEP.HitSize = {
+	Min = Vector( -10, -10, -8 ),
+	Max = Vector( 10, 10, 8 )
 }
+SWEP.HitDamage = { 8, 12 }
+SWEP.ComboDamage = { 12, 24 }
 
 function SWEP:Initialize()
-  self.m_bReloadsSingly = false
-  self.m_bFiresUnderwater = true
+	self:SetHoldType( "fist" )
 end
 
-function SWEP:Attack(isRight)
-  local pPlayer = self:GetOwner()
-  if ToBaseEntity(pPlayer) == NULL then
+function SWEP:SetupDataTables()
+	self:NetworkVar( "Float", 0, "NextMeleeAttack" )
+	self:NetworkVar( "Float", 1, "NextIdle" )
+	self:NetworkVar( "Int", 2, "Combo" )
+end
+
+function SWEP:UpdateNextIdle()
+	local owner = self:GetOwner()
+	if ( not owner:IsPlayer() ) then
     return
   end
-
-  local vForward = Vector()
-  local vRight = Vector()
-  local vUp = Vector()
-  local angle = QAngle()
-  local vecEye = pPlayer:EyePosition()
-  pPlayer:EyeVectors(vForward, vRight, vUp)
-
-  local fRange = 48
-
-  local startPos = pPlayer:Weapon_ShootPosition()
-  local endPos = startPos + pPlayer:GetAutoaimVector(AUTOAIM_5DEGREES) * fRange
-
-  self:SendWeaponAnim(ACT.VM_PRIMARYATTACK)
-  ToHL2MPPlayer(pPlayer):DoAnimationEvent(PlayerAnimEvent.ATTACK_PRIMARY)
-
-  tr = trace_t()
-  MASK_SHOT = _E.MASK.SHOT
-  UTIL.TraceLine(startPos, endPos, MASK_SHOT, pPlayer, 0, tr)
-
-  local bDidHit = tr:DidHit()
-  local hitEnt = tr.m_pEnt
-
-  local anim
-  if isRight then
-    anim = "fists_right"
-  else
-    anim = "fists_left"
-  end
-  local vm = pPlayer:GetViewModel(0)
-  vm:SetSequence(vm:LookupSequence(anim))
-  vm:ResetSequenceInfo()
-  vm:SetCycle(0)
-  vm:StudioFrameAdvance()
-
-  self.m_flNextPrimaryAttack = gpGlobals.curtime() + 0.8
-  self.m_flNextSecondaryAttack = self.m_flNextPrimaryAttack
-
-  if bDidHit then
-    if hitEnt then
-      self:WeaponSound(WeaponSound.SPECIAL1)
-    end
-
-    local vecSrc = pPlayer:Weapon_ShootPosition()
-    local vecAiming = pPlayer:GetAutoaimVector(AUTOAIM_5DEGREES)
-
-    local info = {
-      m_iShots = 1,
-      m_vecSrc = vecSrc,
-      m_vecDirShooting = vecAiming,
-      m_vecSpread = vec3_origin,
-      m_flDistance = MAX_TRACE_LENGTH,
-      m_iAmmoType = 1,
-    }
-    info.m_pAttacker = pPlayer
-
-    -- Fire the bullets, and force the first shot to be perfectly accuracy
-    ToHL2MPPlayer(pPlayer):FireBullets(info)
-
-    --Disorient the player
-    local angles = pPlayer:GetLocalAngles()
-
-    angles.x = angles.x + random.RandomInt(0)
-    angles.y = angles.y + random.RandomInt(0)
-    angles.z = 0
-
-    if not _CLIENT then
-      pPlayer:SnapEyeAngles(angles)
-    end
-  else
-    self:WeaponSound(WeaponSound.SINGLE)
-  end
-
-  pPlayer:ViewPunch(QAngle(-2, math.random(-1, 1), 0))
-
-  self.NextIdle = self.m_flNextPrimaryAttack - gpGlobals.curtime()
+	local vm = owner:GetViewModel()
+	self:SetNextIdle( CurTime() + vm:SequenceDuration() / vm:GetPlaybackRate() )
 end
 
-function SWEP:PrimaryAttack()
-  self:Attack(false)
+function SWEP:PrimaryAttack( right )
+	local owner = self:GetOwner()
+	owner:SetAnimation( PLAYER_ATTACK1 )
+	local anim = "fists_left"
+	if ( right ) then
+    anim = "fists_right"
+  end
+  
+	if ( self:GetCombo() >= self.ComboCount ) then
+		anim = "fists_uppercut"
+	end
+
+	if ( owner:IsPlayer() ) then
+		local vm = owner:GetViewModel()
+		vm:SendViewModelMatchingSequence( vm:LookupSequence( anim ) )
+	end
+	self:EmitSound( self.SwingSound )
+	self:UpdateNextIdle()
+	self:SetNextMeleeAttack( CurTime() + self.HitDelay )
+	self:SetNextPrimaryFire( CurTime() + self.SwingCooldown )
+	self:SetNextSecondaryFire( CurTime() + self.SwingCooldown )
 end
 
 function SWEP:SecondaryAttack()
-  self:Attack(true)
+	self:PrimaryAttack( true )
 end
 
-function SWEP:Deploy()
-  self.NextIdle = gpGlobals.curtime()
-end
+local phys_pushscale = GetConVar( "phys_pushscale" )
+function SWEP:DealDamage()
+	local owner = self:GetOwner()
+	local anim = self:GetSequenceName( owner:GetViewModel():GetSequence() )
+	owner:LagCompensation( true )
+	local tr = util.TraceLine( {
+		start = owner:GetShootPos(),
+		endpos = owner:GetShootPos() + owner:GetAimVector() * self.HitDistance,
+		filter = owner,
+		mask = MASK_SHOT_HULL
+	} )
+	if ( !IsValid( tr.Entity ) ) then
+		tr = util.TraceHull( {
+			start = owner:GetShootPos(),
+			endpos = owner:GetShootPos() + owner:GetAimVector() * self.HitDistance,
+			filter = owner,
+			mins = self.HitSize.Min,
+			maxs = self.HitSize.Max,
+			mask = MASK_SHOT_HULL
+		} )
+	end
 
-function SWEP:ItemPostFrame()
-  local pPlayer = ToHL2MPPlayer(self:GetOwner())
-  if not IsValid(pPlayer) then
-    return
-  end
+	if ( tr.Hit and !( game.SinglePlayer() and CLIENT ) ) then
+		self:EmitSound( self.HitSound )
+	end
 
-  local vm = pPlayer:GetViewModel(0)
-  if not IsValid(vm) then
-    return
-  end
-
-  local curtime = gpGlobals.curtime()
-
-  if curtime >= self.m_flNextPrimaryAttack then
-    self.NextIdle = self.NextIdle or 0
-    local idleInterval = 3
-
-    if curtime > self.NextIdle then
-      local anim = "fists_idle_0" .. math.random(1, 2)
-      vm:SetSequence(vm:LookupSequence(anim))
-      vm:ResetSequenceInfo()
-      vm:SetCycle(0)
-      vm:StudioFrameAdvance()
-
-      self.NextIdle = curtime + idleInterval
+	local hit = false
+	local scale = phys_pushscale:GetFloat()
+	if ( SERVER and IsValid( tr.Entity ) and ( tr.Entity:IsNPC() or tr.Entity:IsPlayer() or tr.Entity:Health() > 0 ) ) then
+		local dmginfo = DamageInfo()
+		local attacker = owner
+		if ( !IsValid( attacker ) ) then
+      attacker = self
     end
-  end
+    
+		dmginfo:SetAttacker( attacker )
+		dmginfo:SetInflictor( self )
+		dmginfo:SetWeapon( self )
+		local dmg = self.HitDamage
+		if ( anim == "fists_left" ) then
+			dmginfo:SetDamageForce( owner:GetRight() * 4912 * scale + owner:GetForward() * 9998 * scale )
+		elseif ( anim == "fists_right" ) then
+			dmginfo:SetDamageForce( owner:GetRight() * -4912 * scale + owner:GetForward() * 9989 * scale )
+		elseif ( anim == "fists_uppercut" ) then
+			dmginfo:SetDamageForce( owner:GetUp() * 5158 * scale + owner:GetForward() * 10012 * scale )
+			dmg = self.ComboDamage
+		end
+
+		dmginfo:SetDamage( istable( dmg ) and math.random( dmg[ 1 ], dmg[ 2 ] ) or dmg )
+		dmginfo:SetDamagePosition( tr.HitPos )
+		SuppressHostEvents( NULL )
+		tr.Entity:TakeDamageInfo( dmginfo )
+		SuppressHostEvents( owner )
+		hit = true
+	end
+
+	if ( IsValid( tr.Entity ) ) then
+		local phys = tr.Entity:GetPhysicsObject()
+		if ( IsValid( phys ) ) then
+			phys:ApplyForceOffset( owner:GetAimVector() * self.HitForceScale * phys:GetMass() * scale, tr.HitPos )
+		end
+	end
+
+	if ( SERVER ) then
+		if ( hit and anim != "fists_uppercut" ) then
+			self:SetCombo( self:GetCombo() + 1 )
+		else
+			self:SetCombo( 0 )
+		end
+	end
+	owner:LagCompensation( false )
+end
+
+function SWEP:OnDrop()
+	self:Remove()
+end
+
+local sv_deployspeed = GetConVar( "sv_defaultdeployspeed" )
+function SWEP:Deploy()
+	local speed = sv_deployspeed:GetFloat()
+	local vm = self:GetOwner():GetViewModel()
+	vm:SendViewModelMatchingSequence( vm:LookupSequence( "fists_draw" ) )
+	vm:SetPlaybackRate( speed )
+	self:SetNextPrimaryFire( CurTime() + vm:SequenceDuration() / speed )
+	self:SetNextSecondaryFire( CurTime() + vm:SequenceDuration() / speed )
+	self:UpdateNextIdle()
+
+	if ( SERVER ) then
+		self:SetCombo( 0 )
+	end
+	return true
+end
+
+function SWEP:Holster()
+	self:SetNextMeleeAttack( 0 )
+	return true
+end
+
+function SWEP:Think()
+	local vm = self:GetOwner():GetViewModel()
+	local curtime = CurTime()
+	local idletime = self:GetNextIdle()
+	if ( idletime > 0 and curtime > idletime ) then
+		vm:SendViewModelMatchingSequence( vm:LookupSequence( "fists_idle_0" .. math.random( 1, 2 ) ) )
+		self:UpdateNextIdle()
+	end
+
+	local meleetime = self:GetNextMeleeAttack()
+	if ( meleetime > 0 and curtime > meleetime ) then
+		self:DealDamage()
+		self:SetNextMeleeAttack( 0 )
+	end
+
+	if ( SERVER and curtime > self:GetNextPrimaryFire() + self.ComboResetTime ) then
+		self:SetCombo( 0 )
+	end
 end
